@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dolby_array">
+        <item>Музыка</item>
+        <item>Кино</item>
+        <item>Выкл.</item>
+    </string-array>
+</resources>

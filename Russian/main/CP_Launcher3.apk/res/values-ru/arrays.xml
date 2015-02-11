@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_process_limit_entries">
+        <item>Стандартное ограничение</item>
+        <item>Без фоновых процессов</item>
+        <item>Не более 1 процесса</item>
+        <item>Не более 2 процессов</item>
+        <item>Не более 3 процессов</item>
+        <item>Не более 4 процессов</item>
+    </string-array>
+    <string-array name="select_layout_1">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="select_layout_2">
+        <item>5x5</item>
+    </string-array>
+</resources>

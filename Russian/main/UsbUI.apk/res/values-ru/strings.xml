@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">USB-интерфейс</string>
+    <string name="usb_device_permission_prompt">Разрешить приложению %1$s доступ к USB-устройству?</string>
+    <string name="usb_accessory_permission_prompt">Разрешить приложению %1$s доступ к USB-аксессуару?</string>
+    <string name="usb_device_confirm_prompt">Открыть %1$s, когда USB-устройство подключено?</string>
+    <string name="usb_accessory_confirm_prompt">Открыть %1$s, когда USB-аксессуар подключен?</string>
+    <string name="usb_accessory_uri_prompt">Нет приложений для работы с этим USB-аксессуаром. Изучит лучше аксессуар на %1$s</string>
+    <string name="title_usb_accessory">USB-аксессуар</string>
+    <string name="label_view">Просмотр</string>
+    <string name="always_use_device">Использовать по умолчанию для этого USB-устройства</string>
+    <string name="always_use_accessory">Использовать по умолчанию для этого USB-аксессуара</string>
+    <string name="usb_debugging_always">Всегда разрешать с этого компьютера</string>
+    <string name="usb_debugging_title">Разрешить отладку по USB?</string>
+    <string name="usb_debugging_message">"Компьютерный RSA-ключ:
+%1$s"</string>
+</resources>

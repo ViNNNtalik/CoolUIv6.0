@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yulong.android.calendar.widget.CalendarWidgetView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/calendar_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="28.0dip" />
+    <TextView android:textSize="21.0dip" android:textColor="#ffffffff" android:id="@id/calendar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/fontune" android:shadowColor="#b2000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" android:layout_alignParentLeft="true" />
+    <LinearLayout android:id="@id/calendar_constellation" android:layout_width="fill_parent" android:layout_height="167.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentLeft="true">
+        <include android:id="@id/constellation_fortune" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="43.0dip" layout="@layout/constellation_info_layout" />
+    </LinearLayout>
+    <ImageView android:id="@id/constellation_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/calendar_month" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/calendar_constellation">
+        <RelativeLayout android:orientation="vertical" android:layout_width="120.0dip" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="21.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/day_left_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/day_right_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="14.0dip" android:textColor="#99000000" android:id="@id/year_month_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="#99000000" android:id="@id/weekday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true">
+                <Button android:id="@id/new_btn" android:background="@drawable/fhd_new_btn_selector" android:layout_width="@dimen/fhd_month_new_and_today_btn" android:layout_height="@dimen/fhd_month_new_and_today_btn" android:layout_marginLeft="22.0dip" />
+                <Button android:textSize="12.0dip" android:textColor="#ff999999" android:layout_gravity="center" android:id="@id/today_btn" android:background="@drawable/fhd_today_btn_selector" android:layout_width="@dimen/fhd_month_new_and_today_btn" android:layout_height="@dimen/fhd_month_new_and_today_btn" android:layout_marginLeft="10.0dip" android:text="@string/today" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/month_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/month_pre_btn" android:background="@drawable/fhd_pre_month_selector" android:layout_width="34.0dip" android:layout_height="30.0dip" />
+            <include android:id="@id/month_table_view" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/month_tableview_layout" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/month_next_btn" android:background="@drawable/fhd_next_month_selector" android:layout_width="34.0dip" android:layout_height="30.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.yulong.android.calendar.widget.CalendarWidgetView>

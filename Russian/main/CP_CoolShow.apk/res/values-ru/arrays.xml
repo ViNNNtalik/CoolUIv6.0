@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coolshow_wallpaper_sort_items">
+        <item>Лучшее</item>
+        <item>HD-качество</item>
+        <item>Женщины</item>
+        <item>Пейзажи</item>
+        <item>Виды</item>
+        <item>Мультфильмы</item>
+        <item>Города</item>
+        <item>Любовь</item>
+        <item>Новинка</item>
+        <item>Животные</item>
+        <item>Авто</item>
+        <item>Игры</item>
+        <item>Подарки</item>
+        <item>Мужчины</item>
+        <item>Искусство</item>
+        <item>Спорт</item>
+        <item>Кино</item>
+        <item>Прочее</item>
+    </string-array>
+    <string-array name="coolshow_effect_items">
+        <item>Случайный</item>
+        <item>Классика</item>
+        <item>Стек</item>
+        <item>Куб</item>
+        <item>Внутр. куб</item>
+        <item>Веер</item>
+        <item>Поворот</item>
+        <item>Мельница</item>
+        <item>Колесо</item>
+        <item>Стяжка</item>
+        <item>Змея</item>
+        <item>Ряд</item>
+    </string-array>
+    <string-array name="coolshow_change_items">
+        <item>Нажмите для изменения локскрина</item>
+        <item>Нажмите для изменения обоев локскрина</item>
+        <item>Нажмите для изменения обоев дом. экрана</item>
+        <item>Нажмите для изменения обоев списка прилож.</item>
+        <item>Нажмите для изменения цвета обложки</item>
+        <item>Нажмите для изменения эффекта</item>
+        <item>Нажмите для изменения шрифта</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="coolshow_choose_wallpaper_type">
+        <item>Изменить обои локскрина</item>
+        <item>Изменить обои рабочего стола</item>
+    </string-array>
+</resources>

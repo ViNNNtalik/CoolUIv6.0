@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_time">
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="child_number_choices">
+        <item>Получить номер от Bluetooth</item>
+        <item>Ввод номера вручную</item>
+    </string-array>
+    <string-array name="forward_call_delay_time_choices">
+        <item>Без переадресации</item>
+        <item>Переадресация через 5 секунд</item>
+        <item>Переадресация через 10 секунд</item>
+        <item>Переадресация через 15 секунд</item>
+    </string-array>
+</resources>

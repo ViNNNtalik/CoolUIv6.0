@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="browser_security_titles">
+        <item>Сейф</item>
+        <item>Запись вызовов</item>
+        <item>Обычная запись</item>
+    </string-array>
+    <string-array name="browser_common_titles">
+        <item>Запись вызовов</item>
+        <item>Обычная запись</item>
+    </string-array>
+    <string-array name="record_mode_sub_title">
+        <item>Нормальный режим</item>
+        <item>Режим интервью</item>
+        <item>Режим записи</item>
+        <item>Режим стерео</item>
+    </string-array>
+    <string-array name="record_path_mode_sub_title">
+        <item>Внутреннее хранилище</item>
+        <item>SD-карта</item>
+    </string-array>
+    <string-array name="record_mode_propet">
+        <item>Режим интервью: Используется верхний и нижний микрофон для записи</item>
+        <item>Режим записи: Используется только один микрофон в нижней части устройства</item>
+        <item>Режим стерео: Микрофон записывает полный спектр голоса</item>
+    </string-array>
+    <string-array name="record_channel_values">
+        <item>aac (один канал)</item>
+        <item>aac (два канала)</item>
+        <item>amr</item>
+        <item>3gpp</item>
+    </string-array>
+</resources>

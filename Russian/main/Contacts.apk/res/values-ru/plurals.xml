@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Контактов с номерами телефонов: %d</item>
+        <item quantity="one">1 контакт с номером телефона</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Показано контактов: %d</item>
+        <item quantity="one">Показан 1 контакт</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Найдено контактов: %d</item>
+        <item quantity="one">Найден 1 контакт</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Контактов: %d</item>
+        <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">объединено из %0$d источников</item>
+        <item quantity="one">не объединено</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Групп: %0$d</item>
+        <item quantity="one">Групп: 1</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">Контактов: %1$d из %2$s</item>
+        <item quantity="one">Контактов: %1$d из %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Контактов: %1$d</item>
+        <item quantity="one">Контактов: %1$d</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Голосовых сообщений: %1$d</item>
+        <item quantity="one">Голосовое сообщение</item>
+    </plurals>
+    <plurals name="delete_contact_notification">
+        <item quantity="other">Удалено контактов: %s</item>
+        <item quantity="one">Контакт %s удален</item>
+    </plurals>
+    <plurals name="str_finish_duplicate_contacts">
+        <item quantity="other">Дублированных контактов, удаленных из аккаунта %2$s: %1$d</item>
+        <item quantity="one">Дублированных контактов, удаленных из аккаунта %2$s: %1$d</item>
+    </plurals>
+    <plurals name="str_copysim_copynamenumber">
+        <item quantity="other">Для каждого контакта %2$s-карты можно сохранить имя и %1$d номера(ов). Контакты с несколькими номерами будут сохранены отдельно. Дублирующие контакты не будут сохранены.</item>
+        <item quantity="one">Для каждого контакта %2$s-карты можно сохранить имя и 1 номер. Контакты с несколькими номерами будут сохранены отдельно. Дублирующие контакты не будут сохранены.</item>
+    </plurals>
+</resources>

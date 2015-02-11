@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="netdisk_actionbar_navigation_menu_list">
+        <item>Изображения</item>
+        <item>Музыка</item>
+        <item>Видео</item>
+        <item>Документы</item>
+        <item>Прочее</item>
+    </string-array>
+    <string-array name="netdisk_actionbar_navigation_menu_list_1">
+        <item>Список загрузки</item>
+        <item>Список выгрузки</item>
+    </string-array>
+    <string-array name="netdisk_actionbar_more_menu_list">
+        <item>Сеть</item>
+        <item>Миниатюры</item>
+        <item>Поиск</item>
+        <item>Обновить</item>
+        <item>Новая папка</item>
+        <item>Настройки</item>
+    </string-array>
+    <string-array name="netdisk_character_to_filter_on_make_dir">
+        <item>\\</item>
+        <item>/</item>
+        <item>:</item>
+        <item>*</item>
+        <item>\?</item>
+        <item>\"</item>
+        <item>&lt;</item>
+        <item>></item>
+        <item>|</item>
+    </string-array>
+    <string-array name="period_options">
+        <item>@string/reminderstring</item>
+        <item>Каждые 15 минут</item>
+        <item>Каждые 30 минут</item>
+        <item>Каждый час</item>
+        <item>Каждые 6 часов</item>
+    </string-array>
+    <string-array name="fire_times">
+        <item>1 час</item>
+        <item>6 час</item>
+        <item>1 день</item>
+    </string-array>
+    <string-array name="array_sex">
+        <item>М</item>
+        <item>Ж</item>
+    </string-array>
+    <string-array name="period_options_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="recover_sms_by_folder">
+        <item>Входящие</item>
+        <item>Исходящие</item>
+        <item>Черновики</item>
+    </string-array>
+    <string-array name="recover_native_sms_by_folder">
+        <item>Входящие</item>
+        <item>Исходящие</item>
+    </string-array>
+    <string-array name="recover_calllog_by_folder">
+        <item>Все</item>
+        <item>Входящие</item>
+        <item>Исходящие</item>
+        <item>Пропущенные</item>
+        <item>Временные</item>
+    </string-array>
+    <string-array name="recover_native_calllog_by_folder">
+        <item>Все</item>
+        <item>Входящие</item>
+        <item>Исходящие</item>
+        <item>Пропущенные</item>
+    </string-array>
+    <string-array name="username_suggestion_suffix_list">
+        <item>\@189.cn</item>
+        <item>\@wo.com.cn</item>
+        <item>\@139.com</item>
+        <item>\@sina.cn</item>
+        <item>\@sina.com</item>
+        <item>\@163.com</item>
+        <item>\@qq.com</item>
+        <item>\@126.com</item>
+        <item>\@sohu.com</item>
+        <item>\@yulong.com</item>
+        <item>\@rambler.ru</item>
+        <item>\@yahoo.com.cn</item>
+        <item>\@yeah.net</item>
+        <item>\@hotmail.com</item>
+        <item>\@gmail.com</item>
+        <item>\@yandex.rucom</item>
+        <item>\@mail.ru</item>
+    </string-array>
+    <string-array name="username_suggestion_list">
+        <item>139</item>
+        <item>163</item>
+        <item>qq</item>
+        <item>126</item>
+        <item>sohu</item>
+        <item>yulong</item>
+        <item>hotmail</item>
+        <item>gmail</item>
+        <item>yandex</item>
+        <item>mail</item>
+    </string-array>
+    <string-array name="cooperation_setting_list">
+        <item> Tell a friend</item>
+         <item> Version Check</item>
+         <item> Help</item>
+         <item> on</item>
+    </string-array>
+    <string-array name="cooperation_help_list">
+        <item> Cool cloud business presentation</item>
+         <item> Notes</item>
+         <item> FAQ</item>
+    </string-array>
+    <string-array name="cooperation_menu_list">
+        <item> Cloud account</item>
+         <item> Friends Search</item>
+         <item> Tell a friend</item>
+         <item> Feedback</item>
+         <item> on</item>
+    </string-array>
+    <string-array name="sync_menu_list">
+        <item> Cloud account</item>
+         <item> Cloud Recovery</item>
+         <item> Cloud Data Management</item>
+         <item> Picture synchronization settings</item>
+         <item> Feedback</item>
+         <item> on</item>
+         <item> Logout</item>
+         <item> Simultaneous recording</item>
+    </string-array>
+    <string-array name="month_options">
+        <item> month</item>
+         <item> February</item>
+         <item> March</item>
+         <item> April</item>
+         <item> May</item>
+         <item> June</item>
+         <item> July</item>
+         <item> August</item>
+         <item> September</item>
+         <item> October</item>
+         <item> winter months</item>
+         <item> twelfth</item>
+    </string-array>
+    <string-array name="day_options">
+        <item> started</item>
+         <item> two days</item>
+         <item> junior</item>
+         <item> fourth day</item>
+         <item> fifth day</item>
+         <item> sixth</item>
+         <item> seventh</item>
+         <item> Chuba</item>
+         <item> Ninth</item>
+         <item> tenth</item>
+         <item> eleven</item>
+         <item> twelve</item>
+         <item> thirteen</item>
+         <item> fourteen</item>
+         <item> fifteen</item>
+         <item> sixteen</item>
+         <item> seventeen</item>
+         <item> eighteen</item>
+         <item> nineteen</item>
+         <item> twenty</item>
+         <item> twenty</item>
+         <item> Nianer</item>
+         <item> Niansan</item>
+         <item> round-</item>
+         <item> twenty-five</item>
+         <item> 26</item>
+         <item> 27</item>
+         <item> Nianba</item>
+         <item> Eve</item>
+         <item> thirty</item>
+    </string-array>
+    <string-array name="shuttle_point">
+        <item> day before</item>
+         <item> week before</item>
+         <item> two weeks ago</item>
+         <item> before January</item>
+    </string-array>
+    <string-array name="qq_emoticon">
+        <item> smile</item>
+         <item> curl one s lip</item>
+         <item> color</item>
+         <item> daze</item>
+         <item> proud</item>
+         <item> cry</item>
+         <item> shy</item>
+         <item> Shut</item>
+         <item> sleep</item>
+         <item> cry</item>
+         <item> embarrassment</item>
+         <item> angry</item>
+         <item> naughty</item>
+         <item> bared teeth</item>
+         <item> surprised</item>
+         <item> sad</item>
+         <item> Cool</item>
+         <item> sweat</item>
+         <item> crazy</item>
+         <item> spit</item>
+         <item> laughing</item>
+         <item> cute</item>
+         <item> Pride</item>
+         <item> Hunger</item>
+         <item> sleepy</item>
+         <item> Panic</item>
+         <item> sweat</item>
+         <item> Han Xiao</item>
+         <item> Private</item>
+         <item> struggling</item>
+         <item> cursing</item>
+         <item> question</item>
+         <item> Hush ...</item>
+         <item> Halo</item>
+         <item> tortured</item>
+         <item> Decline</item>
+         <item> Skull</item>
+         <item> tap</item>
+         <item> Goodbye</item>
+         <item> Cahan</item>
+         <item> to pull the nose</item>
+         <item> applaud</item>
+         <item> embarrassing big</item>
+         <item> grin</item>
+         <item> Left hum</item>
+         <item> Right hum</item>
+         <item> yawn</item>
+         <item> despise</item>
+         <item> wronged</item>
+         <item> gonna cry</item>
+         <item> insidious</item>
+         <item> kiss</item>
+         <item> scare</item>
+         <item> Poor</item>
+         <item> choppers</item>
+         <item> Watermelon</item>
+         <item> Beer</item>
+         <item> Basketball</item>
+         <item> Ping Pong</item>
+         <item> Coffee</item>
+         <item> rice</item>
+         <item> dude</item>
+         <item> Rose</item>
+         <item> wither</item>
+         <item> affection</item>
+         <item> Love</item>
+         <item> heartbreak</item>
+         <item> Cake</item>
+         <item> Lightning</item>
+         <item> bomb</item>
+         <item> Knife</item>
+         <item> Football</item>
+         <item> Ladybug</item>
+         <item> poo</item>
+         <item> Moon</item>
+         <item> Sun</item>
+         <item> Gifts</item>
+         <item> hug</item>
+         <item> Strong</item>
+         <item> Weak</item>
+         <item> handshake</item>
+         <item> Victory</item>
+         <item> Baoquan</item>
+         <item> seduce</item>
+         <item> fist</item>
+         <item> bad</item>
+         <item> love you</item>
+         <item> not</item>
+         <item> good</item>
+    </string-array>
+    <string-array name="cooperation_sys_arr">
+        <item> Allow recommend mutual friend</item>
+         <item> allows you to search me</item>
+         <item> Allow me to build a set of search</item>
+    </string-array>
+    <string-array name="coolyou_picture_array">
+        <item> pictures</item>
+         <item> Album</item>
+    </string-array>
+    <string-array name="coolyou_problem_array">
+        <item> Cool cloud synchronization, data backup how to view?</item>
+         <item> Cool cloud will consume a lot of traffic?</item>
+         <item> how to recover accidentally deleted data?</item>
+         <item> for mobile phone or cell phone is lost, how the data in the phone back?</item>
+         <item> Why prompted permissions problem?</item>
+         <item> duplicate contacts how to do?</item>
+         <item> forgot how to do cool cloud password?</item>
+         <item> a mobile phone can register several accounts?</item>
+         <item> How to update Download cool cloud?</item>
+         <item> Cool cloud hotline number?</item>
+    </string-array>
+    <string-array name="coolyou_problem_answer_array">
+        <item> A: Use cool cloud account login registration web version www.coolyun.com, can easily manage, view your data. We have also launched a mobile web version of the cool cloud, address: m.coolyun.com, easy to use.</item>
+         <item> A: Cool Cloud Sync will synchronize changed data, after compression, synchronization 100 contacts only consume 5K traffic.</item>
+         <item> A: In order to avoid misuse delete user data, Web Edition provides a Recycle Bin feature. You can log on the computer www.coolyun.com, use the Recycle Bin function of each module to restore accidentally deleted data.</item>
+         <item> A: You need to log in on the new phones registered cool cloud account, you ll be cool cloud cloud of contacts, calendar, notepad and other data sync to your new phone, just select the information and call records data Recovery can restore the backed-up to the phone.</item>
+         <item> "A: prompt appears privileges for the following reasons:
+A mobile phone permissions set incorrectly
+  \u0009 \u00091. caused by security software. Please check whether your phone safe security software, if any:
+  \u0009 \u0009 Cloud Security: Find cool cloud data protection, select the Trust;
+  \u0009 \u0009 Cool Butler: Press path data protection - contact / call log / SMS / calendar / location permissions find cool cloud, setting allows;
+  \u0009 \u0009360 mobile guards: press Path Security Tools - Privacy Behavior Monitoring - All software find cool cloud, set up trust;
+  \u0009 \u0009 Tencent Mobile housekeeper: Press path Privacy - Privacy Monitor - Trust Software "find cool clouds, set up the trust;
+\u0009 \u0009 other security software: Please read cool cloud open contacts, calendar, messages, call records, authority position;
+\u0009 \u00092. caused by the system itself permissions.
+\u0009 \u0009MIUI system, press the path system settings - find cool cloud applications, settings I trust the program rights management;
+Second, the phone adapter problem
+ u0009 \u0009 please call the cool cloud hotline: 029-88824132, the problem with the model back to the customer, we will process as soon as possible. "</item>
+         <item> A: You can log on the computer www.coolyun.com, using the contact in the Contacts module to re-function, organize contacts.</item>
+         <item> A: You can login screen mobile terminal cool cloud click forget your password, enter your registered e-mail or phone number, a link to reset your password will be sent to the appropriate mailbox or phone, click the link to reset your password.</item>
+         <item> A: a mobile phone can register up to five different cool cloud account, please register with caution!</item>
+         <item> A: We will put the latest version of the cool cloud m.coolyun.com, you can use the phone and computer to download and install, you can also download the latest cool coolmart cloud version.</item>
+         <item> A: Cool Cloud hotline: 029-88824132, please feel free to inquire, feedback oh!</item>
+    </string-array>
+    <string-array name="array_browse_mode">
+        <item> thumbnail mode</item>
+         <item> Big Picture mode</item>
+    </string-array>
+    <string-array name="array_status_mode">
+        <item> Not started</item>
+         <item> Ongoing</item>
+         <item> Completed</item>
+         <item> terminate the task</item>
+    </string-array>
+    <string-array name="array_status_mode_other">
+        <item> Not started</item>
+         <item> Ongoing</item>
+         <item> Completed</item>
+    </string-array>
+    <string-array name="message_warning_setting">
+        <item> prompt and I only relevant</item>
+         <item> prompt all</item>
+         <item> Shielding information notification</item>
+    </string-array>
+    <string-array name="group_detail_icon_choice_item">
+        <item> View Group HD picture</item>
+         <item> Set Group avatar</item>
+    </string-array>
+    <string-array name="cooperation_reply_result">
+        <item> accept</item>
+         <item> may participate</item>
+         <item> reject</item>
+    </string-array>
+    <string-array name="cooperation_text_size_mode">
+        <item> Standard</item>
+         <item> in</item>
+         <item> Large</item>
+    </string-array>
+    <string-array name="message_report_choice">
+        <item> abusive</item>
+         <item> porn discord</item>
+         <item> spam</item>
+         <item> Other</item>
+    </string-array>
+    <string-array name="array_user_select_tab">
+        <item> corporate members</item>
+         <item> External Friends</item>
+    </string-array>
+    <string-array name="array_notice_tab">
+        <item> new friends</item>
+         <item> new group</item>
+    </string-array>
+    <string-array name="array_task_tab">
+        <item> I launched</item>
+         <item> Upcoming</item>
+         <item> Completed</item>
+    </string-array>
+</resources>

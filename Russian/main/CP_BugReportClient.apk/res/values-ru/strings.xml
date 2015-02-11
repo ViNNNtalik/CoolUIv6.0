@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Клуб Coolpad</string>
+    <string name="ok">ОК</string>
+    <string name="menu_title">Отчеты об ошибках</string>
+    <string name="cancel">Отмена</string>
+    <string name="dialog_title">Добро пожаловать в приложение \"Клуб Coolpad\"</string>
+    <string name="network_notice">Приложение потребляет трафик для отправки отчетов об ошибках</string>
+    <string name="network_notice_confirm">Да</string>
+    <string name="network_notice_offnotice">Не напоминать снова</string>
+    <string name="feedback">Клуб Coolpad</string>
+    <string name="resend">Перепослать</string>
+    <string name="delete">Удалить</string>
+    <string name="copy">Копировать</string>
+    <string name="settings_title">Предлагается включить для помощи Coolpad</string>
+    <string name="network_choice">Выберите тип сети для отправки отчета</string>
+    <string name="data_network">3G</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="active">Отчет об ошибке</string>
+    <string name="active_on_summary">Отправлять в Coolpad отчет при возникновении ошибки</string>
+    <string name="active_off_summary">Не отправлять в Coolpad отчет при возникновении ошибки</string>
+    <string name="send_user_behavior">Отчет об использовании</string>
+    <string name="send_user_behavior_summary">Отправлять в Coolpad лог использования для улучшения качества продуктов и служб</string>
+    <string name="fileclear">Запись файла</string>
+    <string name="feedbackcontent">Содержание отчета</string>
+    <string name="send_successed">Успешно отправлено</string>
+    <string name="send_failed">Отправка не удалась</string>
+    <string name="telephone">Телефон</string>
+    <string name="email">Эл.почта</string>
+    <string name="hintstring">Напишите Ваше предложение</string>
+    <string name="send">Отправить</string>
+    <string name="mustmore">Требуется заполнить отчет</string>
+    <string name="mustmore_grade">Нажмите для отметки</string>
+    <string name="mustmore_grade_text">Необходимо указать причину или предложение</string>
+    <string name="alert_neterror">Нет сети</string>
+    <string name="alert_dialog">Отправление отчетов</string>
+    <string name="alert_background_sending">Отправка последних данных, ожидайте...</string>
+    <string name="message_notification">Уведомление от Coolpad</string>
+    <string name="message_notification_count">Есть %d уведомл.</string>
+    <string name="test_items">Элементы</string>
+    <string name="update_switch">Обновление переключения</string>
+    <string name="update_switch_summary">Управление обновлением</string>
+    <string name="reply_record">Запись ответа</string>
+    <string name="reply_notification_test">Тест уведомления ответа</string>
+    <string name="report_test">Отчет</string>
+    <string name="history_push_button">Записи</string>
+    <string name="download_button">Загрузка</string>
+    <string name="notification_push_title">Уведомление Coolpad</string>
+    <string name="apk_version">"
+Версия: "</string>
+    <string name="apk_size">"
+Размер: "</string>
+    <string name="open_url">Ссылка</string>
+    <string name="clear_history">Очистить</string>
+    <string name="current_push_sort">Текущая сортировка</string>
+    <string name="history_push_sort">Сортировка по времени</string>
+    <string name="no_history">Нет записей</string>
+    <string name="push_title">PUSH-сообщение от Coolpad</string>
+    <string name="feedbacktype">Тип отчета</string>
+    <string name="problem_description">Опишите Ваше требование иои совет</string>
+    <string name="add_affix">Добавить вложение</string>
+    <string name="add">Добавить</string>
+    <string name="refer_button">Отсылка</string>
+    <string name="id_for_coolcloud">ID Облака</string>
+    <string name="delete_affix_title">Удалить вложение</string>
+    <string name="delete_affix_Message">Удалить это вложение?</string>
+    <string name="added_record">Запись</string>
+    <string name="added_image">Изображение</string>
+
+
+
+    <string name="grade_hintstring">Причина……</string>
+    <string name="grade_hintstring_temp">"Причина……
+"</string>
+    <string name="to_mark">Пометка</string>
+    <string name="start_feedback">Для улучшения</string>
+    <string name="dialog_feedback_title">Беседа</string>
+    <string name="dialog_refresh">Обновить</string>
+    <string name="action_bar_menu">Меню</string>
+    <string name="instruct_default">Клуб Club - это платформа, с помощью которой пользователи могут общаться с инженерами и дизайнерами Coolpad</string>
+    <string name="answer_default">Спасибо за Ваш отзыв! Мы ответим как можно быстрее!</string>
+    <string name="answer_fail_default">Ошибка сети. Не удалось отправить</string>
+    <string name="bt_info">Информация</string>
+    <string name="bt_rankings">Рейтинг</string>
+    <string name="bt_billboard">Рекламный щит</string>
+    <string name="bt_survey">Исследование</string>
+    <string name="bt_classroom">Обучение</string>
+
+
+    <string name="bt_raiders">Навыки</string>
+    <string name="bt_service">Служба</string>
+    <string name="bt_coolshop">Маркет</string>
+    <string name="bt_coolcloud">Облако</string>
+    <string name="tip_loading">Загрузка ...</string>
+    <string name="menu_coolwind_login">Вход в Облако</string>
+    <string name="menu_coolpad_shop">Маркет</string>
+    <string name="default_affix_text">Содержание отзыва</string>
+    <string name="default_log_text">Лог отправлен</string>
+    <string name="toast_send_logcat">Лог отправлен, попробуйте через %d мин.</string>
+    <string name="dialog_send_logcat">Заметка: Произойдет сбор текущей информации о состоянии устройства для отправки Coolpad</string>
+    <string name="send_logcat_type">Послать лог</string>
+    <string name="stat_reportforms">Формы отчета</string>
+    <string name="launch_coolcloud">Облако</string>
+    <string name="input_hint">Введите предложение или совет</string>
+    <string name="logdescrip_hint">Описания</string>
+    <string name="pull_to_refresh">Потяните для обновления</string>
+    <string name="updated_at">"Обновлено в "</string>
+    <string name="release_to_refresh">Отпустите для обновления</string>
+    <string name="refreshing">Обновление</string>
+    <string name="last_updated_at">"Последнее обновление в "</string>
+    <string name="clear_record">Очистить запись</string>
+    <string name="about_application">О приложении</string>
+    <string name="confirm_clear">Уверены, что хотите очистить все записи?</string>
+    <string name="statement_application">"\u0009\u0009Клуб Club - это платформа, с помощью которой пользователи могут общаться с инженерами и дизайнерами Coolpad
+\u0009\u0009Мы прислушиваемся к голосу пользователей. Спасибо за потраченное время!"</string>
+</resources>

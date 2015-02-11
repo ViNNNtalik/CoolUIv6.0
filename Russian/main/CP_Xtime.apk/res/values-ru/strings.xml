@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <string name="app_name">Часы</string>
+    <string name="timePicker_unit_hour">час.</string>
+    <string name="timePicker_unit_minute">мин.</string>
+    <string name="time_am">" AM"</string>
+    <string name="time_pm">" PM"</string>
+    <string name="selector_city_name">" Город"</string>
+    <string name="unknown">Неизв.</string>
+    <string name="record_label">"Запись "</string>
+    <string name="timehelper_worldclock">Время</string>
+    <string name="timehelper_alarmclock">Будильник</string>
+    <string name="timehelper_stopwatch">Часы</string>
+    <string name="timehelper_countdown">Таймер</string>
+    <string name="countdownname">Имя</string>
+    <string name="set_countdown">Настройки таймера</string>
+    <string name="alertway">Настройки будильника</string>
+    <string name="analogclock_widget_name">Часы (аналог.)</string>
+    <string name="worldclock_digit_widget">Часы (цифр.)</string>
+    <string name="title">Город</string>
+    <string name="sunday">вс</string>
+    <string name="monday">пн</string>
+    <string name="tuesday">вт</string>
+    <string name="wednesday">ср</string>
+    <string name="thursday">чт</string>
+    <string name="friday">пт</string>
+    <string name="saturday">сб</string>
+    <string name="hint">Поиск города</string>
+    <string name="ok">ОК</string>
+    <string name="china_month">Месяц</string>
+    <string name="china_day">День</string>
+    <string name="china_am">AM</string>
+    <string name="china_pm">PM</string>
+    <string name="app_label">Часы</string>
+    <string name="add_alarm">Добавить</string>
+    <string name="delete_alarm">Удалить будильник</string>
+    <string name="save_alarm">Сохранить будильник</string>
+    <string name="enable_alarm">Включить будильник</string>
+    <string name="disable_alarm">Выключить будильник</string>
+    <string name="delete_alarm_confirm">Удалить?</string>
+    <string name="save_alarm_confirm">Сохранить будильник?</string>
+    <string name="label">Описание</string>
+    <string name="default_label">Будильник</string>
+    <string name="set_alarm">Установить будильник</string>
+    <string name="alarm_vibrate">Вибросигнал</string>
+    <string name="alarm_repeat">Дни недели</string>
+    <string name="alarm_enabled">Вкл.</string>
+    <string name="alert">Мелодия будильника</string>
+    <string name="time">Время</string>
+    <string name="alarm_alert_dismiss_text">Выключить</string>
+    <string name="alarm_alert_alert_silenced">Будильник звонил %d мин.</string>
+    <string name="alarm_alert_snooze_text">Отложить</string>
+    <string name="alarm_alert_snooze_set">Повтор будильника через %d мин.</string>
+    <string name="day">1 день</string>
+    <string name="days">%s дн.</string>
+    <string name="hour">1 час</string>
+    <string name="hours">%s час.</string>
+    <string name="minute">1 мин.</string>
+    <string name="minutes">%s мин.</string>
+    <string name="every_day">Каждый день</string>
+    <string name="never">Не выбрано</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">Выберите часы</string>
+    <string name="analog_gadget">Аналоговые часы</string>
+    <string name="settings">Настройки</string>
+    <string name="alarm_in_silent_mode_title">Будильник в беззвучном режиме</string>
+    <string name="alarm_in_silent_mode_summary">Подавать сигнал, даже если в режиме \"Без звука\"</string>
+    <string name="snooze_duration_title">Интервал повтора сигнала</string>
+    <string name="diabolo_duration_title">Длительность напоминания</string>
+    <string name="done">Готово</string>
+    <string name="revert">Отмена</string>
+    <string name="alarm_volume_title">Громкость будильника</string>
+    <string name="alarm_volume_summary">Настройка громкости будильника</string>
+    <string name="silent_alarm_summary">Без звука</string>
+    <string name="alarm_notify_text">Отложить/выключить будильник</string>
+    <string name="alarm_notify_snooze_label">%s (отложено)</string>
+    <string name="alarm_notify_snooze_text">Будильник зазвонит в %s. Нажмите, чтобы отменить</string>
+    <string name="volume_button_setting_title">Громкость</string>
+    <string name="volume_button_setting_summary">Определить функцию этой клавиши во время звонка будильника</string>
+    <string name="set_time_title">Задать время</string>
+    <string name="alarm_alert_tip_start">"Вы установили повторяющийся будильник "</string>
+    <string name="alarm_alert_tip_end">". "</string>
+    <string name="alarm_alert_tip_once">Вы установили однократный будильник</string>
+    <string name="alarm_alert_need_stop_media">У Вас сработал будильник. Остановите медиа для просмотра</string>
+    <string name="countdown_ok_text">ОК</string>
+    <string name="countdown_stop_countdown_please">Остановить обратный отсчет</string>
+    <string name="cal_button_ok">ОК</string>
+    <string name="cal_button_cancel">Отмена</string>
+    <string name="cal_button_yes">Да</string>
+    <string name="cal_button_no">Нет</string>
+    <string name="set_alarmclock">Настройки будильника</string>
+    <string name="alarmclock_max_number">Поддерживается до 24 будильников</string>
+    <string name="set_xtime">Настройки</string>
+    <string name="set_worldclock">Мировые часы</string>
+    <string name="start_activity_choose">Стартовая закладка</string>
+    <string name="subcity_weather_infor">Погода в городе 1</string>
+    <string name="cityone_weather_infor">Погода в городе 2</string>
+    <string name="citytwo_weather_infor">Погода в городе 3</string>
+    <string name="start_activity">Стартовая закладка</string>
+    <string name="countdown_notify_text">Выключить таймер</string>
+    <string name="weather_temperature_unit">°C</string>
+    <string name="power_boot">Включить питание</string>
+    <string name="power_off">Выключить питание</string>
+    <string name="power_off_tip">Выключить устройство?</string>
+    <string name="memory_tip_title">Информация</string>
+    <string name="memory_tip_ok">ОК</string>
+    <string name="memory_tip_information">Освободить место</string>
+    <string name="tip_default_repeat">Один раз</string>
+    <string name="load">Загрузка...</string>
+    <string name="no_enough_disk_space">Недостаточно места</string>
+    <string name="Unknown_ringtone">Неизвестная мелодия</string>
+    <string name="default_ringtone">Мелодия по умолчанию</string>
+    <string name="delete_main_city_warn">Нельзя удалить главный город</string>
+    <string name="delete_sub_city">Удаление города</string>
+    <string name="delete_city_confirm">Удалить данные?</string>
+    <string name="add_sub_city">Добавить город</string>
+    <string name="worldcity_max_number">Поддерживается до 10 городов</string>
+    <string name="xtime_countdown_start">Старт</string>
+    <string name="xtime_countdown_pause">Пауза</string>
+    <string name="xtime_countdown_reset">Сброс</string>
+    <string name="length_tip">Достигнута максимальная длина</string>
+    <string name="un_set">Нет результата</string>
+    <string name="label_timezone">Выберите часовой пояс</string>
+    <string name="local_time">Местное время</string>
+    <string name="beijing_time">Время Пекина</string>
+    <string name="singletimezone_title">Время</string>
+    <string name="singletimezone_text">Задать время по умолчанию</string>
+    <string name="noGSMcard">Задать не удалось</string>
+    <string name="tts_tip">У Вас есть будильник</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="sensor_button_setting_title">Функции сенсора</string>
+    <string name="sensor_button_setting_summary">Отложить будильник, перевернув устройство лицом вниз</string>
+    <string name="autorestart_duration_title">Повтор</string>
+    <string name="Button_MONDAY">"пн "</string>
+    <string name="Button_TUESDAY">"вт "</string>
+    <string name="Button_WEDNESDAY">"ср "</string>
+    <string name="Button_THURSDAY">"чт "</string>
+    <string name="Button_FRIDAY">"пт "</string>
+    <string name="Button_SATURDAY">"сб "</string>
+    <string name="Button_SUNDA">"вс "</string>
+    <string name="quake_ring">Мелодия и вибрация</string>
+    <string name="calcul_name">Имя таймера</string>
+    <string name="goahead">Продолжить</string>
+    <string name="count">Подсчет</string>
+    <string name="stop">Стоп</string>
+    <string name="less_then_sixty">Минуты и секунды не могут быть больше 60</string>
+    <string name="less_then_twenty_three">Часы не могут быть больше 24</string>
+    <string name="text_repeateveryweek">Повтор каждую неделю</string>
+    <string name="text_alarmrepeat">Повтор</string>
+    <string name="pleasechoose">"Выберите значение "</string>
+    <string name="ring_vibrate">Мелодия и вибрация</string>
+    <string name="only_ring">Только мелодия</string>
+    <string name="only_vibrate">Только вибрация</string>
+    <string name="volumeGraduallyUp">Возрастающая громкость</string>
+    <string name="city">Город</string>
+    <string name="sort_by_timezone">По час. поясу</string>
+    <string name="sort_by_char">По алфавиту</string>
+    <string name="no_result">Нет результатов</string>
+    <string name="selecttime_acitivity_label">Выбор час.пояс/город</string>
+    <string name="network_hint">Нет сети</string>
+    <string name="connectting_network">Определение местоположения...</string>
+    <string name="location_failed">Не удалось определить местоположение</string>
+    <string name="timepicker_hour">час.</string>
+    <string name="timepicker_minute">мин.</string>
+    <string name="close_alarm_window_text">Слайдинг для выключения будильника</string>
+    <string name="close_alert_window_text">Слайдинг для выключения таймера</string>
+    <string name="no_gps_title">Информация</string>
+    <string name="no_gps_content">Для повышения точности определения местоположения, выйдите на улицу и включите GPS</string>
+    <string name="jump_out">Пропустить</string>
+    <string name="message_box_yes">Да</string>
+    <string name="message_box_no">Нет</string>
+    <string name="message_box_ok">ОК</string>
+    <string name="message_box_cancel">Отмена</string>
+    <string name="time_minute">" мин."</string>
+    <string name="IsCoolSystem">Y</string>
+</resources>

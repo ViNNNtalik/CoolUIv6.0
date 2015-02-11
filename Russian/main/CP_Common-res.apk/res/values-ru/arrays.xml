@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="password_hint_entries">
+        <item>Моя начальная школа?</item>
+        <item>Моя средняя школа?</item>
+        <item>Мой универ?</item>
+        <item>Мой любимый спорт?</item>
+        <item>Польз. вопрос</item>
+    </string-array>
+    <string-array name="password_hint_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <integer-array name="BASIC_FONT_SIZE_ARRAY">
+        <item>18</item>
+        <item>16</item>
+        <item>14</item>
+        <item>12</item>
+        <item>10</item>
+        <item>8</item>
+    </integer-array>
+    <string-array name="week_strings">
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
+    <string-array name="weeks_string">
+        <item>" "</item>
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
+</resources>

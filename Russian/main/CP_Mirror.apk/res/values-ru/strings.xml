@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MirrorActivity!</string>
+    <string name="app_name">Зеркало</string>
+    <string name="light_max">Максимальное освещение</string>
+    <string name="light_min">Минимальное освещение</string>
+    <string name="mirror_is_busy">Зеркало занято, попробуйте позже</string>
+    <string name="camera_is_running">Запушено приложение Камера. Закройте его и попробуйте заново</string>
+    <string name="flashlight_is_running">Запушено приложение Фонарик. Закройте его и попробуйте заново</string>
+    <string name="ok">ОК</string>
+</resources>

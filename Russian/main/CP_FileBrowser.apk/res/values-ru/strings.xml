@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Проводник</string>
+    <string name="dual_app_name">Проводник</string>
+    <string name="root_directory_already">Это корневая директория</string>
+    <string name="onCreate">onCreate</string>
+    <string name="filelatestIconLabel">Загрузка</string>
+    <string name="filesortIconLabel">Группы</string>
+    <string name="udiskIconLabel">Устройство</string>
+    <string name="intsd_label_abbreviation">Устр-во</string>
+    <string name="sdcardIconLabel">SD-карта</string>
+    <string name="internal_sdcard">Внутреннее хранилище</string>
+    <string name="external_sdcard">SD-карта</string>
+    <string name="usb_sdcard">USB-хранилище</string>
+    <string name="phone_space">Внутреннее хранилище</string>
+    <string name="sed_phone_space">SED диск</string>
+    <string name="networkIconLabel">Облако</string>
+    <string name="input_pass_hint">Введите пароль</string>
+    <string name="login_button">Логин</string>
+    <string name="wizid_onkey_activite">Регистрация</string>
+    <string name="username">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="omitpassword">Забыли пароль?</string>
+    <string name="input_email_or_tel">Введите действующий адрес эл.почты</string>
+    <string name="get_data">Получение данных...</string>
+    <string name="get_password">Получение пароля</string>
+    <string name="set_password">Задать пароль</string>
+    <string name="set_new_password">Задать новый пароль</string>
+    <string name="quest_password">Восстановить пароль</string>
+    <string name="set_new_6_password">Введите пароль (от 6 до 12 символов)</string>
+    <string name="set_new_6_password_again">Введите пароль еще раз</string>
+    <string name="get_validation">Подтверждение получено</string>
+    <string name="netdisk_tip_bind_exception">Ошибка подключения к Облаку</string>
+    <string name="netdisk_tip_bind_cancel">Отмена подключения</string>
+    <string name="netdisk_toast_network_unavailable">Сеть недоступна</string>
+    <string name="mms_sd">MMS_phone</string>
+    <string name="mms_exsd">MMS_SD</string>
+    <string name="mail_sd">Mail_phone</string>
+    <string name="mail_exsd">Mail_SD</string>
+    <string name="bluetooth_sd">Bluetooth_phone</string>
+    <string name="bluetooth_exsd">Bluetooth_SD</string>
+    <string name="Intercept_sd">Screenshot_phone</string>
+    <string name="Intercept_exsd">Screenshot_SD</string>
+    <string name="IE_sd">Browser_phone</string>
+    <string name="IE_exsd">Browser_SD</string>
+    <string name="PhotoEditor_sd">Modified image_phone</string>
+    <string name="PhotoEditor_exsd">Modified image_SD</string>
+    <string name="myCamera_sd">Album_phone</string>
+    <string name="myCamera_exsd">Album_SD</string>
+    <string name="allPicture">Все изображения</string>
+    <string name="Intercept">Скриншоты</string>
+    <string name="othPicture">Прочее</string>
+    <string name="normal">Нормальн.</string>
+    <string name="call">Вызов</string>
+    <string name="record_normal">Нормальный</string>
+    <string name="record_call">Вызов</string>
+    <string name="record_fm">FM-радио</string>
+    <string name="morePicture">Еще</string>
+    <string name="menu_homepage">Домой</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_newfolder">Создать папку</string>
+    <string name="menu_compositor">Сортировка</string>
+    <string name="menu_batch">Групповое выделение</string>
+    <string name="menu_batch_delete">Групповое удаление</string>
+    <string name="menu_flat">Плитки</string>
+    <string name="menu_list">Список</string>
+    <string name="menu_tabhidden">Скрыть вкладку</string>
+    <string name="menu_logout">Выйти</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_setting">Настройки</string>
+    <string name="menu_download_path_setting">Задать путь загрузки</string>
+    <string name="menu_browser_mode">Режим просмотра</string>
+    <string name="menu_all_album">Все альбомы</string>
+    <string name="menu_common_album">Часто используемые</string>
+    <string name="menu_remove_favorites">Снять выбор</string>
+    <string name="button_send">Отправить</string>
+    <string name="menu_more">Еще</string>
+    <string name="menu_quitbatchoperator">Отмена</string>
+    <string name="menu_add_files">Добавить файл</string>
+    <string name="menu_movepath">Изменить путь</string>
+    <string name="menu_modifypassword">Изменить пароль</string>
+    <string name="btn_copy">Копировать</string>
+    <string name="btn_cut">Вырезать</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_send">Отправить</string>
+    <string name="btn_selectall">Все</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_paste">Вставить</string>
+    <string name="btn_uncompress">Распаковать</string>
+    <string name="btn_confirm">ОК</string>
+    <string name="btn_more">Еще</string>
+    <string name="item_copy">Копировать</string>
+    <string name="item_delete">Удалить</string>
+    <string name="item_move">Переместить</string>
+    <string name="item_compress">Упаковать (зашифровать)</string>
+    <string name="item_compress_send">Упаковать и отправить</string>
+    <string name="item_uncompress">Распаковать</string>
+    <string name="item_share">Поделиться</string>
+    <string name="item_wallpaper_set">Задать как</string>
+    <string name="item_rename">Переименовать</string>
+    <string name="item_detail">Детали</string>
+    <string name="item_card1_ring">Как мелодия для SIM1</string>
+    <string name="item_card2_ring">Как мелодия для SIM2</string>
+    <string name="item_set_ring">Как мелодия вызова</string>
+    <string name="item_send_destktop">Ярлын на дом. экран</string>
+    <string name="item_remove">Переместить из Сейфа</string>
+    <string name="item_movetosafebox">Переместить в Сейф</string>
+    <string name="item_uploadtonetdisk">Загрузить в Облако</string>
+    <string name="item_setmode">Как приватный</string>
+    <string name="item_ReleaseMode">Как общий</string>
+    <string name="downloads">Загрузки</string>
+    <string name="pictures">Изобр.</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="compresspackage">Архивы</string>
+    <string name="apkpackge">APK-приложения</string>
+    <string name="documents">Файлы</string>
+    <string name="favorite">Избранное</string>
+    <string name="record">Записи</string>
+    <string name="safebox">Сейф</string>
+    <string name="ftpServer">FTP</string>
+    <string name="safebox_filemanager">Все файлы</string>
+    <string name="safebox_pwbox">Пароль Сейфа</string>
+    <string name="remove_path">Все файлы</string>
+    <string name="allfiles">Все файлы</string>
+    <string name="app">"Прилож. "</string>
+    <string name="system">"Система "</string>
+    <string name="system_ppd">PPD система</string>
+    <string name="system_sed">SED система</string>
+    <string name="other">"Прочее "</string>
+    <string name="success">Успешно</string>
+    <string name="failed">Не удалось</string>
+    <string name="no_file">Нетфайла</string>
+    <string name="alert_dialog_noSelectFile">Выберите файл</string>
+    <string name="alert_dialog_errorFileFormat">Выбор правильнго формата файла:</string>
+    <string name="alert_share_batch_num">Нельзя поделиться более, чем 300 файлами</string>
+    <string name="set_ring_success">Мелодия установлена</string>
+    <string name="set_ring_failed">Поиск мелодий вызова...</string>
+    <string name="toast_cannot_open_file">Нет приложения для открытия этого файла</string>
+    <string name="toast_folder_not_exist">Папка не существует</string>
+    <string name="toast_file_not_exist">Файл не существует</string>
+    <string name="toast_safebox_uncompress_file">Переместить из Сейфа для распаковки</string>
+    <string name="dialog_length_limit">Максимальная длина</string>
+    <string name="dialog_copy_size_limit">Максимальный размер файла</string>
+    <string name="alert_dialog_parseSubDirectory">Нельзя скопировать папку внутрь себя</string>
+    <string name="dialog_same_folder_copy_oy_move">Невозможно копировать или перемещать в ту же папку</string>
+    <string name="dialog_cannot_select_copyFIle">Нет файла</string>
+    <string name="dialog_cannot_select_dst">Папка не существует</string>
+    <string name="alert_dialog_sameFile_copy">Файл с таким именем уже существует. Перезаписать?</string>
+    <string name="alert_dialog_sameFile_move">Файл с таким именем уже существует. Перезаписать?</string>
+    <string name="alert_dialog_sameFile_unzip">Файл с таким именем уже существует. Перезаписать?</string>
+    <string name="alert_dialog_sameFile_unzip_obj">Файл с таким именем уже существует. Перезаписать?</string>
+    <string name="alert_dialog_sameFile_zip">Файл с таким именем уже существует. Перезаписать?</string>
+    <string name="alert_dialog_invalid_password">Неверные семволы</string>
+    <string name="alert_dialog_invalid_filename">Неверные семволы</string>
+    <string name="dialog_protect_writer">Невозможно записать в папку!</string>
+    <string name="dialog_copy_doing">Копирование…</string>
+    <string name="dialog_filesize_doing" />
+    <string name="alert_dialog_outofMemory">Недостаточно места</string>
+    <string name="dialog_copy_failed">Копирование файла не удалось</string>
+    <string name="dialog_copy_success">Файл скопирован</string>
+    <string name="dialog_banch_copy_failed">Групповое копирование не удалось</string>
+    <string name="dialog_banch_copy_success">Файлы скопированы</string>
+    <string name="dialog_delete_doing">Удаление…</string>
+    <string name="dialog_delete_success">Файл удален</string>
+    <string name="dialog_banch_delete_success">Файлы удалены</string>
+    <string name="dialog_delete_failed">Удаление не удалось</string>
+    <string name="dialog_banch_delete_failed">Групповое удаление не удалось</string>
+    <string name="dialog_delete_srcfile_failed">Удаление исходного файла не удалось</string>
+    <string name="dialog_uncompress_doing">Распаковка...</string>
+    <string name="dialog_decrypt_doing">Расшифровка... Ожидайте</string>
+    <string name="dialog_compress_doing">Упаковка...</string>
+    <string name="dialog_compress_send_doing">Упаковка файла...</string>
+    <string name="dialog_add_favorite_doing">Добавление... Ожидайте</string>
+    <string name="dialog_move_doing">Перемещение…</string>
+    <string name="dialog_move_failed">Перемещение не удалось</string>
+    <string name="dialog_move_success">Файл перемещен</string>
+    <string name="dialog_banch_move_failed">Групповое перемещение не удалось</string>
+    <string name="dialog_banch_move_success">Файлы перемещены</string>
+    <string name="dialog_search_doing">Поиск…</string>
+    <string name="dialog_search_ending">Поиск окончен</string>
+    <string name="dialog_search_rename" />
+    <string name="dialog_read_ending">Чтение завершено!</string>
+    <string name="dialog_sort_ending">Сортировка…</string>
+    <string name="dialog_backread_ending">Чтение завершено!</string>
+    <string name="dialog_banch_confire_deleteFile">Удалить выбранный файл?</string>
+    <string name="dialog_confire_deleteFile">Удалить выбранную запись?</string>
+    <string name="dialog_compress_failed">Ошибка упаковки!</string>
+    <string name="dialog_compress_sucess">Упаковка завершена успешно!</string>
+    <string name="dialog_compress_cancel">Упаковка отменена</string>
+    <string name="dialog_compress_sucess_send">Файл упакован для отправки</string>
+    <string name="dialog_uncompress_failed">Файл зашифрован или поврежден</string>
+    <string name="dialog_uncompress_sucess">Распаковано</string>
+    <string name="dialog_uncompress_cancel">Распаковка отменена</string>
+    <string name="dialog_confire_send">"Данные упакованы. 
+Поделиться (размер: $1)?"</string>
+    <string name="source_file_not_exist">Файл не существует!</string>
+    <string name="toast_uncompress_file">Распаковка zip-архива</string>
+    <string name="toast_uncompress_file_sort">Переместить в папку</string>
+    <string name="dialog_count_doing_">Подсчет...</string>
+    <string name="dialog_copy_count_doing">Подсчет...</string>
+    <string name="alert_invalid_file">Неправильный файл</string>
+    <string name="dialog_kill_process">Закрытие процесса!</string>
+    <string name="dialog_compress">Сжатие</string>
+    <string name="dialog_compress_send">Сжатие и отправка</string>
+    <string name="dialog_send_safebox">В Сейф</string>
+    <string name="toast_rar_initarchive_fail">Файл недоступен или поврежден</string>
+    <string name="toast_rar_isencrypt">Файл зашифрован</string>
+    <string name="toast_cannot_browser_file">Не удается просмотреть</string>
+    <string name="toast_browser_file_later">Обработка данных... Попробуйте позже</string>
+    <string name="toast_copy_file_later">Обработка данных... Попробуйте позже</string>
+    <string name="dialog_browsering_file">Получение файла... Ожидайте</string>
+    <string name="toast_setremovepath_sucess">Путь изменен</string>
+    <string name="toast_setremovepath_failed">Не удалось изменить путь</string>
+    <string name="toast_sameFile">Файл с таким именем существует</string>
+    <string name="dialog_count_doing">Подсчет...</string>
+    <string name="dialog_rename_doing">Переименование...</string>
+    <string name="netdisk_0KBfile_cannot_share">Нельзя поделиться файлом 0KB</string>
+    <string name="send_to_desktop_shortcut">Ярлык для $1 успешно создан</string>
+    <string name="toast_insert">Подключите накопитель</string>
+    <string name="phone_entrance_summary">$1 доступ./$2 всего</string>
+    <string name="dialog_btn_sure">ОК</string>
+    <string name="dialog_btn_cancel">Отмена</string>
+    <string name="dialog_alert_title">Информация</string>
+    <string name="dialog_file_detail">Делали</string>
+    <string name="file_detail_name">Имя</string>
+    <string name="file_detail_location">Местоположение</string>
+    <string name="file_detail_size">Размер</string>
+    <string name="file_detail_number">Номер файла</string>
+    <string name="file_metrics">Разрешение</string>
+    <string name="file_detail_time">Изменено</string>
+    <string name="dialog_rename_file">Введите новое имя</string>
+    <string name="dialog_newfile">Создать папку</string>
+    <string name="dialog_new_folder_success">Новая папка создана</string>
+    <string name="dialog_new_folder_failed">Файл с таким именем уже существует</string>
+    <string name="dialog_rename_success">Переименовано</string>
+    <string name="dialog_rename_failed">Файл с таким именем уже существует</string>
+    <string name="dialog_filename_null">Пустое имя файла</string>
+    <string name="default_newFolderName">Новая папка</string>
+    <string name="dialog_input_search_word">Введите ключевые слова</string>
+    <string name="cannot_selectFile">Невозможно выбрать файл</string>
+    <string name="create_rename_file_prompt">"Имя файла не может включать следующие символы:
+"</string>
+    <string name="create_filaname_first_last_dot">Имя файла не может начинаться или заканчиваться с точки</string>
+    <string name="search_result">Результаты</string>
+    <string name="dialog_share_canNot_contained_dir">Нельзя отправить группу папок</string>
+    <string name="dialog_share_no_suffix">Нельзя поделиться неизвестным файлом</string>
+    <string name="search_result_no_record">Нет записей</string>
+    <string name="dialog_copyormove_cancel">Копирование/перемещение отменено</string>
+    <string name="dialog_copy_cancel">Копирование отменено</string>
+    <string name="dialog_move_cancel">Перемещение отменено</string>
+    <string name="dialog_rename_cancel">Перемещение отменено</string>
+    <string name="dialog_moveto_safebox_cancel">Операция отменена</string>
+    <string name="dialog_delete_cancel">Удаление отменено</string>
+    <string name="file_is_using">Файл используется</string>
+    <string name="dialog_not_support_file">Аудиоформат не поддерживается</string>
+    <string name="tip_cannot_play_media_file">Не удалось проиграть медиафайл</string>
+    <string name="dialog_cannot_share_file">Не удалось поделиться файлом</string>
+    <string name="dialog_storage_disable">Память недоступна</string>
+    <string name="shortcut_installpackage">Установка</string>
+    <string name="shortcut_mydownload">Загрузки</string>
+    <string name="save">Сохранить</string>
+    <string name="alert_dialog_outofMemory_assave">Свободно меньше 1 Мб</string>
+    <string name="save_sucess">Сохранено</string>
+    <string name="save_failed">Сохранение не удалось</string>
+    <string name="file">Файл</string>
+    <string name="clear">Очистить</string>
+    <string name="today">Сегодня</string>
+    <string name="yestoday">Вчера</string>
+    <string name="within_week">За неделю</string>
+    <string name="within_month">За месяц</string>
+    <string name="early">Ранее</string>
+    <string name="operating">Операция</string>
+    <string name="delete_from_file">Удаление файла</string>
+    <string name="head_to_loaction">Открыть папку</string>
+    <string name="delete_all_files">Очистить</string>
+    <string name="getting_brief_image">Получить миниатюру</string>
+    <string name="sendToDeskTop">Добавить ярлык на дом.экран</string>
+    <string name="get_data_0">Получить новые данные 0</string>
+    <string name="get_data_1">Получить новые данные 1</string>
+    <string name="get_data_2">Получить новые данные 2</string>
+    <string name="get_data_3">Получить новые данные 3</string>
+    <string name="get_data_4">Получить новые данные 4</string>
+    <string name="get_data_5">Получить новые данные 5</string>
+    <string name="get_data_6">Получить новые данные 6</string>
+    <string name="sdcard_total_space">"Внутреннее хранилище: "</string>
+    <string name="ext_sdcard_total_space">"SD-карта: "</string>
+    <string name="tel_total_space">"Устройство: "</string>
+    <string name="space_available">"Доступно: "</string>
+    <string name="udisk_total_space">"Диск: "</string>
+    <string name="system_total_space">"Система: "</string>
+    <string name="system_total_space_ppd">PPD система:</string>
+    <string name="system_total_space_sed">SED система:</string>
+    <string name="file_scan_ending">Файлы проверены</string>
+    <string name="sort_picture_fileinfo">Получение информации об изображениях</string>
+    <string name="sort_audio_fileinfo">Получение информациио об аудио</string>
+    <string name="sort_video_fileinfo">Получение информации о видео</string>
+    <string name="sort_apk_fileinfo">Получение информации об apk-файлах</string>
+    <string name="sort_zip_fileinfo">Получение информации об архивах</string>
+    <string name="sort_document_fileinfo">Получение информации о документах</string>
+    <string name="sort_favorite_fileinfo">Получение информации об избранном</string>
+    <string name="sort_record_fileinfo">Получение информации о записях</string>
+    <string name="sort_file_number">Получение количества файлов</string>
+    <string name="select_search">Поиск</string>
+    <string name="backup">Назад</string>
+    <string name="input_search_word">Введите ключевые слова</string>
+    <string name="folder_name">Имя папки</string>
+    <string name="save_path">Путь хранения</string>
+    <string name="download">Загрузка</string>
+    <string name="download_all">Все</string>
+    <string name="download_center">Загрузки</string>
+    <string name="download_type">Тип файлов</string>
+    <string name="download_APK">APK</string>
+    <string name="download_picture">Изображение</string>
+    <string name="download_music">Музыка</string>
+    <string name="search_label">Ключевые слова</string>
+    <string name="search_hint">Поиск файлов</string>
+    <string name="scan_file_toast">Сканирование файлов</string>
+    <string name="cannot_send_drm">Нельзя отправить файл c DRM-защитой</string>
+    <string name="toast_file_destroy_error">Файл повреждён. Невозможно открыть!</string>
+    <string name="wifi_status_title">Статус Wi-Fi</string>
+    <string name="wifi_no_device">Нет сигнала Wi-Fi</string>
+    <string name="ftp_setup">Настройка</string>
+    <string name="ftp_help">Помощь</string>
+    <string name="ftp_start">Запуск FTP-сервера</string>
+    <string name="ftp_stop">Остановка FTP-сервера</string>
+    <string name="ftp_info_1">Введите в браузере Вашего компьютера:</string>
+    <string name="ftp_info_2">"Вы можете управлять своим устройством 
+после запуска сервера"</string>
+    <string name="ftp_info_3">Подключение к точке Wi-Fi</string>
+    <string name="ftp_help_info">"Инструкция: 
+ 1. Подключите ваш компьютер и устройство к одной точке Wi-Fi 
+ 2. Введите FTP-адрес в браузере вашего компьютера
+(пример: ftp://a:2@192.168.1.100:2121/).
+ 3.  FTP-адрес может меняться каждый раз в случайном порядке"</string>
+    <string name="notif_server_starting">FTP-сервер запущен</string>
+    <string name="notif_title">FTP-сервер работает</string>
+    <string name="notif_text">FTP-сервер принимает подключения</string>
+    <string name="ok">ОК</string>
+    <string name="cant_get_url">Неизвестн.</string>
+    <string name="set_path_title">Задать папку</string>
+    <string name="menu_removeallfavorite">Убрать все из избранного</string>
+    <string name="item_favorite_add">В избранное</string>
+    <string name="item_favorite_cancel">Из избранного</string>
+    <string name="dialog_addfav_success">В избранном</string>
+    <string name="dialog_remfav_success">Убрано из избранного</string>
+    <string name="dialog_addfav_fail">Не удалось добавить в избранное</string>
+    <string name="dialog_remfav_fail">Не удалось убрать из избранного</string>
+    <string name="dialog_remallfav_success">Все убрано из избранного</string>
+    <string name="dialog_remallfav_fail">Не удалось все убрать из избранного</string>
+    <string name="setting">Настройки</string>
+    <string name="setting_display_hidfile">Показывать скрытые файлы</string>
+    <string name="setting_display_hidfile_summary">Показывать файлы, имена которых начинаются с точки</string>
+    <string name="setting_catalog_translate">Специфические папки</string>
+    <string name="setting_catalog_translate_summary">Показывать специфические папки на китайском</string>
+    <string name="modify_file_suffix">Расширения файлов</string>
+    <string name="modify_file_suffix_summary">Возможность редактировать расширения файлов при их переименовании</string>
+    <string name="encrypt_compress_title">Упаковка</string>
+    <string name="encrypt_delete_src">Удалить исходный файл</string>
+    <string name="encrypt_password_title">Ввод пароля</string>
+    <string name="encrypt_password_show">Показать пароль</string>
+    <string name="decrypt_uncompress_title">Распаковка</string>
+    <string name="decrypt_password_title">Ввод пароля</string>
+    <string name="decrypt_password_show">Показать пароль</string>
+    <string name="filebrowser_exit_forUCard">USB-хранилище отключено или не имеет медиа. Проводник будет закрыт</string>
+    <string name="input_username_or_password">Введите логин и пароль</string>
+    <string name="netdisk_logo_name">Облако</string>
+    <string name="netdisk_logo_property">Удобно, быстро и безопасно</string>
+    <string name="netdisk_menu_net_setting">Настройки</string>
+    <string name="netdisk_menu_refresh">Обновить</string>
+    <string name="dialog_upload_netdisk">Выгрузить в Облако</string>
+    <string name="dialog_upload_canNot_contained_dir">Нельзя Выгрузить в Облако</string>
+    <string name="netdisk_upload_list">Список выгрузки</string>
+    <string name="netdisk_download_list">Список загрузки</string>
+    <string name="netdisk_toast_task_choose_again">Уже добавлено в задание</string>
+    <string name="netdisk_branch_downloaded">Загрузка</string>
+    <string name="netdisk_textview_downloaded">Загружено</string>
+    <string name="netdisk_textview_uploaded">Выгружено</string>
+    <string name="netdisk_btn_upload">Выгрузка</string>
+    <string name="netdisk_textview_downloading">Загрузка</string>
+    <string name="netdisk_textview_uploading">Выгрузка</string>
+    <string name="netdisk_toast_msg_opening">Открытие</string>
+    <string name="netdisk_toast_msg_unselect">Выбор файла</string>
+    <string name="netdisk_toast_msg_download_failed">Не удалось загрузить</string>
+    <string name="netdisk_toast_msg_upload_file_exist">Файл уже выгружен</string>
+    <string name="netdisk_img_download_record_empty">Нет загрузок</string>
+    <string name="netdisk_img_upload_record_empty">Нет выгрузки</string>
+    <string name="netdisk_textview_task_status_waiting">Обработка</string>
+    <string name="netdisk_textview_task_status_pause_download">Пауза загрузки</string>
+    <string name="netdisk_textview_task_status_pause_upload">Пауза выгрузки</string>
+    <string name="netdisk_textview_task_status_download_failed">Не удалось загрузить</string>
+    <string name="netdisk_textview_task_status_upload_failed">Не удалось выгрузить</string>
+    <string name="netdisk_toast_add_to_upload_list">Добавлено в задание выгрузки</string>
+    <string name="netdisk_toast_add_to_download_list">Добавлено в задание загрузки</string>
+    <string name="netdisk_toast_net_setting">Задать сеть</string>
+    <string name="netdisk_hint">"\u0009\u0009\u0009\u0009Дорогой пользователь!
+\u0009\u0009\u0009\u0009Вам разрешено создавать папки на диске Облака, читать и записывать данные"</string>
+    <string name="netdisk_toast_logining">Вход...</string>
+    <string name="netdisk_toast_loading">Обновление...</string>
+    <string name="netdisk_toast_modify_password">Сброс пароля...</string>
+    <string name="netdisk_download_path">Путь загрузки path</string>
+    <string name="netdisk_logout">Выход...</string>
+    <string name="netdisk_set_user_info_fail">Ошибка данных пользователся</string>
+    <string name="netdisk_net_fail">Ошибка сети</string>
+    <string name="netdisk_login_fail">Не удалось войти</string>
+    <string name="netdisk_not_login">Вход в Облако</string>
+    <string name="netdisk_getpassword_fail">Не  удалось получить пароль</string>
+    <string name="netdisk_mms_password">Сброс пароля</string>
+    <string name="netdisk_filepath_all">/apps/Cloud</string>
+    <string name="netdisk_filepath_pictures">pictures</string>
+    <string name="netdisk_filepath_audio">audio</string>
+    <string name="netdisk_filepath_video">video</string>
+    <string name="netdisk_filepath_documents">documents</string>
+    <string name="netdisk_result_no_data">Нет данных</string>
+    <string name="netdisk_toast_backing">Обработка... ожидайте</string>
+    <string name="netdisk_password_error">Неправильный пароль</string>
+    <string name="dialog_download_canNot_contained_dir">Не удалось загрузить папку</string>
+    <string name="newdisk_not_batch_same_name">Нельзя в одной папке хранить файлы с одинаковыми названиями</string>
+    <string name="netdisk_0KBfile_cannot_upload">Нельзя выгрузить файл 0KB</string>
+    <string name="netdisk_not_browser_ziprar_file">Нельзя открыть упакованный файл на Облаке</string>
+    <string name="netdisk_data_loading">Загрузка... Ожидайте</string>
+    <string name="netdisk_check_sim_card">Вставьте SIM-карту</string>
+    <string name="netdisk_transfer_state_failed">Не удалось передать</string>
+    <string name="netdisk_transfer_state_prepare">Обработка...</string>
+    <string name="netdisk_transfer_state_pause">На паузе</string>
+    <string name="netdisk_transfer_state_waiting_network">Обработка...</string>
+    <string name="netdisk_transfer_action_retry">Повторить</string>
+    <string name="netdisk_transfer_action_pause">Пауза</string>
+    <string name="netdisk_transfer_action_continue">Продолжить</string>
+    <string name="netdisk_loading_tasks_message">Загрузка данных... Ожидайте</string>
+    <string name="netdisk_deleting_tasks_message">Удаление задач... Ожидайте</string>
+    <string name="netdisk_adding_download_tasks_message">Создание задачи на загрузку... Ожидайте</string>
+    <string name="netdisk_adding_upload_tasks_message">Создание задачи на выгрузку... Ожидайте</string>
+    <string name="netdisk_network_setting_error">Выберите подходящие настройки Облака</string>
+    <string name="bind_code_0">Операция завершена успешно</string>
+    <string name="bind_code_0001">Ошибка запроса</string>
+    <string name="bind_code_1101">Имя пользователя уже существует</string>
+    <string name="bind_code_1102">Имя пользователя не существует</string>
+    <string name="bind_code_1103">Неправильный пароль</string>
+    <string name="bind_code_1104">Аккаунт неактивен. Войдите в аккаунт</string>
+    <string name="bind_code_1105">Льготный период истек. Пожалуйста, активируете свой аккаунт</string>
+    <string name="bind_code_1106">ESN лимит превышен</string>
+    <string name="bind_code_1107">Вы не вошли в аккаунт</string>
+    <string name="bind_code_1108">Не удалось зарегистрироваться</string>
+    <string name="bind_code_1109">Не удалось изменить</string>
+    <string name="bind_code_1110">ESN лимит превышен</string>
+    <string name="bind_code_1111">Не удалось получить пароль</string>
+    <string name="bind_code_1112">Неправильный пароль</string>
+    <string name="bind_code_1113">Не удалось получить информацию о пользователе</string>
+    <string name="bind_code_1114">Аккаунт активирован</string>
+    <string name="bind_code_1115">Таймаут подключения</string>
+    <string name="bind_code_1116">Не удалось изменить информацию</string>
+    <string name="bind_code_1117">Неправильный пароль</string>
+    <string name="bind_code_1118">Не удалось выйти</string>
+    <string name="bind_code_1119">Не удалось изменить пароль</string>
+    <string name="bind_code_1120">Не удалось изменить пароль</string>
+    <string name="bind_code_1121">Не удалось отправить</string>
+    <string name="bind_code_1122">Ошибка базы данных</string>
+    <string name="bind_code_1123">Ошибка повторной отправки эл.письма</string>
+    <string name="bind_code_1124">Активируйте, используя последнюю ссылку</string>
+    <string name="bind_code_1125">Неправильный пароль или логин</string>
+    <string name="bind_code_1126">" уже получено разрешение"</string>
+    <string name="bind_code_1127">Не удалось удалить разрешение</string>
+    <string name="bind_code_1128">Телефонный номер уже использован</string>
+    <string name="bind_code_1129">Срок ссылки истек</string>
+    <string name="bind_code_1130">Устройство деактивировано</string>
+    <string name="bind_code_1131">Недоступная опция</string>
+    <string name="bind_code_1132">Недоступный сервис</string>
+    <string name="bind_code_1133">Неправильный проверочный код</string>
+    <string name="bind_code_1134">Проверочный код истек</string>
+    <string name="bind_code_1135">Неправильный номер телефона</string>
+    <string name="bind_code_1136">Номер телефона не связан</string>
+    <string name="bind_code_1137">Номер телефона уже существует</string>
+    <string name="bind_code_1138">Не удалось изменить пароль</string>
+    <string name="bind_code_1139">Номер телефона не существует.</string>
+    <string name="bind_code_1140">Пароль не может быть пустым</string>
+    <string name="bind_code_1141">Пустой пароль</string>
+    <string name="bind_code_1142">Только одно имя пользователя</string>
+    <string name="bind_code_1143">Не удалось пройти проверку</string>
+    <string name="bind_code_1144">Аккаунт связан</string>
+    <string name="bind_code_1145">Для удаления необходим активный аккаунт</string>
+    <string name="bind_code_1146">Неправильное оборудование</string>
+    <string name="bind_code_1147">Аккаунт не активен</string>
+    <string name="bind_code_1148">Аккаунт Облака с паролем</string>
+    <string name="bind_code_1149">Аккаунт Облака без пароля</string>
+    <string name="bind_code_1150">Активированный аккаунт</string>
+    <string name="bind_code_1151">Ошибка сети</string>
+    <string name="bind_code_1152">Аккаунт не существует  или не пройдена проверка</string>
+    <string name="bind_code_1153">Неправильный пароль</string>
+    <string name="bind_code_1154">Нельзя отменить привязку для залогиненного пользователя</string>
+    <string name="bind_code_1155">Не удалось проверить аккаунт</string>
+    <string name="bind_code_1156">Проверочный код был послан слишком много раз</string>
+    <string name="bind_code_1157">Логин уже существует</string>
+    <string name="bind_code_1158">Аккаунт отключен</string>
+    <string name="bind_code_1160">Отключиться и войти под другим логином</string>
+    <string name="bind_code_1161">Аккаунт заморожен</string>
+    <string name="bind_code_1162">Аккаунт заблокирован</string>
+    <string name="bind_code_1163">Таймаут сессии</string>
+    <string name="bind_code_1164">Нет серийного номера устройства. Обратитесь 029-88824132</string>
+    <string name="bind_code_9999">Неправильный код протокола</string>
+    <string name="send_file_too_much">Отправлено слишком много файлов</string>
+    <string name="copymove_file_too_much">Слишком много файлов скопировано или перемещено</string>
+    <string name="dialog_safebox_remove_success">Перемещено из Сейфа</string>
+    <string name="dialog_safebox_remove_failed">Не удалось переместить</string>
+    <string name="dialog_moveto_safebox_success">Перемещено в Сейф</string>
+    <string name="dialog_moveto_safebox_failed">Не удалось пеместить</string>
+    <string name="dialog_safebox_removed">Файл уже перемещен из Сейф</string>
+    <string name="dialog_safebox_remove_doing">Расшифровка... Ожидайте</string>
+    <string name="dialog_moveto_safebox_doing">Шифрование... Ожидайте</string>
+    <string name="dialog_samefolder_overlay_forbid">Файл с таким именем уже существует</string>
+    <string name="dialog_setting_private">Задается как приватный... Ожидайте</string>
+    <string name="dialog_setting_common">Задается как общий... Ожидайте</string>
+    <string name="toast_setPrivate_sucess">Задано как приватный</string>
+    <string name="toast_setPrivate_failed">Не удалось</string>
+    <string name="toast_setCommon_sucess">Задано как общий</string>
+    <string name="toast_setCommon_failed">Не удалось</string>
+    <string name="toast_safebox_remove_success">Файл уже перемещен из Сейфа. Путь к файлу:</string>
+    <string name="toast_file_counting_forbid_enter">Закройте текущее активное соединение, чтобы войти в Сейф</string>
+    <string name="toast_safebox_not_available">Перезагрузите устройство, чтобы войти в Сейф</string>
+    <string name="toast_record_setMode_forbidden">Не удается задать как приватнуюю папку с аудиозаписями</string>
+    <string name="toast_seccenter_not_integrated">Нет функции, так как отсутсвует Менеджер</string>
+    <string name="dialog_safebox_records_path">Заметка: Записанные файлы будут перемещены в оригинальную папку</string>
+    <string name="dialog_safebox_recover_remove_path">Перемещение в оригинальную папку</string>
+    <string name="dialog_safebox_custom_remove_path">Перемещение в заданную папку</string>
+    <string name="path_mydownload">/Download</string>
+    <string name="path_mail">/Coolpad/Email</string>
+    <string name="path_music">/Coolpad/Music</string>
+    <string name="path_musicdown">/Coolpad/Music</string>
+    <string name="path_musicshop">/Coolpad/Music</string>
+    <string name="path_dolphin">/Coolpad/Download</string>
+    <string name="file_msg_scanning">Сканирование... Ожидайте</string>
+    <string name="file_msg_foundfile">Файл найден</string>
+    <string name="file_msg_scandir">Сканирование папки</string>
+    <string name="file_msg_scanend">Завершено</string>
+    <string name="file_msg_loading">Сканирование</string>
+    <string name="cleaner">Очистка</string>
+    <string name="cleaner_unloadresidue">Apk-файлы</string>
+    <string name="cleaner_systemtrash">Очистка системы</string>
+    <string name="cleaner_searchlarge">Поиск больших файлов</string>
+    <string name="cleaner_analyse">Анализ диска</string>
+    <string name="cleaner_searchlarge_description">Поиск и очистка файлов большого размера</string>
+    <string name="cleaner_systemtrash_description">Очистка системы от ненужных файлов и папок</string>
+    <string name="cleaner_unloadresidue_description">Удаление apk-файлов из устройства</string>
+    <string name="cleaner_analyse_description">Проверка размера файлов и  папок</string>
+    <string name="cleaner_main_delete">Очистка мусора</string>
+    <string name="cleaner_main_deleting">Очистка...</string>
+    <string name="cleaner_cleanselectfiles">Выбор очищенного</string>
+    <string name="cleaner_delete">Удаление</string>
+    <string name="space_total">"Всего: "</string>
+    <string name="space_used">"Использовано: "</string>
+    <string name="space_unused">"Свободно:</string>
+    <string name="space_unused1">Свободно</string>
+    <string name="space_free">"Свободно места: "</string>
+    <string name="large_number">"Большие файлы: "</string>
+    <string name="large_totlesize">"Место: "</string>
+    <string name="space_ratio">"Использование: "</string>
+    <string name="space_sys_unused">Свободно в системе</string>
+    <string name="space_internal_unused">Свободно в телефоне</string>
+    <string name="cleaner_msg_scanning">Проверка... Ожидайте</string>
+    <string name="cleaner_msg_foundfile">Файл найден</string>
+    <string name="cleaner_msg_scandir">Папка для сканирования</string>
+    <string name="cleaner_msg_scanend">Завершено</string>
+    <string name="cleaner_trashcleaner">Очистка мусора</string>
+    <string name="cleaner_largefilescleaner">Поиск больших файлов</string>
+    <string name="cleaner_scantrashfiles">Проверка... Ожидайте.</string>
+    <string name="cleaner_deleteselectfiles">Очистить выбранное</string>
+    <string name="cleaner_deletenothing">Очистка не требуется</string>
+    <string name="cleaner_scan_filepath">Проверка:</string>
+    <string name="cleaner_find_fileinfo">Поиск</string>
+    <string name="cleaner_large_scanning">"Проверка "</string>
+    <string name="cleaner_scan_end">Найдено файлов:</string>
+    <string name="cleaner_clear_obb_illustration">Заметка: Android/obb системная директория</string>
+    <string name="cleaner_scan_large_end1">Результаты:</string>
+    <string name="cleaner_scan_large_end2">" файла(ов) (каждый больше, чем "</string>
+    <string name="cleaner_scan_large_end3">"), которые занимают " </string>
+    <string name="cleaner_scan_large_end4">" всего. Выберите файлы для очистки"</string>
+    <string name="cleaner_large_delete1">Очищено</string>
+    <string name="cleaner_large_delete2">" файла(ов); Освобождено "</string>
+    <string name="cleaner_large_success">"Мусор очищен. Освобождено места: "</string>
+    <string name="cleaner_large_fail">Не удалось очищить</string>
+    <string name="cleaner_clear_success">"Мусор очищен. Освобождено места: "</string>
+    <string name="cleaner_clear_fail">Не удалось очищить</string>
+    <string name="cleaner_scan_end_large">" больших файла(ов). Удалите ненужные файлы, чтобы освободить место</string>
+    <string name="cleaner_scan_end_trash">" бесполезных файла(ов). Удалите их, чтобы освободить место</string>
+    <string name="cleaner_trash_apk">Файлы установки apk-приложений</string>
+    <string name="cleaner_trash_log">Файлы-логи приложений</string>
+    <string name="cleaner_trash_emptydir">Пустые папки</string>
+    <string name="cleaner_trash_thumb">Миниатюры кэш-файлы</string>
+    <string name="cleaner_trash_info_nofile">Файлы не найдены</string>
+    <string name="cleaner_trash_info_scan">Проверка...</string>
+    <string name="cleaner_trash_nofile">Нет бесполезных файлов</string>
+    <string name="cleaner_large_sort_start">Сортировка...</string>
+    <string name="cleaner_large_sort_end">Отсортировано</string>
+    <string name="cleaner_find_apk">Найдены файлы установки apk-приложений</string>
+    <string name="cleaner_find_log">Найдены файлы-логи приложений</string>
+    <string name="cleaner_find_emptydir">Найдены пустые папки</string>
+    <string name="cleaner_find_thumb">Найдены миниатюры кэш-файлы</string>
+    <string name="cleaner_trash_filesnumber">"Файлов: "</string>
+    <string name="cleaner_trash_foldernumber">"Папок: "</string>
+    <string name="cleaner_trash_totalsize">"; общий размер: "</string>
+    <string name="cleaner_set_scan_threshold">Поиск порога</string>
+    <string name="cleaner_set_scan_threshold_abnormal">Не удалось задать порог</string>
+    <string name="phone_freespace_description">Внутр. хранилище</string>
+    <string name="sdcard_freespace_description">SD-карта</string>
+    <string name="cleaner_large_phone_summary">Больших файлов: $1,  занимают $2 внутреннего хранилища</string>
+    <string name="cleaner_large_sdcard_summary">Больших файлов: $1,  занимают $2 на SDкарте</string>
+    <string name="cleaner_large_summary">Больших файлов: $1,  занимают $2</string>
+    <string name="clear_large_found_files_result">Больших файлов: $1; занимаемое место: $2</string>
+    <string name="clear_large_found_none_result">Не найдено больших файлов</string>
+    <string name="app_version_prompt">Версия</string>
+    <string name="clear_file_success_message">Очищено файлов: $1</string>
+    <string name="apkinstalled">Установлено</string>
+    <string name="apkuninstalled">Не установлено</string>
+    <string name="mms">MMS</string>
+    <string name="mail">эл.письма</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="folderPicture">Папка с изображениями</string>
+    <string name="myCamera">Моя камера</string>
+    <string name="scanning_toast">Сканирование... Ожидайте...</string>
+    <string name="submenu_time">Время</string>
+    <string name="submenu_type">Тип</string>
+    <string name="submenu_name">Имя</string>
+    <string name="submenu_size">Размер</string>
+    <string name="translated_catelog_camera">Камера</string>
+    <string name="translated_catelog_screenshots">Скриншоты</string>
+    <string name="translated_catelog_myrecords">Записи</string>
+    <string name="translated_catelog_callrecords">Записи вызовов</string>
+    <string name="translated_catelog_normalrecords">Обычные записи</string>
+    <string name="translated_catelog_icmrecords">Автоответчик</string>
+    <string name="translated_catelog_fmrecords">Записи с радио</string>
+    <string name="translated_catelog_coolshow">Темы</string>
+    <string name="translated_catelog_wallpaper">Обои</string>
+    <string name="translated_catelog_memo">Заметки</string>
+    <string name="translated_catelog_music">Музыка</string>
+    <string name="translated_catelog_movies">Фильмы</string>
+    <string name="translated_catelog_album">Альбомы</string>
+    <string name="translated_catelog_coolmart">Маркет Coolpad</string>
+    <string name="translated_catelog_videoplayer">Видеоплеер</string>
+    <string name="translated_catelog_ttwindow">Китайскик новости</string>
+    <string name="translated_catelog_theme">Темы</string>
+    <string name="translated_catelog_saved_images">Изображения</string>
+    <string name="translated_catelog_saved_video">Видео</string>
+    <string name="translated_catelog_saved_audio">Аудио</string>
+    <string name="translated_catelog_saved_other">Прочее</string>
+    <string name="translated_catelog_contact">Контакты</string>
+    <string name="translated_catelog_calendar">Календарь</string>
+    <string name="translated_catelog_bluetooth">Bluetooth</string>
+    <string name="translated_catelog_downloads">Загрузки</string>
+    <string name="translated_catelog_show_01">Оценка 01</string>
+    <string name="translated_catelog_show_02">Оценка 02</string>
+    <string name="translated_catelog_show_03">Оценка 03</string>
+    <string name="translated_catelog_show_04">Оценка 04</string>
+    <string name="translated_catelog_show_05">Оценка 05</string>
+    <string name="translated_catelog_show_06">Оценка 06</string>
+    <string name="translated_catelog_show_07">Оценка 07</string>
+    <string name="translated_catelog_collectted_images">Изображения</string>
+    <string name="translated_catelog_collectted_music">Музыка</string>
+    <string name="translated_catelog_collectted_video">Видео</string>
+    <string name="translated_catelog_collectedimages">Изображения</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="list_key_group">Группа</string>
+    <string name="list_key_child">Ребенок</string>
+    <string name="menu_item_add2favorite">Избранное</string>
+    <string name="menu_item_removefromfavorite">Из избранного</string>
+    <string name="menu_item_setas">Задать как as</string>
+    <string name="menu_item_setasring1">Как мелодия SIM1</string>
+    <string name="menu_item_setasring2">Как мелодия SIM2</string>
+    <string name="menu_item_setasring">Как мелодия вызова</string>
+    <string name="menu_item_copy">Копировать</string>
+    <string name="menu_item_move">Переместить</string>
+    <string name="menu_item_delete">Удалить</string>
+    <string name="menu_item_rename">Переименовать</string>
+    <string name="menu_item_share">Поделиться</string>
+    <string name="menu_item_compress">Упаковать (зашифровать)</string>
+    <string name="menu_item_decompress">Распаковать</string>
+    <string name="menu_item_compressandsend">Упаковать и  отправить</string>
+    <string name="menu_item_move2safebox">В Сейф</string>
+    <string name="menu_item_upload2clouddisk">Выгрузка в Облако</string>
+    <string name="menu_item_detail">Детали</string>
+    <string name="menu_item_headtoloaction">Открыть папку</string>
+    <string name="menu_item_shortcut">Добавить ярлык на дом.экран</string>
+    <string name="alart_welcome_title">Добро пожаловать в Проводник Coolpad!</string>
+    <string name="alart_welcome_info">Это приложение может потреблять мобильный трафик для связи с Облаком</string>
+    <string name="onekey_activite_info">Заметка: Это сообщение будет отослано при регистрации</string>
+    <string name="alart_welcome_cb_info">Больше не показывать</string>
+    <string name="button_ok_text">ОК</string>
+    <string name="button_cancel_text">Отмена</string>
+    <string name="button_yes_text">Да</string>
+    <string name="button_no_text">Нет</string>
+    <string name="button_abort_text">Отмена</string>
+    <string name="button_retry_text">Повтор</string>
+    <string name="button_ignore_text">Игнорировать</string>
+    <string name="button_delete_text">Удалить</string>
+    <string name="button_set_text">Задать</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="button_exit_text">Выход</string>
+    <string name="switch_button_text_on">Вкл.</string>
+    <string name="switch_button_text_off">Выкл.</string>
+    <string name="adscription_unknow">Неизв.</string>
+    <string name="cooperation_exception">Исключение</string>
+    <string name="password_hint">Подсказка</string>
+    <string name="password_maxlength">32</string>
+    <string name="title">Введите пароль от Менеджера</string>
+    <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
+    <string name="login_password_error_dialog_msg">Неправильный пароль Менеджера. Введите заново</string>
+    <string name="set_question_title">Вопрос</string>
+    <string name="set_answer_title">Ответ</string>
+    <string name="need_set_answer_dialog_msg">Введите ответ</string>
+    <string name="answer_maxlength">28</string>
+    <string name="answer_error_dialog_msg">Неправильный ответ</string>
+    <string name="password_hint_title">Подсказка</string>
+    <string name="your_password_is_dialog_msg">Ваш пароль</string>
+    <string name="recipeint">Адресат</string>
+    <string name="selectAll">Выбрать все</string>
+    <string name="paste">Вставить</string>
+    <string name="inputMethod">Метод ввода</string>
+    <string name="select">Выбор</string>
+    <string name="cut">Вырезать</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+    <string name="search">Baidu-поиск</string>
+    <string name="clipboard">Буфер обмена</string>
+    <string name="hanzitopinyin">pinyin</string>
+    <string name="stringtopinyinhint">Не распознано</string>
+    <string name="time_picker_dialog_title">Задать время</string>
+    <string name="date_year_toggle">Год</string>
+    <string name="textOverMaxLengthWarnning">максимальная длина</string>
+    <string name="copy_hint_text">Копирование завершено</string>
+    <string name="delOne">Удалить из буфера обмена</string>
+    <string name="delAll">Очистить буфера обмена</string>
+    <string name="clipboardOper">Операции с буфером обмена</string>
+    <string name="cansell">Отмена</string>
+    <string name="openClipboardSound">Вкл. тон клавиш</string>
+    <string name="closeClipboardSound">Выкл. тон клавиш</string>
+    <string name="char_append">или</string>
+    <string name="lookup_tel_details_en">Просмотр деталей</string>
+    <string name="lookup_tel_details_cn">Просмотр деталей</string>
+    <string name="lookup_tel_details_tw">Просмотр деталей</string>
+    <string name="dialog_title_choose_tel">Выбор контакта для просмотра деталей</string>
+    <string name="lunar_calendar_show">Лунный календарь</string>
+    <string name="image_cooperation_title">Опции приложения</string>
+    <string name="date_picker_dialog_title">Задать дату</string>
+    <string name="date_picker_year_checkbox_text">Год</string>
+    <string name="date_picker_lunar_checkbox_text">Лунный</string>
+    <string name="date_picker_allday_checkbox_text">Весь день</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="unSelect_all">Снять выделение</string>
+    <string name="list_action_mode_selected">"Выбрано "</string>
+
+    <string name="list_action_mode_total">"Всего "</string>
+    <string name="actionbar_mainmenu_text">Меню</string>
+    <string name="action_mode_item_more">Еще</string>
+
+    <string name="search_hint_text">Введите ключевые слова</string>
+    <string name="contact_chooser_text">Контакты</string>
+    <string name="clipboard2_title">Буфер обмена</string>
+    <string name="clipboard2_operate_dialog_title">Операции с буфером обмена</string>
+    <string name="clipboard2_operate_delete">Удаление из буфера обмена</string>
+    <string name="clipboard2_operate_lock">Блокировать</string>
+    <string name="clipboard2_operate_unlock">Разблокировать</string>
+    <string name="clipboard2_operate_cancel">Отмена</string>
+    <string name="clipboard2_clear_dialog_title">Информация</string>
+    <string name="clipboard2_clear_dialog_main_content">Очистить буфер обмена?</string>
+    <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
+    <string name="clipboard2_clear_dialog_ok">ОК</string>
+    <string name="clipboard2_clear_dialog_cancel">Отмена</string>
+    <string name="time_picker_separator">:</string>
+</resources>

@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="app_label">Календарь</string>
+    <string name="calendar_plug"><font fgcolor="#ffffffff">Добро пожаловать Календарь!</font>" 
+Подход Google к управлению расписанием основан на принципах интуитивности, эффективности и доступности"</string>
+    <string name="what_label">Что</string>
+    <string name="when_label">Когда</string>
+    <string name="where_label">Где</string>
+    <string name="meeting_room_label">Ввод точки</string>
+    <string name="timezone_label">Часовой пояс</string>
+    <string name="attendees_label">Гости</string>
+
+    <string name="repeats_label">Повтор</string>
+    <string name="no_title_label">(Нет заголовка)</string>
+    <string name="length_tip">Достигнута максимальная длина</string>
+    <string name="meeting_agenda_label">Повестка совещания</string>
+    <string name="normal_agenda_label">Общая повестка</string>
+    <string name="airport_agenda_label">Повестка полета</string>
+    <string name="unanswered_phone_agenda_label">Напоминание о пропущенных вызовах</string>
+    <string name="birth_anni_label">День рождения/юбилей</string>
+    <string name="add_new_contact">Новый контакт - день рождения</string>
+    <string name="add_contact_birthday">Существующий контакт - день рождения</string>
+    <string name="show_agenda_view">Текущая повестка</string>
+    <string name="show_day_view">Показать день</string>
+    <string name="agenda_view">Повестка дня</string>
+    <string name="day_view">День</string>
+    <string name="week_view">Неделя</string>
+    <string name="month_view">Месяц</string>
+    <string name="event_view">Просмотр мероприятия</string>
+    <string name="event_create">Новое мероприятие</string>
+    <string name="event_edit">Изменить мероприятие</string>
+    <string name="event_delete">Удалить мероприятие</string>
+    <string name="event_share">Поделиться мероприятием</string>
+    <string name="goto_today">Сегодня</string>
+    <string name="menu_select_calendars">Мой календарь</string>
+    <string name="menu_preferences">Настройки</string>
+    <string name="out_of_memoty">превышен максимум</string>
+    <string name="plus_N_more">(и ещё %d…)</string>
+    <string name="calendars_title">Мой календарь</string>
+    <string name="add_calendars">Добавить календарь</string>
+    <string name="remove_calendars">Удалить календарь</string>
+    <string name="event_edit_title">Детали мероприятия</string>
+    <string name="hint_what">Название мероприятия</string>
+    <string name="hint_where">Место</string>
+    <string name="hint_description">Описание</string>
+    <string name="hint_attendees">Гости</string>
+    <string name="creating_event">Мероприятие создано</string>
+    <string name="saving_event">Мероприятие сохранено</string>
+    <string name="loading_calendars_title">Загрузка календаря</string>
+    <string name="loading_calendars_message">Загрузка календаря...</string>
+    <string name="cannot_create_file">Ошибка создания файла</string>
+    <string name="alert_title">Уведомления календаря</string>
+    <string name="alert_when_label">Когда:</string>
+    <string name="alert_where_label">Где:</string>
+    <string name="alert_missed_events_single">(еще %s напоминание)</string>
+    <string name="alert_missed_events_multiple">(еще напоминаний: %s)</string>
+    <string name="event_info_title">Просмотр мероприятия</string>
+    <string name="event_info_title_invite">Приглашение на встречу</string>
+    <string name="add_new_reminder">Добавить напоминание</string>
+    <string name="edit_event_to_label">До</string>
+    <string name="edit_event_from_label">С</string>
+    <string name="edit_event_all_day_label">Целый день</string>
+    <string name="edit_event_calendar_label">Календарь</string>
+    <string name="edit_event_show_extra_options">Показать доп.параметры</string>
+    <string name="edit_event_hide_extra_options">Скрыть доп.параметры</string>
+    <string name="description_label">Описание</string>
+    <string name="show_more_info">Добавить еще</string>
+    <string name="basic_infor_label">Базовая информация</string>
+    <string name="main_speaker_label">Спикер</string>
+    <string name="honor_guest_label">Гость</string>
+    <string name="meeting_attendee_label">Посетитель</string>
+    <string name="meeting_flow_label">Место встречи</string>
+    <string name="meeting_server_label">Ведущий</string>
+    <string name="clear_meeting_rooms">Очистить все записи</string>
+    <string name="meeting_room_frequently">Часто используемые комнаты встреч</string>
+    <string name="presence_label">Мой статус:</string>
+    <string name="privacy_label">Приватность</string>
+    <string name="reminders_label">Напоминание</string>
+    <string name="ahead_text">" заранее"</string>
+    <string name="event_last_label">Длительность</string>
+    <string name="reminders_label_before">Предварительное напоминание</string>
+    <string name="reminders_label_10">10 мин.</string>
+    <string name="reminders_label_30">30 мин.</string>
+    <string name="reminders_label_60">1 час</string>
+    <string name="last_label_90">1,5 часа</string>
+    <string name="last_label_150">2,5 часа</string>
+    <string name="last_label_240">4 часа</string>
+    <string name="last_label_300">5 часов</string>
+    <string name="last_label_2880">2 дня</string>
+    <string name="reminders_label_120">2 часа</string>
+    <string name="reminders_label_180">3 часа</string>
+    <string name="reminders_label_1440">1 день</string>
+    <string name="reminders_label_4320">3 дня</string>
+    <string name="last_label_7200">5 дней</string>
+    <string name="reminders_label_10080">1 неделя</string>
+    <string name="reminders_label_current_day">Сегодня</string>
+    <string name="no_syncable_calendars">Нет календаря</string>
+    <string name="no_calendars_found">Календарь не найден</string>
+    <string name="view_event_calendar_label">Календарь:</string>
+    <string name="view_event_organizer_label">Организатор:</string>
+    <string name="view_event_timezone_label">Часовой пояс</string>
+    <string name="view_event_response_label">Принять приглашение?</string>
+    <string name="agenda_today">Сегодня, %1$s</string>
+    <string name="loading">Загрузка…</string>
+    <string name="show_older_events">Показать мероприятия до %1$s</string>
+    <string name="show_newer_events">Показать мероприятия после %1$s</string>
+    <string name="num_events">Мероприятия</string>
+    <string name="edit_event_label">Редактировать</string>
+    <string name="delete_label">Удалить</string>
+    <string name="delete_event_label">Удалить мероприятие</string>
+    <string name="save_label">Готово</string>
+    <string name="discard_label">Отмена</string>
+    <string name="import_label">Импорт</string>
+    <string name="snooze_all_label">Отложить все</string>
+    <string name="dismiss_all_label">Отклонить все</string>
+    <string name="does_not_repeat">Однократное мероприятие</string>
+    <string name="daily">Ежедневно</string>
+    <string name="every_weekday">Каждый будний день (пн–пт)</string>
+    <string name="weekly">Еженедельно (кажд. %s)</string>
+    <string name="monthly_on_day_count">Ежемесячно (кажд. %1$s %2$s)</string>
+    <string name="monthly_on_day">Ежемесячно (%s числа)</string>
+    <string name="yearly">Ежегодно (%s)</string>
+    <string name="custom">Польз. (нельзя настроить на устройстве)</string>
+    <string name="modify_event">Изменить только это мероприятие</string>
+    <string name="modify_all">Изменить все мероприятия в серии</string>
+    <string name="modify_all_following">Изменить это и будущие мероприятия</string>
+    <string name="delete_this_event_title">Удалить мероприятие?</string>
+    <string name="delete_title">Удалить</string>
+    <string name="change_response_title">Изменить ответ</string>
+    <string name="preferences_title">Настройки</string>
+    <string name="preferences_general_title">Настройки просмотра</string>
+    <string name="system_time_setting">Время</string>
+    <string name="system_time_setting_content">Настройки даты и времени</string>
+    <string name="preferences_alerts_title">Напоминание</string>
+    <string name="preferences_hide_declined_title">Скрыть отклоненные</string>
+    <string name="preferences_alerts_type_title">Настроить уведомления</string>
+    <string name="preferences_alerts_type_dialog">Оповещения и уведомления</string>
+
+    <string name="preferences_alerts_vibrate_title">Вибросигнал</string>
+    <string name="preferences_alerts_vibrateWhen_summary">Вибросигнал при напоминаниях</string>
+    <string name="preferences_alerts_ringtone_title">Выбрать мелодию</string>
+    <string name="preferences_default_reminder_title">Время напоминания</string>
+    <string name="preferences_default_reminder_dialog">Время напоминания</string>
+
+    <string name="preferences_use_home_tz_title">Фикс. часовой пояс</string>
+    <string name="preferences_use_home_tz_descrip">Всегда показывать в календаре время в заданном часовом поясе</string>
+    <string name="preferences_home_tz_title">Мой часовой пояс</string>
+
+    <string name="preferences_about_title">О программе</string>
+    <string name="preferences_build_version">Версия сборки (перевод ViNNNtalik)</string>
+    <string name="app_name">Новый календарь</string>
+    <string name="msg_attendees">SMS/MMS</string>
+    <string name="email_attendees">Эл.письмо</string>
+    <string name="hint_attendees_name">Участники</string>
+    <string name="attendees_cannot_repeat">Дубликаты не допускаются</string>
+    <string name="receivers_cannot_repeat">Дубликаты не допускаются</string>
+    <string name="empty_place">Убедитесь, что адрес не пустой</string>
+    <string name="no_map_app">Не приложений с картой</string>
+    <string name="send_immediately_after_save">После сохранения уведомление будет немедленно послано получателю, что включает расходы на SMS</string>
+    <string name="send_immediately_after_save1">После сохранения уведомление будет немедленно послано получателю, что включает расходы на SMS. Письмо по эл. почте послано быть не может</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_add">Добавить</string>
+    <string name="menu_batch_delete">Групповое удаление</string>
+    <string name="search_view">Искать в календаре</string>
+    <string name="search_label">Поиск</string>
+    <string name="cancel_label">Отмена</string>
+    <string name="search_result_view">Результаты</string>
+    <string name="batch_delete_label">Групповое удаление</string>
+    <string name="all_selected_label">Все</string>
+    <string name="all_clean_label">Очистить</string>
+    <string name="all_delete_label">Удалить</string>
+    <string name="all_cancel_label">Отмена</string>
+    <string name="all_title_label">Выбрать календарь</string>
+    <string name="all_please_select_label">Выбор элемента</string>
+    <string name="all_confirm_label">Удалить выбранное?</string>
+    <string name="all_delete_title_label">Удалить календарь</string>
+    <string name="all_date_select_title">Выбор даты</string>
+    <string name="all_over_end_date_title">Дата начала не может быть позже конца</string>
+    <string name="cal_month_title">Календарь</string>
+    <string name="cal_day0">Вс</string>
+    <string name="cal_day1">Пн</string>
+    <string name="cal_day2">Вт</string>
+    <string name="cal_day3">Ср</string>
+    <string name="cal_day4">Чт</string>
+    <string name="cal_day5">Пт</string>
+    <string name="cal_day6">Сб</string>
+    <string name="cal_year">Год</string>
+    <string name="cal_month">Месяц</string>
+    <string name="cal_btn_add">Создать</string>
+    <string name="cal_btn_list">С</string>
+    <string name="cal_btn_day">Д</string>
+    <string name="cal_btn_month">М</string>
+    <string name="cal_btn_week">Н</string>
+    <string name="cal_btn_today">С</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="cal_week">" неделя"</string>
+    <string name="cal_search_title">Поиск</string>
+    <string name="cal_new">Новый календарь</string>
+    <string name="cal_edit">Изменить</string>
+    <string name="cal_delete_activity">Удалить</string>
+    <string name="cal_edit_activity">Редактировать каледарь</string>
+    <string name="cal_repeat_title">Задать повтор</string>
+    <string name="cal_reminder_title">Установить напоминание</string>
+    <string name="cal_birthday_label">День рождения</string>
+    <string name="cal_birthday_reminder_label">Напоминание о дне рождении</string>
+    <string name="cal_ahead_reminder_label">Напоминание</string>
+    <string name="cal_memory_label">Годовщина</string>
+    <string name="cal_memory_reminder_label">Напоминание о годовщине</string>
+    <string name="cal_clear">Очистить</string>
+    <string name="cal_alarm_alert_snooze_text">Отложить</string>
+    <string name="cal_alarm_alert_dismiss_text">Отмена</string>
+
+    <string name="cal_alarm_set_text">Настройки для дня рождения</string>
+    <string name="cal_almance_text">Китайский альманах</string>
+    <string name="cal_almance_send_text">Поделиться</string>
+    <string name="cal_lunar_text">Лунный календарь</string>
+    <string name="cal_phenolgy_text">Фенология на день：</string>
+    <string name="cal_nine_star_text">Девятый:</string>
+    <string name="cal_su_ming_text">Название:</string>
+    <string name="cal_zhi_ri_text">Следует:</string>
+    <string name="cal_bogey_text">Избегать:</string>
+    <string name="cal_should_text">Следует:</string>
+    <string name="cal_avoid_text">Избегать:</string>
+    <string name="cal_yuan_dan_text">День Нового года</string>
+    <string name="cal_er_tong_jie_text">День защиты детей</string>
+    <string name="cal_guo_qing_jie_text">Национальный день</string>
+    <string name="cal_chun_jie_text">Весна</string>
+    <string name="cal_yuan_xiao_text">Праздник фонарей</string>
+    <string name="cal_duan_wu_text">Фестиваль лодок-драконов</string>
+    <string name="cal_qi_xi_text">Фестиваль Танабата</string>
+    <string name="cal_zhong_qiu_text">Праздник середины осени</string>
+    <string name="cal_sheng_dan_text">Рождество</string>
+    <string name="cal_qing_ren_jie_text">День св.Валентина</string>
+    <string name="cal_qing_ming_text">Цинмин</string>
+    <string name="cal_from_to_title">Время начала и завершения</string>
+    <string name="cal_from_date_text">Дата начала</string>
+    <string name="cal_from_time_text">Время начала</string>
+    <string name="tool_from_date_text">"  Дата начала              "</string>
+    <string name="cal_to_date_text">Дата завершения</string>
+    <string name="tool_to_date_text">"  Дата завершения             "</string>
+    <string name="cal_to_time_text">Время завершения</string>
+    <string name="cal_all_day_text">Целый день</string>
+    <string name="search_label_title">Поиск</string>
+    <string name="event_label_title">Сохранить</string>
+    <string name="should_label_title">Следует:</string>
+    <string name="avoid_label_title">Избегать:</string>
+    <string name="cal_turn_page_title">Выбор даты</string>
+    <string name="cal_turn_page_lable">Дата</string>
+    <string name="cal_list_title">Список событий</string>
+    <string name="cal_set_title">Установить календарь</string>
+    <string name="alert_list_title">Календарь</string>
+    <string name="alert_single_title">Напоминание</string>
+    <string name="alert_snooze_btn_title">Отложить</string>
+    <string name="alert_close_btn_title">Выключить</string>
+    <string name="alert_select_dialog">Выбор элемента</string>
+    <string name="alert_custom_birthday">"День рождения  "</string>
+    <string name="alert_custom_memory">"Годовщина  "</string>
+    <string name="alert_search_event_btn_lable">ОК</string>
+    <string name="cal_select_dialog">Выбор элемента</string>
+    <string name="cal_select_record">Выберите календарь</string>
+    <string name="cal_month_title_lable">Календарь</string>
+    <string name="cal_month_today_title">Повестка</string>
+    <string name="cal_no_record">Нет данных</string>
+    <string name="cal_invalidate_title">Ошибка темы</string>
+    <string name="export_hint">Нельзя продолжить из-за специфических символов в теме. Очистить их и продолжить?</string>
+    <string name="cal_title_info">Тема</string>
+    <string name="cal_event_info_time">Время</string>
+    <string name="cal_festival_title">Список праздников</string>
+    <string name="lunar_months">Один, два, три, четыре, пять, шесть, семь, восемь, девять, десять, одинадцать, двенадцать</string>
+    <string name="cal_add_contact_title">Добавить в Контакты</string>
+    <string name="cal_confirm_contact_title">Добавить в Контакты?</string>
+    <string name="cal_date_page_title">Развернуть</string>
+    <string name="cal_min_date_page">Невозможно вперед</string>
+    <string name="cal_max_date_page">Невозможно назад</string>
+    <string name="save">Сохранить данные?</string>
+    <string name="already_save">Данные сохранены</string>
+    <string name="isDeleting">Удаляется…</string>
+    <string name="delete_cancel">Отмена</string>
+    <string name="event_dialog_save_title">Сохранить календарь</string>
+    <string name="event_dialog_delete_title">Удалить календарь</string>
+    <string name="reminder_invalid_input">"Вводите действующие дареса или контакты с действующими адресами "</string>
+    <string name="event_dialog_mass">Cохранить записи?</string>
+    <string name="event_people_more_than">Не более 100 человек</string>
+    <string name="new_event_no_space">Недостаточно места</string>
+    <string name="new_event_space_check">"Проверка места "</string>
+    <string name="all_day">Целый день</string>
+    <string name="cal_my_calendar">Календарь Облака</string>
+    <string name="defaultAccountName">Мой календарь</string>
+    <string name="taiwandefaultaccountname">Моя повестка</string>
+    <string name="jiantidefaultaccountname">Мой календарь</string>
+    <string name="coolcloud_calendar">Календарь Облака</string>
+    <string name="cal_customeday_title">Список дней рождения</string>
+    <string name="SearchKeyWords">Ключевые слова</string>
+    <string name="PleaseWait">Пожалуйста подождите…</string>
+    <string name="Hint">Информация</string>
+    <string name="DBBusy">База данных занята. Попробуйте позже</string>
+    <string name="DBNoSpace">Диск переполнен. Пожалуйста почистите</string>
+    <string name="DBBackupNoSpace">Недостаточно места</string>
+    <string name="writefile_failed">Ошибка записи файла</string>
+    <string name="closefile_failed">Ошибка закрытия файла</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="EveryWord">Каждый</string>
+    <string name="DayWord">" дн."</string>
+    <string name="WeekWord">" нед."</string>
+    <string name="MonthWord">" мес."</string>
+
+
+    <string name="TheText">" "</string>
+    <string name="Singleday">День</string>
+    <string name="monthly">Ежемесячно</string>
+
+
+
+    <string name="titledateformat">MM.yyyy</string>
+    <string name="titledateformat_rigo">MM.yyyy</string>
+    <string name="month_title_date_format">dd.MM.yyyy</string>
+    <string name="day_title_date_format">dd.MM</string>
+    <string name="day_title_date_format_rigo">dd.MM</string>
+    <string name="drop_batch_cop">Отказ</string>
+    <string name="look_detail">Просмотр деталей</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="no_name">Без имени</string>
+    <string name="single_repeat">Обычный</string>
+    <string name="advance_repeat">Расширенный</string>
+    <string name="advance_repeat_endmethod">Завершение</string>
+    <string name="advance_repeat_count">Количество повторов</string>
+    <string name="advance_repeat_enddate">Дата завершения</string>
+    <string name="advance_repeat_noend">Без даты завершения</string>
+    <string name="advance_repeat_begindate">Старт</string>
+    <string name="advance_repeat_mode_day">День</string>
+    <string name="advance_repeat_mode_week">Неделя</string>
+    <string name="advance_repeat_mode_month">Месяц</string>
+    <string name="advance_repeat_mode_year">Год</string>
+    <string name="advance_repeat_mode">Повторение</string>
+    <string name="select_begindate">Выбрать дату начала</string>
+    <string name="select_enddate">Выбрать дату завершения</string>
+    <string name="text_date">дата</string>
+    <string name="every">"Каждый "</string>
+    <string name="every_workday">" Каждый рабочий день"</string>
+    <string name="daymode_setting">Ежедневно</string>
+    <string name="text_day">День</string>
+    <string name="text_month_interval">месяц</string>
+    <string name="text_the" />
+    <string name="monthmode_setting">Ежемесячно</string>
+
+    <string name="repeat_interval_weeks">Интервал (неделя)</string>
+    <string name="weekmode_setting">Еженедельно</string>
+    <string name="yearmode_setting">Ежегодно</string>
+    <string name="every_year">"В "</string>
+    <string name="text_month">Месяц</string>
+    <string name="text_day_1">" "</string>
+    <string name="text_week">"неделя, "</string>
+    <string name="simple_every_workday">Рабочие дни (пн-пт)</string>
+    <string name="simple_once">Однократно</string>
+    <string name="simple_everyday">Ежедневно</string>
+    <string name="simple_every_weekday">"Еженедельно ( "</string>
+    <string name="simple_every_month_weekday">"Ежемесячно ( "</string>
+    <string name="simple_every_monthday">"Ежемесячно ( "</string>
+    <string name="simple_every_year">Ежегодно</string>
+    <string name="text_su">" Вс "</string>
+    <string name="text_mo">" Пн "</string>
+    <string name="text_tu">" Вт "</string>
+    <string name="text_we">" Ср "</string>
+    <string name="text_th">" Чт "</string>
+    <string name="text_fr">" Пт "</string>
+    <string name="text_sa">" Сб "</string>
+    <string name="weekrepeat_week_interval_invalid">Недельные интервалы между 1 и 52</string>
+    <string name="error_hint_confirm">ОК</string>
+    <string name="not_select_weekday">Выбирите хотя бы один день от понедельника до воскресенья</string>
+    <string name="day_interval_invalid">Интервал дней должен быть между 1 и 31</string>
+    <string name="day_interval_empty">Интервал дней не должен быть пустым</string>
+    <string name="month_interval_empty">Интервал месяца не должен быть пустым</string>
+    <string name="month_day_empty">Дата не должна быть пустой</string>
+    <string name="week_interval_empty">Интервал недели не должен быть пустым</string>
+    <string name="day_index_invalid">Дата должна быть между 1 и 31</string>
+    <string name="day_index_invalid_ex">Дата должна быть между 1 и 29</string>
+    <string name="month_interval_invalid">Интервал месяца должен быть от 1 до 12</string>
+    <string name="week_interval_invalid">Интервал недели должен быть между 1 и 4</string>
+    <string name="month_empty">Месяц не должен быть пустым</string>
+    <string name="the_last">Последний</string>
+    <string name="remind_autosend">"Автомат. "</string>
+    <string name="remind_manualsend">Вручную</string>
+    <string name="remind_mmssend">"Сообщ. "</string>
+    <string name="remind_emailsend">Эл.почта</string>
+    <string name="remind_sendYes">" Да"</string>
+    <string name="remind_sendNo">" Нет"</string>
+    <string name="text_ahead_remind_time">Время напоминания</string>
+    <string name="text_remind_notify">Уведомление</string>
+    <string name="text_remind_send_method">"Отправлен "</string>
+    <string name="text_remind_send_type">"Отправлен через "</string>
+    <string name="text_remind_send_content">Содержимое уведомления</string>
+    <string name="text_remind_status">Напоминание</string>
+    <string name="remind_status_on">Вкл.</string>
+    <string name="remind_status_off">Выкл.</string>
+    <string name="send_notify_title">Уведомление о событии</string>
+    <string name="tbn_text_send_reminder">Отправить</string>
+    <string name="toast_sent_reminder">Напоминание отправлено</string>
+    <string name="timebeforecurrenttime">Время окончания до текущего времени. Сохранять?</string>
+    <string name="reminderclose">Нет</string>
+    <string name="over_max_count">Слишком много событий. Не могу добавить событие</string>
+    <string name="over_max_count_title">Календарь</string>
+    <string name="message_box_yes">Да</string>
+    <string name="message_box_no">Нет</string>
+    <string name="message_box_ok">ОК</string>
+    <string name="message_box_cancel">Отмена</string>
+    <string name="reminder_lables_before">" до"</string>
+    <string name="vcalendar_size_0">Нулевой размер файла</string>
+    <string name="default_event_name">Мое событие</string>
+    <string name="title_must_not_empty">Введите название</string>
+    <string name="event_info_uri_error">Невозможно открыть календарь. Ошибка параметра!</string>
+    <string name="send_via_bluetooth">Отправить через Bluetooth</string>
+    <string name="file_already_importing">Выполняется импорт. Подождите, пожалуйста</string>
+    <string name="file_not_found">Повестка не найдена</string>
+    <string name="file_import_complete">Импорт завершен</string>
+    <string name="file_import_fail">Ошибка импорта</string>
+    <string name="file_parse_fail">Не удалось обработать файл</string>
+    <string name="cal_send_to_icool">Отправить через Облако</string>
+    <string name="endTime_too_large">Каждый раз событие длится слишком долго. Сократите его длительность</string>
+    <string name="preferences_alerts_vibrateWhen_title">Вибросигнал</string>
+    <string name="prefDialogTitle_vibrateWhen">Вибросигнал</string>
+    <string name="send_reminder_title">Напоминание календаря</string>
+    <string name="send_reminder_content">Содержание</string>
+    <string name="filepath_is_empty">Пустой путь к файлу</string>
+    <string name="sdcard_not_exist">Вставьте SD-карту</string>
+    <string name="file_path_not_exist">Путь к файлу не существует</string>
+    <string name="file_lenth_beyond_limit">Размер бэкапа превышает лимит. Нельзя восстановить</string>
+    <string name="save_event_success">Событие успешно сохранено</string>
+    <string name="repeat_begintime_error">Время начала для повтора не может быть дальше, чем завершение</string>
+    <string name="repeat_endtime_error">Время завершения для повтора не может быть раньше, чем начало</string>
+    <string name="edit_event_show_all">Показать все</string>
+    <string name="accessibility_pick_start_date">Дата начала</string>
+    <string name="accessibility_pick_start_time">Время начала</string>
+    <string name="accessibility_pick_end_date">Дата окончания</string>
+    <string name="accessibility_pick_end_time">Время окончания</string>
+    <string name="accessibility_all_day">На весь день</string>
+    <string name="calendar_setting">Настройки</string>
+    <string name="set">Задать</string>
+    <string name="share">Поделиться</string>
+    <string name="bluetooth_share">Bluetooth</string>
+    <string name="coolcloud_share">Облако</string>
+    <string name="reminder_on_time">Вовремя</string>
+    <string name="preferences_almance_show_title">Показывать альманах</string>
+    <string name="preferences_agenda_show_title">Показывать повестку</string>
+    <string name="save_as_file">Сохранить в файл</string>
+    <string name="import_as_file">Импорт повестки</string>
+    <string name="export_as_file_succeed">Повестка сохранена в %s</string>
+    <string name="export_as_file_fail">Недостаточно места или неверные символы в названии</string>
+    <string name="import_as_file_fail">Импорт .ics или .vcs файлов</string>
+    <string name="week_start_day">День начала недели</string>
+    <string name="week_start_day_setting">День начала недели</string>
+    <string name="ics_file_exist_tip">Файл уже существует. Переписать его?</string>
+    <string name="calendar_alert_message">У вас новый сигнал календаря</string>
+    <string name="agenda_select_result">" %d совпало"</string>
+    <string name="input_keyword">Введите ключевые слова</string>
+    <string name="to_much_file_import_fail">Нельзя импортировать файл, содержащий более одной повестки</string>
+    <string name="no_agenda_infor">Нет повестки</string>
+    <string name="day_am">До обеда</string>
+    <string name="day_pm">После обеда</string>
+    <string name="time_chang_to">Выбор даты</string>
+
+    <string name="external_memo_alert">Напоминание заметки</string>
+    <string name="click_agenda_list">"Просмотр повестки "</string>
+    <string name="click_agenda_list_ago">" или ранее"</string>
+    <string name="click_agenda_list_after">" или позже"</string>
+    <string name="click_agenda_list_max">Достигнута максимальная дата календаря 31 января 2037 года</string>
+    <string name="reciprocal_search">Поиск</string>
+    <string name="reciprocalday_have">" и "</string>
+    <string name="reciprocal_festival" formatted="false">Праздник: %d-%d</string>
+
+    <string name="reciprocal_title">Взаимный</string>
+    <string name="tools_box">Инструменты</string>
+    <string name="toolbox">Инструменты</string>
+    <string name="date_calculate_title">Подсчет даты</string>
+    <string name="date_calculate">Дата</string>
+    <string name="date_distance">Интервал</string>
+    <string name="week_query">Неделя</string>
+    <string name="reciprocal_all">Все</string>
+    <string name="reciprocal_bir">День рождения/Юбилей</string>
+    <string name="reciprocal_holiday">Праздник</string>
+
+    <string name="format_type2">dd.MM.yyyy</string>
+    <string name="format_type3">dd.MM.yyyy E</string>
+    <string name="distance" />
+    <string name="tool_date">"  Дата                 "</string>
+    <string name="tool_distance_textview">Подсчет интервала между двумя датами</string>
+    <string name="tool_calculate_textview">Подсчет даты от заданной даты и интервала</string>
+    <string name="tool_weekquery_textview">Определение дня недели для даты</string>
+    <string name="input_tip">Введите интервал</string>
+    <string name="tool_query">Подсчет</string>
+    <string name="agenda_type">Ввод</string>
+
+    <string name="takeoff">"Вылет "</string>
+    <string name="airport">"Рейс "</string>
+    <string name="hour">" ч."</string>
+    <string name="short_hour">" ч."</string>
+
+    <string name="query_week_string" formatted="false">"%d
+ Неделя %d года %s
+День %d года"</string>
+    <string name="fen">" мин."</string>
+    <string name="short_minute">" мин."</string>
+    <string name="today_fate">Предсказание на сегодня</string>
+    <string name="tomorrow_fate">Предсказание на завтра</string>
+    <string name="this_week_fate">Предсказание на эту неделю</string>
+    <string name="constellation_fortune">Астрология</string>
+    <string name="constellation">Астрология</string>
+    <string name="constellationLove">Совпало:</string>
+    <string name="day_view_switch">День</string>
+    <string name="month_view_switch">Месяц</string>
+    <string name="week_view_switch">Неделя</string>
+    <string name="agendar_view_switch">Повестка</string>
+    <string name="side_title1">Вид</string>
+    <string name="side_title2">Инструменты</string>
+    <string name="actionbar_menu">Меню</string>
+    <string name="tool_more_info">Еще…</string>
+    <string name="tool_tip">Неподходящее значение. Повторите попытку</string>
+    <string name="set_repeat">Задать повтор</string>
+    <string name="bless_by_mms">MMS</string>
+    <string name="bless_by_call">Вызов</string>
+    <string name="customday_count_down">%d дней спустя</string>
+    <string name="search_key_words">Название, место и пометки</string>
+    <string name="come_and_go_agenda">Повестка</string>
+    <string name="calendar">Календарь</string>
+
+    <string name="preferences_alerts_reminder_status">Не беспокоить</string>
+    <string name="set_not_reminder">Некоторые напоминания могут побеспокоить Вас при смене часового пояса. Игнорировать их?</string>
+    <string name="not_reminder_time" formatted="false">Период действия: %s-%s</string>
+    <string name="system_time_set">Задать время</string>
+    <string name="preferences_alert_delay">Длительность напоминания</string>
+    <string name="preferences_alert_delay_title">Длительность напоминания</string>
+    <string name="suggestion_feed_back">Отзыв</string>
+    <string name="suggestion_feed_back_lable">Отзыв</string>
+    <string name="suggestion_feed_back_application">"Календарь "</string>
+    <string name="reciprocal_four_month">Апрель</string>
+    <string name="alert_phone_btn_title">Ответ вызовомl</string>
+    <string name="alert_sms_btn_title">Ответ SMS/MMS</string>
+    <string name="time_23_clock">23:00</string>
+    <string name="time_7_clock">7:00</string>
+    <string name="reminder_start_time">Время начала</string>
+    <string name="reminder_end_time">Время окончания</string>
+    <string name="custom_date">Польз.</string>
+    <string name="alert_snooze_btn_set_title">Время отложить</string>
+    <string name="updating_this_week_latest_tip">Последняя неделя</string>
+    <string name="normal_start_time">Время</string>
+    <string name="normal_last_time">Длительность</string>
+    <string name="normal_reminder_time">Напомнить заранее</string>
+    <string name="meet_start_time">Время</string>
+    <string name="meet_last_time">Длительность</string>
+    <string name="meet_reminder_time">Напомнить заранее</string>
+    <string name="reminders_label_allday_tips">Напомнить мне в 8:00</string>
+    <string name="reminders_label_meet_allday_tips">Напомнить мне в 8:00</string>
+
+
+
+
+    <string name="email_share">Эл.почта</string>
+    <string name="sms_share">SMS/MMS</string>
+    <string name="event_start_time_set">Задать время</string>
+    <string name="preferences_overdue_title">Просрочено</string>
+
+
+    <string name="security_hint">Это приложение может читать Вашу контактную информацию</string>
+    <string name="calendar_security_hint_title">Добро пожаловать в Календарь Coolpad</string>
+    <string name="show_dialog">Не показывать снова</string>
+    <string name="updating_this_week_failure_tip">Загрузка данных не удалась...</string>
+    <string name="constellation_desc">Описание знака Задиака</string>
+    <string name="updating_this_week_fate">Загрузка...</string>
+    <string name="men">Мужчина</string>
+    <string name="women">Женщина</string>
+    <string name="constellation_select">Выбор</string>
+    <string name="refresh">Обновить</string>
+    <string name="globalFortune">Удача</string>
+    <string name="loveFortune">Любовь</string>
+    <string name="workFortune">Работа</string>
+    <string name="investFortune">Инвестиции</string>
+    <string name="event_management">Управление событиями</string>
+    <string name="day_calc_moreinfo">Изучение специфических дат и интервалов</string>
+    <string name="day_calc">Подсчет даты</string>
+    <string name="rank_app">Отзыв</string>
+    <string name="year_view_switch">Год</string>
+    <string name="more_tools">Еще</string>
+    <string name="reply_title">Выбор типа карты</string>
+    <string name="endtime_before_starttime_toast">Время окончания не может быть раньше времени начала</string>
+    <string name="switch_button_text_on">ВКЛ</string>
+    <string name="switch_button_text_off">ВЫКЛ</string>
+    <string name="close_alarm_window_text">Проведите для закрытия расписания</string>
+</resources>

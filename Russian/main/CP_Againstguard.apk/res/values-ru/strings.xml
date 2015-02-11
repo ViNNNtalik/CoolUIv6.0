@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Антивор</string>
+    <string name="guard_help">"\u0009Антивор это специальная опция для топовых устройств, которая может эффективно защитить Ваши данные и помочь получить утерянное устройство обратно. Его функциональность позволяет:
+
+\u0009 1. Как только Вы включите Антивор, Вам необходимо будет ввести правильный пароль при включении устройство, иначе он войдет в режим \"Похищено\", в рамках которого доступна только наборная панель;
+
+\u0009 2. Когда Антивор включен, устройство сможет получать все специальные команды с резервного телефона и реагировать на такие опции, как блокировка SIM-карты и уничтожение данных.
+
+\u0009Специальные команды Антивора включают в себя:
+
+1. Команда уничтожения данных: Уничтожить данные
+
+2. Команда переадресации вызовов: Переадресация вызовов на XXX
+
+3. Остановка переадресации вызовов: Остановка переадресации вызовов
+
+4. Команда переадресации сообщений: Переадресация сообщений на XXX
+
+5. Остановка переадресации сообщений: Остановка переадресации сообщений
+
+6. Команда блокировки карты: Блокировать карту
+
+7. Команда выключения устройства: Выключить устройство
+
+8. Отмена команды Антивора: Отмена Антивора
+
+ \u0009Например, для уничтожения данных просто пошлите SMS с текстом “Уничтожить данные”, для переадресации вызовов - с текстом “Переадресация вызовов на XXX”, где XXX номер телефона, на который осуществлять переадресацию"</string>
+    <string name="guard_guide">"
+Специальные команды Антивора включают в себя:
+1. Уничтожение данных
+2. Блокировка SIM/UIM-карты
+3. Переадресация сообщений на номер XXX
+4. Остановка переадресации сообщений
+5. Отмена Антивора"</string>
+    <string name="tips">Подсказки</string>
+    <string name="no_sms">Функции антивора не эффективны, так как нет содержимого SMS</string>
+    <string name="no_phones">Функции антивора не эффективны, так как нет номера телефона</string>
+    <string name="exit_guard_tips">Функции антивора не эффективны, так как нет содержимого SMS или номера телефона</string>
+    <string name="switch_button_text_on">Вкл.</string>
+    <string name="switch_button_text_off">Выкл.</string>
+    <string name="setted">Установлено</string>
+    <string name="unsetted">Не установлено</string>
+    <string name="guard_commit">ОК</string>
+    <string name="guard_cancel">Отмена</string>
+    <string name="guard_help_title">Помощь</string>
+    <string name="guard_help_activity">Помощь</string>
+    <string name="guard_open">Включение Антивора</string>
+    <string name="guard_close">Выключение Антивора</string>
+    <string name="guard_send_sms_content">Содержание SMS при краже</string>
+    <string name="guard_receive_sms_num">Номера получателей SMS</string>
+    <string name="guard_receive_sms_num_eleven">Номера получателей SMS</string>
+    <string name="guard_num_1">Номер 1</string>
+    <string name="guard_num_2">Номер 2</string>
+    <string name="guard_num_3">Номер 3</string>
+    <string name="guard_send_sms_content_not_null">Нельзя отправлять пустое SMS</string>
+    <string name="guard_phones_not_null">Телефонный номер не может быть пустым</string>
+    <string name="num_regex">Неправильный телефонный номер</string>
+    <string name="guard_input_sms_content">Содержимое SMS при краже</string>
+    <string name="guard_phone_num">Номера получателей SMS</string>
+    <string name="guard_delete_all">Уничтожить данные</string>
+    <string name="guard_lock_card">Блокировать карту</string>
+    <string name="guard_shut_down">Выключить телефон</string>
+    <string name="guard_call_another">Переадресация вызовов на XXX</string>
+    <string name="guard_stop_call_another">Остановка переадресации вызовов</string>
+    <string name="guard_switch_sms">Переадресация сообщений на XXX</string>
+    <string name="guard_stop_switch_sms">Остановка переадресации сообщений</string>
+    <string name="guard_upload">Выгрузка данных</string>
+    <string name="guard_sms_cancel">Отмена Антивора</string>
+    <string name="content_is_null">Введите содержимое SMS и номер телефона</string>
+    <string name="sms_content_is_null">Введите содержимое SMS</string>
+    <string name="number_is_null">Введите номер телефона</string>
+    <string name="number_is_same">Дубликат телефонного номера</string>
+    <string name="number_is_invalid">Неправильный телефонный номер</string>
+</resources>

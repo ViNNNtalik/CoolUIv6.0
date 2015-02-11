@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/topbar_background" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/topbar_date_select" android:background="@drawable/topbar_button_bg_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/topbar_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2013-10-31" />
+            <TextView android:textSize="10.0dip" android:textColor="#ffe9d6ca" android:id="@id/topbar_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="день" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/topbar_arrow" android:background="@drawable/droplistbutton_arrow_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/topbar_today" android:background="@drawable/topbar_button_bg_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:background="@drawable/yl_topbar_today_line" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffe9d6ca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:text="@string/goto_today" />
+    </LinearLayout>
+</RelativeLayout>

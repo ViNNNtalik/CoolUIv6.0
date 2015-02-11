@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Локскрин</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="title_activity_main">Локскрин</string>
+    <string name="onekey_lock_prompt">Выберите опцию \"Включить\" для возможности блокирования экрана. Для отключения опции необходимо в Настройках - Безопасность - Администраторы устройства выключить для Лоскскрина</string>
+    <string name="onekey_lock_error_shut_off">"Ошибка: Пожалуйста вылючите опцию в приложении GO Locker"</string>
+    <string name="onekey_lock_error_active_again">"Ошибка: Блокировка не удалась. Попробуйте выключить и включить опцию для Локскрина Настройках - Безопасность - Администраторы устройства"</string>
+</resources>

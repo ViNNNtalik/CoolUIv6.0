@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remote_service_stopped">Удвленный сервич остановлен</string>
+    <string name="app_name">Dolby Плюс</string>
+    <string name="name_widget_extra_large">Dolby Плюс</string>
+    <string name="name_widget_large">Dolby Плюс</string>
+    <string name="name_widget_small">Dolby Плюс</string>
+    <string name="movie">Кино</string>
+    <string name="music">Музыка</string>
+    <string name="game">Игры</string>
+    <string name="voice">Голос</string>
+    <string name="preset_1">Польз. 1</string>
+    <string name="preset_2">Польз. 2</string>
+</resources>

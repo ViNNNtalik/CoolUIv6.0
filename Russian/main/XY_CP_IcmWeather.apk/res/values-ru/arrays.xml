@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="major_cities">
+         <item>Пекин</item>
+         <item>Шанхай</item>
+         <item>Гуанчжоу</item>
+         <item>Шэньчжэнь</item>
+         <item>Ухань</item>
+         <item>Нанкин</item>
+         <item>Ханчжоу</item>
+         <item>Сиань</item>
+         <item>Чжэнчжоу</item>
+         <item>Чэнду</item>
+         <item>Дунгуань</item>
+         <item>Шэньян</item>
+         <item>Тяньцзинь</item>
+         <item>Харбин</item>
+         <item>Чанша</item>
+         <item>Фучжоу</item>
+         <item>Шицзячжуан</item>
+         <item>Сучжоу</item>
+         <item>Чунцин</item>
+         <item>Уси</item>
+         <item>Цзинань</item>
+         <item>Далянь</item>
+         <item>Фошань</item>
+         <item>Сямынь</item>
+         <item>Наньчан</item>
+         <item>Тайюань</item>
+         <item>Чанчунь</item>
+         <item>Хэфэй</item>
+         <item>Пудун</item>
+         <item>Циндао</item>
+         <item>Шаньтоу</item>
+         <item>Куньмин</item>
+         <item>Наньнин</item>
+         <item>Гонконг</item>
+         <item>Макао</item>
+         <item>Тайбэй</item>
+     </string-array>
+     <string-array name="forecast_week">
+         <item>Понедельник</item>
+         <item>Вторник</item>
+         <item>Среда</item>
+         <item>Четверг</item>
+         <item>Пятница</item>
+         <item>Суббота</item>
+         <item>Воскресенье</item>
+     </string-array>
+     <string-array name="forecast_wind_vane">
+         <item>-</item>
+         <item>СВ</item>
+         <item>В</item>
+         <item>ЮВ</item>
+         <item>Ю</item>
+         <item>ЮЗ</item>
+         <item>З</item>
+         <item>СЗ</item>
+         <item>С</item>
+         <item>Нет</item>
+     </string-array>
+     <string-array name="forecast_wind_degree">
+         <item>Бриз</item>
+         <item>Бриз</item>
+         <item>Бриз</item>
+         <item>Бриз</item>
+         <item>Ветер</item>
+         <item>Легкий бриз</item>
+         <item>Сильный ветер</item>
+         <item>Порывистый ветер</item>
+         <item>Штормовой ветер</item>
+         <item>Штормовой ветер</item>
+         <item>Агрессивный ветер</item>
+         <item>Буря</item>
+         <item>Тайфун</item>
+     </string-array>
+     <string-array name="settting_update_period">
+         <item>Каждый час</item>
+         <item>Каждые 3 часа</item>
+         <item>Каждые 6 часов</item>
+         <item>Ежедневно</item>
+     </string-array>
+     <string-array name="aqi_effect">
+         <item>Хорошая погода</item>
+         <item>Умеренная погода</item>
+         <item>Легкое загрязнение</item>
+         <item>Вредный воздух</item>
+         <item>Рискованная погода</item>
+         <item>Опасная погода</item>
+     </string-array>
+     <string-array name="aqi_advice">
+        <item>Все люди будут чувствовать себя на улице отлично</item>
+        <item>Чрезвычайно чувствительные люди должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны по-максимуму сократить пребывание на улице. Остальные должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны избегать выхода на улицу. Остальные должны по-максимуму сократить пребывание на улице</item>
+        <item>Все избегать выхода на улицу. Людям с сердечными и легочными заболеваниями, пожилым и детям следует оставаться дома и не заниматься активными занятиями</item>
+    </string-array>
+    <string-array name="main_aqi_effect_tip">
+        <item>Все люди будут чувствовать себя на улице отлично</item>
+        <item>Чрезвычайно чувствительные люди должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны по-максимуму сократить пребывание на улице. Остальные должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны избегать выхода на улицу. Остальные должны по-максимуму сократить пребывание на улице</item>
+        <item>Все избегать выхода на улицу. Людям с сердечными и легочными заболеваниями, пожилым и детям следует оставаться дома и не заниматься активными занятиями</item>
+    </string-array>
+    <string-array name="pm_aqi_effect_tip">
+        <item>Все люди будут чувствовать себя на улице отлично</item>
+        <item>Чрезвычайно чувствительные люди должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны по-максимуму сократить пребывание на улице. Остальные должны предусмотреть непродолжительное нахождение на улице</item>
+        <item>Люди с сердечными и легочными заболеваниями, пожилые и дети должны избегать выхода на улицу. Остальные должны по-максимуму сократить пребывание на улице</item>
+        <item>Все избегать выхода на улицу. Людям с сердечными и легочными заболеваниями, пожилым и детям следует оставаться дома и не заниматься активными занятиями</item>
+    </string-array>
+     <string-array name="life_proposal_ware">
+         <item>Жарко</item>
+         <item>Комфортная температура</item>
+         <item>Комфортно</item>
+         <item>Комфортная прохлада</item>
+         <item>Прохладно</item>
+         <item>Прохладно</item>
+         <item>Холодно</item>
+         <item>Совсем зима</item>
+     </string-array>
+     <string-array name="life_proposal_cold">
+         <item>Свободная одежда</item>
+         <item>Легкая одежда</item>
+         <item>Теплая одежка</item>
+         <item>Шмоток по максимуму</item>
+     </string-array>
+     <string-array name="life_proposal_wash_car">
+         <item>Однозначно мыть</item>
+         <item>Как фишка ляжет</item>
+         <item>Лучше не стоит</item>
+         <item>Ни в коем случае</item>
+     </string-array>
+     <string-array name="life_proposal_ultravioletrays">
+         <item>Очень слабое излучение</item>
+         <item>Слабое излучение</item>
+         <item>Среднее излучение</item>
+         <item>Сильное излучение</item>
+         <item>Мощное излучение</item>
+     </string-array>
+     <string-array name="life_proposal_tour">
+         <item>Однозначно</item>
+         <item>Как фишка ляжет</item>
+         <item>На личное усмотрение</item>
+         <item>Лучше не стоит</item>
+         <item>Ни в коем случае</item>
+     </string-array>
+     <string-array name="life_proposal_makeup">
+         <item>Анти-крекинг</item>
+         <item>Увлажняющий крем</item>
+         <item>Масло</item>
+         <item>От загара</item>
+     </string-array>
+     <string-array name="life_proposal_sport">
+         <item>Однозначно</item>
+         <item>Как фишка ляжет</item>
+         <item>Ни в коем случае</item>
+    </string-array>
+    <string-array name="weather_style">
+         <item>Ясно</item>
+         <item>Облач.</item>
+         <item>Пасмур.</item>
+         <item>Дождь</item>
+         <item>Гроза</item>
+         <item>Град</item>
+         <item>Мокр. снег</item>
+         <item>Дождь</item>
+         <item>Умерен. дождь</item>
+         <item>Дождь</item>
+         <item>Шторм</item>
+         <item>Сильн. дождь</item>
+         <item>Пролив. дождь</item>
+         <item>Снег</item>
+         <item>Снег</item>
+         <item>Снег</item>
+         <item>Снег</item>
+         <item>Метель</item>
+         <item>Туман</item>
+         <item>Ледян. дождь</item>
+         <item>Песч. буря</item>
+         <item>Дождь</item>
+         <item>Умерен. дождь</item>
+         <item>Шторм. дождь</item>
+         <item>Сильн. дождь</item>
+         <item>Пролив. дождь</item>
+         <item>Снег</item>
+         <item>Умерен. снег</item>
+         <item>Сильн. снег</item>
+         <item>Метель</item>
+         <item>Песч.я буря</item>
+         <item>Сильн. буря</item>
+         <item>Шквал</item>
+         <item>Торнадо</item>
+         <item>Слабая метель</item>
+         <item>Туман</item>
+         <item>Дымка</item>
+    </string-array>
+    <string-array name="week_EEE">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="week_EE">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="week_E">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="week_ee">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="week_e">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="pm_aqi_level">
+         <item>Отличная погода</item>
+         <item>Хорошая погода</item>
+         <item>Умеренная погода</item>
+         <item>Легкое загрязнение</item>
+         <item>Вредный воздух</item>
+         <item>Рискованная погода</item>
+         <item>Опасная погода</item>
+    </string-array>
+    <string-array name="pm_bg_color">
+        <item>\#00a61c</item>
+        <item>\#b2b300</item>
+        <item>\#ff8329</item>
+        <item>\#cc3737</item>
+        <item>\#6800b3</item>
+        <item>\#800000</item>
+        <item>\#400000</item>
+    </string-array>
+    <string-array name="pm_aqi_content">
+        <item>您所在的城市空气质量优质，%1$s空气清新，出去享受下吧！</item>
+        <item>您所在的城市空气质量良好，%1$s空气质量还不错哦，可去户外活动下！</item>
+        <item>您所在的城市空气轻度污染，%1$s空气质量一般，放好心态，健康生活！</item>
+        <item>您所在的城市空气中度污染，%1$s空气质量较差，减少污染，为有蓝天做点贡献！</item>
+        <item>您所在的城市空气重度污染，%1$s空气污染如此严重，受不了！</item>
+        <item>您所在的城市空气严重污染，%1$s空气质量极差，对健康有严重危害！</item>
+        <item>您所在的城市空气污染已经爆表了，%1$s空气质量令人无法呼吸，祈求神来拯救你的城市吧！</item>
+    </string-array>
+    <string-array name="pm_aqi_content_middle">
+        <item>排名第%1$s，</item>
+    </string-array>
+    <string-array name="pm_share_content_add">
+        <item>空气质量优质</item>
+        <item>空气质量良好</item>
+        <item>空气轻度污染</item>
+        <item>空气中度污染</item>
+        <item>空气重度污染</item>
+        <item>空气严重污染</item>
+        <item>空气污染爆表了</item>
+     </string-array>
+    <string-array name="tuopan_color_array">
+        <item>По умолчанию</item>
+        <item>Черный</item>
+        <item>Белый</item>
+        <item>Красный</item>
+        <item>Зеленый</item>
+        <item>Голубой</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Классика</item>
+        <item>Планшет</item>
+        <item>Внутр. куб</item>
+        <item>Внеш. куб</item>
+        <item>Верт. переворот</item>
+        <item>Гориз. переворот</item>
+        <item>Стек</item>
+        <item>Увеличение</item>
+        <item>Вверх</item>
+        <item>Вниз</item>
+        <item>Аккордеон</item>
+    </string-array>
+</resources>

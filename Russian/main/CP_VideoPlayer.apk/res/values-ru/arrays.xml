@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+
+
+    <string-array name="OrderBy">
+        <item>Имя (по возрастанию)</item>
+        <item>Имя (по убыванию)</item>
+        <item>По времени  (по возрастанию)</item>
+        <item>По времени  (по убыванию)</item>
+        <item>Размер (по убыванию)</item>
+        <item>Размер (по возрастанию)</item>
+    </string-array>
+    <string-array name="player_setting_group">
+        <item>Настройки воспроизведения</item>
+        <item>Цвет субтитров</item>
+        <item>Размер субтитров</item>
+        <item>Низкая скорость</item>
+    </string-array>
+    <string-array name="player_setting_play_set">
+        <item>Повтор</item>
+        <item>Список</item>
+        <item>Один файл</item>
+    </string-array>
+    <string-array name="player_subtitles_colors">
+        <item>Белый</item>
+        <item>Красный</item>
+        <item>Зеленый</item>
+        <item>Голубой</item>
+    </string-array>
+    <string-array name="player_subtitles_size">
+        <item>Большие</item>
+        <item>Средние</item>
+        <item>Маленькие</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="player_scale_size">
+        <item>Оригинальный</item>
+        <item>Пропорциональный</item>
+        <item>Полный экран</item>
+    </string-array>
+</resources>

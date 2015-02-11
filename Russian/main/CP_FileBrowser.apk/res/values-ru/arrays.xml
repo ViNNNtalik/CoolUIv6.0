@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="BASIC_FONT_SIZE_ARRAY">
+        <item>18</item>
+        <item>16</item>
+        <item>14</item>
+        <item>12</item>
+        <item>10</item>
+        <item>8</item>
+    </integer-array>
+    <string-array name="isZip">
+        <item>Распаковать</item>
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Переименовать</item>
+        <item>Загрузка в Облако</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="isImage">
+        <item>Задать как</item>
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Переименовать</item>
+        <item>Загрузка в Облако</item>
+        <item>Упаковать (шифровать)</item>
+        <item>Упаковать и отправить</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="isAudio">
+        <item>Как мелодия SIM1</item>
+        <item>Как мелодия SIM2</item>
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Переименовать</item>
+        <item>Загрузка в Облако</item>
+        <item>Упаковать (шифровать)</item>
+        <item>Упаковать и отправить</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="isaudio">
+        <item>Как мелодия вызова</item>
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Переименовать</item>
+        <item>Загрузка в Облако</item>
+        <item>Упаковать (шифровать)</item>
+        <item>Упаковать и отправить</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="isFile">
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Переименовать</item>
+        <item>Загрузка в Облако</item>
+        <item>Упаковать (шифровать)</item>
+        <item>Упаковать и отправить</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="isDir">
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Упаковать (шифровать)</item>
+        <item>Упаковать и отправить</item>
+        <item>В Сейф</item>
+        <item>Переименовать</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="sortIsAudio">
+        <item>Как мелодия SIM1</item>
+        <item>Как мелодия SIM2</item>
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Открыть папку</item>
+        <item>Переименовать</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="sortIsaudio">
+        <item>Как мелодия вызова</item>
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Открыть папку</item>
+        <item>Переименовать</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="sortIsImage">
+        <item>Задать как</item>
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Открыть папку</item>
+        <item>Переименовать</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="sortElse">
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+        <item>Открыть папку</item>
+        <item>Переименовать</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="latest">
+        <item>Удалить</item>
+        <item>Открыть папку</item>
+    </string-array>
+    <string-array name="favoritefiles">
+        <item>Из избранного</item>
+        <item>Поделиться</item>
+        <item>В Сейф</item>
+    </string-array>
+    <string-array name="favoritedir">
+        <item>Из избранного</item>
+        <item>В Сейф</item>
+    </string-array>
+    <string-array name="compositor">
+        <item>Имя (по возрастанию)</item>
+        <item>Имя (по убыванию)</item>
+        <item>Тип</item>
+        <item>По времени  (по убыванию)</item>
+        <item>По времени  (по возрастанию)</item>
+        <item>Размер (по возрастанию)</item>
+        <item>Размер (по убыванию)</item>
+    </string-array>
+    <string-array name="safebox">
+        <item>Удалить</item>
+        <item>Переместить</item>
+        <item>Детали</item>
+        <item>Из Сейфа</item>
+    </string-array>
+    <string-array name="safeboxsetmode">
+        <item>Как приватный</item>
+        <item>Удалить</item>
+        <item>Переместить</item>
+        <item>Детали</item>
+        <item>Из Сейфа</item>
+    </string-array>
+    <string-array name="safeboxrelmode">
+        <item>Как общий</item>
+        <item>Удалить</item>
+        <item>Переместить</item>
+        <item>Детали</item>
+        <item>Из Сейфа</item>
+    </string-array>
+    <string-array name="browsermode">
+        <item>Список</item>
+        <item>Детализированный список</item>
+        <item>Плитки</item>
+    </string-array>
+    <string-array name="apkmanager">
+        <item>Удалить</item>
+        <item>Поделиться</item>
+        <item>Открыть папку</item>
+        <item>Переименовать</item>
+        <item>Детали</item>
+        <item>Ярлык для дом.экрана</item>
+    </string-array>
+    <string-array name="compressedpopupmenu">
+        <item>Копировать</item>
+    </string-array>
+    <string-array name="netsetting">
+        <item>Выгрузка/загрузка через Wi-Fi</item>
+        <item>Выгрузка/загрузка без ограничений</item>
+    </string-array>
+    <string-array name="netdiskpopupmenufile">
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+        <item>Скачать</item>
+    </string-array>
+    <string-array name="netdiskpopupmenu">
+        <item>Удалить</item>
+        <item>Копировать</item>
+        <item>Переместить</item>
+    </string-array>
+    <string-array name="cheanerLarge">
+        <item>Удалить</item>
+        <item>Детали</item>
+        <item>Открыть папку</item>
+    </string-array>
+    <string-array name="week_strings">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="weeks_string">
+        <item> </item>
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+</resources>

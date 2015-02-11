@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Термальный менеджер</string>
+    <string name="coolers">Кулеры</string>
+    <string name="thermal_sensors">Термальные сенсоры</string>
+    <string name="thermal_protection">Термальная защита</string>
+    <string name="thermal_policy_file_colon">"Файл с термальной политикой: "</string>
+    <string name="apply_new_thermal_policy">Принять новую термальную политику</string>
+    <string name="tz_device_info">Инфо TZ</string>
+    <string name="thermal_logger">Термальный логгер</string>
+    <string name="alert_dialog_two_buttons_title">Внимание, перегрев!</string>
+    <string name="alert_dialog_two_buttons_message">Телефон следует немедленно охладить!</string>
+    <string name="alert_dialog_ok">ОК</string>
+    <string name="alert_dialog_cancel">Отмена</string>
+</resources>

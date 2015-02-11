@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Неверный PIN код. Осталось попыток: %d</item>
+        <item quantity="one">Неверный PIN код. Осталось попыток: %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль должен содержать не менее %d букв</item>
+        <item quantity="one">Пароль должен содержать не менее 1 буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль должен содержать не менее %d строчных букв</item>
+        <item quantity="one">Пароль должен содержать не менее 1 строчной буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль должен содержать не менее %d заглавных букв</item>
+        <item quantity="one">Пароль должен содержать не менее 1 заглавной буквы</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль должен содержать не менее %d единичных цифр</item>
+        <item quantity="one">Пароль должен содержать не менее 1 единичной цифры</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль должен содержать не менее %d специальных символов</item>
+        <item quantity="one">Пароль должен содержать не менее 1 специального символа</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль должен содержать не менее %d небуквенных символов</item>
+        <item quantity="one">Пароль должен содержать не менее 1 небуквенного символа</item>
+    </plurals>
+    <plurals name="print_search_result_count_utterance">
+        <item quantity="other">Найдено принтеров: %1$s</item>
+        <item quantity="one">Найдено принтеров: %1$s</item>
+    </plurals>
+    <plurals name="nfc_off">
+        <item quantity="other">NFC выключено</item>
+        <item quantity="one">NFC выключено</item>
+    </plurals>
+    <plurals name="nfc_off_touch_set">
+        <item quantity="other">Включите NFC в Настройках</item>
+        <item quantity="one">Включите NFC в Настройках</item>
+    </plurals>
+    <plurals name="nfc_on">
+        <item quantity="other">NFC включено</item>
+        <item quantity="one">NFC включено</item>
+    </plurals>
+    <plurals name="nfc_on_touch_set">
+        <item quantity="other">Выключите NFC в Настройках</item>
+        <item quantity="one">Выключите NFC в Настройках</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы в %1$d шагах от статуса разработчика</item>
+        <item quantity="one">Вы в %1$d шаге от статуса разработчика</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Приложений: %d \nДоступ к чтению уведомлений</item>
+        <item quantity="one">Приложений: %d \nДоступ к чтению уведомлений</item>
+    </plurals>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Виджет календаря</string>
+    <string name="gadgetList_title">Календарь дела</string>
+    <string name="gadgetMonth_title">Календарь месяц</string>
+    <string name="gadget_no_events">Нет событий на сегодня и в ближайшие 7 дней</string>
+    <string name="today">Сег.</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="sunday">Пн</string>
+    <string name="monday">Вт</string>
+    <string name="tuesday">Ср</string>
+    <string name="wednesday">Чт</string>
+    <string name="thursday">Пт</string>
+    <string name="friday">Сб</string>
+    <string name="saturday">Вс</string>
+    <string name="sunday_rigo">Пн</string>
+    <string name="monday_rigo">Вт</string>
+    <string name="tuesday_rigo">Ср</string>
+    <string name="wednesday_rigo">Чт</string>
+    <string name="thursday_rigo">Пт</string>
+    <string name="friday_rigo">Сб</string>
+    <string name="saturday_rigo">Вс</string>
+    <string name="qingming">Цинмин</string>
+    <string name="no_title_label">(Без темы)​​​​​​​</string>
+    <string name="cal_lunar_text">lunar</string>
+    <string name="calendar_widget_bottomString" formatted="false">%s-%s</string>
+    <string name="calendar_widget_title" formatted="false">%S-%s</string>
+    <string name="calendar_widget_title_pre_next">%s</string>
+    <string name="Yue">месяц</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="alert_custom_birthday">"День рождения  "</string>
+    <string name="alert_custom_memory">"Юбилей  "</string>
+
+    <string name="ri">День</string>
+
+    <string name="format_type_zhouri">Воскресенье</string>
+    <string name="no_summ">Без темы</string>
+    <string name="loading_text">Загрузка</string>
+    <string name="Lunar_nanfangxiaonian">В миниатюре (юг)</string>
+    <string name="xiaonian">В миниатюре</string>
+    <string name="widget_type">YLWIDGET</string>
+    <string name="fontune">Календарь</string>
+    <string name="format_type">MMMM yyyy г.</string>
+    <string name="love">Любовь :</string>
+    <string name="work">Работа :</string>
+    <string name="fortune">Удача :</string>
+    <string name="cal_num">Первый</string>
+    <string name="cal_one">Месяц</string>
+    <string name="cal_weekend">Воскресенье</string>
+</resources>

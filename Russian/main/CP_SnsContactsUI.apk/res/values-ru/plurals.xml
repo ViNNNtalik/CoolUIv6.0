@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_log_some_min_ago">
+        <item quantity="other">%1$d мин. назад</item>
+        <item quantity="one">%1$d мин. назад</item>
+    </plurals>
+</resources>

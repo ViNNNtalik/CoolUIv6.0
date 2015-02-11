@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Доп. заводское меню</string>
+    <string name="success">ОК</string>
+    <string name="fail">Нет</string>
+    <string name="sdcardremoved">Нет SD-карты</string>
+    <string name="ok">ОК</string>
+    <string name="remind">Напомнить</string>
+    <string name="insertSD">Вставьте SD-карту</string>
+    <string name="errorreadSD">Ошибка чтения SD-карты</string>
+    <string name="total">"Всего： "</string>
+    <string name="available">"Доступно： "</string>
+    <string name="userate">"Используется： "</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_development_mode">
+        <item>Экспериментальный</item>
+        <item>Сетевой режим</item>
+        <item>Действующая сеть</item>
+        <item>RF-режим</item>
+    </string-array>
+    <string-array name="entries_monkey_mode">
+        <item>Вкл.</item>
+        <item>Выкл.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+    <string-array name="log_print_enable">
+        <item>Вкл.</item>
+        <item>Выкл.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sides">
+        <item>One Sided</item>
+        <item>Two Sided Long Edge</item>
+        <item>Two Sided Short Edge</item>
+    </string-array>
+    <string-array name="sides_val">
+        <item>one-sided</item>
+        <item>two-sided-long-edge</item>
+        <item>two-sided-short-edge</item>
+    </string-array>
+</resources>

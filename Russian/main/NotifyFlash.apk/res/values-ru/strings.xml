@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Уведомления вспышкой</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="Enable">Вкл.</string>
+    <string name="NormalMode">Общий режим</string>
+    <string name="VibrateMode">Режим совещания</string>
+    <string name="SilentMode">Тихий режим</string>
+    <string name="FlashOnSMS">Вспышка при SMS/MMS</string>
+    <string name="HOLIESTAR">Сайт поддержки</string>
+    <string name="Speed">Частота вспышек</string>
+    <string name="MayNotWorkTooFast">Может не работать, если частота слишком большая</string>
+    <string name="Settings_saved">Сохранено</string>
+    <string name="Stop_shake">Остановка встряской</string>
+    <string name="Give_rate">Проголосовать!</string>
+    <string name="Rate">Рейтинг</string>
+    <string name="Save_Exit">Сохранить и выйти</string>
+    <string name="IncomingAndSMS">Вызовы и SMS/MMS</string>
+    <string name="TimesOfFlashonSMS">SMS/MMS</string>
+    <string name="TimesOfFlashonCall">Вызовы</string>
+    <string name="TimesOfFlashonSMS_A">Количество вспышек</string>
+    <string name="TimesOfFlashonCall_A">Количество вспышек</string>
+    <string name="BatteryStop1">"Когда заряд батареи меньше "</string>
+    <string name="BatteryStop2">", не использовать вспышку"</string>
+    <string name="OK">ОК</string>
+    <string name="Times">раз.</string>
+    <string name="Always">Всегда</string>
+    <string name="Working_time">Время работы</string>
+    <string name="SUN">Вс</string>
+    <string name="MON">Пн</string>
+    <string name="TUE">Вт</string>
+    <string name="WED">Ср</string>
+    <string name="THU">Чт</string>
+    <string name="FRI">Пт</string>
+    <string name="SAT">Сб</string>
+    <string name="Added_Done">Добавлено</string>
+    <string name="PleaseWait">Ожидайте</string>
+    <string name="Loading">Загрузка</string>
+    <string name="FlashOnNotification">Вспышка при уведомлениях</string>
+    <string name="YouMustTurnOnAccessibilityService">Необходимо включить службу</string>
+    <string name="accessibility_description">"Вы должны включить данную службу для того, чтобы использовать вспышку при поступлении уведомлений от приложений.
+
+Это единственный способ включения вспышки при поступлении нового уведомления.
+
+Данная служба не собирает никакой личной информации.
+
+Ее главная и единственная цель - работа вспышки при уведомлениях."</string>
+    <string name="TimesOfFlashOnNotification">Количество вспышек</string>
+    <string name="EnableOnlyScreenOFF">Только при выключенном экране</string>
+    <string name="Disable_when_incoming">Выключено при входящем</string>
+    <string name="TimePicker">Установка времени</string>
+</resources>

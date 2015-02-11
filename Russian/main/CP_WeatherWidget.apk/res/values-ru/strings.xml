@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Прогноз погоды</string>
+    <string name="app_info">Прогноз погоды</string>
+    <string name="widget_type">YLWIDGET</string>
+    <string name="monday">Пн</string>
+    <string name="tuesday">Вт</string>
+    <string name="wednesday">Ср</string>
+    <string name="thursday">Чт</string>
+    <string name="friday">Пт</string>
+    <string name="saturday">Сб</string>
+    <string name="sunday">Вс</string>
+    <string name="string_month">Месяц</string>
+    <string name="string_day">День</string>
+    <string name="chinese_calendar">Китайский календарь</string>
+    <string name="none_date">Н/д</string>
+    <string name="null_string">Нет данных</string>
+    <string name="load_weather">Загрузка......</string>
+    <string name="wait">Ожидайте......</string>
+    <string name="load">Загрузка...</string>
+    <string name="city_beijing">Пекин</string>
+    <string name="city_shanghai">Шанхай</string>
+    <string name="city_xian">Сиань</string>
+    <string name="city_shenzhen">Шэньчжэнь</string>
+    <string name="city_guangzhou">Гуанчжоу</string>
+    <string name="pm_descript_yz">Отлично</string>
+    <string name="pm_descript_lh">Хорошо</string>
+    <string name="pm_descript_pr">Воздух</string>
+</resources>

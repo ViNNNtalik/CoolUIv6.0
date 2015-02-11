@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time">
+        <item>10 минут</item>
+        <item>30 минут</item>
+        <item>60 минут</item>
+        <item>90 минут</item>
+    </string-array>
+    <string-array name="time_value">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>3 недели</item>
+        <item>4 недели</item>
+        <item>5 недель</item>
+        <item>6 недель</item>
+        <item>7 недель</item>
+        <item>8 недель</item>
+        <item>9 недель</item>
+        <item>10 недель</item>
+        <item>11 недель</item>
+        <item>12 недель</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="local_item_options_1">
+        <item>Все</item>
+        <item>Избранное</item>
+        <item>Загрузки</item>
+        <item>Недавнее</item>
+        <item>Мои плейлисты</item>
+        <item>Музыкальные файлы</item>
+    </string-array>
+    <string-array name="local_item_options_2">
+        <item>"  "</item>
+        <item>"  "</item>
+        <item>"  "</item>
+        <item>"  "</item>
+        <item>"  "</item>
+        <item>"  "</item>
+    </string-array>
+    <string-array name="local_item_options2_1">
+        <item>Все</item>
+        <item>Избранное</item>
+        <item>Недавнее</item>
+        <item>Мои плейлисты</item>
+        <item>Музыкальные файлы</item>
+    </string-array>
+    <string-array name="local_item_options2_2">
+        <item>"  "</item>
+        <item>"  "</item>
+        <item>"  "</item>
+        <item>"  "</item>
+        <item>"  "</item>
+    </string-array>
+    <string-array name="menu_ringtone_list">
+        <item>Мелодия SIM1</item>
+        <item>Мелодия SIM2</item>
+    </string-array>
+    <string-array name="local_classify_items_text">
+        <item>Все</item>
+        <item>Избранное</item>
+        <item>Исполнитель</item>
+        <item>Недавнее</item>
+    </string-array>
+    <string-array name="local_classify_items_signal">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="ringtone_list">
+        <item>Мелодия SIM1</item>
+        <item>Мелодия SIM2</item>
+    </string-array>
+    <string-array name="music_downloadpath_index">
+        <item>Внутр.хранилище</item>
+        <item>SD-карта</item>
+    </string-array>
+</resources>

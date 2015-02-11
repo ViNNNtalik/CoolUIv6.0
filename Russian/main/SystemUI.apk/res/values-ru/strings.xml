@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
+    <string name="app_label">Графический интерфейс</string>
+    <string name="status_bar_clear_all_button">Очистить</string>
+    <string name="status_bar_do_not_disturb_button">Не беспокоить</string>
+    <string name="status_bar_please_disturb_button">Показать уведомления</string>
+    <string name="status_bar_recent_remove_item_title">Удаление из списка</string>
+    <string name="status_bar_recent_inspect_item_title">О приложении</string>
+    <string name="status_bar_no_recent_apps">Нет данных</string>
+    <string name="status_bar_accessibility_dismiss_recents">Закрыть недавние приложения</string>
+    <string name="status_bar_no_notifications_title">Нет уведомлений</string>
+    <string name="status_bar_ongoing_events_title">Текущие</string>
+    <string name="status_bar_other_notification_events_title">Другие уведомления</string>
+    <string name="status_bar_latest_events_title">Уведомления</string>
+    <string name="battery_low_title">Подключите зарядное устройство</string>
+    <string name="battery_low_subtitle">Батарея разряжена</string>
+    <string name="battery_low_percent_format">Осталось %d%%</string>
+    <string name="invalid_charger">"Зарядка через порт USB не поддерживается.
+Используйте только зарядное устройство из комплекта поставки"</string>
+    <string name="battery_low_why">Подробнее</string>
+    <string name="status_bar_settings_settings_button">Настройки</string>
+
+    <string name="status_bar_settings_airplane">Режим полета</string>
+    <string name="status_bar_settings_auto_rotation">Автоповорот экрана</string>
+    <string name="status_bar_settings_mute_label">ВЫКЛ.</string>
+    <string name="status_bar_settings_auto_brightness_label">АВТО</string>
+    <string name="status_bar_settings_notifications">Уведомления</string>
+
+
+    <string name="bluetooth_tethered">Общий модем доступен через Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Настройка способов ввода</string>
+    <string name="status_bar_use_physical_keyboard">Физическая клавиатура</string>
+    <string name="usb_device_permission_prompt">Открыть приложению \"%1$s\" доступ к USB-устройству?</string>
+    <string name="usb_accessory_permission_prompt">Открыть приложению \"%1$s\" доступ к USB-устройству?</string>
+    <string name="usb_device_confirm_prompt">Запускать %1$s при подключении этого USB-устройства?</string>
+    <string name="usb_accessory_confirm_prompt">Запускать %1$s при подключении этого USB-устройства?</string>
+    <string name="usb_accessory_uri_prompt">Приложения не поддерживают это USB-устройство. Подробнее о нем читайте здесь: %1$s</string>
+    <string name="title_usb_accessory">USB-устройство</string>
+    <string name="label_view">Просмотр</string>
+    <string name="always_use_device">Использовать по умолчанию для этого USB-устройства</string>
+    <string name="always_use_accessory">Использовать по умолчанию для этого USB-устройства</string>
+    <string name="usb_debugging_title">Разрешить отладку по USB?</string>
+    <string name="usb_debugging_message">"Отпечаток RSA-ключа для этого компьютера:
+%1$s"</string>
+    <string name="usb_debugging_always">Рарешить для этого компьютера</string>
+    <string name="compat_mode_on">Подогнать под размер экрана</string>
+    <string name="compat_mode_off">Растянуть на весь экран</string>
+    <string name="compat_mode_help_header">Масштаб и совместимость</string>
+    <string name="compat_mode_help_body">Если приложение рассчитано на экран меньших размеров, рядом с часами появятся средства масштабирования</string>
+    <string name="screenshot_saving_ticker">Сохранение...</string>
+    <string name="screenshot_saving_title">Сохранение...</string>
+    <string name="screenshot_saving_text">Скриншот сохранен</string>
+    <string name="screenshot_saved_title">Скриншот создан</string>
+    <string name="screenshot_saved_text">Нажмите, чтобы просмотреть</string>
+    <string name="screenshot_failed_title">Не удалось сохранить скриншот</string>
+    <string name="screenshot_failed_text">Не удалось сохранить скриншот. Возможно, накопители заняты</string>
+    <string name="usb_preference_title">Параметры передачи через USB</string>
+    <string name="use_mtp_button_title">Подключить как мультимедийный проигрыватель (MTP)</string>
+    <string name="use_ptp_button_title">Установить как камеру (PTP)</string>
+    <string name="installer_cd_button_title">Установить приложение</string>
+    <string name="accessibility_back">Назад</string>
+    <string name="accessibility_home">Главная страница</string>
+    <string name="accessibility_menu">Меню</string>
+    <string name="accessibility_recent">Недавние приложения</string>
+    <string name="accessibility_ime_switch_button">Кнопка переключения способа ввода</string>
+    <string name="accessibility_compatibility_zoom_button">Кнопка масштабирования (режим совместимости)</string>
+    <string name="accessibility_compatibility_zoom_example">Уменьшение изображения для увеличения свободного места на экране</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth-соединение установлено</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth-соединение разорвано</string>
+    <string name="accessibility_no_battery">Батарея разряжена</string>
+    <string name="accessibility_battery_one_bar">Батарея 25%</string>
+    <string name="accessibility_battery_two_bars">Батарея 50%</string>
+    <string name="accessibility_battery_three_bars">Батарея 75%</string>
+    <string name="accessibility_battery_full">Батарея полностью заряжена</string>
+    <string name="accessibility_no_phone">Сигнал сети отсутствует</string>
+    <string name="accessibility_phone_one_bar">Сигнал сети: одно деление</string>
+    <string name="accessibility_phone_two_bars">Сигнал сети: два деления</string>
+    <string name="accessibility_phone_three_bars">Сигнал сети: три деления</string>
+    <string name="accessibility_phone_signal_full">Надежный телефонный сигнал</string>
+    <string name="accessibility_no_data">Сигнал передачи данных отсутствует</string>
+    <string name="accessibility_data_one_bar">Сигнал передачи данных: одно деление</string>
+    <string name="accessibility_data_two_bars">Сигнал передачи данных: два деления</string>
+    <string name="accessibility_data_three_bars">Сигнал передачи данных: три деления</string>
+    <string name="accessibility_data_signal_full">Надежный сигнал передачи данных</string>
+    <string name="accessibility_wifi_off">Wi-Fi выкл.</string>
+    <string name="accessibility_no_wifi">Отсутствует подключение к Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi: одно деление</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi: два деления</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi: три деления</string>
+    <string name="accessibility_wifi_signal_full">Надежный сигнал Wi-Fi</string>
+    <string name="accessibility_no_wimax">Нет сигнала WiMAX</string>
+    <string name="accessibility_wimax_one_bar">Сигнал WiMAX: одно деление</string>
+    <string name="accessibility_wimax_two_bars">Сигнал WiMAX: два деления</string>
+    <string name="accessibility_wimax_three_bars">Сигнал WiMAX: три деления</string>
+    <string name="accessibility_wimax_signal_full">Надежный сигнал WiMAX</string>
+    <string name="accessibility_no_signal">Нет сигнала</string>
+    <string name="accessibility_not_connected">Нет соединения</string>
+    <string name="accessibility_zero_bars">Ноль полосок</string>
+    <string name="accessibility_one_bar">Одна полоска</string>
+    <string name="accessibility_two_bars">Две полоски</string>
+    <string name="accessibility_three_bars">Три полоски</string>
+    <string name="accessibility_signal_full">Полный сигнал</string>
+    <string name="accessibility_desc_on">Вкл.</string>
+    <string name="accessibility_desc_off">Выкл.</string>
+    <string name="accessibility_desc_connected">Соединено</string>
+
+
+
+
+    <string name="accessibility_data_connection_3.5g">3,5G</string>
+
+
+    <string name="accessibility_data_connection_roaming">Роуминг</string>
+
+
+    <string name="accessibility_no_sim">SIM-карта отсутствует</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth-модем</string>
+    <string name="accessibility_airplane_mode">Режим полета</string>
+    <string name="accessibility_battery_level">Батарея %d процентов</string>
+    <string name="accessibility_settings_button">Настройки</string>
+    <string name="accessibility_notifications_button">Уведомления</string>
+    <string name="accessibility_remove_notification">Удалить уведомление</string>
+    <string name="accessibility_gps_enabled">GPS включен</string>
+    <string name="accessibility_gps_acquiring">Установление связи с GPS</string>
+    <string name="accessibility_tty_enabled">Телетайп включен</string>
+    <string name="accessibility_ringer_vibrate">Вибровызов</string>
+    <string name="accessibility_ringer_silent">Беззвучный режим</string>
+    <string name="accessibility_recents_item_dismissed">%s отклонено</string>
+    <string name="accessibility_notification_dismissed">Уведомление отклонено</string>
+    <string name="accessibility_desc_notification_shade">Тень уведомления</string>
+    <string name="accessibility_desc_quick_settings">Быстрые настройки</string>
+    <string name="accessibility_desc_recent_apps">Последние приложения</string>
+    <string name="accessibility_quick_settings_user">Пользователь %s</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Моб. %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Батарея %s</string>
+    <string name="accessibility_quick_settings_airplane">В полете %s</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth %s</string>
+    <string name="accessibility_quick_settings_alarm">Будильник задан %s</string>
+    <string name="data_usage_disabled_dialog_3g_title">Передача данных по каналам 2G и 3G отключена</string>
+    <string name="data_usage_disabled_dialog_4g_title">Передача данных по каналу 4G отключена</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Мобильная передача данных отключена</string>
+    <string name="data_usage_disabled_dialog_title">Передача данных отключена</string>
+    <string name="data_usage_disabled_dialog">"Достигнут лимит трафика.
+
+При восстановлении подключения оператор может взимать плату за передачу данных"</string>
+    <string name="data_usage_disabled_dialog_enable">Восстановить подключение</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Нет подключения к Интернету</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi подключен</string>
+    <string name="gps_notification_searching_text">Поиск GPS</string>
+    <string name="gps_notification_found_text">Координаты по GPS</string>
+    <string name="accessibility_clear_all">Удалить все уведомления</string>
+    <string name="status_bar_notification_inspect_item_title">О приложении</string>
+    <string name="close_universe">Закрыть</string>
+    <string name="notifications_off_title">Уведомления отключены</string>
+    <string name="notifications_off_text">Нажмите здесь, чтобы снова включить уведомления</string>
+    <string name="accessibility_rotation_lock_off">Экран будет поворачиваться автоматически</string>
+    <string name="accessibility_rotation_lock_on_landscape">Экран заблокирован в ландшафтном режиме</string>
+    <string name="accessibility_rotation_lock_on_portrait">Экран заблокирован в портретном режиме</string>
+
+    <string name="start_dreams">Режим сна</string>
+
+    <string name="quick_settings_airplane_mode_label">Режим полета</string>
+    <string name="quick_settings_battery_charging_label">Зарядка, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Заряжено</string>
+
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d устройств)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth выкл.</string>
+    <string name="quick_settings_brightness_label">Яркость</string>
+    <string name="quick_settings_rotation_unlocked_label">Авто-поворот</string>
+    <string name="quick_settings_rotation_locked_label">Положение заблокировано</string>
+    <string name="quick_settings_ime_label">Метод ввода</string>
+    <string name="quick_settings_location_label">Местоположение используется</string>
+    <string name="quick_settings_media_device_label">Медиа-устройство</string>
+
+    <string name="quick_settings_rssi_emergency_only">Экстренный вызов</string>
+    <string name="quick_settings_settings_label">Настройки</string>
+    <string name="quick_settings_time_label">Время</string>
+    <string name="quick_settings_user_label">Я</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Нет соединения</string>
+    <string name="quick_settings_wifi_no_network">Нет сети</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi выкл.</string>
+    <string name="quick_settings_wifi_display_label">Wi-Fi-дисплей</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Wi-Fi-дисплей</string>
+    <string name="quick_settings_brightness_dialog_title">Яркость</string>
+
+    <string name="status_bar_help_title">Уведомления</string>
+    <string name="status_bar_expanded_start_network">Данные</string>
+    <string name="status_bar_expanded_stop_network">Данные</string>
+    <string name="status_bar_expanded_start_network_g">Данные</string>
+    <string name="status_bar_expanded_stop_network_g">Данные</string>
+    <string name="status_bar_expanded_data_net_status">Неизвестно</string>
+    <string name="status_bar_expanded_check_uimsim">Проверьте USIM-карту</string>
+    <string name="status_bar_expanded_check_sim">Проверьте UIM-карту</string>
+    <string name="status_bar_expanded_network_off">Сеть выкл.</string>
+    <string name="status_bar_expanded_network_forbid">Сеть запрещена</string>
+    <string name="status_bar_expanded_airplane_mode">Режим полета</string>
+    <string name="status_bar_expanded_mms_send_note">Подключение к сети, попробуйте позже</string>
+    <string name="status_bar_airplane_mode_send_note">Включен режим полета, сеть недоступна</string>
+
+
+  
+
+
+
+
+
+    <string name="kg_no_uim">Нет UIM или обслуживания</string>
+    <string name="kg_no_usim">Нет USIM или обслуживания</string>
+    <string name="kg_none_carrier">Неизв. оператор</string>
+    <string name="kg_no_service">Нет обслуживания</string>
+    <string name="status_bar_expanded_net_using_card">Используемая SIM-карта %d подключена к передаче данных. Вы можете изменитm этот параметр в настройках</string>
+
+    <string name="qs_label_brightness">Яркость</string>
+    <string name="qs_label_bluetooth">BT</string>
+    <string name="qs_label_location">GPS</string>
+    <string name="qs_label_rotation">Повор.</string>
+    <string name="qs_label_scenemode">Профиль аудио</string>
+    <string name="qs_label_standard">Общий</string>
+    <string name="qs_label_flight">Полет</string>
+    <string name="qs_label_meeting">Встреча</string>
+    <string name="qs_label_external">Улица</string>
+    <string name="qs_label_quiet">Тихий</string>
+    <string name="qs_label_custom">Польз.</string>
+
+    <string name="qs_label_phone">Вызов</string>
+    <string name="qs_label_saving">Батарея+</string>
+    <string name="qs_label_airplane">Полет</string>
+    <string name="qs_label_ringer">Мелод.</string>
+    <string name="qs_label_vibrate_ring">Вибро</string>
+    <string name="qs_label_super_saving">Вечно</string>
+    <string name="qs_label_viplist">Бел.сп.</string>
+    <string name="qs_label_viplist2">Бел.сп.</string>
+    <string name="qs_label_doublecard">Параметры Dual-SIM</string>
+    <string name="qs_label_setting">Настройки</string>
+    <string name="qs_label_speed">Очистка</string>
+    <string name="qs_label_silence">Тишина</string>
+    <string name="qs_label_softap">Модем</string>
+    <string name="qs_label_sdcard_uninstall">Удалить</string>
+    <string name="qs_label_show">Уведомление</string>
+    <string name="qs_label_hide">Уведомление</string>
+    <string name="qs_label_sdcard_install">Удалить</string>
+    <string name="qs_label_flow_monitor">Трафик</string>
+    <string name="qs_label_switching">Переключение</string>
+    <string name="qs_label_turning_on">Открытие</string>
+    <string name="qs_label_turning_off">Закрытие</string>
+    <string name="qs_label_blacklist">Перехватчик</string>
+    <string name="qs_label_blacklist2">Перехватчик</string>
+    <string name="qs_label_cbutton">C-клав.</string>
+    <string name="qs_label_nfc">NFC</string>
+    <string name="qs_label_mutlwindow">Мультиокно</string>
+    <string name="qs_label_secure_mode">Защита данных</string>
+    <string name="qs_label_super_secure_mode">Супер безопасный режим</string>
+    <string name="qs_label_dataprotection_mode">Защита данных</string>
+    <string name="qs_label_driving_mode">За рулем</string>
+    <string name="qs_label_ttwindow_mode">Новости</string>
+    <string name="qs_label_sound">Звук</string>
+    <string name="qs_label_data_roaming">Роуминг данных</string>
+    <string name="qs_label_shrink_screen">Масштабирование</string>
+    <string name="qs_label_flashlight">Фонар.</string>
+    <string name="status_bar_select_network1">SIM1</string>
+    <string name="status_bar_select_network2">SIM2</string>
+    <string name="status_bar_no_running_apps">Нет запущенных</string>
+    <string name="status_bar_recent_optimize">Детали</string>
+    <string name="status_bar_recent_delete">Удалить все</string>
+    <string name="status_bar_recent_historical">Задачи</string>
+    <string name="status_bar_recent_running">Запущено</string>
+    <string name="status_bar_screenshot_share">Поделиться</string>
+    <string name="status_bar_screenshot_edit">Редактировать</string>
+    <string name="status_bar_screenshot_save">Сохранить</string>
+    <string name="status_bar_notify_interception_disable">Выкл.</string>
+    <string name="status_bar_notify_interception_enable">Вкл.</string>
+    <string name="qs_major_bar_tips">Показывать в панели уведомлений (не больше 10)</string>
+    <string name="qs_minor_bar_tips">Не показывать в панели уведомлений</string>
+    <string name="status_bar_recent_memory">Память</string>
+    <string name="status_bar_recent_memory_used">Исп. памяти:</string>
+    <string name="status_bar_recent_memory_free">Свободно:</string>
+    <string name="status_bar_recent_memory_item_used">Исп.:</string>
+    <string name="status_bar_recent_memory_total">Всего памяти:</string>
+    <string name="status_bar_earphones_connected">Подключены наушники</string>
+    <string name="status_bar_screenshot_copytoclipboard">Скопировано в буфер обмена</string>
+    <string name="status_bar_enable_data_roaming">Роуминг вкл.</string>
+    <string name="status_bar_disable_data_roaming">Роуминг выкл.</string>
+
+    <string name="status_bar_expand_autobright">Автояркость</string>
+    <string name="status_bar_notification_manager">Управление уведомлениями</string>
+    <string name="status_bar_other_notify">Еще</string>
+    <string name="status_bar_other_notify_back">Назад</string>
+    <string name="qs_label_multiple_accounts_name">Владелец</string>
+    <string name="status_bar_3g_priority">Приоритет 3G</string>
+    <string name="status_bar_4g_priority">Приоритет 4G</string>
+    <string name="brightness_dlg_brightness">Яркость</string>
+    <string name="brightness_dlg_adjust">(ручн.)</string>
+    <string name="brightness_dlg_auto">Авто</string>
+    <string name="clear_notify_all_oldman">Очистка уведомлений</string>
+    <string name="other_notification_format">Прочих уведомлений: %d</string>
+    <string name="other_notification_expand"></string>
+    <string name="title_activity_package_list">Настройки</string>
+    <string name="title_show_notifcaiton">Показывать уведомления</string>
+    <string name="title_show_statusbar">Показывать на панели</string>
+    <string name="title_show_other">Показывать в прочих</string>
+    <string name="title_show_notification_center">Центр уведомлений</string>
+    <string name="title_show_floating">Плавающие уведомления</string>
+    <string name="title_show_floating_sub">После разблокировки экрана вверху отображаются уведомления, а затем автоматически исчезают</string>
+    <string name="title_show_effect_preview">Предпросмотр изображений</string>
+    <string name="item_center_notifcaiton_title">Управление строкой состояния</string>
+    <string name="item_center_notifcaiton_sub">Уведомления</string>
+    <string name="item_center_notifcaiton_management">Управление уведомлениями</string>
+    <string name="item_center_notifcaiton_lockscreen_dragdown">Использование строки состояния при блокировке</string>
+    <string name="item_center_notifcaiton_ccm">Показывать имя оператора</string>
+    <string name="item_center_notifcaiton_control">Центр управления</string>
+    <string name="item_center_notifcaiton_quicksettings">Быстрые настройки</string>
+    <string name="item_center_notifcaiton_other">Разное</string>
+    <string name="item_center_notifcaiton_obsessive">Обсессивно-компульсивное расстройство элементов</string>
+    <string name="item_center_notifcaiton_obsessive_hide">Скрыть метку иконки</string>
+    <string name="item_center_notifcaiton_obsessive_clear">Очистка метки иконки при встряхивании</string>
+    <string name="item_show_notifcaiton">Уведомления</string>
+    <string name="item_show_statusbar">Панель</string>
+    <string name="item_show_other">Прочие</string>
+    <string name="item_show_none">Нет</string>
+
+    <string name="status_bar_super_secure_system_mode">Супер безопасный режим включен. Выйдите из него для включения функции</string>
+    <string name="quicksettings_more">Еще</string>
+    <string name="quicksettings_edit_disable">Редактировать</string>
+    <string name="quicksettings_edit_enable">Выход</string>
+    <string name="capital_on">ВКЛ</string>
+    <string name="capital_off">ВЫКЛ</string>
+</resources>

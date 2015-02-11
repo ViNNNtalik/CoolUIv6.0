@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_killself">true</string>
+    <string name="height">450</string>
+    <string name="list_line_heigh3">200</string>
+    <string name="list_line_heigh_2">200</string>
+    <string name="item_cloud">true</string>
+    <string name="show_yidong">false</string>
+    <string name="app_name">Виджет часов</string>
+    <string name="time_am">" AM"</string>
+    <string name="time_pm">" PM"</string>
+    <string name="analogclock_widget_name">Аналог.часы</string>
+    <string name="worldclock_digit_twocity_widget">Двойные часы с погодой</string>
+    <string name="worldclock_digit_widget">Двойные часы</string>
+    <string name="title">Город</string>
+    <string name="sunday">Вс</string>
+    <string name="monday">Пн</string>
+    <string name="tuesday">Вт</string>
+    <string name="wednesday">Ср</string>
+    <string name="thursday">Чт</string>
+    <string name="friday">Пт</string>
+    <string name="saturday">Сб</string>
+    <string name="hint">Поиск города</string>
+    <string name="ok">ОК</string>
+    <string name="china_month">Месяц</string>
+    <string name="china_day">День</string>
+    <string name="china_am">AМ</string>
+    <string name="china_pm">PМ</string>
+    <string name="load">Загрузка...</string>
+    <string name="alarm_label">Будильник</string>
+    <string name="widget_type">YLWIDGET</string>
+    <string name="shenzhen">Шэньчжэнь</string>
+    <string name="no_data">Нет данных</string>
+</resources>

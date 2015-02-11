@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+
+    <string name="COTA_HISTORY_UPDTAE">Обновить</string>
+    <string name="COTA_HISTORY_NO_FILE">Нет файла</string>
+    <string name="COTA_HISTORY_CLAER">Очистить</string>
+    <string name="COTA_HISTORY_UPDATE_FAILED">Обновление не удалось</string>
+    <string name="COTA_HISTORY_UPDATE_SUCCESS">Успешно обновлено</string>
+    <string name="COTA_HISTORY_INSTALL">Установка пакета обновления</string>
+    <string name="COTA_HISTORY_UPDATE_LATER">Обновиться через час</string>
+    <string name="COTA_HISTORY_DOWNLOAD_COMPLETE">Загрузка завершена</string>
+    <string name="COTA_HISTORY_CANCEL_DOWNLOADING">Отмена загрузки</string>
+    <string name="COTA_HISTORY_CANCLE_DOWNLOAD">Отмена загрузки</string>
+    <string name="COTA_HISTORY_DOWNLOAD_LATER">Через час после загрузки</string>
+    <string name="COTA_HISTORY_DOWNLOAD_LATER12">Через 12 часов после загрузки</string>
+    <string name="COTA_HISTORY_NEW_VERSION_EXIST">Проверить новую версию</string>
+    <string name="COTA_HISTORY_NO_NEW_VERSION">Нет новой версии</string>
+    <string name="COTA_HISTORY_REGISTER_SUCCESS">Успешно зарегистрировано</string>
+    <string name="COTA_HISTORY_REGISTER_FAILED">Регистрация не удалась</string>
+    <string name="COTA_HISTORY_REGISTER_START">Начало регистрации</string>
+    <string name="COTA_HISTORY_CHECK_VERSION_BEGIN">Начало проверки версии</string>
+    <string name="COTA_HISTORY_DOWNLOAD_START">Начало загрузки</string>
+    <string name="COTA_HISTORY_INSTALL_FAILED">Установка пакета обновления не удалась</string>
+    <string name="COTA_HISTORY_DOWNLOAD_FAILED">Низкий заряд батареи. Загрузка не удалась</string>
+    <string name="COTA_HISTORY_UPADTE_FAILED_LOW_BATTERY">Низкий заряд батареи. Обновление не удалось</string>
+    <string name="COTA_HISTORY_UPADTE_FAILED_SD_ABSENT">Нет SD-карты. Обновление не удалось</string>
+    <string name="COTA_HISTORY_UPADTE_FAILED_SD_LOW_SPACE">Нет места на SD-карте. Обновление не удалось</string>
+    <string name="COTA_HISTORY_DOWNLOAD_FAILED_NET_BREAK">Ошибка сети. Загрузка не удалась</string>
+    <string name="COTA_HISTORY_DOWNLOAD_FAILED_OTHER">Неизвестная ошибка. Загрузка не удалась</string>
+    <string name="COTA_HISTORY_UPADTE_FAILED_PACHAGE_ERROR">Загрузка завершена. Ошибка проверки пакета</string>
+    <string name="COTA_HISTORY_INSTALL_PACKAGE_ABSENT">Во время установки пакет не обнаружен</string>
+    <string name="COTA_HISTORY_INSTALL_SD_ABSENT">Во время установки не найдена SD-карта</string>
+    <string name="COTA_HISTORY_DOWNLOAD_ALREADY">"Загружено: "</string>
+    <string name="COTA_HISTORY_DOWNLOAD_RETRY_TIME">Количество попыток: n =</string>
+
+    <string name="app_name">Обновление</string>
+
+    <string name="dlg_btn_positive_autoupdate">Вкл.</string>
+    <string name="dlg_btn_negative_autoupdate">Выкл.</string>
+    <string name="dlg_message_autoupdate">"Автоматическая проверка обновления предоставляется компанией Coolpad
+
+ После закрытия диалога Вы можете изменить опции атомат.обновления: \“Настройки>Об устройстве>Обновление системы Coolpad\”
+
+ Запрос: Автомат. проверка обновлений потребляет незначительное количество трафика
+"</string>
+    <string name="dlg_title_autoupdate">Автомат. провека обновления</string>
+    <string name="reboot_to_update_system">Запрос перезагрузки при обновлении</string>
+    <string name="show_dialog_when_reboot_to_update">Обновление системы требует перезагрузки Вашего устройства</string>
+    <string name="dlg_btn_positive_download">Загрузка</string>
+    <string name="dlg_btn_backup_download">Загрузка</string>
+    <string name="dlg_btn_negative_download">Отмена</string>
+    <string name="test">(публичная бета)</string>
+    <string name="dlg_btn_later_download">Позже</string>
+    <string name="dlg_message_download">Разработчики Coolpad всегда стремятся улучшить свои продукты. Пакет обновления (Версия %s) готов к загрузке</string>
+    <string name="big_version_message_download">"\u0009\u0009Разработчики Coolpad всегда стремятся улучшить свои продукты и пользовательский опыт. Обновление содержит новую версию Android. Поскольку размер обновления очень большой, рекомендуется использовать Wi-Fi
+\u0009\u0009Это очень важное обновление, поэтому будет сделан бэкап
+Версия: %s"</string>
+    <string name="dlg_message_download2">Запрос: Обновление прошивки не влияет на пользовательские данные</string>
+    <string name="dlg_message_download3">Вы можете запустить обновление вручную \“Настройки>Об устройстве>Обновление системы Coolpad\”</string>
+    <string name="dlg_title_download">Загрузка системного пакета</string>
+    <string name="dlg_check_wifi_download">Напомнить через час</string>
+    <string name="dlg_btn_positive_update">ОК</string>
+    <string name="dlg_btn_negative_update">Отмена</string>
+    <string name="dlg_btn_later_update">Позже</string>
+    <string name="dlg_message_update">"Новое обновление системы (версия %s) готово к использванию.
+
+Устройство автоматически перезагрузится дня начала обновления, если Вы выберите обновиться сейчас. Обновление может занять несколько минут 
+
+Обновление прошивки не влияет на пользовательские данные
+Устройство автоматически перезагрузится после обновления
+Не выключайте устройство во время обновления
+"</string>
+    <string name="dlg_title_update">Обновление прошивки</string>
+    <string name="toast_package_downloading_in_background">Пакет обновления загружается в фоне</string>
+    <string name="toast_no_available_update">Ваша прошивка самая последняя!</string>
+    <string name="toast_no_available_update_roaming">В связи с нахождением в роуминге не рекомендуется проверять наличие обновления</string>
+    <string name="toast_server_not_available">Ваша прошивка самая последняя!</string>
+    <string name="toast_in_update">Ваше устройство обновляется. Попробуйте позже</string>
+    <string name="toast_connect_not_available">Нет сети. Проверьте подключение!</string>
+    <string name="toast_result_cancel_download">Отменено пользователем до загрузки</string>
+    <string name="toast_result_backup_fail">Ошибка бэкапа</string>
+    <string name="toast_result_cancel_downloading">Отменено пользователем во время загрузки</string>
+    <string name="toast_result_download_fail">Ошибка загрузки. Обновление отменено</string>
+    <string name="toast_result_update_success">Успешно обновлено</string>
+    <string name="toast_result_update_failure">Загруженный пакет содержит ошибки. Обновление не удалось</string>
+    <string name="dlg_result_update_failure">Системное обновление не удалось, так как есть проблемы с правами суперпользователя</string>
+    <string name="toast_result_cancel_update">Омена пользователем перед обновлением</string>
+    <string name="toast_result_disk_full">"Загрузка отменена из-за нехватки места. Перезагрузите устройство и попробуйте заново"</string>
+    <string name="toast_show_dialog_again">Вы можете воспользоваться системой обновления позже</string>
+    <string name="toast_turnon_wifi">Wi-Fi выключен. Включите его</string>
+    <string name="toast_internet_wifi">Убедитесь, что Ваше подключение по Wi-Fi имеет соединение с Интернетом</string>
+    <string name="toast_download_package">Ожидайте. Загрузка пакета обновления скоро начнется</string>
+    <string name="toast_check_package">Загрузка пакета завершена. Не выключайте устройство во время его проверки</string>
+    <string name="title_autoupdate">Автомат. обновление</string>
+    <string name="title_download_mandatory">Загрузка обязательного пакета</string>
+    <string name="title_download_optional">Загрузка дополнительного пакета</string>
+    <string name="title_update_mandatory">Обновление обязательного пакета</string>
+    <string name="title_update_optional">Обновление дополнительного пакета</string>
+    <string name="title_putin_password">Введите пароль</string>
+    <string name="login_password_hit">Введите пароль</string>
+    <string name="password_error">Ошибка пароля</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="password_is_null">Пароль недоступен</string>
+    <string name="pkg_size">Размер пакета:</string>
+
+    <string name="pkg_time">"Осталось: "</string>
+    <string name="pkg_note">"Описание пакета:  
+"</string>
+    <string name="time_hour">" час."</string>
+    <string name="time_minute">" мин."</string>
+    <string name="time_second">" сек."</string>
+    <string name="select_server">Выбор сервера</string>
+    <string name="address_internal">Внутренний адрес тестового сервера</string>
+    <string name="address_external">Внешний адрес официального сервера</string>
+    <string name="login_doing">Проверка пароля</string>
+    <string name="check_doing">Получение пароля от сервера, ожидайте</string>
+    <string name="clear">Очистить параметры OTA</string>
+    <string name="function_test">Тестовые функции OTA только для инженеров</string>
+    <string name="enable">Включить автомат.обновление OTA</string>
+    <string name="disable">Выключить автомат.обновление OTA</string>
+    <string name="update">Проверить новое обновление OTA</string>
+    <string name="set_address">Задать адрес сервера OTA</string>
+    <string name="mode_optional">Опциональный режим</string>
+    <string name="mode_super">Супер режим</string>
+    <string name="mode_selection">Заметка：Это полезно только для тестового сервера</string>
+    <string name="mode_selection_show">"Выбор режима: "</string>
+    <string name="download_title">Пакет обновления</string>
+    <string name="downloading_update_package">Загрузка пакета обновления</string>
+    <string name="OK">ОК</string>
+    <string name="CANCEL">Отмена</string>
+    <string name="please_wait_while_checking">Ожидайте, пока идет проверка...</string>
+    <string name="please_wait_while_updating">Ожидайте, пока идет обновление. Не выключайте устройство во время обновления</string>
+    <string name="download_progress">\u0009\u0009\u0009%1$s из %2$sMB загружено...</string>
+    <string name="toast_remind_insert_sdcard">Вам необходимо загрузить пакет обновления на SD-карту. Вставьте SD-карту и повторите попытку</string>
+    <string name="toast_sdcard_space_not_enough">Недостаточно места. Удалите ненужные файлы и попробуйте заново</string>
+    <string name="toast_sdcard_pullout">SD-карта извлечена. Вставьте ее заново</string>
+    <string name="toast_udisk_not_larger_then_50M">Убедитесь, что на SD-карте свободно как минимум 80M и попробуйте заново</string>
+    <string name="toast_download_to_csche">Пакет обновления будет загружен на внутреннее хранилище</string>
+    <string name="toast_download_to_sdcard">Пакет обновления будет загружен на  SD-карту</string>
+    <string name="toast_dataspace_not_enough">Недостаточно места на внутреннем хранилище. Вставьте SD-карту для продолжения</string>
+    <string name="toast_cachespace_not_enough_remind_insert_sdcard">Недостаточно места на внутреннем хранилище. Вставьте SD-карту для продолжения</string>
+    <string name="toast_redownload">В прошлый раз обновление было прервано. Пожалуйста, перед обновлением перезагрузите устройство</string>
+    <string name="toast_update_modem_fail">Система обновлена</string>
+    <string name="toast_remind_change_to_ctnet">Не удалось подключится к WAP</string>
+    <string name="toast_power_not_enough">Низкий заряд батареи. Запустите обновление заново после зарядки</string>
+    <string name="toast_network_disconnect">Нет сети</string>
+    <string name="dlg_btn_confirm">ОК</string>
+    <string name="dlg_message_power_low">Низкий заряд батареи. Зарядите батарею и попробуйте заново</string>
+    <string name="dlg_title_hint">Информация</string>
+    <string name="dlg_title_super_update">Оптимизация системы</string>
+    <string name="dlg_message_super_update">"Ваша система требует оптимизации. После ее завершения устройство будет работать более лпавно
+Обновление прошивки не влияет на пользовательские данные
+Не выключайте устройство во время оптимизации"</string>
+    <string name="dlg_btn_positive_super_update">ОК</string>
+    <string name="dlg_btn_later_super_update">Позже</string>
+    <string name="dlg_hit_already_set_as">"Задано как: "</string>
+    <string name="dlg_hit_already_set_test">Пароль совпадаает с настройками сервера!</string>
+    <string name="toast_change_net_network">Переключение на 3G, возможно большое потребление трафика</string>
+    <string name="allow_update_to_older_version">Разрешение обновления на старую версию</string>
+    <string name="allow_update_to_older_version_hit">Только для тестирования. Может привести к старой версии</string>
+    <string name="get_system_property_value">"Версия: "</string>
+    <string name="system_property_value_lc">LC (Пакетная версия, официальный сервер по умолчанию)</string>
+    <string name="system_property_value_cs">CS (Тестовая версия, тестовый сервер по умолчанию)</string>
+    <string name="system_property_value_null">Не определено (Сервер по умолчанию зависит от DM-тега)</string>
+    <string name="ota_test_button">Тест OTA</string>
+    <string name="ota_settings">Настройки обновления прошивки</string>
+    <string name="ota_check_update">Проверка</string>
+    <string name="ota_check_update_for_result">Проверка новой версии прошивки</string>
+    <string name="auto_update_checked_on">Система проверяет обновления раз в 3 дня</string>
+    <string name="auto_update_checked_off">Система не проверяет обновления</string>
+    <string name="download_ask_every_time">Спрашивать перед загрузкой пакета обновления</string>
+    <string name="download_ask_every_time_on">Увеломдять, когда доступна новая версия</string>
+    <string name="download_ask_every_time_off">Скачивать пакет обновления автоматически</string>
+    <string name="wifi_available_auto_download">Загрузка по Wi-Fi</string>
+    <string name="wifi_available_auto_download_on">Загружать пакеты, когда Wi-Fi доступен</string>
+    <string name="wifi_available_auto_download_off">Не загружать пакеты автоматически поWi-Fi</string>
+    <string name="toast_ota_setting_hint">Вы можете настроить в Настройки>Об устройстве>Обновление системы Coolpad</string>
+    <string name="download_settings">Настройки загрузки пакетов</string>
+    <string name="ota_property_test">Тест свойств OTA</string>
+    <string name="phone_model">Модель устройства</string>
+    <string name="phone_hardware">Аппаратная версия</string>
+    <string name="phone_software">Версия ПО</string>
+    <string name="phone_sn">Серийный номер</string>
+    <string name="phone_dm_tag">DM-тег</string>
+    <string name="phone_auto_check">Автомат. проверка обновения</string>
+    <string name="phone_next_check_time">Когда проверить обновление</string>
+    <string name="already_download_file">Загрузка завершена</string>
+    <string name="ota_history_record">История OTA</string>
+    <string name="ota_history_record_start">Запуск записи OTA</string>
+    <string name="ota_runningmode_control">Запуск режима контроля OTA</string>
+    <string name="message_current_version">"Текущая версия прошивки
+%s"</string>
+    <string name="message2_update_version">"Версия прошивки обновления
+%s"</string>
+    <string name="message3_tips_youhua1">Последнее обновление включает несколько обновлений. Вы можете скачать для немедленного обновления системы</string>
+    <string name="message3_tips_youhua2">Нажмите \"ОК\" для обновления прошивки</string>
+    <string name="message4_package_size">Размер: %sMB</string>
+    <string name="message5_update_detail">Детали обновления</string>
+    <string name="message7_note">"Заметка：
+1. Обновление прошивки не влияет на пользовательские данные
+2. Загрузка обновления может потреблять много трафика"</string>
+    <string name="message_current_detail">Детали</string>
+    <string name="toast_in_downloading">Загрузка пакета обновления. Делали можно просмотреть в панели уведомлений</string>
+    <string name="message_no_history">Нет обновления</string>
+    <string name="toast_show_dialog_again12">Этот диалог появится снова после %s</string>
+    <string name="address_pretest">Адрес пре-теста</string>
+    <string name="toast_ota_in_preTest_server">Ваш адрес сервера совпадает с пре-тестовым сервером</string>
+    <string name="toast_ota_swith_preTest_server">Переключение Вашего сервера на пре-тестовый сервер!</string>
+    <string name="toast_ota_swith_internal_server">Переключение Вашего сервера на тестовый сервер!</string>
+    <string name="toast_ota_swith_external_server">Переключение Вашего сервера на общий сервер!</string>
+    <string name="welcome_use_ota">Добро пожаловать в OTA</string>
+    <string name="user_confirm_message">OTA генерирует трафик для загрузки пакетов обновлений</string>
+    <string name="no_confirm_next_time">Больше не напоминать</string>
+    <string name="hold_on_while_checking">Идет проверка, ожидайте...</string>
+    <string name="message_new_version">Новая версия</string>
+    <string name="message_cur_version">Текущая версия</string>
+    <string name="hold_on_while_downloading">Ожидайте, пока пакет обновления загружается...</string>
+    <string name="message_new">Найдена новая версия!</string>
+    <string name="message_new_version_find">Новая версия: %s</string>
+    <string name="begin_update">Начать обновление</string>
+    <string name="update_need_to_reboot">Обновление требует перезагрузки системы</string>
+    <string name="ok_to_reboot">Перезагрузить сейчас</string>
+    <string name="later_to_reboot">Перезагрузить позже</string>
+    <string name="progress_text">%1$s Мб / %2$s Мб</string>
+    <string name="update_package_size_text">Размер пакета: %s Мб</string>
+    <string name="address_server">Значение предоставлено сервером</string>
+    <string name="system_update">Обновление системы</string>
+    <string name="application_update">Обновление приложений</string>
+    <string name="message_sending_file">Загрузка завершена. Отправка файла через Центр синхронизации</string>
+</resources>

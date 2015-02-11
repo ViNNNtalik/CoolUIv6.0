@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мультиокно</string>
+    <string name="sidebar_edit">Редакт.</string>
+    <string name="sidebar_complete">ОК</string>
+    <string name="editpanel_note">Нажмите/перетащите иконку</string>
+</resources>

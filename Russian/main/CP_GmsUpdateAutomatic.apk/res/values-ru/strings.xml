@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, installGmsPackage!</string>
+    <string name="app_name">Установка пакета GAPPS</string>
+    <string name="messageInstall">Ваше устройство будет перезагружено для установки пакета GAPPS</string>
+    <string name="messageNotfound">Не найден пакет GAPPS на устройстве. Будет запущена загрузка  с официального веб-сайта Coolpad!</string>
+    <string name="gmstitle">Установка пакета GAPPS</string>
+    <string name="template_user_agent">%1$s/%2$s (Linux; Android)</string>
+    <string name="GMS_SERVER_PREFIX">http://www.51coolpad.com/updsvr/gms/</string>
+    <string name="GMS_MANAGE_SERVER">http://www.51coolpad.com</string>
+    <string name="GMS_DOWNLOADING">Загрузка пакета GAPPS, ожидайте!</string>
+    <string name="REMIND_INSERT_SDCARD">Вставьте SD-карту</string>
+    <string name="REMIND_SPACE_NOT_ENOUGH">Недостаточно места на SD-карте</string>
+    <string name="REMIND_SYSTEM_NOT_MOUNTE">Ошибка монтирования</string>
+    <string name="REMIND_SYSTEM_NOT_ENOUGH">Недостаточно места на внутреннем хранилище</string>
+    <string name="REMIND_POWER_NOT_ENOUGH">Низкий заряд батареи, отмена установки</string>
+    <string name="REMIND_INTERNET_NOT_CONNECT">Вставьте SIM-карту или включите сеть</string>
+    <string name="GMS_CANCEL_DOWNLOADING">Отменить загрузку пакета GAPPS или нет?</string>
+    <string name="GMS_TITLE_DOWNLOADING">Загрузка пакета GAPPS</string>
+    <string name="REMIND_DOWNLOAD_FAILED">Ошибка загрузки пакета GAPPS. Повторите еще раз!</string>
+    <string name="REMIND_WAITING_SERVICE">Подключение к серверу</string>
+    <string name="REMIND_COMPLETE_DOWNLOAD">Загрузка пакета GAPPS завершена. Нажмите для установки!</string>
+    <string name="REMIND_TITLE_DOWNLOAD">Установка пакета GAPPS!</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <string name="button_ok_text">ОК</string>
+    <string name="button_cancel_text">Отмена</string>
+    <string name="button_yes_text">Да</string>
+    <string name="button_no_text">Нет</string>
+    <string name="button_abort_text">Отмена</string>
+    <string name="button_retry_text">Повтор</string>
+    <string name="button_ignore_text">Игнорировать</string>
+    <string name="button_delete_text">Удалить</string>
+    <string name="button_set_text">Задать</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="button_exit_text">Выход</string>
+    <string name="switch_button_text_on">Вкл.</string>
+    <string name="switch_button_text_off">Выкл.</string>
+    <string name="adscription_unknow">Неизв.</string>
+    <string name="cooperation_exception">Исключение</string>
+    <string name="password_hint">Подсказка</string>
+    <string name="password_maxlength">32</string>
+    <string name="title">Введите пароль</string>
+    <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
+    <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
+    <string name="login_password_error_dialog_msg1">Неправильный пароль. Можно ввести 1 раз</string>
+    <string name="login_password_error_dialog_msg2">Неправильный пароль. Можно ввести 2 раза</string>
+    <string name="set_question_title">Вопрос</string>
+    <string name="set_answer_title">Ответ</string>
+    <string name="need_set_answer_dialog_msg">Введите ответ</string>
+    <string name="answer_maxlength">28</string>
+    <string name="answer_error_dialog_msg">Неправильный ответ</string>
+    <string name="password_hint_title">Подсказка</string>
+    <string name="your_password_is_dialog_msg">Ваш пароль</string>
+    <string name="security_password_login">Ввод</string>
+    <string name="security_password_title">Пароль приложения</string>
+    <string name="recipeint">Адресат</string>
+    <string name="selectAll">Выбрать все</string>
+    <string name="paste">Вставить</string>
+    <string name="inputMethod">Метод ввода</string>
+    <string name="select">Выбор</string>
+    <string name="cut">Вырезать</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+    <string name="search">Baidu-поиск</string>
+    <string name="clipboard">Буфер обмена</string>
+
+    <string name="stringtopinyinhint">Не распознано</string>
+    <string name="time_picker_dialog_title">Задать время</string>
+    <string name="date_year_toggle">Год</string>
+    <string name="textOverMaxLengthWarnning">максимальная длина</string>
+    <string name="copy_hint_text">Копирование завершено</string>
+    <string name="delOne">Удалить из буфера обмена</string>
+    <string name="delAll">Очистить буфера обмена</string>
+    <string name="clipboardOper">Операции с буфером обмена</string>
+    <string name="cansell">Отмена</string>
+    <string name="openClipboardSound">Вкл. тон клавиш</string>
+    <string name="closeClipboardSound">Выкл. тон клавиш</string>
+    <string name="char_append">или</string>
+    <string name="lookup_tel_details_en">Просмотр деталей</string>
+    <string name="lookup_tel_details_cn">Просмотр деталей</string>
+    <string name="lookup_tel_details_tw">Просмотр деталей</string>
+    <string name="dialog_title_choose_tel">Выбор контакта для просмотра деталей</string>
+    <string name="lunar_calendar_show">Лунный календарь</string>
+    <string name="image_cooperation_title">Опции приложения</string>
+    <string name="date_picker_dialog_title">Задать дату</string>
+    <string name="date_picker_year_checkbox_text">Год</string>
+    <string name="date_picker_lunar_checkbox_text">Лунный</string>
+    <string name="date_picker_allday_checkbox_text">Весь день</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="unSelect_all">Снять выделение</string>
+    <string name="list_action_mode_selected">"Выбрано "</string>
+
+    <string name="list_action_mode_total">"Всего "</string>
+    <string name="actionbar_mainmenu_text">Меню</string>
+    <string name="action_mode_item_more">Еще</string>
+
+    <string name="search_hint_text">Введите ключевые слова</string>
+    <string name="common_search_hint_text">Поиск</string>
+    <string name="contact_chooser_text">Контакты</string>
+    <string name="clipboard2_title">Буфер обмена</string>
+    <string name="clipboard2_operate_dialog_title">Операции с буфером обмена</string>
+    <string name="clipboard2_operate_delete">Удаление из буфера обмена</string>
+    <string name="clipboard2_operate_lock">Блокировать</string>
+    <string name="clipboard2_operate_unlock">Разблокировать</string>
+    <string name="clipboard2_operate_cancel">Отмена</string>
+    <string name="clipboard2_clear_dialog_title">Информация</string>
+    <string name="clipboard2_clear_dialog_main_content">Очистить буфер обмена?</string>
+    <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
+    <string name="clipboard2_clear_dialog_ok">ОК</string>
+    <string name="clipboard2_clear_dialog_cancel">Отмена</string>
+    <string name="commonbutton_settext_hint">Введите текст</string>
+    <string name="time_picker_separator">:</string>
+    <string name="common_forget_password">Забыли пароль?</string>
+    <string name="common_login_del">Очистка</string>
+    <string name="google_search_head">http://www.google.com/search?complete=1&amp;q=</string>
+</resources>

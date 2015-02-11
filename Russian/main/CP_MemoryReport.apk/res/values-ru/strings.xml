@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Отчет о памяти</string>
+    <string name="memtotal">Всего памяти:</string>
+    <string name="freetotal">Всего свободно:</string>
+    <string name="usedtotal">Всего используется:</string>
+    <string name="memoryreportInfo">Из Отчета о памяти：</string>
+    <string name="settingsInfo">Из системных настроек：</string>
+    <string name="writetofile">Записать в файл</string>
+    <string name="readfromfile">Читать из файла</string>
+    <string name="showsystemprogress">Показать системный прогресс</string>
+    <string name="systemprogressInfo">Информация о системном прогрессе</string>
+    <string name="showapplication">Показывать прогресс о приложениях</string>
+    <string name="applicationInfo">Информация о приложениях</string>
+    <string name="showCpuInfo">Показывать информацию о CPU</string>
+    <string name="CPUInfo">Информация о CPU</string>
+    <string name="icon">Иконка</string>
+    <string name="shortcut">Создать ярлык</string>
+    <string name="shortcut_success">Создано</string>
+    <string name="openReportMemory">Открыть Отчет о памяти</string>
+    <string name="closeReportMemory">Закрыть Отчет о памяти</string>
+    <string name="btOK">ОК</string>
+    <string name="btCancel">Отмена</string>
+    <string name="reporting">Создание отчета…</string>
+    <string name="loading">Загрузка, ожидайте…</string>
+    <string name="packageName">Пакет:</string>
+    <string name="memory">Память:</string>
+    <string name="sharedMemory">Выдел.память:</string>
+    <string name="processes">Процессы:</string>
+    <string name="reportInfo">Отчет о состоянии системы</string>
+    <string name="reportSystemState">Отчет о состоянии системы</string>
+    <string name="outputFilePath">Путь выходного файла:</string>
+    <string name="txMemoryWatch">Наблюдение за памятью</string>
+    <string name="txMemorythreshold">Порог нехватки памяти</string>
+    <string name="btEventLostWatch">Наблюдение ANR</string>
+    <string name="btPowerErrorWatch">Наблюдение за ошибкой батареи</string>
+    <string name="btStorageWatch">Наблюдение за накопителем</string>
+    <string name="open">Открыть</string>
+    <string name="close">Закрыть</string>
+    <string name="kill_progress">Закрыть процесс?</string>
+</resources>

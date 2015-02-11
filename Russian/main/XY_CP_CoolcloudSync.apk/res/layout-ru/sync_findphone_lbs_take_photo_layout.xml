@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0dip" android:textColor="#fff29508" android:gravity="center" android:id="@id/remind" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:text="Получить!!!" android:layout_above="@id/clock" />
+    <ImageView android:id="@id/clock" android:background="@drawable/sync_findphone_cal_alarm_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="16.0dip" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+    <Button android:textSize="20.0dip" android:textColor="@color/lbs_camera_btn_text_color" android:gravity="center" android:id="@id/btn_no_reminder" android:background="@drawable/sync_findphone_lbs_alarm_btn_selector" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="38.0dip" android:text="Не напоминать" android:layout_below="@id/clock" android:layout_centerHorizontal="true" />
+</RelativeLayout>

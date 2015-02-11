@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">C-клавиша</string>
+    <string name="button_back">Назад</string>
+    <string name="button_home">Домой</string>
+    <string name="button_brightness">Яркость</string>
+    <string name="button_silence">Без звука</string>
+    <string name="button_sound">Звук</string>
+    <string name="button_screenshot">Скриншот</string>
+    <string name="button_lock">Локскрин</string>
+    <string name="brightness_auto">Автояркость</string>
+    <string name="button_onekey_system_improve">Оптимизация</string>
+    <string name="button_flex">Коллапс</string>
+    <string name="button_onekey_system_improve_back_two_line">
+Оптимизация</string>
+    <string name="button_more">Еще</string>
+    <string name="button_multitask">Многозадачность</string>
+    <string name="button_locked_rotate">G-сенсор</string>
+    <string name="button_unlocked_rotate">G-сенсор</string>
+    <string name="button_volume">Громкость</string>
+    <string name="button_menu">Меню</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="auto_adjust_brightness">Автояркость</string>
+    <string name="button_null" />
+    <string name="button_favorite">Избранное</string>
+    <string name="button_reboot">Рестарт</string>
+    <string name="button_shutdown">Выкл. питание</string>
+    <string name="choose_apps">Выбор элем.</string>
+    <string name="function">Функции</string>
+    <string name="app">Прил.</string>
+    <string name="description">Отображение плавающей клавиши для облегчения работы одной рукой</string>
+</resources>

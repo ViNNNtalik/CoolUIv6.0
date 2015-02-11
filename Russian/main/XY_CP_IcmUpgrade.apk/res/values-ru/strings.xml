@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Обновление2</string>
+    <string name="action_settings">%s приложений имеют обновления. Нажмите для просмотра</string>
+
+    <string name="notification_update_immediately">Обновить сейчас</string>
+    <string name="notification_replace_immediately">Заменить сейчас</string>
+    <string name="notification_update_ignore">Игнорировать</string>
+    <string name="upgrade_all">Обновить все</string>
+    <string name="no_upgrade">Нет приложений для обновления</string>
+    <string name="app_size">Размер:</string>
+    <string name="app_version">Версия:</string>
+    <string name="update_item_update_text">Обновление</string>
+    <string name="update_item_pause_text">Пауза</string>
+    <string name="update_item_continue_text">Продолжить</string>
+    <string name="update_item_install_text">Установка</string>
+    <string name="no_effective_networks">Нет подходящей сети</string>
+    <string name="please_insert_sdcard">Вставьте SD-карту!</string>
+    <string name="notification">Уведомления</string>
+    <string name="ignore_ok">Игнорировать обновления %s?</string>
+    <string name="ignore">Игнорировать</string>
+    <string name="cancel">Отмена</string>
+    <string name="download_failed">Ошибка загрузки!</string>
+    <string name="retry">Повтор</string>
+    <string name="description_title">Новая версия</string>
+    <string name="waiting">Ожидание</string>
+    <string name="downloadlist_text_tile">Обновление приложений</string>
+    <string name="downloadlist_text_update_success">Успешно обновлено</string>
+</resources>

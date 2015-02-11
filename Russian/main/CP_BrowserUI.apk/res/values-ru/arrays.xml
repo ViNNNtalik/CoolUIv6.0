@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="browser_google">
+        <item>Google</item>
+        <item>google.com</item>
+        <item>http://www.google.com/favicon.ico</item>
+        <item>http://www.google.com/search?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}</item>
+    </string-array>
+    <string-array name="browser_baidu">
+        <item>Baidu</item>
+        <item>baidu.com</item>
+        <item>http://www.baidu.com/favicon.ico</item>
+        <item>http://www.baidu.com/s?wd={searchTerms}</item>
+        <item>GB2312</item>
+        <item></item>
+    </string-array>
+    <string-array name="browser_bing_zh_TW">
+        <item>Bing</item>
+        <item>bing.com</item>
+        <item>http://www.bing.com/s/wlflag.ico</item>
+        <item>http://www.bing.com/search?setmkt=zh-TW&amp;q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}</item>
+    </string-array>
+    <string-array name="browser_yahoo_tw">
+        <item>Yahoo!</item>
+        <item>tw.yahoo.com</item>
+        <item>http://tw.search.yahoo.com/favicon.ico</item>
+        <item>http://tw.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+        <item>UTF-8</item>
+        <item></item>
+    </string-array>
+    <string-array name="browser_search139">
+        <item>139 Search</item>
+        <item>139.com</item>
+        <item></item>
+        <item>http://s.139.com/search.do?q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item></item>
+    </string-array>
+    <string-array name="browser_add_mode_list">
+        <item>Из закладок</item>
+        <item>Из истории</item>
+        <item>Вручную</item>
+    </string-array>
+    <string-array name="browser_edit_mode_list">
+        <item>В новой вкладке</item>
+        <item>Редактировать</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="browser_edit_default_list">
+        <item>В новой вкладке</item>
+    </string-array>
+    <string-array name="browser_pref_flash_using_choices">
+        <item>Всегда вкл.</item>
+        <item>По запросу</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="browser_array_share_link_choices">
+        <item>Эл.письмо</item>
+        <item>Weibo</item>
+        <item>Bluetooth</item>
+        <item>SMS/MMS</item>
+    </string-array>
+    <string-array name="browser_history_contextmenu_item_choices">
+        <item>В новой вкладке</item>
+        <item>В навигацию</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="browser_history_contextmenu_item_choices_cm">
+        <item>В новой вкладке</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="browser_clear_downlads_deleted_item_choices_cm">
+        <item>Удалить файлы</item>
+    </string-array>
+    <string-array name="browser_browser_function_tips">
+        <item>Длинное нажатие Назад - быстрый возврат на первую веб-страницу</item>
+        <item>Длинное нажатие в правом углу скроллера - быстрая прокрутка списков</item>
+        <item>Длинное нажатие на веб-страницах для всплывающих меню</item>
+        <item>В режиме инкогнито не записываются история посещения сайтов, поиска и Cookies</item>
+        <item>Нажатие страницы для включения элементов</item>
+        <item>Нажатие левой клавиши - быстрое добавление в закладки</item>
+        <item>В режиме без фото загружается быстрее</item>
+        <item>Режим в фоне - позволяет быстро открывать новые страницы в фоне</item>
+        <item>Кнопка полного экрана может легко перемещаться</item>
+        <item>Автоматически делаются нестандартные URL для поисковых страниц</item>
+        <item>Нажатие правой клавиши в истории - быстрое добавление в закладки</item>
+        <item>Нажатие меню закладок - быстрое переключение между видами просмотра</item>
+        <item>Можно легко создать бэкап всех локальных закладок</item>
+        <item>Можно легко создать бэкап всех локальных закладок и истории посещений</item>
+    </string-array>
+    <string-array name="browser_browser_about">
+        <item>"Версия (перевод ViNNNtalik): "</item>
+        <item>"Версия Webkit: "</item>
+        <item>"История изменений: "</item>
+    </string-array>
+    <string-array name="browser_preferences_front_light_values">
+        <item>ON</item>
+        <item>AUTO</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="browser_preferences_front_light_options">
+        <item>@string/browser_preferences_front_light_on</item>
+        <item>@string/browser_preferences_front_light_auto</item>
+        <item>@string/browser_preferences_front_light_off</item>
+    </string-array>
+    <string-array name="browser_mental_prompt_array">
+        <item>www.</item>
+        <item>www.</item>
+        <item>wap.</item>
+        <item>wap.</item>
+        <item>http://</item>
+        <item>http://</item>
+        <item>https://</item>
+        <item>https://</item>
+    </string-array>
+    <string-array name="browser_chief_push_array">
+        <item>百度</item>
+        <item>http://m.baidu.com</item>
+        <item>新浪</item>
+        <item>http://www.sina.com.cn</item>
+        <item>凤凰</item>
+        <item>http://i.ifeng.com/cptouch?vt=4&amp;ch=zd_kp_llsy</item>
+        <item>谷歌</item>
+        <item>http://www.google.com/m</item>
+        <item>搜狐</item>
+        <item>http://wap.sohu.com/?v=3&amp;fr=yulong_AN_0815</item>
+        <item>网易</item>
+        <item>http://www.163.com</item>
+        <item>微博</item>
+        <item>http://weibo.cn</item>
+        <item>3G门户</item>
+        <item>http://xuan.3g.cn</item>
+    </string-array>
+    <string-array name="browser_common_url">
+        <item>网易</item>
+        <item>http://3g.163.com</item>
+        <item>新浪</item>
+        <item>http://3g.sina.com.cn</item>
+        <item>hao123</item>
+        <item>http://wap.hao123.com</item>
+        <item>3G新闻中心</item>
+        <item>http://news.3g.cn</item>
+        <item>21CN</item>
+        <item>http://3g.21cn.com</item>
+        <item>空中网</item>
+        <item>http://kong.net</item>
+        <item>网易</item>
+        <item>http://www.163.com/index.html</item>
+        <item>雅虎中国</item>
+        <item>http://cn.yahoo.com</item>
+        <item>腾讯</item>
+        <item>http://www.qq.com</item>
+        <item>TOM</item>
+        <item>http://www.tom.com</item>
+        <item>中国新闻网</item>
+        <item>http://www.chinanews.com.cn</item>
+        <item>新浪新闻</item>
+        <item>http://news.sina.com.cn</item>
+        <item>联合早报</item>
+        <item>http://www.zaobao.com</item>
+        <item>南方网</item>
+        <item>http://www.southcn.com</item>
+        <item>环球时报</item>
+        <item>http://www.huanqiu.com</item>
+        <item>中国政府网</item>
+        <item>http://www.gov.cn</item>
+        <item>NBA中国</item>
+        <item>http://nba.tom.com</item>
+        <item>体坛周报</item>
+        <item>http://www.titan24.com</item>
+        <item>第一足球网</item>
+        <item>http://www.1soccer.com</item>
+        <item>新浪体育</item>
+        <item>http://sports.sina.com.cn</item>
+        <item>TOM体育</item>
+        <item>http://sports.tom.com</item>
+        <item>腾讯体育</item>
+        <item>http://sport.qq.com</item>
+        <item>金融界</item>
+        <item>http://www.jrj.com.cn</item>
+        <item>经济观察报</item>
+        <item>http://www.eeo.com.cn</item>
+        <item>中金在线</item>
+        <item>http://www.cnfol.com</item>
+        <item>21财经网</item>
+        <item>http://www.21cbh.com</item>
+        <item>和讯网</item>
+        <item>http://www.hexun.com</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com</item>
+        <item>当当网</item>
+        <item>http://home.dangdang.com</item>
+        <item>卓越网</item>
+        <item>http://www.amazon.cn</item>
+        <item>苏宁易购</item>
+        <item>http://www.suning.cn</item>
+        <item>京东商城</item>
+        <item>http://union.360buy.com/union_default.aspx?union_Id=35</item>
+        <item>阿里巴巴</item>
+        <item>http://china.alibaba.com</item>
+        <item>中华军事</item>
+        <item>http://military.china.com/zh_cn</item>
+        <item>新浪军事</item>
+        <item>http://mil.news.sina.com.cn</item>
+        <item>铁血军事</item>
+        <item>http://www.tiexue.net</item>
+        <item>凤凰军事</item>
+        <item>http://news.ifeng.com/mil</item>
+        <item>环球军事</item>
+        <item>http://mil.huanqiu.com</item>
+        <item>国防部</item>
+        <item>http://www.mod.gov.cn</item>
+        <item>新浪汽车</item>
+        <item>http://auto.sina.com.cn</item>
+        <item>搜狐汽车</item>
+        <item>http://auto.sohu.com/?pvid=tc_c22dd567dc5d3e75</item>
+        <item>爱卡汽车</item>
+        <item>http://www.xcar.com.cn</item>
+        <item>太平洋汽车</item>
+        <item>http://www.pcauto.com.cn</item>
+        <item>易车网</item>
+        <item>http://www.bitauto.com</item>
+        <item>天涯社区</item>
+        <item>http://www.tianya.cn</item>
+        <item>百度贴吧</item>
+        <item>http://tieba.baidu.com</item>
+        <item>猫扑杂烩</item>
+        <item>http://dzh.mop.com</item>
+        <item>新浪微博</item>
+        <item>http://t.sina.com.cn</item>
+        <item>豆瓣社区</item>
+        <item>http://www.douban.com</item>
+        <item>世纪佳缘</item>
+        <item>http://www.jiayuan.com</item>
+        <item>携程旅行网</item>
+        <item>http://www.ctrip.com</item>
+        <item>去哪儿网</item>
+        <item>http://www.qunar.com</item>
+        <item>酷讯网</item>
+        <item>http://www.kuxun.cn</item>
+        <item>到到旅游网</item>
+        <item>http://www.daodao.com</item>
+        <item>芒果旅行网</item>
+        <item>http://www.mangocity.com</item>
+        <item>中青旅遨游</item>
+        <item>http://www.aoyou.com</item>
+        <item>网易邮箱</item>
+        <item>http://email.163.com</item>
+        <item>新浪邮箱</item>
+        <item>http://mail.sina.com.cn</item>
+        <item>雅虎邮箱</item>
+        <item>http://mail.cn.yahoo.com</item>
+        <item>Hotmail</item>
+        <item>http://www.hotmail.com</item>
+        <item>Gmail</item>
+        <item>http://www.gmail.com</item>
+        <item>QQ邮箱</item>
+        <item>http://mail.qq.com</item>
+        <item>起点</item>
+        <item>http://www.qidian.com</item>
+        <item>小说阅读网</item>
+        <item>http://www.readnovel.com</item>
+        <item>潇湘书院</item>
+        <item>http://www.xxsy.net</item>
+        <item>红袖添香</item>
+        <item>http://www.hongxiu.com</item>
+        <item>榕树下</item>
+        <item>http://www.rongshuxia.com</item>
+        <item>逐浪小说</item>
+        <item>http://www.zhulang.com</item>
+        <item>太平洋电脑</item>
+        <item>http://www.pconline.com.cn</item>
+        <item>CSDN.NET</item>
+        <item>http://www.csdn.net</item>
+        <item>电脑资讯网</item>
+        <item>http://www.cnbeta.com</item>
+        <item>开源中国社区</item>
+        <item>http://www.oschina.net</item>
+        <item>天空软件</item>
+        <item>http://www.skycn.com</item>
+        <item>华军软件</item>
+        <item>http://www.onlinedown.net</item>
+        <item>网易博客</item>
+        <item>http://blog.163.com</item>
+        <item>新浪博客</item>
+        <item>http://blog.sina.com.cn</item>
+        <item>搜狐博客</item>
+        <item>http://blog.sohu.com</item>
+        <item>51博客</item>
+        <item>http://www.51.com</item>
+        <item>QQ空间</item>
+        <item>http://qzone.qq.com</item>
+        <item>百度空间</item>
+        <item>http://hi.baidu.com</item>
+        <item>太平洋手机</item>
+        <item>http://mobile.pconline.com.cn</item>
+        <item>手机世界</item>
+        <item>http://www.3533.com</item>
+        <item>腾讯手机</item>
+        <item>http://digi.tech.qq.com/mobile</item>
+        <item>手机中国</item>
+        <item>http://www.cnmo.com</item>
+        <item>泡泡手机</item>
+        <item>http://mobile.pcpop.com</item>
+        <item>新浪手机</item>
+        <item>http://tech.sina.com.cn/mobile</item>
+    </string-array>
+    <array name="browser_common_url_overseas" />
+    <array name="browser_BOOKMARKS">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>百度</item>
+        <item>http://www.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn</item>
+        <item>@raw/browser_def_thumb_sina</item>
+        <item>凤凰网</item>
+        <item>http://i.ifeng.com/cptouch?vt=4&amp;ch=zd_kp_llsy</item>
+        <item>@raw/browser_def_thumb_ifeng</item>
+        <item>新华网</item>
+        <item>http://www.xinhuanet.com</item>
+        <item>@raw/browser_def_thumb_xinhua</item>
+        <item>谷歌</item>
+        <item>http://www.google.com/m</item>
+        <item>@raw/browser_def_thumb_google</item>
+        <item>东方财富</item>
+        <item>http://www.eastmoney.com</item>
+        <item>@raw/browser_def_thumb_money</item>
+        <item>唐高网</item>
+        <item>http://www.golf998.com</item>
+        <item>@raw/browser_def_thumb_golf</item>
+        <item>39健康网</item>
+        <item>http://www.39.net</item>
+        <item>@raw/browser_def_thumb_39</item>
+        <item>游多多</item>
+        <item>http://www.yododo.com</item>
+        <item>@raw/browser_def_thumb_yododo</item>
+        <item>汽车之家</item>
+        <item>http://www.autohome.com.cn</item>
+        <item>@raw/browser_def_thumb_auto</item>
+        <item>搜房网</item>
+        <item>http://www.soufun.com</item>
+        <item>@raw/browser_def_thumb_soufun</item>
+        <item>搜狐网</item>
+        <item>http://wap.sohu.com/?v=3&amp;fr=yulong_AN_0815</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+    </array>
+    <array name="browser_CT06_07">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>微信</item>
+        <item>http://weixin.qq.com</item>
+        <item>@raw/browser_def_thumb_weixin</item>
+        <item>淘宝</item>
+        <item>http://www.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>大众点评</item>
+        <item>http://www.dianping.com</item>
+        <item>@raw/browser_def_thumb_dazhongdianping</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com</item>
+        <item>@raw/browser_def_thumb_youdao</item>
+        <item>UC浏览器</item>
+        <item>http://www.uc.cn</item>
+        <item>@raw/browser_def_thumb_uc</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com</item>
+        <item>@raw/browser_def_thumb_wochacha</item>
+    </array>
+    <array name="browser_CT04_04">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>百度搜索</item>
+        <item>http://m.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>优酷</item>
+        <item>http://www.youku.com</item>
+        <item>@raw/browser_def_thumb_youku</item>
+        <item>腾讯新闻</item>
+        <item>http://news.qq.com</item>
+        <item>@raw/browser_def_thumb_tengxun</item>
+        <item>酷狗音乐</item>
+        <item>http://m.kugou.com</item>
+        <item>@raw/browser_def_thumb_kugou</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>百度地图</item>
+        <item>http://map.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidumap</item>
+    </array>
+    <array name="browser_CT04_02">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>互联星空</item>
+        <item>http://wap.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_xingkong</item>
+        <item>掌上营业厅</item>
+        <item>http://www.189.cn</item>
+        <item>@raw/browser_def_thumb_yingyeting</item>
+        <item>189邮箱</item>
+        <item>http://wapmail.189.cn</item>
+        <item>@raw/browser_def_thumb_youxiang</item>
+        <item>翼聊</item>
+        <item>http://liao.189.cn</item>
+        <item>@raw/browser_def_thumb_yiliao</item>
+        <item>爱音乐</item>
+        <item>http://wap.118100.cn</item>
+        <item>@raw/browser_def_thumb_music</item>
+        <item>天翼阅读</item>
+        <item>http://wapread.189.cn</item>
+        <item>@raw/browser_def_thumb_read</item>
+        <item>天翼视讯</item>
+        <item>http://streaming.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_shixun</item>
+        <item>爱游戏</item>
+        <item>http://wapgame.189.cn</item>
+        <item>@raw/browser_def_thumb_game</item>
+        <item>号码百事通</item>
+        <item>http://wap.118114.cn</item>
+        <item>@raw/browser_def_thumb_baishitong</item>
+        <item>天翼空间</item>
+        <item>http://3g.189store.com</item>
+        <item>@raw/browser_def_thumb_kongjian</item>
+        <item>号簿助手</item>
+        <item>http://wappim.189.cn</item>
+        <item>@raw/browser_def_thumb_zhushou</item>
+        <item>爱动漫</item>
+        <item>http://dm.189.cn</item>
+        <item>@raw/browser_def_thumb_dongman</item>
+        <item>百度</item>
+        <item>http://www.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+    </array>
+    <array name="browser_CT04_01">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>iReader</item>
+        <item>http://www.zhangyue.com</item>
+        <item>@raw/browser_def_thumb_ireader</item>
+        <item>新浪微博</item>
+        <item>http://weibo.com</item>
+        <item>@raw/browser_def_thumb_xinlangweibo</item>
+        <item>大众点评</item>
+        <item>http://android.dianping.com/dianxin</item>
+        <item>@raw/browser_def_thumb_dazhongdianping</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com</item>
+        <item>@raw/browser_def_thumb_youdao</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com</item>
+        <item>@raw/browser_def_thumb_wochacha</item>
+    </array>
+    <array name="browser_CT03_04">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>百度搜索</item>
+        <item>http://m.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>优酷</item>
+        <item>http://www.youku.com</item>
+        <item>@raw/browser_def_thumb_youku</item>
+        <item>腾讯新闻</item>
+        <item>http://news.qq.com</item>
+        <item>@raw/browser_def_thumb_tengxun</item>
+        <item>酷狗音乐</item>
+        <item>http://m.kugou.com</item>
+        <item>@raw/browser_def_thumb_kugou</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>百度地图</item>
+        <item>http://map.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidumap</item>
+    </array>
+    <array name="browser_CT03_03">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>搜狐新闻</item>
+        <item>http://m.k.sohu.com</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>QQ游戏</item>
+        <item>http://qqgame.qq.com</item>
+        <item>@raw/browser_def_thumb_qqgame</item>
+        <item>支付宝</item>
+        <item>http://auth.alipay.com</item>
+        <item>@raw/browser_def_thumb_zhifubao</item>
+    </array>
+    <array name="browser_CT03_02">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>优酷</item>
+        <item>http://www.youku.com</item>
+        <item>@raw/browser_def_thumb_youku</item>
+        <item>搜狐新闻</item>
+        <item>http://m.k.sohu.com</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+        <item>QQ音乐</item>
+        <item>http://m.y.qq.com</item>
+        <item>@raw/browser_def_thumb_qqmusic</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>东方财富通</item>
+        <item>http://wap.eastmoney.cn</item>
+        <item>@raw/browser_def_thumb_money</item>
+    </array>
+    <array name="browser_CT03_01">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>新浪微博</item>
+        <item>http://weibo.com</item>
+        <item>@raw/browser_def_thumb_xinlangweibo</item>
+        <item>大众点评</item>
+        <item>http://android.dianping.com/dianxin</item>
+        <item>@raw/browser_def_thumb_dazhongdianping</item>
+        <item>iReader</item>
+        <item>http://www.zhangyue.com</item>
+        <item>@raw/browser_def_thumb_ireader</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com</item>
+        <item>@raw/browser_def_thumb_youdao</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com</item>
+        <item>@raw/browser_def_thumb_wochacha</item>
+    </array>
+    <array name="browser_CT02_04">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>百度搜索</item>
+        <item>http://m.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>优酷</item>
+        <item>http://www.youku.com</item>
+        <item>@raw/browser_def_thumb_youku</item>
+        <item>腾讯新闻</item>
+        <item>http://news.qq.com</item>
+        <item>@raw/browser_def_thumb_tengxun</item>
+        <item>酷狗音乐</item>
+        <item>http://m.kugou.com</item>
+        <item>@raw/browser_def_thumb_kugou</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>百度地图</item>
+        <item>http://map.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidumap</item>
+    </array>
+    <array name="browser_CT02_03">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>酷狗音乐</item>
+        <item>http://m.kugou.com</item>
+        <item>@raw/browser_def_thumb_kugou</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>QQ游戏</item>
+        <item>http://qqgame.qq.com</item>
+        <item>@raw/browser_def_thumb_qqgame</item>
+        <item>支付宝</item>
+        <item>http://auth.alipay.com</item>
+        <item>@raw/browser_def_thumb_zhifubao</item>
+    </array>
+    <array name="browser_CT02_02">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>优酷</item>
+        <item>http://www.youku.com</item>
+        <item>@raw/browser_def_thumb_youku</item>
+        <item>腾讯新闻</item>
+        <item>http://xx.qq.com</item>
+        <item>@raw/browser_def_thumb_qq</item>
+        <item>QQ音乐</item>
+        <item>http://m.y.qq.com</item>
+        <item>@raw/browser_def_thumb_qqmusic</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>百度地图</item>
+        <item>http://map.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidumap</item>
+    </array>
+    <array name="browser_CT02_01">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>新浪微博</item>
+        <item>http://weibo.com</item>
+        <item>@raw/browser_def_thumb_xinlangweibo</item>
+        <item>大众点评</item>
+        <item>http://android.dianping.com/dianxin</item>
+        <item>@raw/browser_def_thumb_dazhongdianping</item>
+        <item>iReader</item>
+        <item>http://www.zhangyue.com</item>
+        <item>@raw/browser_def_thumb_ireader</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com</item>
+        <item>@raw/browser_def_thumb_youdao</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com</item>
+        <item>@raw/browser_def_thumb_wochacha</item>
+    </array>
+    <array name="browser_CT01_03">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>搜狐新闻</item>
+        <item>http://m.k.sohu.com</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+        <item>酷狗音乐</item>
+        <item>http://m.kugou.com</item>
+        <item>@raw/browser_def_thumb_kugou</item>
+        <item>淘宝</item>
+        <item>http://m.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+    </array>
+    <array name="browser_CT01_01">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>189邮箱</item>
+        <item>http://wapmail.189.cn</item>
+        <item>@raw/browser_def_thumb_youxiang</item>
+        <item>互联星空</item>
+        <item>http://wap.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_xingkong</item>
+        <item>掌上营业厅</item>
+        <item>http://www.189.cn</item>
+        <item>@raw/browser_def_thumb_yingyeting</item>
+        <item>号码百事通</item>
+        <item>http://wap.118114.cn</item>
+        <item>@raw/browser_def_thumb_baishitong</item>
+        <item>翼聊</item>
+        <item>http://liao.189.cn</item>
+        <item>@raw/browser_def_thumb_yiliao</item>
+        <item>爱音乐</item>
+        <item>http://wap.118100.cn</item>
+        <item>@raw/browser_def_thumb_music</item>
+        <item>天翼视讯</item>
+        <item>http://streaming.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_shixun</item>
+        <item>天翼阅读</item>
+        <item>http://wapread.189.cn</item>
+        <item>@raw/browser_def_thumb_read</item>
+        <item>爱动漫</item>
+        <item>http://dm.189.cn</item>
+        <item>@raw/browser_def_thumb_dongman</item>
+        <item>爱游戏</item>
+        <item>http://wapgame.189.cn</item>
+        <item>@raw/browser_def_thumb_game</item>
+        <item>天翼空间</item>
+        <item>http://3g.189store.com</item>
+        <item>@raw/browser_def_thumb_kongjian</item>
+        <item>号簿助手</item>
+        <item>http://wappim.189.cn</item>
+        <item>@raw/browser_def_thumb_zhushou</item>
+    </array>
+    <array name="browser_CT06_LC">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>微信</item>
+        <item>http://weixin.qq.com</item>
+        <item>@raw/browser_def_thumb_weixin</item>
+        <item>淘宝</item>
+        <item>http://www.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>大众点评</item>
+        <item>http://www.dianping.com</item>
+        <item>@raw/browser_def_thumb_dazhongdianping</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com</item>
+        <item>@raw/browser_def_thumb_youdao</item>
+        <item>UC浏览器</item>
+        <item>http://www.uc.cn</item>
+        <item>@raw/browser_def_thumb_uc</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com</item>
+        <item>@raw/browser_def_thumb_wochacha</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com</item>
+        <item>@raw/browser_def_thumb_tianyimobile</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn</item>
+        <item>@raw/browser_def_thumb_people</item>
+    </array>
+    <array name="browser_CT04_LC">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>互联星空</item>
+        <item>http://wap.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_xingkong</item>
+        <item>掌上营业厅</item>
+        <item>http://www.189.cn</item>
+        <item>@raw/browser_def_thumb_yingyeting</item>
+        <item>189邮箱</item>
+        <item>http://wapmail.189.cn</item>
+        <item>@raw/browser_def_thumb_youxiang</item>
+        <item>翼聊</item>
+        <item>http://liao.189.cn</item>
+        <item>@raw/browser_def_thumb_yiliao</item>
+        <item>爱音乐</item>
+        <item>http://wap.118100.cn</item>
+        <item>@raw/browser_def_thumb_music</item>
+        <item>天翼阅读</item>
+        <item>http://wapread.189.cn</item>
+        <item>@raw/browser_def_thumb_read</item>
+        <item>天翼视讯</item>
+        <item>http://streaming.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_shixun</item>
+        <item>爱游戏</item>
+        <item>http://wapgame.189.cn</item>
+        <item>@raw/browser_def_thumb_game</item>
+        <item>号码百事通</item>
+        <item>http://wap.118114.cn</item>
+        <item>@raw/browser_def_thumb_baishitong</item>
+        <item>天翼空间</item>
+        <item>http://3g.189store.com</item>
+        <item>@raw/browser_def_thumb_kongjian</item>
+        <item>号簿助手</item>
+        <item>http://wappim.189.cn</item>
+        <item>@raw/browser_def_thumb_zhushou</item>
+        <item>爱动漫</item>
+        <item>http://dm.189.cn</item>
+        <item>@raw/browser_def_thumb_dongman</item>
+        <item>百度</item>
+        <item>http://www.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com</item>
+        <item>@raw/browser_def_thumb_tianyimobile</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn</item>
+        <item>@raw/browser_def_thumb_people</item>
+    </array>
+    <array name="browser_CT03_LC">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>新浪微博</item>
+        <item>http://weibo.com</item>
+        <item>@raw/browser_def_thumb_xinlangweibo</item>
+        <item>大众点评</item>
+        <item>http://www.dianping.com</item>
+        <item>@raw/browser_def_thumb_dazhongdianping</item>
+        <item>同花顺</item>
+        <item>http://www.10jqka.com.cn</item>
+        <item>@raw/browser_def_thumb_tonghuashun</item>
+        <item>有道词典</item>
+        <item>http://dict.youdao.com</item>
+        <item>@raw/browser_def_thumb_youdao</item>
+        <item>我查查</item>
+        <item>http://www.wochacha.com</item>
+        <item>@raw/browser_def_thumb_wochacha</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com</item>
+        <item>@raw/browser_def_thumb_tianyimobile</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn</item>
+        <item>@raw/browser_def_thumb_people</item>
+    </array>
+    <array name="browser_CT02_LC">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>189邮箱</item>
+        <item>http://wapmail.189.cn</item>
+        <item>@raw/browser_def_thumb_youxiang</item>
+        <item>互联星空</item>
+        <item>http://wap.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_xingkong</item>
+        <item>掌上营业厅</item>
+        <item>http://www.189.cn</item>
+        <item>@raw/browser_def_thumb_yingyeting</item>
+        <item>号码百事通</item>
+        <item>http://wap.118114.cn</item>
+        <item>@raw/browser_def_thumb_baishitong</item>
+        <item>翼聊</item>
+        <item>http://liao.189.cn</item>
+        <item>@raw/browser_def_thumb_yiliao</item>
+        <item>爱音乐</item>
+        <item>http://wap.118100.cn</item>
+        <item>@raw/browser_def_thumb_music</item>
+        <item>天翼视讯</item>
+        <item>http://m.tv189.com</item>
+        <item>@raw/browser_def_thumb_shixun</item>
+        <item>天翼阅读</item>
+        <item>http://wapread.189.cn</item>
+        <item>@raw/browser_def_thumb_read</item>
+        <item>爱动漫</item>
+        <item>http://dm.189.cn</item>
+        <item>@raw/browser_def_thumb_dongman</item>
+        <item>爱游戏</item>
+        <item>http://wapgame.189.cn</item>
+        <item>@raw/browser_def_thumb_game</item>
+        <item>天翼空间</item>
+        <item>http://3g.189store.com</item>
+        <item>@raw/browser_def_thumb_kongjian</item>
+        <item>号簿助手</item>
+        <item>http://wappim.189.cn</item>
+        <item>@raw/browser_def_thumb_zhushou</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com</item>
+        <item>@raw/browser_def_thumb_tianyimobile</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn</item>
+        <item>@raw/browser_def_thumb_people</item>
+    </array>
+    <array name="browser_CT01_LC">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>189邮箱</item>
+        <item>http://wapmail.189.cn</item>
+        <item>@raw/browser_def_thumb_youxiang</item>
+        <item>互联星空</item>
+        <item>http://wap.vnet.mobi</item>
+        <item>@raw/browser_def_thumb_xingkong</item>
+        <item>掌上营业厅</item>
+        <item>http://www.189.cn</item>
+        <item>@raw/browser_def_thumb_yingyeting</item>
+        <item>翼聊</item>
+        <item>http://liao.189.cn</item>
+        <item>@raw/browser_def_thumb_yiliao</item>
+        <item>号码百事通</item>
+        <item>http://wap.118114.cn</item>
+        <item>@raw/browser_def_thumb_baishitong</item>
+        <item>号簿助手</item>
+        <item>http://wappim.189.cn</item>
+        <item>@raw/browser_def_thumb_zhushou</item>
+        <item>腾讯网</item>
+        <item>http://www.qq.com</item>
+        <item>@raw/browser_def_thumb_tengxun</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn</item>
+        <item>@raw/browser_def_thumb_sina</item>
+        <item>人人网</item>
+        <item>http://www.renren.com</item>
+        <item>@raw/browser_def_thumb_renren</item>
+        <item>开心网</item>
+        <item>http://www.kaixin001.com</item>
+        <item>@raw/browser_def_thumb_kaixin</item>
+        <item>当当网</item>
+        <item>http://www.dangdang.com</item>
+        <item>@raw/browser_def_thumb_dangdang</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+        <item>天翼阅读</item>
+        <item>http://wapread.189.cn</item>
+        <item>@raw/browser_def_thumb_read</item>
+        <item>天翼视讯</item>
+        <item>http://m.tv189.com</item>
+        <item>@raw/browser_def_thumb_shixun</item>
+        <item>天翼空间</item>
+        <item>http://3g.189store.com</item>
+        <item>@raw/browser_def_thumb_kongjian</item>
+        <item>爱游戏</item>
+        <item>http://wapgame.189.cn</item>
+        <item>@raw/browser_def_thumb_game</item>
+        <item>爱音乐</item>
+        <item>http://wap.118100.cn</item>
+        <item>@raw/browser_def_thumb_music</item>
+        <item>爱动漫</item>
+        <item>http://dm.189.cn</item>
+        <item>@raw/browser_def_thumb_dongman</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com</item>
+        <item>@raw/browser_def_thumb_tianyimobile</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn</item>
+        <item>@raw/browser_def_thumb_people</item>
+    </array>
+    <array name="browser_CM01">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>10086门户</item>
+        <item>http://10086.cn/m</item>
+        <item>@raw/browser_def_thumb_10086</item>
+        <item>移动应用商场</item>
+        <item>http://a.10086.cn</item>
+        <item>@raw/browser_def_thumb_shangchang</item>
+        <item>移动梦网</item>
+        <item>http://wap.monternet.com</item>
+        <item>@raw/browser_def_thumb_mengwang</item>
+        <item>手机阅读</item>
+        <item>http://wap.cmread.com</item>
+        <item>@raw/browser_def_thumb_yuedu</item>
+        <item>手机游戏</item>
+        <item>http://g.10086.cn</item>
+        <item>@raw/browser_def_thumb_youxi</item>
+        <item>手机视频</item>
+        <item>http://wap.cmvideo.cn</item>
+        <item>@raw/browser_def_thumb_shipin</item>
+        <item>无线音乐</item>
+        <item>http://m.10086.cn</item>
+        <item>@raw/browser_def_thumb_yinyue</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
+        <item>@raw/browser_def_thumb_12580</item>
+        <item>MM综合门户</item>
+        <item>http://mm.10086.cn/a/j/2743/</item>
+        <item>@raw/browser_def_thumb_mmmenhu</item>
+        <item>飞信首页</item>
+        <item>http://f.10086.cn</item>
+        <item>@raw/browser_def_thumb_feixin</item>
+        <item>139邮箱</item>
+        <item>http://mail.10086.cn</item>
+        <item>@raw/browser_def_thumb_139</item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
+        <item>@raw/browser_def_thumb_shoujichonglang</item>
+    </array>
+    <array name="browser_CU01">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>沃门户</item>
+        <item>http://www.wo.com.cn</item>
+        <item>@raw/browser_def_thumb_wo3g</item>
+        <item>沃商店</item>
+        <item>http://store.wo.com.cn</item>
+        <item>@raw/browser_def_thumb_wostore</item>
+        <item>手机营业厅</item>
+        <item>http://mob.10010.com</item>
+        <item>@raw/browser_def_thumb_wo10010</item>
+        <item>百度</item>
+        <item>http://www.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn</item>
+        <item>@raw/browser_def_thumb_sina</item>
+        <item>凤凰网</item>
+        <item>http://i.ifeng.com/cptouch?vt=4&amp;ch=zd_kp_llsy</item>
+        <item>@raw/browser_def_thumb_ifeng</item>
+        <item>新华网</item>
+        <item>http://www.xinhuanet.com</item>
+        <item>@raw/browser_def_thumb_xinhua</item>
+        <item>谷歌</item>
+        <item>http://www.google.com/m</item>
+        <item>@raw/browser_def_thumb_google</item>
+        <item>东方财富</item>
+        <item>http://www.eastmoney.com</item>
+        <item>@raw/browser_def_thumb_money</item>
+        <item>唐高网</item>
+        <item>http://www.golf998.com</item>
+        <item>@raw/browser_def_thumb_golf</item>
+        <item>39健康网</item>
+        <item>http://www.39.net</item>
+        <item>@raw/browser_def_thumb_39</item>
+        <item>游多多</item>
+        <item>http://www.yododo.com</item>
+        <item>@raw/browser_def_thumb_yododo</item>
+        <item>汽车之家</item>
+        <item>http://www.autohome.com.cn</item>
+        <item>@raw/browser_def_thumb_auto</item>
+        <item>搜房网</item>
+        <item>http://www.soufun.com</item>
+        <item>@raw/browser_def_thumb_soufun</item>
+        <item>搜狐网</item>
+        <item>http://wap.sohu.com/?v=3&amp;fr=yulong_AN_0815</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+    </array>
+    <array name="browser_CT_WEBLINK">
+        <item>3</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn</item>
+        <item>@raw/browser_def_thumb_sina</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com</item>
+        <item>@raw/browser_def_thumb_ifeng</item>
+        <item>新华网</item>
+        <item>http://www.xinhuanet.com</item>
+        <item>@raw/browser_def_thumb_xinhua</item>
+        <item>天翼手机网</item>
+        <item>http://www.hicdma.com</item>
+        <item>@raw/browser_def_thumb_tianyimobile</item>
+        <item>人民网</item>
+        <item>http://www.people.com.cn</item>
+        <item>@raw/browser_def_thumb_people</item>
+    </array>
+    <array name="browser_DEFAULT_WEBLINK">
+        <item>3</item>
+        <item>百度</item>
+        <item>http://www.baidu.com</item>
+        <item>@raw/browser_def_thumb_baidu</item>
+        <item>电商</item>
+        <item>http://a1844.oadz.com/link/C/1844/1601/50x6fZ-Grm81jzQOgY6CVUI7Rds_/p016/0/http://shop.coolpad.cn</item>
+        <item>@raw/browser_def_thumb_coolpadshop</item>
+        <item>新浪网</item>
+        <item>http://www.sina.com.cn</item>
+        <item>@raw/browser_def_thumb_sina</item>
+        <item>搜狐网</item>
+        <item>http://www.sohu.com</item>
+        <item>@raw/browser_def_thumb_sohu</item>
+        <item>凤凰网</item>
+        <item>http://www.ifeng.com</item>
+        <item>@raw/browser_def_thumb_ifeng</item>
+        <item>淘宝</item>
+        <item>http://www.taobao.com</item>
+        <item>@raw/browser_def_thumb_taobao</item>
+    </array>
+    <array name="browser_E_COM">
+        <item>3</item>
+        <item>@drawable/browser_bookmark_60</item>
+        <item>网址导航</item>
+        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=34227&amp;fcid=1571</item>
+        <item>@raw/browser_daohang</item>
+        <item>软件下载</item>
+        <item>http://www.coolmart.net.cn</item>
+        <item>@raw/browser_coolmart</item>
+        <item>百度</item>
+        <item>http://m.baidu.com</item>
+        <item>@raw/browser_baidu</item>
+        <item>凤凰</item>
+        <item>http://i.ifeng.com/cptouch?ch=zd_kp_llsy&amp;vt=5</item>
+        <item>@raw/browser_fenghuang</item>
+        <item>新浪</item>
+        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=11060&amp;fcid=1571</item>
+        <item>@raw/browser_sina</item>
+        <item>搜狐</item>
+        <item>http://m.sohu.com/?_trans_=000011_kp_9gg</item>
+        <item>@raw/browser_sohu</item>
+        <item>淘宝</item>
+        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=683&amp;fcid=1571</item>
+        <item>@raw/browser_taobao</item>
+        <item>腾讯网</item>
+        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=11086&amp;fcid=1571</item>
+        <item>@raw/browser_txw</item>
+        <item>QQ空间</item>
+        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=9354&amp;fcid=1571</item>
+        <item>@raw/browser_qqkongjian</item>
+        <item>糗事百科</item>
+        <item>http://m.qiushibaike.com/?ref=waphao123</item>
+        <item>@raw/browser_qiushibaike</item>
+    </array>
+    <integer-array name="BROWSER_BASIC_FONT_SIZE_ARRAY">
+        <item>24</item>
+        <item>20</item>
+        <item>18</item>
+        <item>16</item>
+        <item>14</item>
+        <item>12</item>
+    </integer-array>
+    <string-array name="browser_search_engines_cm">
+        <item>google</item>
+        <item>baidu</item>
+        <item>search139</item>
+    </string-array>
+    <string-array name="browser_search_engines">
+        <item>google</item>
+        <item>baidu</item>
+    </string-array>
+    <string-array name="browser_search_engines_tw">
+        <item>google</item>
+        <item>yahoo_tw</item>
+        <item>bing_zh_TW</item>
+    </string-array>
+    <string-array name="browser_pref_content_plugins_choices">
+        <item>Всегда вкл.</item>
+        <item>По запросу</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="browser_pref_content_plugins_values">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="browser_pref_content_tabswitch_choices">
+        <item>Список</item>
+        <item>Миниатюры</item>
+    </string-array>
+    <string-array name="browser_pref_content_tabswitch_values">
+        <item>LIST</item>
+        <item>THUMBNAIL</item>
+    </string-array>
+    <string-array name="browser_pref_homepage_choices">
+        <item>Активная страница</item>
+        <item>Пустая страница</item>
+        <item>Страница по умолчанию</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="browser_pref_homepage_values">
+        <item>current</item>
+        <item>blank</item>
+        <item>default</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="browser_pref_useragent_choices">
+        <item>По умолчанию (рекомендуется)</item>
+        <item>Android</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>PC</item>
+    </string-array>
+    <string-array name="browser_pref_useragent_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="browser_pref_text_size_choices">
+        <item>Мелкий</item>
+        <item>Маленький</item>
+        <item>Нормальный</item>
+        <item>Большой</item>
+        <item>Огромный</item>
+    </string-array>
+    <string-array name="browser_pref_default_zoom_choices">
+        <item>Далеко</item>
+        <item>Средне</item>
+        <item>Закрыто</item>
+    </string-array>
+    <string-array name="browser_pref_default_zoom_values">
+        <item>FAR</item>
+        <item>BIG</item>
+        <item>MEDIUM</item>
+        <item>CLOSE</item>
+    </string-array>
+    <string-array name="browser_pref_development_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Froyo-N1</item>
+        <item>Honeycomb-Xoom</item>
+    </string-array>
+    <string-array name="browser_pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="browser_pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string-array name="browser_pref_default_text_encoding_values">
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string-array name="browser_pref_data_preload_choices">
+        <item>Никогда</item>
+        <item>Только Wi-Fi</item>
+        <item>Всегда</item>
+    </string-array>
+    <string-array name="browser_pref_data_preload_values">
+        <item>@string/browser_pref_data_preload_value_never</item>
+        <item>@string/browser_pref_data_preload_value_wifi_only</item>
+        <item>@string/browser_pref_data_preload_value_always</item>
+    </string-array>
+    <string-array name="browser_pref_link_prefetch_choices">
+        <item>Никогда</item>
+        <item>Только Wi-Fi</item>
+        <item>Всегда</item>
+    </string-array>
+    <string-array name="browser_pref_link_prefetch_values">
+        <item>@string/browser_pref_link_prefetch_value_never</item>
+        <item>@string/browser_pref_link_prefetch_value_wifi_only</item>
+        <item>@string/browser_pref_link_prefetch_value_always</item>
+    </string-array>
+    <string-array name="browser_bookmarks">
+        <item>Baidu</item>
+        <item>http://m.baidu.com</item>
+        <item>Ifeng</item>
+        <item>http://i.ifeng.com/cptouch?vt=4&amp;ch=zd_kp_llsy</item>
+        <item>Sina</item>
+        <item>http://www.sina.com.cn</item>
+        <item>Sohu</item>
+        <item>http://wap.sohu.com/?v=3&amp;fr=yulong_AN_0815</item>
+        <item>Easou</item>
+        <item>http://www.easou.com</item>
+    </string-array>
+    <string-array name="browser_pref_land_mode_values">
+        <item>SCREEN_ORIENTATION_SENSOR</item>
+        <item>SCREEN_ORIENTATION_PORTRAIT</item>
+        <item>SCREEN_ORIENTATION_LANDSCAPE</item>
+    </string-array>
+    <string-array name="browser_snapshot_context_dialog_list_items">
+        <item>Перейти по URL</item>
+        <item>Закладка</item>
+        <item>Поделиться</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="browser_bookmark_folder_context_dialog_list_items">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать папку</item>
+        <item>Удалить папку</item>
+    </string-array>
+    <string-array name="browser_bookmark_context_dialog_list_items">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать закладку</item>
+        <item>Удалить закладку</item>
+        <item>Поделиться закладкой</item>
+        <item>В навигацию</item>
+        <item>Как дом.страница</item>
+    </string-array>
+    <string-array name="browser_bookmark_context_dialog_list_items_present">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать закладку</item>
+        <item>Удалить закладку</item>
+        <item>Поделиться закладкой</item>
+        <item>На рабочий стол</item>
+        <item>В навигацию</item>
+        <item>Как дом.страница</item>
+    </string-array>
+    <string-array name="browser_bookmark_context_dialog_list_items_cm">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать закладку</item>
+        <item>Удалить закладку</item>
+        <item>Поделиться закладкой</item>
+        <item>Как дом.страница</item>
+    </string-array>
+    <string-array name="browser_bookmark_context_dialog_list_items_no_navigation_present">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать закладку</item>
+        <item>Удалить закладку</item>
+        <item>Поделиться закладкой</item>
+        <item>На рабочий стол</item>
+        <item>Как дом.страница</item>
+    </string-array>
+    <string-array name="browser_download_history_context_finished">
+        <item>Открыть</item>
+        <item>Очистить из списка</item>
+    </string-array>
+    <string-array name="browser_download_history_context_failed">
+        <item>Очистить из списка</item>
+        <item>Повтор</item>
+    </string-array>
+    <string-array name="browser_download_history_context_paused">
+        <item>Возобновить</item>
+    </string-array>
+    <string-array name="browser_download_history_context_running">
+        <item>"Отмена "</item>
+        <item>"Пауза "</item>
+    </string-array>
+    <string-array name="browser_download_history_context_running_no_pause">
+        <item>Отмена загрузки</item>
+    </string-array>
+    <string-array name="browser_pref_land_mode_choices">
+        <item>Авто</item>
+        <item>Портрет</item>
+        <item>Ландшафт</item>
+    </string-array>
+    <string-array name="browser_delete_data_string_array">
+        <item>Кэш</item>
+        <item>История</item>
+        <item>Cookies</item>
+        <item>Данные форм</item>
+        <item>Очистить пароли</item>
+    </string-array>
+    <string-array name="browser_pref_default_text_size_values">
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="browser_handle_pdf_choices">
+        <item>Загрузка</item>
+        <item>Открыть</item>
+    </string-array>
+    <string-array name="yandexmarket">
+        <item>Яндекс.Маркет</item>
+        <item>http://market.yandex.ru/</item>
+        <item>http://market.yandex.ru/favicon.ico</item>
+        <item>http://market.yandex.ru/search.xml?cvredirect=2&amp;text={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://www.google.com/complete/search?hl=ru&amp;client=android&amp;q={searchTerms}</item>
+    </string-array>
+</resources>

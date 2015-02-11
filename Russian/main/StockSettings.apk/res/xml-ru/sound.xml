@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/camera_title" />
+    <CheckBoxPreference android:title="@string/camera_sound_title" android:key="juelian_camera_sound" android:summary="Включение/выключение звука камеры" />
+    <CheckBoxPreference android:title="@string/camera_focus_title" android:key="juelian_camera_sound1" android:summary="Включение/выключение звука фокусировки камеры на объекте" />
+    <CheckBoxPreference android:title="@string/camera_shutter_title" android:key="juelian_camera_sound2" android:summary="Включение/выключение звука затвора камеры" />
+    <CheckBoxPreference android:title="@string/video_sound_title" android:key="juelian_camera_sound3" android:summary="Включение/выключение записи звука камерой" />
+    <CheckBoxPreference android:title="@string/t1" android:key="juelian_1" android:summary="Включение/выключение звуковых сигналов при включении" />
+    <CheckBoxPreference android:title="@string/t2" android:key="juelian_2" android:summary="Включение/выключение звуковых сигналов при выключении" />
+</PreferenceScreen>

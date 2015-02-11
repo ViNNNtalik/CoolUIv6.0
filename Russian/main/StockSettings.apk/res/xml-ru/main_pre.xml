@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="test"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_system" />
+    <CheckBoxPreference android:title="@string/root" android:key="root" android:summary="@string/root_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/crt_title" android:key="juelian_test" android:summary="@string/crt_summary" />
+    <PreferenceCategory android:title="@string/t11" />
+    <ListPreference android:entries="@array/main_storage_entries" android:title="@string/storage_title" android:key="storage" android:defaultValue="0" android:entryValues="@array/main_storage_values" />
+    <CheckBoxPreference android:title="@string/t12" android:key="ct" android:summary="@string/t13" />
+    <PreferenceScreen android:title="@string/notification_settings" android:summary="@string/notification_settings_summary">
+        <intent android:targetPackage="mcxz.android.setting" android:action="com.anzhi.settings.NotificationSettings" android:targetClass="mcxz.android.setting.NotificationSettings" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/application_title" />
+    <PreferenceScreen android:title="@string/viper" android:summary="@string/viper_summary">
+        <intent android:targetPackage="com.vipercn.viper4android_v2" android:action="android.intent.action.MAIN" android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/flash" android:key="holiestar" android:summary="@string/flash_summary">
+        <intent android:targetPackage="com.holiestar.flashoncall" android:action="android.intent.action.MAIN" android:targetClass="com.holiestar.flashoncall.MainActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/level" android:key="level" android:summary="@string/level_summary">
+        <intent android:targetPackage="com.zabaanapps.android.level" android:action="android.intent.action.MAIN" android:targetClass="com.zabaanapps.android.level.Level" />
+    </PreferenceScreen>
+</PreferenceScreen>

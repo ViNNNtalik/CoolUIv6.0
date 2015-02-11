@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">Песен: %d </item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">%2$d из %1$d песен</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">Альбомы: %d</item>
+        <item quantity="one">1 альбом</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Песен удалено: %d</item>
+        <item quantity="one">1 песня удалена</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Песен добавлено в плейлист: %d</item>
+        <item quantity="one">1 песня добавлена в плейлист</item>
+    </plurals>
+    <plurals name="music_item_all_count">
+        <item quantity="other">Всего: %d</item>
+        <item quantity="one">Всего: 1</item>
+    </plurals>
+    <plurals name="music_item_selected_count">
+        <item quantity="other">%d выбрано</item>
+        <item quantity="one">1 выбрано</item>
+    </plurals>
+    <plurals name="artist_songs_num_count">
+        <item quantity="other">Песни: %d</item>
+        <item quantity="one">1 песня</item>
+    </plurals>
+    <plurals name="loved_batch_operate_hint">
+        <item quantity="other">В избранное песен: %d</item>
+        <item quantity="one">1 песня в избранное</item>
+    </plurals>
+</resources>

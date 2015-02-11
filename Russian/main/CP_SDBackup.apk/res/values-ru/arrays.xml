@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backup_item">
+        <item>Контакты</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>Журнал вызовов</item>
+        <item>Быстрый набор</item>
+        <item>Будильники</item>
+        <item>Календарь</item>
+        <item>Заметки</item>
+        <item>Клавиатура Coolpad</item>
+        <item>Эл.почта</item>
+        <item>Перехватчик</item>
+        <item>Браузер</item>
+        <item>Настройки</item>
+        <item>Настройки вызовов</item>
+        <item>Bluetooth и Wi-Fi</item>
+        <item>Хранилище</item>
+        <item>Галерея</item>
+        <item>Музыка</item>
+        <item>Лаунчер</item>
+    </string-array>
+    <string-array name="applications">
+        <item>Контакты</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>1-й</item>
+        <item>2-й</item>
+        <item>3-й</item>
+        <item>4-й</item>
+        <item>Последний</item>
+    </string-array>
+    <string-array name="backup_items">
+        <item>Контакты</item>
+        <item>Календарь</item>
+        <item>Заметки</item>
+        <item>SMS/MMS</item>
+        <item>Быстрый набор</item>
+        <item>Эл.почта</item>
+        <item>Перехватчик</item>
+        <item>Журнал вызовов</item>
+        <item>Будильники</item>
+        <item>Польз.настройки</item>
+        <item>Польз.данные</item>
+    </string-array>
+    <string-array name="password_hint_entries">
+        <item>Номер начальной школы</item>
+        <item>Номер средней школы</item>
+        <item>Название ВУЗа</item>
+        <item>Любимый спорт</item>
+        <item>Пользовательская подсказка</item>
+    </string-array>
+</resources>

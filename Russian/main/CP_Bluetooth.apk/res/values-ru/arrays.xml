@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bluetooth_Item">
+        <item>Открыть</item>
+    </string-array>
+    <string-array name="bluetooth_Item1">
+        <item>Открыть</item>
+        <item>Очистить</item>
+    </string-array>
+</resources>

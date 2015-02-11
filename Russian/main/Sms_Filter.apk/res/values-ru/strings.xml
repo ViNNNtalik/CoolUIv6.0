@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guard_delete_all">Уничтожить данные</string>
+    <string name="guard_call_another">Переадресация вызовов</string>
+    <string name="guard_stop_call_another">Остановить переадресацию вызовов</string>
+    <string name="guard_switch_sms">Переадресация SMS/MMS</string>
+    <string name="guard_stop_switch_sms">Остановить переадресацию SMS/MMS</string>
+    <string name="guard_lock_card">Блокировка карты</string>
+    <string name="guard_sms_cancel">Отмена Антивора</string>
+</resources>

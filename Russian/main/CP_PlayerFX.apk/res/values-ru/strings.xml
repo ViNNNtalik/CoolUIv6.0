@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwitchEffect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="dts_music">DTS Музыка</string>
+    <string name="dts_movie">DTS Кино</string>
+    <string name="dolby_music">Музыка</string>
+    <string name="dolby_movie">Кино</string>
+    <string name="bbe_music">BBE Музыка</string>
+    <string name="bbe_movie">BBE Кино</string>
+    <string name="effect_none">Выкл.</string>
+    <string name="dolby_title">Dolby Digital Plus</string>
+    <string name="bbe_headset_notify">BBE только с гарнитурой</string>
+</resources>

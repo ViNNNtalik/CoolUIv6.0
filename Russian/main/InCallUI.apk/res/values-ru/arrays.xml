@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transport_types">
+        <item>UDP</item>
+        <item>TCP</item>
+    </string-array>
+    <string-array name="sip_call_options_entries">
+        <item>@string/sip_call_options_entry_1</item>
+        <item>@string/sip_call_options_entry_2</item>
+        <item>@string/sip_call_options_entry_3</item>
+    </string-array>
+    <string-array name="sip_call_options_wifi_only_entries">
+        <item>@string/sip_call_options_wifi_only_entry_1</item>
+        <item>@string/sip_call_options_entry_2</item>
+        <item>@string/sip_call_options_entry_3</item>
+    </string-array>
+    <string-array name="sip_call_options_values">
+        <item>@string/sip_always</item>
+        <item>@string/sip_address_only</item>
+        <item>@string/sip_ask_me_each_time</item>
+    </string-array>
+    <string-array name="phone_type_values">
+        <item>@string/pstn_phone</item>
+        <item>@string/internet_phone</item>
+    </string-array>
+    <string-array name="sip_send_keepalive_options">
+        <item>@string/sip_system_decide</item>
+        <item>@string/sip_always_send_keepalive</item>
+    </string-array>
+    <array name="incoming_call_widget_3way_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@drawable/ic_lockscreen_text</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="incoming_call_widget_3way_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </string-array>
+    <array name="incoming_call_widget_3way_direction_descriptions">
+        <item>@android:string/description_direction_right</item>
+        <item>@android:string/description_direction_up</item>
+        <item>@android:string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+    <array name="incoming_call_widget_2way_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="incoming_call_widget_2way_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </string-array>
+    <array name="incoming_call_widget_2way_direction_descriptions">
+        <item>@android:string/description_direction_right</item>
+        <item>@null</item>
+        <item>@android:string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+    <array name="yl_incoming_call_widget_3way_targets">
+        <item>@drawable/yl_ic_lockscreen_answer</item>
+        <item>@drawable/yl_ic_lockscreen_text</item>
+        <item>@drawable/yl_ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="yl_incoming_call_widget_2way_targets">
+        <item>@drawable/yl_ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/yl_ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="yl_incoming_call_widget_4way_targets">
+        <item>@drawable/yl_ic_lockscreen_answer</item>
+        <item>@drawable/yl_ic_lockscreen_text</item>
+        <item>@drawable/yl_ic_lockscreen_decline</item>
+        <item>@drawable/yl_ic_lockscreen_silence</item>
+    </array>
+    <string-array name="yl_incoming_call_widget_4way_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_decline</item>
+        <item>@string/onscreenMuteText</item>
+    </string-array>
+    <array name="yl_incoming_call_widget_4way_direction_descriptions">
+        <item>@android:string/description_direction_right</item>
+        <item>@android:string/description_direction_up</item>
+        <item>@android:string/description_direction_left</item>
+        <item>@android:string/description_direction_down</item>
+    </array>
+    <array name="yl_incoming_call_widget_3way_mute_targets">
+        <item>@drawable/yl_ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/yl_ic_lockscreen_decline</item>
+        <item>@drawable/yl_ic_lockscreen_silence</item>
+    </array>
+    <string-array name="yl_incoming_call_widget_3way_mute_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@string/onscreenMuteText</item>
+    </string-array>
+    <array name="yl_incoming_call_widget_3way_mute_direction_descriptions">
+        <item>@android:string/description_direction_right</item>
+        <item>@null</item>
+        <item>@android:string/description_direction_left</item>
+        <item>@android:string/description_direction_down</item>
+    </array>
+    <array name="yl_incoming_call_widget_dragged_targets">
+        <item>@drawable/yl_ic_lockscreen_text_single</item>
+        <item>@drawable/yl_ic_lockscreen_decline_single</item>
+        <item>@drawable/yl_ic_lockscreen_silence_single</item>
+        <item>@drawable/yl_ic_lockscreen_answer_single</item>
+    </array>
+    <string-array name="yl_incoming_call_widget_dragged_target_descriptions">
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_answer</item>
+        <item>@string/onscreenMuteText</item>
+        <item>@string/description_target_decline</item>
+    </string-array>
+    <array name="yl_incoming_call_widget_dragged_direction_descriptions">
+        <item>@android:string/description_direction_right</item>
+        <item>@android:string/description_direction_up</item>
+        <item>@android:string/description_direction_left</item>
+        <item>@android:string/description_direction_down</item>
+    </array>
+    <array name="yl_cw_incoming_call_widget_3way_targets">
+        <item>@drawable/yl_cw_ic_lockscreen_answer</item>
+        <item>@drawable/yl_ic_lockscreen_text</item>
+        <item>@drawable/yl_ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="yl_cw_incoming_call_widget_2way_targets">
+        <item>@drawable/yl_cw_ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/yl_ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="clir_display_values">
+        <item>Настройки сети по умолчанию</item>
+        <item>Скрыть номер</item>
+        <item>Показывать номер</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>Глобально</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Только EvDo</item>
+        <item>CDMA без EvDo</item>
+        <item>Авто CDMA/EvDo</item>
+        <item>Авто GSM/WCDMA</item>
+        <item>Только WCDMA</item>
+        <item>Только GSM</item>
+        <item>GSM/WCDMA приоритет</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="list_language_entries">
+        <item>Английский</item>
+        <item>Французский</item>
+        <item>Испанский</item>
+        <item>Японский</item>
+        <item>Корейский</item>
+        <item>Китайский</item>
+        <item>Иврит</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+    <string-array name="cdma_system_select_choices">
+        <item>Только домашняя</item>
+        <item>Автоматически</item>
+    </string-array>
+
+
+
+
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+
+
+
+
+    <string-array name="tty_mode_entries">
+        <item>Телетайп выключен</item>
+        <item>Полнофункциональный телетайп</item>
+        <item>Телетайп с возможностью слышать собеседника</item>
+        <item>Телетайп с возможностью передачи голоса</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="dtmf_tone_entries">
+        <item>Обычные</item>
+        <item>Длинные</item>
+    </string-array>
+
+
+
+
+    <string-array name="absent_num">
+        <item>ОТСУТСТВУЕТ НОМЕР</item>
+        <item>ОТСУТСТВУЕТ НОМЕР</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_values">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="wcdma_network_preferences_choices">
+        <item>WCDMA/GSM</item>
+        <item>Только GSM</item>
+        <item>Только WCDMA</item>
+    </string-array>
+    <string-array name="tdscdma_network_preferences_choices_xianwang">
+        <item>TD-SCDMA/GSM</item>
+    </string-array>
+    <string-array name="tdscdma_network_preferences_choices">
+        <item>TD-SCDMA/GSM</item>
+        <item>Только TD-SCDMA</item>
+        <item>Только GSM</item>
+    </string-array>
+    <string-array name="tdscdma_gsm_network_preferences_choices_xianwang">
+        <item>Автомат. переключение</item>
+    </string-array>
+
+
+
+    <string-array name="tdscdma_gsm_network_preferences_choices">
+        <item>Автомат. переключение</item>
+        <item>Приоритет TD-SCDMA</item>
+        <item>Приоритет GSM</item>
+        <item>Только TD-SCDMA</item>
+        <item>Только GSM</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string-array name="tdlte_network_preferences_choices">
+        <item>Режим 4G/3G/2G</item>
+        <item>Режим 3G/2G</item>
+        <item>Только 4G</item>
+        <item>Только 3G</item>
+        <item>Только 2G</item>
+    </string-array>
+    <string-array name="tdlte_boot_choose_network_choices">
+        <item>Приоритет 4G</item>
+        <item>Приоритет 3G/2G</item>
+    </string-array>
+    <string-array name="remind_time_item">
+        <item>Через полчаса</item>
+        <item>Через час</item>
+        <item>Через 2 часа</item>
+        <item>Пользоват. время</item>
+    </string-array>
+    <string-array name="lte_boot_choose_newwork_prior_choices">
+        <item>Авто</item>
+        <item>Приоритет LTE</item>
+        <item>Приоритет TDSCDMA</item>
+        <item>Приоритет WCDMA</item>
+        <item>Только GSM</item>
+    </string-array>
+    <string-array name="lte_boot_choose_newwork_muti_choices">
+        <item>LTE</item>
+        <item>TDSCDMA</item>
+        <item>WCDMA</item>
+        <item>GSM</item>
+    </string-array>
+    <string-array name="dial_touch_tone_choices">
+        <item>Нет</item>
+        <item>Обычный тон</item>
+        <item>Тон набора номера</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="cfnry_wait_time_choices">
+        <item>5 сек.</item>
+        <item>10 сек.</item>
+        <item>15 сек.</item>
+        <item>20 сек.</item>
+        <item>25 сек.</item>
+        <item>30 сек.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+    <string-array name="vp_replay_mode_choices">
+        <item>Вручную назад</item>
+        <item>Автомат. назад</item>
+        <item>Автомат. отмена</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="entries_show_mode_choices">
+        <item>Стандарт (большой)</item>
+        <item>Стандарт (маленький)</item>
+        <item>Максимум</item>
+        <item>Максимум (локально)</item>
+        <item>Картинка в картинке</item>
+        <item>Картинка в картинке (локально)</item>
+    </string-array>
+
+
+
+
+
+
+
+
+    <string-array name="vp_save_path_choices">
+        <item>/udisk/VP</item>
+        <item>/sdcard/VP</item>
+    </string-array>
+
+
+
+
+    <string-array name="auto_answer_scene_choices">
+        <item>Bluetooth или гарнитура</item>
+        <item>Только гарнитура</item>
+        <item>Только Bluetooth</item>
+    </string-array>
+    <string-array name="auto_answer_delay_time_choices">
+        <item>3 сек.</item>
+        <item>5 сек.</item>
+        <item>10 сек.</item>
+        <item>15 сек.</item>
+    </string-array>
+    <string-array name="roaming_mode_preferences_choices">
+        <item>Глобальный режим (рекоменд.)</item>
+        <item>Только CDMA</item>
+        <item>Только GSM/UMTS</item>
+    </string-array>
+
+
+
+
+
+</resources>

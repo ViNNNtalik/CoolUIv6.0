@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="msa">
+        <item>Удалить аккаунт</item>
+        <item>Изменить пароль</item>
+    </string-array>
+    <string-array name="polyphone_cities">
+        <item>长春|嫦春</item>
+        <item>长沙|嫦沙</item>
+        <item>长沙/湘潭/株洲|嫦沙/湘潭/株洲</item>
+        <item>长治|嫦治</item>
+        <item>重庆|崇庆</item>
+        <item>沈阳|婶阳</item>
+        <item>厦门|夏门</item>
+    </string-array>
+    <string-array name="system_group_name">
+        <item>Контакты</item>
+        <item>Конфиденц.</item>
+        <item>Сервис. номер</item>
+        <item>Групп.</item>
+        <item>Без групп</item>
+    </string-array>
+    <integer-array name="phone_type_label">
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+</resources>

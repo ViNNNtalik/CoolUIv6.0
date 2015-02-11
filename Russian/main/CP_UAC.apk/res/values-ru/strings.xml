@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uac_provision_welcome_use_coolui6.0">Добро пожаловать в CoolUI 6.0!</string>
+    <string name="uac_provision_language_simple_chinese">中文（简体）</string>
+    <string name="uac_provision_language_traditional_chinese">中文（繁體）</string>
+    <string name="uac_provision_language_english">English</string>
+    <string name="uac_provision_language_emergency_call">Экстренный вызов</string>
+    <string name="uac_provision_wifi_setting">Настройки Wi-Fi</string>
+    <string name="uac_provision_wifi_input_pwd">Введите пароль</string>
+    <string name="uac_provision_wifi_pwd_null">Пароль не может быть пустым</string>
+    <string name="uac_provision_wifi_hint">Подключение по Wi-Fi для активации устройства</string>
+    <string name="uac_provision_coolcloud">Есть аккаунт Oблака Coolpad</string>
+    <string name="uac_provision_lonekey_active">Нет аккаунта Облака Coolpad</string>
+    <string name="uac_provision_login">Логин существующего аккаунта</string>
+    <string name="uac_provision_coolcloud_hint"> "Вы сможете синхронизировать контакты, фото, аудиозаписи, SMS/MMS, заметки и т.д. с Облаком
+А также насладиться другими сервисами от Coolpad"</string>
+    <string name="uac_provision_last_step">Назад</string>
+    <string name="uac_provision_skip_step">Пропустить</string>
+    <string name="uac_provision_next_step">Далее</string>
+    <string name="uac_provision_start_use">Используется</string>
+    <string name="uac_provision_coolcloud_still_skip">Пропустить</string>
+    <string name="uac_provision_no_sim">Нет SIM-карты</string>
+    <string name="uac_provision_sim_liantong">China Unicom</string>
+    <string name="uac_provision_sim_yidong">China Mobile</string>
+    <string name="uac_provision_sim_dianxin">China Telecom</string>
+    <string name="uac_provision_other_setting">Другие настройки</string>
+    <string name="uac_provision_setting_succeed">Успешно настроено!</string>
+    <string name="uac_provision_setting_succeed_hint"> "Ваше устройство настроено!
+Наслаждайтесь использованием CoolUI 6.0 "</string>
+    <string name="uac_provision_other_title">Пользовательская программа улучшения качества</string>
+    <string name="uac_provision_other_summary">Отправлять отчеты об ошибке в случае
+ возникновения проблем</string>
+    <string name="uac_provision_wifi_try_connect">Попытка подключения к: %s</string>
+    <string name="uac_provision_wifi_start_failed">Ошибка запуска</string>
+    <string name="wifi_settings">Wi-Fi</string>
+    <string name="wifi_starting">Включение Wi-Fi…</string>
+    <string name="wifi_stopping">Выключение Wi-Fi…</string>
+    <string name="wifi_error">Ошибка</string>
+    <string name="wifi_in_airplane_mode">Режим полета</string>
+    <string name="wifi_fail_to_scan">Не удалось начать поиск сетей</string>
+    <string name="wifi_notify_open_networks">Уведомлять о сетях</string>
+    <string name="wifi_notify_open_networks_summary">Сообщать при обнаружении открытой сети</string>
+    <string name="wifi_poor_network_detection">Избегать плохой связи</string>
+    <string name="wifi_poor_network_detection_summary">Не использовать Wi-Fi сеть, пока не будет стабильного интернет-соединения</string>
+    <string name="wifi_setting_sleep_policy_title">Wi-Fi в спящем режиме</string>
+    <string name="wifi_setting_sleep_policy_error">Не удалось изменить этот параметр</string>
+    <string name="wifi_add_network">Добавить сеть</string>
+    <string name="wifi_access_points">Сети Wi-Fi</string>
+    <string name="wifi_menu_wps_pbc">Кнопка WPS</string>
+    <string name="wifi_menu_wps_pin">Ввод PIN-кода WPS</string>
+    <string name="wifi_menu_p2p">Wi-Fi передача P2P</string>
+    <string name="wifi_menu_scan">Поиск</string>
+    <string name="wifi_menu_advanced">Дополнительно</string>
+    <string name="wifi_menu_connect">Подключиться к сети</string>
+    <string name="wifi_menu_forget">Удалить эту сеть</string>
+    <string name="wifi_menu_modify">Изменить сеть</string>
+    <string name="wifi_empty_list_wifi_off">Чтобы просмотреть доступные сети, включите Wi-Fi</string>
+    <string name="wifi_empty_list_wifi_on">Поиск Wi-Fi сетей…</string>
+    <string name="wifi_other_network">Другая сеть…</string>
+    <string name="wifi_more">Дополнительно</string>
+    <string name="wifi_setup_wps">Автонастройка (WPS)</string>
+    <string name="wifi_show_advanced">Дополнительно</string>
+    <string name="wifi_wps_setup_title">Настройка WPS</string>
+    <string name="wifi_wps_setup_msg">Включение WPS…</string>
+    <string name="wifi_wps_onstart_pbc">Нажмите кнопку защищенного Wi-Fi на вашем роутере. Она может быть названа \"WPS\" или содержать этот символ:</string>
+    <string name="wifi_wps_onstart_pin">Введите PIN-код: %1$s в вашем Wi-Fi роутере. Настройка может занять до двух минут</string>
+    <string name="wifi_wps_complete">WPS успешно. Соединение с сетью…</string>
+    <string name="wifi_wps_connected">Соединено с сетью Wi-Fi %s</string>
+    <string name="wifi_wps_in_progress">WPS уже используется, для завершения потребуется около минуты</string>
+    <string name="wifi_wps_failed_generic">WPS ошибка. Повторите попытку через несколько минут</string>
+    <string name="wifi_wps_failed_wep">Настройки безопасности роутера (WEP) не поддерживаются</string>
+    <string name="wifi_wps_failed_tkip">Настройки безопасности роутера (TKIP) не поддерживаются</string>
+    <string name="wifi_wps_failed_auth">Ошибка авторизации. Попробуйте позже</string>
+    <string name="wifi_wps_failed_overlap">Обнаружена еще одна WPS сессия. Повторите попытку через несколько минут</string>
+    <string name="wifi_ssid">Имя (SSID)</string>
+    <string name="wifi_security">Безопасность</string>
+    <string name="wifi_signal">Уровень сигнала</string>
+    <string name="wifi_status">Статус</string>
+    <string name="wifi_speed">Скорость связи</string>
+    <string name="wifi_ip_address">IP-адрес</string>
+    <string name="wifi_eap_method">Метод EAP</string>
+    <string name="please_select_phase2">2-й этап аутентификации</string>
+    <string name="wifi_eap_ca_cert">Сертификат центра сертификации</string>
+    <string name="wifi_eap_user_cert">Сертификат пользователя</string>
+    <string name="wifi_eap_identity">Пользователь</string>
+    <string name="wifi_eap_anonymous">Неизвестный</string>
+    <string name="wifi_password">Пароль</string>
+    <string name="wifi_show_password">Показывать пароль</string>
+    <string name="wifi_ip_settings">Настройки IP</string>
+    <string name="wifi_unchanged">(не изменялось)</string>
+    <string name="wifi_unspecified">(не указано)</string>
+    <string name="wifi_remembered">Сохранено</string>
+    <string name="wifi_disabled_generic">Отключено</string>
+    <string name="wifi_disabled_network_failure">Включено</string>
+    <string name="wifi_disabled_password_failure">Ошибка аутентификации</string>
+    <string name="wifi_not_in_range">Недоступна</string>
+    <string name="wifi_wps_available_first_item">Доступна защищенная сеть</string>
+    <string name="wifi_wps_available_second_item">" (доступна защищенная сеть)"</string>
+    <string name="wifi_secured_first_item">Защита %1$s</string>
+    <string name="wifi_secured_second_item">, защита %1$s</string>
+    <string name="wifi_security_none">Нет</string>
+    <string name="wifi_connect">Подключить</string>
+    <string name="wifi_failed_connect_message">Ошибка соединения с сетью</string>
+    <string name="wifi_forget">Не подключаться</string>
+    <string name="wifi_failed_forget_message">Ошибка удаления сети</string>
+    <string name="wifi_save">Сохранить</string>
+    <string name="wifi_failed_save_message">Ошибка сохранения сети</string>
+    <string name="wifi_cancel">Отмена</string>
+    <string name="wifi_disconnect">Отключить</string>
+    <string name="wifi_advanced_titlebar">Дополнительно</string>
+    <string name="wifi_setting_frequency_band_title">Диапазон частот Wi-Fi</string>
+    <string name="wifi_setting_frequency_band_summary">Укажите рабочий диапазон частот</string>
+    <string name="wifi_setting_frequency_band_error">При настройке полосы частот возникла неполадка</string>
+    <string name="wifi_advanced_mac_address_title">MAC-адрес</string>
+    <string name="wifi_advanced_ip_address_title">IP-адрес</string>
+    <string name="wifi_advanced_settings_label">Расширенные настройки Wi-Fi</string>
+    <string name="wifi_ip_settings_menu_save">Сохранить</string>
+    <string name="wifi_ip_settings_menu_cancel">Отмена</string>
+    <string name="wifi_ip_settings_invalid_ip_address">Введите действительный IP-адрес</string>
+    <string name="wifi_ip_settings_invalid_gateway">Введите действительный адрес шлюза</string>
+    <string name="wifi_ip_settings_invalid_dns">Введите действительный DNS-адрес</string>
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Укажите длину префикса сети (от 0 до 32)</string>
+    <string name="wifi_dns1">DNS 1</string>
+    <string name="wifi_dns2">DNS 2</string>
+    <string name="wifi_gateway">Шлюз</string>
+    <string name="wifi_network_prefix_length">Длина префикса сети</string>
+    <string name="wifi_p2p_settings_title">Wi-Fi передача P2P</string>
+    <string name="wifi_p2p_device_info">Информация об устройстве</string>
+    <string name="wifi_p2p_persist_network">Запомнить это соединение</string>
+    <string name="wifi_p2p_menu_search">Поиск</string>
+    <string name="wifi_p2p_menu_searching">Поиск…</string>
+    <string name="wifi_p2p_menu_rename">Переименовать</string>
+    <string name="wifi_p2p_peer_devices">Устройства сети</string>
+    <string name="wifi_p2p_failed_connect_message">Нет соединения</string>
+    <string name="wifi_p2p_failed_rename_message">Ошибка переименования</string>
+    <string name="wifi_p2p_disconnect_title">Разъединить?</string>
+    <string name="wifi_p2p_disconnect_message">Если отключиться, то ваше соединение с %1$s будет разорвано</string>
+    <string name="wifi_p2p_disconnect_multiple_message">Если отключиться, то Ваше соединение с %1$s и %2$s другими устройствами будет разорвано</string>
+    <string name="wifi_p2p_cancel_connect_title">Отменить приглашение?</string>
+    <string name="wifi_p2p_cancel_connect_message">Вы хотите отменить приглашение к соединению с %1$s?</string>
+    <string name="wifi_tether_checkbox_text">Точка доступа Wi-Fi</string>
+    <string name="wifi_tether_enabled_subtext">Точка доступа %1$s активна</string>
+    <string name="wifi_tether_failed_subtext">Ошибка подключения</string>
+    <string name="wifi_tether_configure_ap_text">Настроить точку доступа Wi-Fi</string>
+    <string name="wifi_tether_configure_subtext">Точка доступа %1$s %2$s</string>
+    <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="ethernet_ip_settings_invalid_ip">Введите действующий IP-адрес</string>
+    <string name="ethernet_use_static_ip">Использование статического IP-адреса</string>
+    <string name="ethernet_use_static_ip_succeed">Использование статического IP-адреса успешно</string>
+    <string name="ethernet_use_static_ip_failed">Использование статического IP-адреса не удалось</string>
+    <string name="ethernet_static_ip_address">IP-адрес</string>
+    <string name="ethernet_static_dns1">Имя домена 1</string>
+    <string name="ethernet_static_dns2">Имя домена 2</string>
+    <string name="ethernet_static_gateway">Шлюз по умолчанию</string>
+    <string name="ethernet_static_netmask">Маска подсети</string>
+    <string name="ethernet_advanced_mac_address_title">MAC-адрес</string>
+    <string name="ethernet_advanced_ip_address_title">IP-адрес</string>
+    <string name="linkage_status_disconnected">Сеть Ethernet отключена физически!</string>
+    <string name="linkage_status_dev_fail">Не удалось включить Ethernet. Он точно есть?</string>
+    <string name="duplex_full">Полный</string>
+    <string name="duplex_half">Половина</string>
+    <string name="duplex_unknown">Неизвестно</string>
+    <string name="linkage_status_format" formatted="false">Подключено. Скорость: %dMb/s. Дуплекс: %s</string>
+    <string name="ip_network_status_connecting">Конфигурирование интерфейса Ethernet</string>
+    <string name="ip_network_status_connected">Конфигурирование интерфейса Ethernet успешно</string>
+    <string name="ip_network_status_failed">Конфигурирование интерфейса Ethernet не удалось</string>
+    <string name="ip_network_status_unavailable">Не доступно</string>
+    <string name="eth_ip_settings_please_complete_settings">Пожалуйста, введите полный IP-адрес!</string>
+    <string name="eth_ip_settings_eth_is_disabled">Ethernet недоступен</string>
+    <string name="ethernet_static_ip_settings_title">Настройки статического IP-адреса</string>
+    <string name="category_ethernet">Настройки IP-адреса</string>
+    <string name="intent_sender_sendbroadcast_text">Отправить запрос</string>
+    <string name="intent_sender_action_label">Действие:</string>
+    <string name="intent_sender_startactivity_text">Запустить действие</string>
+    <string name="intent_sender_resource_label">Ресурс:</string>
+    <string name="intent_sender_account_label">Аккаунт:</string>
+    <string name="proxy_settings_title">Настройки прокси-сервера</string>
+    <string name="proxy_settings_succeed">Прокси-сервер настроен успешно</string>
+    <string name="proxy_settings_failed">Ошибка настройки прокси-сервера</string>
+    <string name="proxy_clear_text">Очистить</string>
+    <string name="proxy_port_label">Порт прокси</string>
+    <string name="proxy_exclusionlist_label">Не использовать прокси для</string>
+
+    <string name="proxy_defaultView_text">Настройки по умолчанию</string>
+    <string name="proxy_action_text">Готово</string>
+    <string name="proxy_hostname_label">Имя хоста прокси-сервера</string>
+
+    <string name="proxy_error">Внимание!</string>
+    <string name="proxy_error_dismiss">ОК</string>
+    <string name="proxy_error_invalid_host">Введено недействительное имя хоста</string>
+    <string name="proxy_error_invalid_exclusion_list">Список исключений отформатирован неверно. Перечислите исключаемые домены через запятую</string>
+    <string name="proxy_error_empty_port">В поле с адресом порта должно быть введено значение</string>
+    <string name="proxy_error_empty_host_set_port">Поле с адресом порта должно быть оставлено пустым в случае, если поле узла пустое</string>
+    <string name="proxy_error_invalid_port">Указанный порт недействителен</string>
+    <string name="proxy_warning_limited_support">HTTP-прокси используется в обозревателе, но может не использоваться другими приложениями</string>
+
+    <string name="app_name">Аккаунт Облака</string>
+    <string name="umgr_coolaccount">Аккаунт Облака</string>
+    <string name="umgr_about_coolaccount"><u>Аккаунт Облака</u></string>
+    <string name="umgr_prologue_prompt1">Это аккаунт Облака! Доступ ко всему лучшему от Coolpad!</string>
+    <string name="umgr_prologue_prompt2"> \u0009 \u0009 При наличии Аккаунта Облака Coolpad Вы сможете синхронизировать контакты, фото, аудиозаписи, SMS/MMS и другие данные</string>
+    <string name="umgr_skip_login_text">Пропустить для входа в мобильный интерфейс</string>
+    <string name="umgr_nologin_prompt"> "\u0009 \u0009 cool cloud because you have not used the account to log in, so will affect your use of the store, cool swim baby, cool cloud address book backup and other functions.
+  \u0009 \u0009 please do not worry, when you need to use these services, we will be prompted to log in when you need it. "</string>
+    <string name="umgr_login_prompt"> \u0009 \u0009 thank you log in cool cloud account login will remain cool cloud account login account status, you will not need to use the following services log on again:</string>
+    <string name="umgr_login_usephone">Начать использование устройства</string>
+    <string name="umgr_prologue_title">Аккаунт Облака</string>
+    <string name="umgr_prologue_login">Использование существующего аккаунта</string>
+    <string name="umgr_prologue_register_btntitle">Регистрация нового аккаунта</string>
+    <string name="umgr_personal_center_title">Личное</string>
+    <string name="umgr_coolaccount_label">"Аккаунт Облака: "</string>
+    <string name="umgr_personal_center_coolyun">Синхронизация с Облаком</string>
+    <string name="umgr_personal_center_coolsync">Синхронизация с Облаком</string>
+    <string name="umgr_personal_center_coolyun_prompt">Контакты, SMS/MMS, фото, другие данные могут синхронизироваться с Облаком Coolpad</string>
+    <string name="umgr_personal_center_myassets">Мои средства</string>
+    <string name="umgr_personal_center_coolmoney">Монеты Coolpad:</string>
+    <string name="umgr_personal_center_see_coolmoney">Скоро все будет-)</string>
+    <string name="umgr_personal_center_alert">Скоро все будет-)</string>
+    <string name="umgr_personal_center_coolbean">Жетоны Coolpad:</string>
+    <string name="umgr_personal_center_see_coolbean">Нажмите для просмотра информации по жетонам Coolpad</string>
+    <string name="umgr_personal_center_howget_coolbean">Как получить монеты и жетоны Coolpad?</string>
+    <string name="umgr_personal_center_accountsetting">Настройки аккаунта Облака Coolpad</string>
+    <string name="umgr_personal_center_personalinfo">Профиль</string>
+    <string name="umgr_personal_center_modify_personalinfo">Изменение параметров профиля</string>
+    <string name="umgr_personal_center_pwdmanage">Управление паролем</string>
+    <string name="umgr_personal_center_modifypwd">Изменение пароля для входа</string>
+    <string name="umgr_personal_center_bindmanage">Управление привязкой</string>
+    <string name="umgr_personal_center_modifybind">Изменение связанных номеров телефона, эл. почты и т.д.</string>
+    <string name="umgr_personal_center_other">Прочее</string>
+    <string name="umgr_personal_center_loginout">Выход</string>
+    <string name="umgr_personal_center_versioncode">"Номер версии: "</string>
+    <string name="umgr_personal_center_modify_icon">Изменение аватара</string>
+    <string name="uac_add_photo_title">Добавить фото</string>
+    <string name="uac_add_take_pictue">Камера</string>
+    <string name="uac_add_select_picture">Выбор фото</string>
+    <string name="uac_upload_picture">Загрузка фото</string>
+    <string name="uac_forward_prologue_account">%s for your account to upgrade to the official cool cloud account now!</string>
+    <string name="uac_forward_prologue_account_tip"> "cool cloud accounts can synchronize contacts, call history,
+\ u0009 \ u0009 \ u0009 information and photos of various mobile data; "</string>
+    <string name="uac_forward_prologue_account_tip1"> You can also use cool for you to customize all Internet services</string>
+    <string name="umgr_account_upgrade_prompt"> will give you a temporary account:%s upgrade, after the upgrade you will be enjoying the cool variety of services</string>
+    <string name="uac_forward_prologue_account_specificaiton"> "Description: Now the data will be migrated to the account under the cool cloud account
+\ u0009 \ u0009 \ u0009 households, oh do not worry about the data will be lost! "</string>
+    <string name="umgr_please_input_bind_phone">Введите номер телефона для связывания</string>
+    <string name="umgr_account_upgrade_confirm">Обновление</string>
+    <string name="umgr_account_upgrade_cancel">Позже</string>
+    <string name="uac_forward_prolgoue_forward">Я хочу обновить</string>
+    <string name="uac_forward_prolgoue_bind">Привязка у аккаунту Облака Coolpad</string>
+    <string name="uac_forward_title">Обновление аккаунта</string>
+    <string name="uac_consume_tab_title">Делали использования</string>
+    <string name="uac_income_tab_title">Детали поступления</string>
+    <string name="uac_coolbean_title">Детали жетонов Coolpad</string>
+    <string name="uac_get_moret_text">Еще</string>
+    <string name="uac_no_get_coolbean_consume">Не удалось получить информацию по использованию  жетонов</string>
+    <string name="uac_no_get_coolbean_income">Не удалось получить информацию по поступлению  жетонов</string>
+    <string name="cooperarion_pull_refresh_recently">"Последнее обновление: "</string>
+    <string name="cooperation_pull_refresh_now">Обновление...</string>
+    <string name="cooperation_pull_refreshing">Обновление...</string>
+    <string name="cooperation_pull_to_refresh">Вниз для обновления</string>
+    <string name="cooperation_release_to_refresh">Отпустите для обновления</string>
+    <string name="umgr_personal_info_title">Профиль</string>
+    <string name="umgr_personal_info_realname">Имя</string>
+    <string name="umgr_personal_info_gender">Пол</string>
+    <string name="umgr_personal_info_birthday">День рождения</string>
+    <string name="umgr_personal_info_age">Возраст</string>
+    <string name="umgr_personal_info_city">Город</string>
+    <string name="umgr_personal_info_company">Организация</string>
+    <string name="umgr_personal_info_profession">Профессия</string>
+    <string name="umgr_personal_info_editinfo">Редактировать профиль</string>
+    <string name="umgr_personal_select_gender">Выбор пола</string>
+    <string name="umgr_personal_info_noset">Не задано</string>
+    <string name="umgr_personal_info_get_error">Не удалось получить личную информацию</string>
+    <string name="umgr_personal_info_nickname">Никнейм</string>
+    <string name="inpit_utf8_str">Кодировка utf-8</string>
+    <string name="umgr_personal_info_nickname_hint">Введите свой никнейм</string>
+    <string name="umgr_alert_dialog_title_birthday">Задать день рождения</string>
+    <string name="umgr_calendar_month">Месяц</string>
+    <string name="umgr_personal_info_modify_company">Изменить организацию</string>
+    <string name="umgr_personal_info_add_company">Добавить организацию</string>
+    <string name="umgr_modify_photo_failure">Измененение аватара не удалось</string>
+    <string name="umgr_pwd_manage_oldpwd">"Старый пароль: "</string>
+    <string name="umgr_pwd_manage_newpwd">"Новый пароль: "</string>
+    <string name="umgr_pwd_manage_confirmpwd">"Подтверждение пароля: "</string>
+    <string name="umgr_pwd_manage_savemodify">Сохранение изменений</string>
+    <string name="umgr_pwd_mange_hinttext">От 6 до 16 символов</string>
+    <string name="umgr_bind_manage_bindphone">Телефон (только Китай)</string>
+    <string name="umgr_bind_manage_rebind">Связать заново</string>
+    <string name="umgr_bind_manage_bind">Связывание</string>
+    <string name="umgr_bind_manage_bindmail">Эл. почта</string>
+    <string name="umgr_bind_manage_nobind">(без связи)</string>
+    <string name="umgr_bind_manage_enterpwd_title"> Enter the password to confirm</string>
+    <string name="umgr_bind_manage_bind_success">Связано успешно</string>
+    <string name="uac_bind_manage_enterpwd_tip"> Please enter the password, click Next to verify the phone number after the binding</string>
+    <string name="uac_bind_manage_bindphone_phone"> Номер телефона</string>
+    <string name="umgr_bind_manage_bindphone_hinttext">11 номеров телефона</string>
+    <string name="uac_bind_manage_bindphone_authcode"> code</string>
+    <string name="uac_bind_manage_prompt"> message may be a delay, please be patient. Reacquire If you do not receive a long message, please send 60 seconds</string>
+    <string name="uac_bindmail_dialog_title"> sent successfully</string>
+    <string name="uac_bindphone_dialog_title">Связано успешно</string>
+    <string name="uac_dialog_title"> Tips</string>
+    <string name="uac_dialog_mail_body"> system verification email has been sent to your mailbox, effective within 24 hours, please check your email and press the prompts to complete the binding</string>
+    <string name="uac_dialog_sms_body"> SMS verification code sent to your phone, enter the four digit code to complete the operation</string>
+    <string name="uac_dialog_ok"> OK</string>
+    <string name="uac_dialog_cancel"> Cancel</string>
+    <string name="umgr_third_forward_start"> 1. Log in and bound accounts</string>
+    <string name="umgr_third_forward_end"> 2. Migration success</string>
+    <string name="umgr_third_forward_useold"> has been cool cloud account</string>
+    <string name="umgr_third_forward_getnew"> Create a cool cloud account and bind</string>
+    <string name="umgr_third_forward_oldaccount_tip"> You will want to upgrade%s account are:</string>
+    <string name="umgr_third_forward_account"> Cool cloud your account:</string>
+    <string name="umgr_third_forward_passward"> cool cloud your account password:</string>
+    <string name="umgr_third_forward_account_hint"> Please enter your cool cloud account</string>
+    <string name="umgr_third_forward_pwd_hint"> Please enter the cool cloud account password</string>
+    <string name="uac_logout_title">Выход из аккаунта</string>
+    <string name="uac_logout_prompty_body">Текущий аккаунт %s</string>
+    <string name="uac_logout_pwd_is_null">Пароль не может быть пустым</string>
+    <string name="uac_logout_progress_text">Выход...</string>
+    <string name="umgr_title_login">Аккаунт Облака</string>
+    <string name="umgr_title_register">Создание аккаунта Облака Coolpad</string>
+    <string name="umgr_title_bind">Привязка аккаунта</string>
+    <string name="umgr_title_findpwd">Забыли пароль?</string>
+    <string name="umgr_title_auth"> Account Authorization</string>
+    <string name="umgr_title_agreement">Пользовательское соглашение</string>
+    <string name="umgr_title_privacy">Политика безопасности</string>
+    <string name="umgr_title_forward">Обновление аккаунта</string>
+    <string name="umgr_title_switch_user">Переключение аккаунта</string>
+    <string name="umgr_title_forwand_bind">Обновление привязки аккаунта</string>
+    <string name="umgr_title_password_manage">Управление паролем</string>
+    <string name="umgr_please_holdon">Ожидайте...</string>
+    <string name="umgr_please_login">Войдите в свой аккаунт Облака</string>
+    <string name="umgr_please_forward_format"> Just Enter your cool cloud account, you can be your cool cloud%s accounts and accounts bind</string>
+    <string name="umgr_please_forward_default"> Just Enter your cool cloud account, you can be your cool friends and community accounts cool cloud account bind</string>
+    <string name="umgr_please_login_format"> Use cool cloud account login %s</string>
+    <string name="umgr_please_login_third_format1">%s account login using</string>
+    <string name="umgr_login_use_third_format">%s account</string>
+    <string name="umgr_login_use_third_default"> Cool Friends of the Community accounts</string>
+    <string name="umgr_please_input_username">Введите адрес эл. почты</string>
+    <string name="umgr_please_input_phone">Номер телефона (только Китай)</string>
+    <string name="umgr_please_input_email">Адрес эл. почты</string>
+    <string name="umgr_please_input_password">Введите пароль от 6 до 16 символов</string>
+    <string name="umgr_please_input_authcode">Код подтверждения SMS</string>
+    <string name="umgr_please_confirm_password">Повторите пароль</string>
+    <string name="umgr_please_set_password">Задать пароль</string>
+    <string name="umgr_please_input_username_registered">Введите номер телефона</string>
+    <string name="umgr_please_input_authcode_received">Введите код подтверждения</string>
+    <string name="umgr_please_input_new_password">Введите новый пароль</string>
+    <string name="umgr_show_psw">Показать пароль</string>
+    <string name="umgr_whether_forget_password_ornot">Забыт пароль</string>
+    <string name="umgr_whether_register_ornot">Зарегистрированные пользователи</string>
+    <string name="umgr_login">Вход</string>
+    <string name="umgr_register">Регистрация</string>
+    <string name="umgr_bind">Связывание</string>
+    <string name="umgr_skip">Пропуск</string>
+    <string name="umgr_login_lightly">Быстрый вход</string>
+    <string name="umgr_login_register">Регистрация</string>
+    <string name="umgr_register_agree_clause_1">Зарегистрировав аккаунт, вы соглашаетесь со следующими документами</string>
+    <string name="umgr_login_agree_clause_1"> Совершив вход в аккаунт, вы соглашаетесь со следующими документами</string>
+    <string name="umgr_agree_clause_2_user">" Аккаунта Облака: "</string>
+    <string name="umgr_agree_clause_2_agreement">"Пользовательское соглашение "</string>
+    <string name="umgr_agree_clause_2_and">"и "</string>
+    <string name="umgr_agree_clause_2_privacy">Политика безопасности</string>
+    <string name="umgr_prologue_prompt_1">Контакты, SMS/MMS, фото, другие данные могут синхронизироваться с Облаком Coolpad</string>
+    <string name="umgr_prologue_prompt_2">Наслаждайтесь широким спектром сервисов от Coolpad</string>
+    <string name="umgr_login_registered">Существуюший аккаунт</string>
+    <string name="umgr_prologue_register">Новый аккаунт</string>
+    <string name="umgr_get_authcode">Получить код</string>
+    <string name="umgr_psw_rules">Пароль должен содержать от 6 до 16 символов</string>
+    <string name="umgr_last_step">Назад</string>
+    <string name="umgr_next_step">Далее</string>
+    <string name="umgr_complete_register">Завершение регистрации</string>
+    <string name="umgr_registered_to_login">Аккаунт успешно зарегистрирован</string>
+    <string name="umgr_registered_to_login_format">%s успешно зарегистрирован</string>
+    <string name="umgr_phonenumber">Телефон</string>
+    <string name="umgr_email">Эл. почта</string>
+    <string name="umgr_login_directly">Прямой вход</string>
+    <string name="umgr_registe_by_other">Другая регистрация</string>
+    <string name="umgr_complete">Завершено</string>
+    <string name="umgr_findpwd">Забыли пароль?</string>
+    <string name="umgr_allow_3th_access"> will allow the current application to use your account to do the following cool cloud</string>
+    <string name="umgr_allow_3th_access_format">%s will be allowed to use your account to do the following cool cloud</string>
+    <string name="umgr_auth_and_login">Авторизация и вход</string>
+    <string name="umgr_auth_and_login_format">Авторизация и вход (%d сек.)</string>
+    <string name="umgr_coolcloud_name">Аккаунт Облака</string>
+    <string name="umgr_3th_name">Третья сторона</string>
+    <string name="umgr_countdown_format">%d сек.</string>
+    <string name="umgr_register_complete_format">Аккаунт %s успешно зарегистрирован</string>
+    <string name="umgr_findpwd_complete_format">Для аккаунта %s пароль успешно восстановлен</string>
+    <string name="umgr_register_light_user">Вы зарегистрировали аккаунт</string>
+    <string name="umgr_username_is">"Имя пользователя: "</string>
+    <string name="umgr_login_account"> Аккаунты</string>
+    <string name="umgr_login_password">Пароль</string>
+    <string name="umgr_password_is">"Пароль: "</string>
+    <string name="umgr_start_3th">Вход в приложение</string>
+    <string name="umgr_exit">Выход</string>
+    <string name="umgr_use_current">Использование текущего аккаунта</string>
+    <string name="umgr_switch_user">Переключение аккаунтов</string>
+    <string name="umgr_switch_format">В системе обнаружен логин</string>
+    <string name="umgr_coolpad_bbs">Форум Coolpad</string>
+    <string name="umgr_user_present_in_bbs">С текущего аккаунта осуществлен вход в Облако %s</string>
+    <string name="umgr_third_binded">Используйте привязанный к аккаунту логин</string>
+    <string name="umgr_rcode_illigel_request">Ошибка запроса пакета</string>
+    <string name="umgr_rcode_user_unlogined">Без входа</string>
+    <string name="umgr_rcode_register_failure">Ошибка регистрации</string>
+    <string name="umgr_rcode_username_used">Имя пользователя уже используется</string>
+    <string name="umgr_rcode_user_absent">Пользователь не существует</string>
+    <string name="umgr_rcode_password_mismatch">Пароли не совпадают</string>
+    <string name="umgr_rcode_user_disabled">Аккаунт отключен или требует активации</string>
+    <string name="umgr_rcode_user_probation_expired">Пробный период окончен</string>
+    <string name="umgr_rcode_device_register_user_too_much">Слишком много пользователей</string>
+    <string name="umgr_rcode_link_failure">Ошбика ссылки</string>
+    <string name="umgr_rcode_modification_failure">Ошибка при изменении</string>
+    <string name="umgr_rcode_database_failure">Ошибка базы данных</string>
+    <string name="umgr_rcode_device_login_user_too_much">Слишком много пользователей</string>
+    <string name="umgr_rcode_get_password_failure">Получение пароля не удалось</string>
+    <string name="umgr_rcode_incorrect_original_password">Неверный пароль</string>
+    <string name="umgr_rcode_get_userinfo_failure">Не удалось получить информацию о пользователе</string>
+    <string name="umgr_rcode_user_activated">Аккаунт активирован</string>
+    <string name="umgr_rcode_activate_link_failure">Срок ссылки на активацию истек</string>
+    <string name="umgr_rcode_userinfo_modification_failure">Изменение данных не удалось</string>
+    <string name="umgr_rcode_logout_failure">Ошибка регистрации</string>
+    <string name="umgr_rcode_private_password_modification_failure">Изменение пароля не удалось</string>
+    <string name="umgr_rcode_phoneno_binded">Номер уже связан с другим аккаунтом</string>
+    <string name="umgr_rcode_device_disabled">Устройство активировано</string>
+    <string name="umgr_rcode_authcode_failure">Ошибка кода</string>
+    <string name="umgr_rcode_authcode_expired">Код истек</string>
+    <string name="umgr_rcode_user_unbind_phoneno">Нет привязанного номера</string>
+    <string name="umgr_rcode_password_modification_failure">Изменение пароля не удалось</string>
+    <string name="umgr_rcode_phoneno_register_required">Номер не зарегистрирован</string>
+    <string name="umgr_rcode_illigel_private_password">Недопустимый пароль</string>
+    <string name="umgr_rcode_illigel_device">Недопустимое устройство</string>
+    <string name="umgr_rcode_user_unactivited">Аккаунт не активен</string>
+    <string name="umgr_rcode_user_password_empty">Пароль не задан</string>
+    <string name="umgr_rcode_network_failure">Ошибка сети</string>
+    <string name="umgr_rcode_user_unauthed">Аккаунт не авторизован</string>
+    <string name="umgr_rcode_authcode_sent_beyond_maximum">Код подтверждения отослан слишком много раз</string>
+    <string name="umgr_rcode_nickname_existed">Никнейм уже существует</string>
+    <string name="umgr_rcode_user_forbidden">Аккаунт отключен</string>
+    <string name="umgr_rcode_session_expired">Ошибка подключения</string>
+    <string name="umgr_rcode_deviceid_absent">Номер устройства не существует</string>
+    <string name="umgr_rcode_third_binded">Уже привязан к другому аккаунту</string>
+    <string name="umgr_rcode_api_unauthed">Приложение не авторизовано для использования данного API</string>
+    <string name="umgr_rcode_illigel_response_type"> type of response or lack of response to the type of illegal</string>
+    <string name="umgr_rcode_appid_required"> Missing Application ID parameter</string>
+    <string name="umgr_rcode_appkey_required"> check the password parameter is missing applications</string>
+    <string name="umgr_rcode_illigel_http_authorization"> HTTP header authentication information is missing</string>
+    <string name="umgr_rcode_illigel_grant_type"> Missing authorization type or types of illegal authorization</string>
+    <string name="umgr_rcode_code_required"> missing code parameters</string>
+    <string name="umgr_rcode_refresh_token_required"> Missing refresh token parameter</string>
+    <string name="umgr_rcode_access_token_required"> Missing refresh token parameter</string>
+    <string name="umgr_rcode_appid_absent"> Application ID does not exist or is not registered applications</string>
+    <string name="umgr_rcode_illigel_appkey">Applications Applications check illegal or password do not match</string>
+    <string name="umgr_rcode_illigel_redirect_url"> illegal callback address</string>
+    <string name="umgr_rcode_app_offline">Приложение офлайн</string>
+    <string name="umgr_rcode_illigel_access_token"> illegal token parameter</string>
+    <string name="umgr_rcode_access_token_expired"> expired token</string>
+    <string name="umgr_rcode_access_token_abolished"> token was abolished</string>
+    <string name="umgr_rcode_validate_access_token_failure"> authentication token failed</string>
+    <string name="umgr_rcode_illigel_uid">Недопустимый ID</string>
+    <string name="umgr_rcode_get_appid_failure">Получение ID приложения не удалось</string>
+    <string name="umgr_rcode_get_code_failure">Ошибка получения кода</string>
+    <string name="umgr_rcode_get_access_token_by_code_failure">Не удалось получить доступ к данным</string>
+    <string name="umgr_rcode_code_reused">Код для повторного использования</string>
+    <string name="umgr_rcode_get_access_token_failure">Получение доступа не удалось</string>
+    <string name="umgr_rcode_get_refresh_token_failure">Обновление не удалось</string>
+    <string name="umgr_rcode_get_app_scope_failure">Получение списка разрешений не удалось</string>
+    <string name="umgr_rcode_get_app_scope_on_user_failure">Получение списка приложений не удалось</string>
+    <string name="umgr_rcode_get_api_failure">Получение информации об API не удалось</string>
+    <string name="umgr_rcode_authorize_scope_failure">Авторизация пользовательского прлиожения не удалась</string>
+    <string name="umgr_rcode_authorize_expiretime_failure">Авторизация не удалась</string>
+    <string name="umgr_rcode_api_unauthorized">Недопустимый API</string>
+    <string name="umgr_rcode_app_apply_permissions_required">Нет прав на использование данного API</string>
+    <string name="umgr_rcode_http_failure">Ошбика передачи</string>
+    <string name="umgr_rcode_http_post_required">Ошибка запроса сети</string>
+    <string name="umgr_rcode_http_req_failure">Ошибка ответа сети</string>
+    <string name="umgr_rcode_http_res_failure">Ошибка запроса сети</string>
+    <string name="umgr_rcode_http_recv_failure">Возникла ошибка при получении данных</string>
+    <string name="umgr_rcode_http_client_protocol_failure">Ошибка протокола</string>
+    <string name="umgr_rcode_http_ioexception">Неправильный сетевой запрос</string>
+    <string name="umgr_rcode_input_appid_mismatch">Введенный ID и зарегистрированный ID не совпадают</string>
+    <string name="umgr_rcode_json_parse_failure">Парсинг JSON не удался</string>
+    <string name="umgr_rcode_server_uninstalled">Служба не установлена</string>
+    <string name="umgr_rcode_server_startup_failure">Ошибка запуска службы</string>
+    <string name="umgr_rcode_illigel_appid_configuration">Недопустимый ID</string>
+    <string name="umgr_rcode_response_mismatch">Запрос и ответ не совпадают</string>
+    <string name="umgr_rcode_rpc_failure">Удаленный вызов не удался</string>
+    <string name="umgr_rcode_zip_failure">Архивирование не удалось</string>
+    <string name="umgr_rcode_unzip_failure">Распаковка не удалась</string>
+    <string name="umgr_rcode_userid_required">Требуется ID пользователя</string>
+    <string name="umgr_rcode_get_local_logininfo_failed">Получение локального логина не удалось</string>
+    <string name="umgr_rcode_ok">Завершено успешно</string>
+    <string name="umgr_rcode_fail">Неизвестная ошибка</string>
+    <string name="umgr_error_illigel_username">Недопустимое имя</string>
+    <string name="umgr_error_illigel_authcode">Код не числовой</string>
+    <string name="umgr_error_illigel_pwd">Пароль не соответствует правилам</string>
+    <string name="umgr_error_illigel_confirm_pwd">Пароли не совпадают</string>
+    <string name="umgr_rcode_illigel_phone">Номер не соответствует правилам (только китайские номера)</string>
+    <string name="umgr_rcode_illigel_mail">Недопустимый адрес эл. почты</string>
+    <string name="umgr_rcode_modify_pwd_success">Пароль успешно изменен</string>
+    <string name="umgr_scope_unknown">Другие разрешения</string>
+    <string name="umgr_scope_getuserinfo">Получить информацию о пользователе</string>
+    <string name="umgr_modify_success">Успешно изменено</string>
+    <string name="umgr_clause_coolaccount"> "\u0009\u0009 Настоящее Соглашение является юридическим соглашением между вами и прохладной поставщика облачных услуг, означает, что вы готовы принять условия предоставления услуг. Настоящее Соглашение вместе со всеми обновлениями, сроки патчей, лицензий на программное обеспечение, и все правила и политики, упомянутой в настоящем Соглашении, вместе представляют собой соглашение между вами и прохладном облаке. Если вы согласны с условиями данного соглашения, пожалуйста, нажмите "Я согласен", если вы не согласны с условиями данного соглашения, не нажимайте кнопку "Принимаю "не использовать эту услугу вы должны принять и соблюдать условия настоящего Соглашения на Ваши вопросы.
+  \u0009\u0009 определение прохладно облачные сервисы
+  Yulong Coolpad здорово облако предлагается сервис онлайн-синхронизации облако, в том числе контакты, календарь, SMS, мгновенные отчеты о вызовах службы синхронизации (конечно, требуется подключение к сети) и удалять данные на сервере для резервного копирования, например, когда Когда пользователь изменяет стороне телефона внутри вышеуказанной информации будет немедленно охладить облако и активно пусть другие устройства с прохладной облачных счетов синхронизируются, прохладном облако не только в мобильном терминале для оказания этих услуг и приложений, а также обеспечивает полный набор работа веб-страниц.
+  \u0009\u0009 два. Услуги рисками и ограничение ответственности
+  Люди должны понять и согласиться, что услуги, связанные с Интернетом и мобильной связи и других услуг, которые могут быть затронуты факторами нестабильности, которая связывает много. Таким образом, существование ряда форс-мажорных услуг, вирус компьютерный сервис или хакерских атак, нестабильность системы, местоположения пользователя, пользователя с, сети мобильной связи, сети Интернет, сети, линии связи и другие причины сбоев, вызванных или не могут удовлетворить потребности пользователей риска. Использование этой службы пользователи должны иметь больший риск, прохладный облако на своевременности обслуживания, безопасность, точность не гарантирует, поэтому в результате чего пользователю отправлять и получать не можете прочитать сообщение или неправильно доставки, своевременность персональные настройки, невозможность хранения или другие проблемы не несут никакой ответственности. Для пользователей потере данных или холодных облаков силовых вина мажорных причин, потерян или служба остановлена, круто облако не будет нести никакой ответственности. В то же время сделка не может быть ниже линии холодного облака внимание.
+  \u0009\u0009 три. Условия изменения услуг и уведомления
+  () В любое время или прохладной облака будем постоянно обновлять время от времени пересматривать, дополнять и иным образом изменять настоящее Соглашение и ввести новые или дополнительные правила, принципы, сроки и условия на использование прав обслуживания.Предыдущего обновления, исправления, дополнения и дополнительные правила, политика, сроки и условия (в настоящем Соглашении именуемой «Дополнительные условия») будет связаться с помощью уведомления веб-страницы или вашей учетной записи, указанной в адрес электронной почты, чтобы отправить по электронной почте, или по почте письмо-уведомление отправлено вам, когда вы принять, вступают в силу немедленно и включены в данное Соглашение. Если вы не согласны изменить содержание, вы можете прекратить соответствующие услуги.
+  (2) Для системного сбоя, влияющего на нормальную работу данного сервиса, прохладном облако обещание своевременной обработки ремонта. Но в результате неудобства для вас, пожалуйста, поймите, прохладном облако не будет нести ответственность за потерю вашего духа.
+  \u0009\u0009 четыре Обязанности пользователя и обязанности
+  (1) Пользователь не имеет права использовать службы или прохладный облачный веб-страницу, скопируйте, загружать, хранить, распространять какой-либо вред национальной безопасности, нанести ущерб национальной чести и интересов, разжигание межнациональной розни, этнической дискриминации, пропагандировать культ и феодальные суеверия, никаких предубеждений на социальное обеспечение либо реакционны, насилие, убийство, ложь, ужас, беспокойство, оскорбительным, клеветническим, угрожающим, порнографическим или подстрекательство законы и правила преступности запретить содержание.
+  (2) Люди не должны использовать службу намеренно распространение компьютерных вирусов и других деструктивных программ, а не для обслуживания, серверов или сетей, подключенных к помехам услугами Производство и путаницы, или в нарушение какого-либо из услуг, необходимых для подключения к сети, программа , политики или правила, иначе круто облако оставляют за собой право преследовать свою юридическую ответственность и право представить его в соответствующий отдел.
+  (3) Пользователь обязуется соблюдать "Народной Республики Китая Конституции", "Народная Республика Китай гражданского права", "Народная Республика Китай авторском праве", "Народная Республика Китай на охране государственных тайн право", "Положением о защите компьютерной информации системы безопасности Народной Республики Китай." "объясняет Верховный суд рассматривает споры, связанные с компьютерной сетью закона об авторском праве, применимые ряд вопросов", "Положение защиты компьютера Программное обеспечение", "Информационная сеть передачи правой постановления о защите», «Интернет Копирайт административные меры защиты» и других соответствующих национальных законов и правилподход к реализации.
+  (4) соблюдать все услуги, связанные с использованием сетевых протоколов, правил, процедур и практики.
+  \u0009\u0009 пять. О ключом для активации
+  При использовании "одна клавиша для активации" Регистрация прохладный облако, мы будем использовать телефон для отправки текстовых сообщений на нашем сервере серверная часть, сборы, взимаемые оператором, в дополнение к не тратить ваши расходы
+"</string>
+    <string name="umgr_clause_agreement">\u0009\u0009Настоящее Соглашение является юридическим соглашением между вами и прохладной поставщика облачных услуг, означает, что вы готовы принять условия предоставления услуг. Настоящее Соглашение вместе со всеми обновлениями, сроки патчей, лицензий на программное обеспечение, и все правила и политики, упомянутой в настоящем Соглашении, вместе представляют собой соглашение между вами и прохладном облаке. Если вы согласны с условиями данного соглашения, пожалуйста, нажмите "Я согласен", если вы не согласны с условиями данного соглашения, не нажимайте кнопку "Принимаю "не использовать эту услугу вы должны принять и соблюдать условия настоящего Соглашения на Ваши вопросы.
+  \u0009\u0009 определение прохладно облачные сервисы
+  Yulong Coolpad здорово облако предлагается сервис онлайн-синхронизации облако, в том числе контакты, календарь, SMS, мгновенные отчеты о вызовах службы синхронизации (конечно, требуется подключение к сети) и удалять данные на сервере для резервного копирования, например, когда Когда пользователь изменяет стороне телефона внутри вышеуказанной информации будет немедленно охладить облако и активно пусть другие устройства с прохладной облачных счетов синхронизируются, прохладном облако не только в мобильном терминале для оказания этих услуг и приложений, а также обеспечивает полный набор работа веб-страниц.
+  \u0009\u0009 два. Услуги рисками и ограничение ответственности
+  Люди должны понять и согласиться, что услуги, связанные с Интернетом и мобильной связи и других услуг, которые могут быть затронуты факторами нестабильности, которая связывает много. Таким образом, существование ряда форс-мажорных услуг, вирус компьютерный сервис или хакерских атак, нестабильность системы, местоположения пользователя, пользователя с, сети мобильной связи, сети Интернет, сети, линии связи и другие причины сбоев, вызванных или не могут удовлетворить потребности пользователей риска. Использование этой службы пользователи должны иметь больший риск, прохладный облако на своевременности обслуживания, безопасность, точность не гарантирует, поэтому в результате чего пользователю отправлять и получать не можете прочитать сообщение или неправильно доставки, своевременность персональные настройки, невозможность хранения или другие проблемы не несут никакой ответственности. Для пользователей потере данных или холодных облаков силовых вина мажорных причин, потерян или служба остановлена, круто облако не будет нести никакой ответственности. В то же время сделка не может быть ниже линии холодного облака внимание.
+  \u0009\u0009 три. Условия изменения услуг и уведомления
+  () В любое время или прохладной облака будем постоянно обновлять время от времени пересматривать, дополнять и иным образом изменять настоящее Соглашение и ввести новые или дополнительные правила, принципы, сроки и условия на использование прав обслуживания.Предыдущего обновления, исправления, дополнения и дополнительные правила, политика, сроки и условия (в настоящем Соглашении именуемой «Дополнительные условия») будет связаться с помощью уведомления веб-страницы или вашей учетной записи, указанной в адрес электронной почты, чтобы отправить по электронной почте, или по почте письмо-уведомление отправлено вам, когда вы принять, вступают в силу немедленно и включены в данное Соглашение. Если вы не согласны изменить содержание, вы можете прекратить соответствующие услуги.
+  (2) Для системного сбоя, влияющего на нормальную работу данного сервиса, прохладном облако обещание своевременной обработки ремонта. Но в результате неудобства для вас, пожалуйста, поймите, прохладном облако не будет нести ответственность за потерю вашего духа.
+  \u0009\u0009 четыре Обязанности пользователя и обязанности
+  (1) Пользователь не имеет права использовать службы или прохладный облачный веб-страницу, скопируйте, загружать, хранить, распространять какой-либо вред национальной безопасности, нанести ущерб национальной чести и интересов, разжигание межнациональной розни, этнической дискриминации, пропагандировать культ и феодальные суеверия, никаких предубеждений на социальное обеспечение либо реакционны, насилие, убийство, ложь, ужас, беспокойство, оскорбительным, клеветническим, угрожающим, порнографическим или подстрекательство законы и правила преступности запретить содержание.
+  (2) Люди не должны использовать службу намеренно распространение компьютерных вирусов и других деструктивных программ, а не для обслуживания, серверов или сетей, подключенных к помехам услугами Производство и путаницы, или в нарушение какого-либо из услуг, необходимых для подключения к сети, программа , политики или правила, иначе круто облако оставляют за собой право преследовать свою юридическую ответственность и право представить его в соответствующий отдел.
+  (3) Пользователь обязуется соблюдать "Народной Республики Китая Конституции", "Народная Республика Китай гражданского права", "Народная Республика Китай авторском праве", "Народная Республика Китай на охране государственных тайн право", "Положением о защите компьютерной информации системы безопасности Народной Республики Китай." "объясняет Верховный суд рассматривает споры, связанные с компьютерной сетью закона об авторском праве, применимые ряд вопросов", "Положение защиты компьютера Программное обеспечение", "Информационная сеть передачи правой постановления о защите», «Интернет Копирайт административные меры защиты» и других соответствующих национальных законов и правилподход к реализации.
+  (4) соблюдать все услуги, связанные с использованием сетевых протоколов, правил, процедур и практики.
+  \u0009\u0009 пять. О ключом для активации
+  При использовании "одна клавиша для активации" Регистрация прохладный облако, мы будем использовать телефон для отправки текстовых сообщений на нашем сервере серверная часть, сборы, взимаемые оператором, в дополнение к не тратить ваши расходы
+"</string>
+    <string name="umgr_clause_privacy">  \u0009\u0009 мы придаем большое значение защите вашей секретности, прохладном облако с использованием нескольких технологий шифрования, пользователи хранят строгое управление и защита прохладном и так конец данных, защиты вашей личной информации теряется, украдены или подделаны! Настоящее Соглашение является юридическим соглашением между вами и прохладной поставщика облачных услуг, при нажатии на "одном ключе, чтобы активировать» или прохладной облачных сервисов, что вы внимательно прочли условия и принимаю условия предоставления услуг Настоящее Соглашение, а также со всеми обновлениями, сроки патчей, лицензий на программное обеспечение, а также всех правил и политики, упомянутой в настоящем Соглашении, вместе представляют собой соглашение между вами и прохладном облаке.
+  \u0009\u0009 прохладном Cloud Services
+  Yulong Coolpad здорово облако предлагается сервис онлайн-синхронизации облако, в том числе календаря, адресной книги, история звонков, текстовых сообщений, закладки, блокноты, фотографии и другой службы синхронизации в реальном времени (конечно, требуется подключение к сети), в то время как в серверном удаления резервной копии данных, например, когда пользователь изменяет мобильный терминал внутри вышеуказанной информации будет немедленно охладить облако и активно, чтобы другие устройства в той же учетной записи, чтобы получить прохладный облако синхронизации, прохладном облако не только в мобильном терминале для оказания этих услуг и приложений также предоставление услуг мобильной веб-и PCweb рабочие функции.
+  \u0009\u0009 Во-вторых, риск обслуживание и Отказ от ответственности
+  Люди должны понять и согласиться, что услуги, связанные с Интернетом и мобильной связи и других услуг, которые могут быть затронуты факторами нестабильности, которая связывает много. Таким образом, существование ряда форс-мажорных услуг, вирус компьютерный сервис или хакерских атак, нестабильность системы, местоположения пользователя, пользователя с, сети мобильной связи, сети Интернет, сети, линии связи и другие причины сбоев, вызванных или не могут удовлетворить потребности пользователей риска. Использование этой службы пользователи должны иметь больший риск, прохладный облако на своевременности обслуживания, безопасность, точность не гарантирует, поэтому в результате чего пользователю отправлять и получать не можете прочитать сообщение или неправильно доставки, своевременность персональные настройки, невозможность хранения или другие проблемы не несут никакой ответственности. Для пользователей потере данных или холодных облаков силовых вина мажорных причин, потерян или служба остановлена, круто облако не будет нести никакой ответственности. В то же время сделка не может быть ниже линии холодного облака внимание.
+  \u0009\u0009три условия службы изменений и уведомления
+  () В любое время или прохладной облака будем постоянно обновлять время от времени пересматривать, дополнять и иным образом изменять настоящее Соглашение и ввести новые или дополнительные правила, принципы, сроки и условия на использование прав обслуживания.Предыдущего обновления, исправления, дополнения и дополнительные правила, принципы, условия и сроки (в данном соглашении, указанном в «Дополнительные условия») будет выпущен для совершенствования содержания прохладный облако через соответствующих страницах. Услуги пересматривается раз опубликованы, вступают в силу немедленно и включены в данное Соглашение. Если вы не согласны изменить содержание, вы можете прекратить соответствующие услуги.
+  (2) Для системного сбоя, влияющего на нормальную работу данного сервиса, прохладном облако обещание своевременной обработки ремонта. Но в результате неудобства для вас, пожалуйста, прости меня, круто облако не будет нести ответственность за потерю вашего духа.
+  \u0009\u0009четыре, пользовательские обязанности и ответственность
+  (1) Пользователь не имеет права использовать службы или прохладный облачный веб-страницу, скопируйте, загружать, хранить, распространять какой-либо вред национальной безопасности, нанести ущерб национальной чести и интересов, разжигание межнациональной розни, этнической дискриминации, пропагандировать культ и феодальные суеверия, никаких предубеждений на социальное обеспечение либо реакционны, насилие, убийство, ложь, ужас, беспокойство, оскорбительным, клеветническим, угрожающим, порнографическим или подстрекательство законы и правила преступности запретить содержание.
+  (2) Люди не должны использовать службу намеренно распространение компьютерных вирусов и других деструктивных программ, а не для обслуживания, серверов или сетей, подключенных к помехам услугами Производство и путаницы, или в нарушение какого-либо из услуг, необходимых для подключения к сети, программа , политики или правила, иначе круто облако оставляют за собой право преследовать свою юридическую ответственность и право представить его в соответствующий отдел.
+  (3) Пользователь обязуется соблюдать "Народной Республики Китая Конституции", "Народная Республика Китай гражданского права", "Народная Республика Китай авторском праве", "Народная Республика Китай на охране государственных тайн право", "Положением о защите компьютерной информации системы безопасности Народной Республики Китай." "объясняет Верховный суд рассматривает споры, связанные с компьютерной сетью закона об авторском праве, применимые ряд вопросов", "Положение защиты компьютера Программное обеспечение", "Информационная сеть передачи правой постановления о защите», «Интернет Копирайт административные меры защиты» и других соответствующих национальных законов и правилподход к реализации.
+  (4) соблюдать все услуги, связанные с использованием сетевых протоколов, правил, процедур и практики.
+  \u0009\u0009пять, на ключе, чтобы активировать
+  При использовании "одна клавиша для активации" Регистрация прохладный облако, мы будем использовать телефон для отправки текстовых сообщений на нашем сервере серверная часть, сборы, взимаемые оператором!
+   \u0009\u0009защищенные авторскими правами. Условия предоставления услуг Yulong Coolpad всех, интерпретировать и изменять все права защищены. Если у вас есть какие-либо комментарии на холодных облаков предложений, пожалуйста, позвоните прохладный облака горячей линии: 029-88824132, или перейдите на веб-сайте: www.coolyun.com обратной связи.
+"</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_of_week">
+        <item>Вск</item>
+        <item>Пнд</item>
+        <item>Втр</item>
+        <item>Срд</item>
+        <item>Чтв</item>
+        <item>Птн</item>
+        <item>Сбт</item>
+    </string-array>
+    <string-array name="days_of_week_short">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="file_type_of_export">
+        <item>.txt</item>
+        <item>.html</item>
+    </string-array>
+</resources>

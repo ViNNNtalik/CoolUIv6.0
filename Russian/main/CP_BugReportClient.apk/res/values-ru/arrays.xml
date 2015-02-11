@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_dialog_items">
+        <item>При доступном Wi-Fi</item>
+        <item>При доступном 3G</item>
+    </string-array>
+
+
+
+    <string-array name="strings_feedback_type">
+        <item>To Advise</item>
+        <item>To Refer</item>
+        <item>To Report Problems</item>
+        <item>To Mark</item>
+    </string-array>
+    <string-array name="mark_level">
+        <item>Slide or click to mark</item>
+        <item>Badly</item>
+        <item>Ungelivable</item>
+        <item>Commonly</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="strings_prompt_hint_temp">
+        <item>Looking for suggestions to upgrade the use experience and valuable, hoping to have your contact information for contacting you.</item>
+        <item>Welcome to put questions about what is difficult to understand, hoping to have your contact information for contacting you.</item>
+        <item>Welcome to complain about uncomfortable using, hoping to have your contact information for contacting you.</item>
+    </string-array>
+    <string-array name="strings_prompt_hint">
+        <item>Looking for suggestions to upgrade the use experience and valuable.</item>
+        <item>Welcome to put questions about what is difficult to understand.</item>
+        <item>Welcome to complain about uncomfortable using.</item>
+    </string-array>
+    <string-array name="grade_app_name">
+        <item>Entirety</item>
+        <item>File Manager</item>
+        <item>Coolpad Input Method</item>
+        <item>Launcher</item>
+        <item>Contacts</item>
+        <item>Messaging</item>
+        <item>Dial</item>
+        <item>Call Log</item>
+        <item>Cloud Security</item>
+        <item>Email</item>
+        <item>Browser</item>
+        <item>Camera</item>
+        <item>Music</item>
+        <item>Gallery</item>
+        <item>Memo</item>
+        <item>Calendar</item>
+    </string-array>
+    <string-array name="attachnames">
+        <item>image</item>
+        <item>log</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Настройки A-GPS</string>
+    <string name="agps_title">Настройки A-GPS</string>
+    <string name="providerlabel">Настройки A-GPS</string>
+    <string name="basic_title">Базовые настройки</string>
+    <string name="agps">Использование A-GPS</string>
+    <string name="agpson">Функция A-GPS включена</string>
+    <string name="agpsoff">Функция A-GPS выключена (автономный режим)</string>
+    <string name="frequency">Обновить частоту</string>
+    <string name="synctime">Синхронизация времени</string>
+    <string name="synctimesummary">Автомат. синхронизация времени по GPS</string>
+    <string name="mode">Режим A-GPS</string>
+    <string name="startmode">Режим запуска</string>
+    <string name="netcfg">Настройки сервера</string>
+
+    <string name="serid">ID сервера</string>
+    <string name="sername">Имя сервера</string>
+
+    <string name="apn1">Другой опциональный APN</string>
+    <string name="ip">Сервер</string>
+    <string name="ipdlg">Сервер</string>
+    <string name="port">Порт</string>
+    <string name="netcfg_nosetting">Нет</string>
+    <string name="addrtype">Тип адреса</string>
+    <string name="reset_title">Настройки по умолчанию</string>
+    <string name="reset">Сброс</string>
+    <string name="resetdlg">Восстановить настройки по умолчанию</string>
+    <string name="resetcontent">Восстановить настройки по умолчанию?</string>
+    <string name="resettoast">Настройки по умолчанию восстановлены</string>
+    <string name="gpsinfo_title">Информация GPS</string>
+    <string name="gpsinfo">Статус спутников</string>
+    <string name="gpsinfotoast">Нет приложения для продолжения</string>
+    <string name="setsuplservertoast">Убедитесь, что сервер SUPL доступен</string>
+    <string name="setsuplprottoast">Убедитесь, что порт SUPL доступен</string>
+    <string name="startup_shutdown_time">Время включения должно быть как минимум через 5 минут после времени выключения</string>
+    <string name="restore_to_default">Восстановлено</string>
+    <string name="ledtimeseterror">Время начала и окончания не могут совпадать</string>
+</resources>

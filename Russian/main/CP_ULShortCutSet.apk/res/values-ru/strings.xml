@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Иконки локскрина</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">НАстройки</string>
+    <string name="lockscreen_shortcut_key">Настройки иконок для локскрина</string>
+    <string name="select_app">Выбор приложения</string>
+    <string name="keyguard_shotcut_call_log">Журнал вызовов</string>
+    <string name="keyguard_shotcut_calendar">Календарь</string>
+    <string name="keyguard_shotcut_email">Эл.почта</string>
+    <string name="keyguard_shotcut_camera">Камера</string>
+    <string name="keyguard_shotcut_contacts">Контакты</string>
+    <string name="keyguard_shotcut_browser">Браузер</string>
+    <string name="keyguard_shotcut_note">Заметки</string>
+    <string name="keyguard_shotcut_dial">Вызов</string>
+    <string name="keyguard_shotcut_setting_confirm">Подтвердить</string>
+    <string name="keyguard_shotcut_setting_cancel">Отмена</string>
+</resources>

@@ -1,0 +1,14 @@
+﻿insert into MYCITY (city_id, name, city_old_id,extend1, extend3) values('01010101', 'Пекин','10086010100','1','1');
+insert into ACTUAL (city_id, weather_type) values('01010101', '0');
+insert into SETTING (set_type,set_value,set_note) values('using_theme', 'default','天气主题');
+insert into THEME (id,name,in_use,url,local,desc,hot,rank,recommend,user) values('default','城市主题','1','http://ota.coolyun.com/2001/pic/backimage/default/01010202_2_2_480.jpg','','城市主题，伴您浏览各处美景','1','4','1','1000万'); 
+insert into SETTING (set_type,set_value,set_note) values('tuopan_state', '1','托盘天气');
+insert into SETTING (set_type,set_value,set_note) values('version_state', '1','升级提醒');
+insert into SETTING (set_type,set_value,set_note) values('gps_state', '1','GPS开关');
+insert into SETTING (set_type,set_value,set_note) values('warn_state', '1','预警提示开关');
+insert into SETTING (set_type,set_value,set_note) values('update_state', '1','自动更新开关');
+insert into SETTING (set_type,set_value,set_note) values('update_period', '1','更新频率');
+insert into SETTING (set_type,set_value,set_note) values('notify_state', '1','天气变化提醒开关');
+insert into SETTING (set_type,set_value,set_note) values('3g_state', '1','3G开关');
+insert into SETTING (set_type,set_value,set_note) values('notify_time', '18:00','温度提醒');
+insert into SETTING (set_type,set_value,set_note) values('widget_skin_ID', 'widget_skin_city','城市背景小部件');

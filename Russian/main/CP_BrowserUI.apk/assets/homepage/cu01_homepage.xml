@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<browser version="201404010900" default_page="0">
+	<page name="navigation">
+		<navigation column="4">                       
+				<action name="Шт.-код" icon="homepage/nav/res/scanbarcode.png" url="navigations:scanbarcode"/>
+		</navigation>
+	</page>
+	
+    <search_engines version="201404010900"  location="webcategory">
+        <category name="web" preferred="google">
+			  <engine name="google" label="Google" keyword="google" faviconUri="homepage/search/favicon/ic_searchengine_google.png" searchUri="http://www.google.ru/search?q={searchTerms}&amp;ie=UTF-8" encoding="UTF-8" suggestUri="http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}" />
+		</category>
+		
+        <category name="picture" preferred="google">
+			  <engine name="google" label="Google" keyword="google" faviconUri="homepage/search/favicon/ic_searchengine_google.png" searchUri="http://www.google.ru/search?q={searchTerms}&amp;tbm=isch&amp;ie=UTF-8" encoding="UTF-8" suggestUri="http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}" />
+		</category>
+		
+        <category name="video" preferred="google">
+			  <engine name="google" label="Google" keyword="google" faviconUri="homepage/search/favicon/ic_searchengine_google.png" searchUri="http://www.google.ru/search?q={searchTerms}&amp;tbm=vid&amp;ie=UTF-8" encoding="UTF-8" suggestUri="http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}" />
+		</category>
+		
+        <category name="shopping" preferred="yandexmarket">
+            <engine name="yandexmarket" label="Яндекс.Маркет" keyword="yandexmarket" faviconUri="homepage/search/favicon/ic_searchengine_yicha.png" searchUri="http://market.yandex.ru/search.xml?cvredirect=2&amp;text={searchTerms}" encoding="UTF-8" suggestUri="http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}" />
+        </category>
+		
+        <category name="novel" preferred="google">
+			  <engine name="google" label="Google" keyword="google" faviconUri="homepage/search/favicon/ic_searchengine_google.png" searchUri="http://www.google.ru/search?q={searchTerms}&amp;tbm=bks&amp;ie=UTF-8" encoding="UTF-8" suggestUri="http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}" />
+		</category>
+		<!--
+		<category name="music"  preferred="" />
+		<category name="app"  preferred="" />
+		<category name="new"  preferred="" />
+		-->
+    </search_engines>
+</browser>

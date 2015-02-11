@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Темы</string>
+    <string name="widget_type">YLWIDGET</string>
+    <string name="coolshow_name">Темы</string>
+    <string name="wallpaper_name">Обои</string>
+    <string name="wallpaper_style">Красота</string>
+    <string name="keyguard_name">Локскрины</string>
+    <string name="keyguard_style">Креативность</string>
+    <string name="ringtone_name">Мелодии</string>
+    <string name="ringtone_style">Элегантность</string>
+</resources>

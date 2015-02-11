@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы в %1$d шагах от статуса разработчика</item>
+        <item quantity="one">Вы в %1$d шаге от статуса разработчика</item>
+    </plurals>
+</resources>
