@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="security_ad_nolist_apps">
-        <item>com.yulong.android.seccenter</item>
-        <item>com.yulong.android.security</item>
-        <item>com.yulong.android.softmanager</item>
-        <item>com.yulong.android.blacklist</item>
-        <item>com.yulong.android.savepowermanager</item>
-        <item>com.yulong.android.guard</item>
-    </string-array>
-    <string-array name="security_info_nolist_apps">
-        <item>com.yulong.android.security</item>
-    </string-array>
-    <string-array name="security_info_list_sys_apps">
-        <item>com.yulong.android.coolshow</item>
-        <item>com.yulong.ttwindow</item>
-    </string-array>
-    <string-array name="security_info_no_cntrol_online">
-        <item>com.yulong.android.register</item>
-        <item>com.android.mms</item>
-        <item>com.yulong.android.ota</item>
-        <item>com.yulong.android.security</item>
-    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string-array name="security_auto_adjust_frequency">
          <item>Каждый день</item>
          <item>Каждые 3 дня</item>
@@ -42,66 +42,68 @@
         <item>Трафик SIM1</item>
         <item>Трафик SIM2</item>
     </string-array>
-    <string-array name="security_array_savepower_forbitalarms">
-        <item>com.baidu.searchbox_coolpad</item>
-        <item>com.sina.weibo</item>
-        <item>com.baidu.BaiduMap</item>
-        <item>com.tencent.mm</item>
-        <item>com.tencent.qqpimsecure</item>
-        <item>ctrip.android.view</item>
-        <item>ctrip.android.view broadcastIntent</item>
-        <item>com.icoolme.android.weather</item>
-        <item>com.tencent.mobileqq</item>
-        <item>com.sohu.newsclient</item>
-        <item>com.blovestorm</item>
-        <item>vStudio.Android.Camera360</item>
-        <item>cn.com.fetion</item>
-        <item>com.letv.android.client</item>
-        <item>com.netease.pris</item>
-        <item>com.netease.newsreader.activity</item>
-        <item>com.android.coolwind</item>
-        <item>com.snda.youni</item>
-        <item>com.baidu.appsearch</item>
-        <item>com.qihoo.appstore</item>
-        <item>telecom.mdesk</item>
-        <item>com.besttone.hall</item>
-        <item>com.qzone</item>
-        <item>com.youku.phone</item>
-        <item>com.besttone.eloca</item>
-        <item>com.google.android.gms</item>
-        <item>com.google.android.gsf</item>
-        <item>com.ifeng.news2</item>
-        <item>com.baidu.searchbox</item>
-        <item>im.yixin</item>
-        <item>com.baidu.travel</item>
-        <item>com.sina.weibog3</item>
-        <item>com.yulong.android.network.widget</item>
-        <item>com.tencent.mtt</item>
-        <item>com.ophone.reader.ui</item>
-        <item>com.autonavi.cmccmap</item>
-        <item>com.icoolme.android.upgrade</item>
-        <item>com.aspire.g3wlan.client</item>
-        <item>com.android.keyguard</item>
-        <item>com.chaozh.iReaderFree</item>
-        <item>com.yulong.ttwindow</item>
-        <item>com.yulong.android.coolmart</item>
-        <item>com.iflytek.inputmethod.oem</item>
-        <item>com.qiyi.video</item>
-        <item>com.netease.mkey</item>
-        <item>com.icoolme.android.sharephoto</item>
-        <item>com.tencent.pao</item>
-        <item>com.android.cooperation</item>
-        <item>com.Qunar</item>
-        <item>com.sogou.androidtool</item>
-        <item>com.baidu.video</item>
-        <item>com.erdo.android.FJDXCartoon</item>
-        <item>com.xingyuanma.tangsengenglish</item>
-        <item>com.anguanjia.security</item>
-        <item>cn.ninegame.gamemanager.yz</item>
-        <item>cn.kidyn.qdmedical160</item>
-        <item>com.tencent.qqlive</item>
-        <item>com.surfing.kefu</item>
-    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string-array name="adjust_time">
          <item>Каждый день</item>
          <item>Каждые 3 дня</item>
@@ -131,84 +133,89 @@
         <item>Любой символ</item>
         <item>Пользовательский</item>
     </string-array>
-    <string-array name="security_color_gradient">
-        <item>\#09b77c</item>
-        <item>\#09b86f</item>
-        <item>\#09b860</item>
-        <item>\#09b852</item>
-        <item>\#09b843</item>
-        <item>\#09b835</item>
-        <item>\#09b826</item>
-        <item>\#09b818</item>
-        <item>\#09b809</item>
-        <item>\#18b809</item>
-        <item>\#26b809</item>
-        <item>\#35b809</item>
-        <item>\#43b809</item>
-        <item>\#52b809</item>
-        <item>\#60b809</item>
-        <item>\#6fb809</item>
-        <item>\#7db809</item>
-        <item>\#8cb809</item>
-        <item>\#9bb809</item>
-        <item>\#a9b809</item>
-        <item>\#b8b809</item>
-        <item>\#d9b943</item>
-        <item>\#d9b143</item>
-        <item>\#d9a943</item>
-        <item>\#d9a143</item>
-        <item>\#d99943</item>
-        <item>\#d99143</item>
-        <item>\#d98943</item>
-        <item>\#d98143</item>
-        <item>\#d97943</item>
-        <item>\#d97143</item>
-        <item>\#d96943</item>
-        <item>\#d95c43</item>
-        <item>\#d94343</item>
-        <item>\#da4453</item>
-    </string-array>
-    <string-array name="security_color_change_to_green">
-        <item>\#8cb809</item>
-        <item>\#7db809</item>
-        <item>\#6fb809</item>
-        <item>\#60b809</item>
-        <item>\#52b809</item>
-        <item>\#43b809</item>
-        <item>\#35b809</item>
-        <item>\#26b809</item>
-        <item>\#18b809</item>
-        <item>\#09b809</item>
-    </string-array>
-    <string-array name="security_color_change_to_yellow">
-        <item>\#8cb809</item>
-        <item>\#9bb809</item>
-        <item>\#a9b809</item>
-        <item>\#b8b809</item>
-    </string-array>
-    <string-array name="security_color_change_to_red">
-        <item>\#9bb809</item>
-        <item>\#a9b809</item>
-        <item>\#b8b809</item>
-        <item>\#d9b943</item>
-        <item>\#d9b143</item>
-        <item>\#d9a943</item>
-        <item>\#d9a143</item>
-        <item>\#d99943</item>
-        <item>\#d99143</item>
-        <item>\#d98943</item>
-        <item>\#d98143</item>
-        <item>\#d97943</item>
-        <item>\#d97143</item>
-        <item>\#d96943</item>
-        <item>\#d95c43</item>
-        <item>\#d94343</item>
-        <item>\#da4453</item>
-    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string-array name="security_permission_multioperations">
         <item>Разрешить все</item>
         <item>Уведомлять все</item>
         <item>Запретить все</item>
+    </string-array>
+    <string-array name="security_permission_sigleoperations">
+        <item>Разрешить</item>
+        <item>Запретить</item>
+        <item>Уведомлять</item>
     </string-array>
     <string-array name="security_adv_multioperations">
         <item>Разрешить все</item>
@@ -219,39 +226,36 @@
         <item>Адрес эл. почты</item>
         <item>Подсказка</item>
     </string-array>
-    <string-array name="security_apklock_reopen_apps">
-        <item>com.baidu.BaiduMap</item>
-        <item>com.chinatelecom.pim</item>
-        <item>com.pdager</item>
-        <item>com.autonavi.xmgd.navigator.tob</item>
-        <item>com.tencent.mtt</item>
-        <item>com.sankuai.meituan</item>
-        <item>com.yulong.android.coolyou</item>
-        <item>com.boyaa.lordland.coolpad_yz</item>
-    </string-array>
-    <string-array name="security_apklock_lockitself_apps">
-        <item>com.android.mms</item>
-        <item>com.yulong.android.contacts</item>
-        <item>com.yulong.android.callhistory</item>
-        <item>com.yulong.android.quickdial</item>
-        <item>com.android.email</item>
-        <item>com.yulong.android.contacts.dial</item>
-        <item>com.yulong.android.memo</item>
-    </string-array>
-    <string-array name="security_apklock_not_display_apps">
-        <item>com.android.flashlight</item>
-        <item>com.android.mirror</item>
-        <item>com.redbend.notifications</item>
-        <item>com.yulong.android.backup</item>
-        <item>com.moxiu.launcher</item>
-        <item>com.yulong.android.contacts.dial</item>
-        <item>com.yulong.android.ota</item>
-    </string-array>
-    <string-array name="security_apklock_safebox_not_encrypt_apps">
-        <item>com.android.gallery3d</item>
-        <item>com.yulong.android.videoplayer</item>
-        <item>com.yulong.android.soundrecorder</item>
-    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string-array name="security_attach">
          <item> Цзянсу</item>
          <item> Фуцзянь</item>
@@ -301,15 +305,137 @@
     <string-array name="security_brand3">
         <item>China Telecom</item>
     </string-array>
-    <string-array name="security_whitelist_default_forall_dataprotect">
-        <item>com.yulong.android.security</item>
-        <item>com.android.coolwind</item>
-        <item>com.sdu.didi.psnger</item>
-        <item>com.sdu.didi.gui</item>
-        <item>com.funcity.taxi.passenger</item>
-        <item>com.funcity.taxi.driver</item>
-        <item>com.yulong.android.rootinfo</item>
+    <string-array name="security_help_item_key">
+        <item>onekeyimprove</item>
+        <item>passwordmanager</item>
+        <item>floatwindow</item>
+        <item>cleanaccelerate</item>
+        <item>dataprotection</item>
+        <item>kavas</item>
+        <item>privatespace</item>
+        <item>savepower</item>
+        <item>viruskill</item>
+        <item>flowmonitor</item>
+        <item>advertisementblock</item>
+        <item>againstguard</item>
+        <item>screenpassword</item>
+        <item>softmanager</item>
+        <item>moneyprotect</item>
     </string-array>
+    <string-array name="security_help_item">
+        <item>一键加速优化</item>
+        <item>酷管家密码管理</item>
+        <item>桌面悬浮窗口</item>
+        <item>清理加速</item>
+        <item>权限控制</item>
+        <item>骚扰拦截</item>
+        <item>隐私空间</item>
+        <item>省电管理</item>
+        <item>病毒查杀</item>
+        <item>流量监控</item>
+        <item>广告通知拦截</item>
+        <item>云防盗</item>
+        <item>屏幕密码</item>
+        <item>软件管理</item>
+        <item>防扣费</item>
+    </string-array>
+    <string-array name="security_help_subitem_onekeyimprove">
+        <item>1.点击一键加速优化按钮，酷管家自动进行体检和优化加速</item>
+        <item>2.点击返回按钮，回到酷管家主界面</item>
+    </string-array>
+    <string-array name="security_help_subitem_passwordmanager">
+        <item>1.点击酷管家菜单，选择酷管家设置</item>
+        <item>2.首次使用酷管家，点击创建酷管家密码，输入创建密码所需信息，完成创建</item>
+        <item>3.点击更改酷管家密码、更改密码找回方式和清除酷管家密码，输入酷管家密码，完成密码验证</item>
+        <item>4.完成更改酷管家密码、更改密码找回方式和清除酷管家密码</item>
+    </string-array>
+    <string-array name="security_help_subitem_floatwindow">
+        <item>1.打开酷管家设置，开启桌面悬浮窗显示</item>
+        <item>2.点击展开桌面悬浮窗口</item>
+        <item>3.点击一键加速圆球，加速完毕自动收回</item>
+        <item>4.点击桌面悬浮窗口的酷管家图标和设置图标，进入对应界面</item>
+    </string-array>
+    <string-array name="security_help_subitem_cleanaccelerate">
+        <item>1.点击酷管家主界面的清理加速</item>
+        <item>2.点击一键加速，进行手机加速</item>
+        <item>3.点击运行程序，进行一键清理</item>
+        <item>4.点击应用启动管理，设置开机自启和后台自启</item>
+        <item>5.点击垃圾清理，点击一键清理，清理系统的垃圾缓存</item>
+    </string-array>
+    <string-array name="security_help_subitem_dataprotection">
+        <item>1.点击权限控制，设置受监控的应用数据权限</item>
+        <item>2.点击防跟踪，点击开启防跟踪设置按钮，设置受监控的应用地理位置权限</item>
+        <item>3.点击防窃听，启用防窃听功能</item>
+        <item>4.点击一键数据保护，点击开启进入，点击取消则不进入</item>
+        <item>5.点击退出一键数据保护，则退出一键数据保护模式</item>
+    </string-array>
+    <string-array name="security_help_subitem_kavas">
+        <item>1.点击防打扰设置，开启防打扰模式，按照提示进行操作</item>
+        <item>2.点击黑名单，添加所需的黑名单</item>
+        <item>3.点击VIP名单，添加所需的VIP名单</item>
+        <item>4.点击关键词，添加所需的关键词</item>
+        <item>5.点击云举报，举报骚扰电话和举报垃圾短信</item>
+    </string-array>
+    <string-array name="security_help_subitem_privatespace">
+        <item>1.点击文件安全箱，输入酷管家密码后，按照提示进行操作</item>
+        <item>2.点击应用程序密码保护，对系统应用和个人应用进行保护</item>
+        <item>3.点击密码保管箱，点击开启，设置密码保管箱密码，添加所需保护的账号</item>
+        <item>4.点击浮动窗口控制，按照提示进行操作</item>
+        <item>5.点击隐藏历史任务开关</item>
+    </string-array>
+    <string-array name="security_help_subitem_savepower">
+        <item>1.点击省电管理，按照提示对快捷省电进行操作</item>
+        <item>2.点击高级省电，按照提示对高级省电进行操作</item>
+        <item>3.点击应用耗电，点击一键优化，阻止后台主动启动</item>
+    </string-array>
+    <string-array name="security_help_subitem_viruskill">
+        <item>1.点击快速扫描，点击完成返回主界面</item>
+        <item>2.点击全盘查杀，点击完成返回主界面</item>
+        <item>3.点击病毒库更新</item>
+        <item>4.点击安全日志，查看安全扫描记录</item>
+    </string-array>
+    <string-array name="security_help_subitem_flowmonitor">
+        <item>1.点击设置套餐流量，按照提示进行流量设置操作</item>
+        <item>2.点击设置，开启流量监控</item>
+        <item>3.点击上网控制，对应用的2G/3G/4G、WLAN进行操作</item>
+    </string-array>
+    <string-array name="security_help_subitem_advertisementblock">
+        <item>1.点击广告通知拦截，扫描软件</item>
+        <item>2.点击弹出通知的应用，按照提示进行操作</item>
+        <item>3.点击含有广告的应用，按照提示进行操作</item>
+        <item>4.点击再次检测</item>
+        <item>5.点击设置，开启通知面板快捷操作</item>
+    </string-array>
+    <string-array name="security_help_subitem_againstguard">
+        <item>1.点击开启防盗开关，绑定酷云账号</item>
+        <item>2.点击绑定的手机，进入远程控制界面</item>
+        <item>3.点击短信控制，向被盗手机发送防盗指令远程控制被盗手机</item>
+        <item>4.点击标记被盗，可以标记被盗的手机</item>
+        <item>5.点击取证照片，查看当前手机型号拍照记录</item>
+    </string-array>
+    <string-array name="security_help_subitem_screenpassword">
+        <item>1.点击屏幕解锁密码保护，按照提示进行操作</item>
+    </string-array>
+    <string-array name="security_help_subitem_softmanager">
+        <item>1.点击软件管理，进入软件卸载主界面，按照提示进行操作</item>
+        <item>2.点击安装包管理</item>
+        <item>3.点击软件搬家，手机空间和SD卡空间的软件搬家</item>
+    </string-array>
+    <string-array name="security_help_subitem_moneyprotect">
+        <item>1.点击话费余额查询，按照提示进行操作</item>
+        <item>2.点击套餐流量查询，按照提示进行操作</item>
+        <item>3.点击扣费查询，扫描疑似扣费短信</item>
+        <item>4.点击防恶意扣费，按照提示进行操作</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
     <array name="security_blacklist_default_forall_dataprotect" />
     <string-array name="security_intercepted_rule">
         <item>Не задано</item>
@@ -889,7 +1015,7 @@
         <item>普洱/思茅</item>
         <item>曲靖</item>
         <item>文山</item>
-        <item>西双版纳</item>
+        <item>版纳</item>
         <item>玉溪</item>
         <item>昭通</item>
     </string-array>
@@ -992,10 +1118,8 @@
         <item>2</item>
     </integer-array>
     <string-array name="security_savepower_time_type">
-        <item>Вызов 2G</item>
-        <item>Вызов 3G</item>
-        <item>Интернет по 2G</item>
-        <item>Интернет по 3G</item>
+        <item>Вызов</item>
+        <item>Передача данных</item>
         <item>Интернет по Wi-Fi</item>
         <item>Кино</item>
         <item>Музыка</item>
@@ -1006,121 +1130,6 @@
         <item>Онлайн-игры</item>
         <item>Изображения</item>
         <item>Камера</item>
-    </string-array>
-    <array name="security_preloaded_drawables">
-        <item>@drawable/security_actionbar_ic_add</item>
-        <item>@drawable/security_actionbar_ic_batch_operation</item>
-        <item>@drawable/security_actionbar_ic_cancel_all</item>
-        <item>@drawable/security_actionbar_ic_cancel</item>
-        <item>@drawable/security_actionbar_ic_clipboard</item>
-        <item>@drawable/security_actionbar_ic_confirm</item>
-        <item>@drawable/security_actionbar_ic_copy</item>
-        <item>@drawable/security_actionbar_ic_cut</item>
-        <item>@drawable/security_actionbar_ic_delete_all</item>
-        <item>@drawable/security_actionbar_ic_delete</item>
-        <item>@drawable/security_actionbar_ic_edit</item>
-        <item>@drawable/security_actionbar_ic_menu</item>
-        <item>@drawable/security_actionbar_ic_paste</item>
-        <item>@drawable/security_actionbar_ic_refresh</item>
-        <item>@drawable/security_actionbar_ic_search</item>
-        <item>@drawable/security_actionbar_ic_select_all</item>
-        <item>@drawable/security_actionbar_ic_send</item>
-        <item>@drawable/security_actionbar_ic_share</item>
-        <item>@drawable/security_arrow_normal</item>
-        <item>@drawable/security_arrow_pressed</item>
-        <item>@drawable/security_common_background_bottom_menu_pressed</item>
-        <item>@drawable/security_common_background_composited_text_transparent</item>
-        <item>@drawable/security_sherlock_common_background_list_devider</item>
-        <item>@drawable/security_sherlock_common_background_list_group_angle</item>
-        <item>@drawable/security_common_background_search_total</item>
-        <item>@drawable/security_common_background_select_center_btn_normal</item>
-        <item>@drawable/security_common_background_select_center_btn_pressed</item>
-        <item>@drawable/security_common_background_select_center_btn_selected</item>
-        <item>@drawable/security_common_background_select_left_btn_normal</item>
-        <item>@drawable/security_common_background_select_left_btn_pressed</item>
-        <item>@drawable/security_common_background_select_left_btn_selected</item>
-        <item>@drawable/security_common_background_select_right_btn_normal</item>
-        <item>@drawable/security_common_background_select_right_btn_pressed</item>
-        <item>@drawable/security_common_background_select_right_btn_selected</item>
-        <item>@drawable/security_common_background_switch_btn_total</item>
-        <item>@drawable/security_common_background_text_right_image</item>
-        <item>@drawable/security_common_checkbox_label_background</item>
-        <item>@drawable/security_common_image_icon_normal</item>
-        <item>@drawable/security_common_list_drag_drop_flag_normal</item>
-        <item>@drawable/security_common_list_single_choice_flag</item>
-        <item>@drawable/security_common_title_layout_background</item>
-        <item>@drawable/security_common_vertical_scroll_bar_big</item>
-        <item>@drawable/security_divider_horizontal_bright</item>
-        <item>@drawable/security_droplistbutton_arrow_normal</item>
-        <item>@drawable/security_droplistbutton_arrow_pressed</item>
-        <item>@drawable/security_sherlock_numberpicker_selection_divider</item>
-        <item>@drawable/security_sherlock_round_list_background</item>
-        <item>@drawable/security_yl_bottombar_background</item>
-        <item>@drawable/security_yl_clipboard_window_background</item>
-        <item>@drawable/security_yl_menu_center_down_bg</item>
-        <item>@drawable/security_yl_menu_center_up_bg</item>
-        <item>@drawable/security_yl_menu_half_bg</item>
-        <item>@drawable/security_yl_menu_item_divider</item>
-        <item>@drawable/security_yl_menu_left_down_bg</item>
-        <item>@drawable/security_yl_menu_left_up_bg</item>
-        <item>@drawable/security_yl_menu_more</item>
-        <item>@drawable/security_yl_menu_right_down_bg</item>
-        <item>@drawable/security_yl_menu_right_up_bg</item>
-        <item>@drawable/security_yl_menu_total_bg</item>
-        <item>@drawable/security_yl_progressed_bg</item>
-        <item>@drawable/security_yl_tab_divider</item>
-        <item>@drawable/security_yl_title_btn_divider_vertical</item>
-        <item>@drawable/security_yl_title_divider_horizontal</item>
-        <item>@drawable/security_yl_back_light</item>
-        <item>@drawable/security_action_bar_general_button_background</item>
-        <item>@drawable/security_actionbar_droplistbutton_background</item>
-        <item>@drawable/security_alertdialog_button_background_selector</item>
-        <item>@drawable/security_checked_background</item>
-        <item>@drawable/security_common_background_progress_style</item>
-        <item>@drawable/security_common_background_seekbar_style</item>
-        <item>@drawable/security_common_background_switch_btn_selected_selector</item>
-        <item>@drawable/security_common_background_switch_btn_unselected_selector</item>
-        <item>@drawable/security_common_bottom_button_selector</item>
-        <item>@drawable/security_common_bottom_menu_item_background</item>
-        <item>@drawable/security_common_checkbox</item>
-        <item>@drawable/security_common_dialogtitle_back_button_selector</item>
-        <item>@drawable/security_common_edittext_background_selector</item>
-        <item>@drawable/security_common_general_button_selector</item>
-        <item>@drawable/security_common_list_item_background_selector</item>
-        <item>@drawable/security_common_search_clear_button_selector</item>
-        <item>@drawable/security_common_search_layout_background_selector</item>
-        <item>@drawable/security_common_seekbar_thumb</item>
-        <item>@drawable/security_common_tabbar</item>
-        <item>@drawable/security_coolpad_edittext_background</item>
-        <item>@drawable/security_float_button_background</item>
-        <item>@drawable/security_float_menu_item_background</item>
-        <item>@drawable/security_sherlock_list_selector_background</item>
-        <item>@drawable/security_pop_item_arrow_down_background</item>
-        <item>@drawable/security_pop_item_arrow_up_background</item>
-        <item>@drawable/security_popup_button_background</item>
-        <item>@drawable/security_popup_button_error_background</item>
-        <item>@drawable/security_popup_button_error_no_del_background</item>
-        <item>@drawable/security_popup_button_no_del_background</item>
-        <item>@drawable/security_progress_cancel</item>
-        <item>@drawable/security_selector_yl_clipboard_item_background</item>
-        <item>@drawable/security_selector_yl_edit_btn</item>
-        <item>@drawable/security_common_radio_button</item>
-        <item>@drawable/security_yl_expander_group</item>
-        <item>@drawable/security_batch_close_btn_holo_light</item>
-    </array>
-    <string-array name="security_password_hint_entries">
-        <item>Номер начальной школы</item>
-        <item>Номер средней школы</item>
-        <item>Название ВУЗа</item>
-        <item>Любимый спорт</item>
-        <item>Пользовательская подсказка</item>
-    </string-array>
-    <string-array name="security_password_hint_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
     </string-array>
     <string-array name="security_check_regular">
         <item>Ежедневно</item>
@@ -1140,106 +1149,123 @@
         <item>Выкл.</item>
         <item>Вкл.</item>
     </string-array>
-    <string-array name="security_autorun_notdisplayed_whitelist">
-        <item>com.besttone.exchange2</item>
-        <item>cn.eshore.btsp.android</item>
-        <item>com.xdja.safeclient</item>
-        <item>com.xdja.jwt</item>
-        <item>com.mobiletools.systemhelper</item>
-        <item>com.yulong.android.seccenter</item>
-        <item>com.yulong.android.softmanager</item>
-        <item>com.yulong.android.savepowermanager</item>
-        <item>com.yulong.android.blacklist</item>
-        <item>com.yulong.android.ota</item>
-        <item>com.yulong.android.calendar</item>
-        <item>com.yulong.android.xtime</item>
-        <item>com.android.settings.wifi</item>
-        <item>com.yulong.android.secclearmaster</item>
-        <item>com.mobiletools.systemhelper</item>
-        <item>com.yulong.android.coolyou</item>
-        <item>com.xdja.safeclient</item>
-        <item>com.yulong.android.security</item>
-        <item>com.android.settings</item>
-        <item>cn.ingenic.indroidsync</item>
-        <item>com.redbend.notifications</item>
-        <item>com.yulong.android.settings</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="security_datapretend_contacts_name">
+        <item>Горячая линия CoolUI</item>
+        <item>Горячая линия Coolpad</item>
+        <item>Горячая линия Okami</item>
     </string-array>
-    <string-array name="security_uninstall_system_app_whitelist">
-        <item>com.redbend.notifications</item>
+
+
+
+
+
+    <string-array name="security_datapretend_sms_info">
+        <item>Горячая линия CoolUI</item>
+        <item>Горячая линия Coolpad</item>
+        <item>Горячая линия Okami</item>
     </string-array>
-    <string-array name="security_notkilled_whitelist">
-        <item>com.yulong.android.weatherwidget:remote</item>
-        <item>com.icoolme.android.weather:widget</item>
-        <item>com.icoolme.android.weather</item>
-        <item>com.android.providers.media</item>
-        <item>com.yulong.android.backup</item>
-        <item>com.yulong.android.contacts</item>
-        <item>com.android.cooperation:push</item>
-        <item>com.android.screenrecord</item>
-    </string-array>
-    <string-array name="security_notkilled_and_notdisplayed_whitelist">
-        <item>com.android.defcontainer</item>
-        <item>com.yulong.android.seccenter</item>
-        <item>com.redbend.bluetooth</item>
-        <item>com.redbend.intentservice</item>
-        <item>com.redbend.client</item>
-        <item>com.redbend.vlm.vwifi</item>
-        <item>com.redbend.notifications</item>
-        <item>com.android.incallui</item>
-        <item>com.android.providers.calendar</item>
-        <item>com.yulong.android.contacts.dial</item>
-        <item>com.yulong.android.agedlauncher</item>
-    </string-array>
-    <string-array name="security_super_savedpower_notkilled_whitelist">
-        <item>com.yulong.android.seccenter</item>
-        <item>com.yulong.android.softmanager</item>
-        <item>com.yulong.android.savepowermanager</item>
-        <item>com.yulong.android.blacklist</item>
-        <item>com.yulong.android.launcher3</item>
-        <item>com.yulong.android.xtime</item>
-        <item>com.yulong.android.xtimewidget</item>
-        <item>com.yulong.android.calendar</item>
-        <item>com.android.providers.calendar</item>
-        <item>com.android.systemui</item>
-        <item>com.yulong.android.dev.gcoption</item>
-        <item>com.yulong.android.dev.gcoption:remote</item>
-        <item>com.android.settings.wifi</item>
-        <item>com.yulong.android.settings</item>
-        <item>com.android.settings</item>
-        <item>com.android.bluetooth</item>
-        <item>com.yulong.logredirect</item>
-        <item>com.yulong.android.mwstarter</item>
-        <item>com.android.defcontainer</item>
-        <item>com.android.flashlight</item>
-        <item>com.yulong.android.cbutton</item>
-        <item>cn.ingenic.indroidsync</item>
-        <item>com.yulong.carmode</item>
-        <item>com.redbend.bluetooth</item>
-        <item>com.redbend.intentservice</item>
-        <item>com.redbend.client</item>
-        <item>com.redbend.vlm.vwifi</item>
-        <item>com.redbend.notifications</item>
-        <item>com.yulong.android.ota</item>
-        <item>com.yulong.android.contacts.dial</item>
-        <item>com.quicinc.fmradio</item>
-        <item>com.android.mms</item>
-        <item>com.android.contacts</item>
-        <item>com.yulong.android.contacts</item>
-        <item>com.android.incallui</item>
-        <item>com.android.keyguard</item>
-    </string-array>
-    <string-array name="security_boot_forbidrun_applist">
-        <item>cn.com.wo</item>
-        <item>com.infinit.wostore.ui</item>
-        <item>com.neusoft.td.android.wo116114</item>
-        <item>com.sinovatech.unicom.ui</item>
-    </string-array>
-    <string-array name="security_boot_run_applist">
-        <item>com.anguanjia.security</item>
-    </string-array>
-    <string-array name="security_autorun_displayed_whitelist">
-        <item>com.icoolme.android.weather</item>
-    </string-array>
+
+
+
+
+
     <integer-array name="SECURITY_BASIC_FONT_SIZE_ARRAY">
         <item>24</item>
         <item>20</item>

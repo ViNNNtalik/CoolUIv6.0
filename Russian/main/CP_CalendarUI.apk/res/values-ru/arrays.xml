@@ -1,5 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string-array name="reminder_minutes_labels">
         <item>по факту</item>
         <item>за 10 минут</item>
@@ -15,24 +112,12 @@
         <item>за 1 час</item>
         <item>за 2 часа</item>
     </string-array>
-
-
-
-
-
-
-
-
-
     <string-array name="preferences_default_reminder_labels">
         <item>по факту</item>
         <item>за 10 минут</item>
         <item>за 30 минут</item>
-        <item>за 1 час</item>
-        <item>за 2 часа</item>
-        <item>за 3 часа</item>
-        <item>за 1 день</item>
     </string-array>
+
 
 
 
@@ -218,11 +303,6 @@
         <item>Уведомление строки состояния</item>
         <item>Выкл.</item>
     </string-array>
-
-
-
-
-
     <string-array name="availability">
         <item>Занят</item>
         <item>Доступен</item>
@@ -431,11 +511,6 @@
         <item>Импорт мероприятия</item>
         <item>Задать</item>
     </string-array>
-
-
-
-
-
 
 
 
@@ -1168,7 +1243,7 @@
         <item>Скорпион</item>
         <item>Стрелец</item>
         <item>Козерог</item>
-        <item>Володей</item>
+        <item>Водолей</item>
         <item>Рыбы</item>
     </string-array>
     <string-array name="month_word">
@@ -1185,6 +1260,28 @@
         <item>Ноябрь</item>
         <item>Декабрь</item>
     </string-array>
+    <string-array name="password_hint_entries">
+        <item>Моя начальная школа?</item>
+        <item>Моя средняя школа?</item>
+        <item>Мой универ?</item>
+        <item>Мой любимый спорт?</item>
+        <item>Польз. вопрос</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2167,4 +2264,23 @@
 
 
 
+    <string-array name="week_strings">
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
+    <string-array name="weeks_string">
+        <item>" "</item>
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
 </resources>

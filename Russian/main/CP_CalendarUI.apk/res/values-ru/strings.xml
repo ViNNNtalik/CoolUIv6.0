@@ -192,6 +192,32 @@
 
 
 
+
+    <string name="calendar_storage">Память календаря</string>
+    <string name="upgrade_msg">Обновление базы данных календаря...</string>
+    <string name="calendar_default_name">По умолчанию</string>
+    <string name="calendar_info">Сведения о календаре</string>
+    <string name="calendar_info_error">Ошибка</string>
+    <string name="calendar_info_no_calendars">Нет календарей</string>
+    <string name="calendar_info_events">Мероприятий: %1$d</string>
+    <string name="calendar_info_events_dirty">Мероприятий: %1$d; не сохранено: %2$d</string>
+    <string name="provider_label">Календарь</string>
+    <string name="debug_tool_delete_button">Удалить сейчас</string>
+    <string name="debug_tool_start_button">Начать</string>
+    <string name="debug_tool_message">Вы собираетесь 1) создать копию базы данных календаря на SD-карте/USB-накопителе, которые доступны для чтения всем приложениям, и 2) отправить ее по электронной почте. Не забудьте удалить базу данных после того, как она будет скопирована с устройства или получена по электронной почте.</string>
+    <string name="debug_tool_email_sender_picker">Выберите приложение, чтобы отправить файл</string>
+    <string name="debug_tool_email_subject">Добавлена база данных календаря</string>
+    <string name="debug_tool_email_body">К сообщению приложена база данных календаря со всеми встречами и личной информацией. Пожалуйста, обращайтесь с ней осторожно.</string>
+
+
+
+    <string name="cal_my_calendar">Мой календарь</string>
+    <string name="pg_calendar_label">Разрешения Календаря</string>
+    <string name="pg_calendar_desc">Доступ к данным календаря</string>
+    <string name="private_label">Приватные разрешения Календаря</string>
+    <string name="private_desc">Доступ к приватным данным Календаря</string>
+
+
     <string name="app_label">Календарь</string>
     <string name="calendar_plug"><font fgcolor="#ffffffff">Добро пожаловать Календарь!</font>" 
 Подход Google к управлению расписанием основан на принципах интуитивности, эффективности и доступности"</string>
@@ -205,8 +231,6 @@
     <string name="repeats_label">Повтор</string>
     <string name="no_title_label">(Нет заголовка)</string>
     <string name="length_tip">Достигнута максимальная длина</string>
-    <string name="meeting_agenda_label">Повестка совещания</string>
-    <string name="normal_agenda_label">Общая повестка</string>
     <string name="airport_agenda_label">Повестка полета</string>
     <string name="unanswered_phone_agenda_label">Напоминание о пропущенных вызовах</string>
     <string name="birth_anni_label">День рождения/юбилей</string>
@@ -349,7 +373,6 @@
     <string name="empty_place">Убедитесь, что адрес не пустой</string>
     <string name="no_map_app">Не приложений с картой</string>
     <string name="send_immediately_after_save">После сохранения уведомление будет немедленно послано получателю, что включает расходы на SMS</string>
-    <string name="send_immediately_after_save1">После сохранения уведомление будет немедленно послано получателю, что включает расходы на SMS. Письмо по эл. почте послано быть не может</string>
     <string name="menu_search">Поиск</string>
     <string name="menu_add">Добавить</string>
     <string name="menu_batch_delete">Групповое удаление</string>
@@ -463,6 +486,7 @@
     <string name="alert_custom_birthday">"День рождения  "</string>
     <string name="alert_custom_memory">"Годовщина  "</string>
     <string name="alert_search_event_btn_lable">ОК</string>
+    <string name="net_anomaly">Ошибка сети</string>
     <string name="cal_select_dialog">Выбор элемента</string>
     <string name="cal_select_record">Выберите календарь</string>
     <string name="cal_month_title_lable">Календарь</string>
@@ -491,7 +515,6 @@
     <string name="new_event_no_space">Недостаточно места</string>
     <string name="new_event_space_check">"Проверка места "</string>
     <string name="all_day">Целый день</string>
-    <string name="cal_my_calendar">Календарь Облака</string>
     <string name="defaultAccountName">Мой календарь</string>
     <string name="taiwandefaultaccountname">Моя повестка</string>
     <string name="jiantidefaultaccountname">Мой календарь</string>
@@ -728,6 +751,7 @@
     <string name="query_week_string" formatted="false">"%d
  Неделя %d года %s
 День %d года"</string>
+
     <string name="fen">" мин."</string>
     <string name="short_minute">" мин."</string>
     <string name="today_fate">Предсказание на сегодня</string>
@@ -782,8 +806,6 @@
     <string name="reminders_label_meet_allday_tips">Напомнить мне в 8:00</string>
 
 
-
-
     <string name="email_share">Эл.почта</string>
     <string name="sms_share">SMS/MMS</string>
     <string name="event_start_time_set">Задать время</string>
@@ -815,4 +837,112 @@
     <string name="switch_button_text_on">ВКЛ</string>
     <string name="switch_button_text_off">ВЫКЛ</string>
     <string name="close_alarm_window_text">Проведите для закрытия расписания</string>
+    <string name="plan_contact">Контакт</string>
+    <string name="plan_allday">Весь день</string>
+    <string name="plan_today">Сегодня</string>
+    <string name="plan_remind">Напоминание</string>
+    <string name="plan_repeat">Повтор</string>
+    <string name="plan_position">Местоположение</string>
+    <string name="plan_tips">Заметка</string>
+    <string name="addplan_title">Заголовок</string>
+    <string name="plan_create_title">Новый календарь</string>
+    <string name="plan_create_title_birthday">Новый день рождения</string>
+    <string name="plan_repeat_oncetime">Однократно</string>
+    <string name="addplan_title_birthday">Имя</string>
+    <string name="addplan_time_birthday">Время</string>
+    <string name="addplan_oldtimeremind_birthday">Напоминание</string>
+    <string name="addplan_repeatsetting_birthday">Настройки повтора</string>
+    <string name="addplan_starttime_birthday">День рождения</string>
+    <string name="addplan_starttime_jinianday">Юбилей</string>
+    <string name="addplan_starttime_jinianday_en">Юбилей</string>
+    <string name="event_people_more_than1">Не более одного</string>
+    <string name="remind_ontime_birth">"Вкл. "</string>
+    <string name="remind_manyday_birth">Напоминание</string>
+    <string name="calendar_subscriber">Подписка</string>
+    <string name="meeting_agenda_label">Повестка встречи</string>
+    <string name="normal_agenda_label">Общая повестка</string>
+    <string name="birthday_agenda_label">День рождения</string>
+    <string name="anni_agenda_label">Юбилей</string>
+    <string name="itemDate_jia">Нет</string>
+    <string name="itemDate_ban">Класс</string>
+   <string name="button_ok_text">ОК</string>
+    <string name="button_cancel_text">Отмена</string>
+    <string name="button_yes_text">Да</string>
+    <string name="button_no_text">Нет</string>
+    <string name="button_abort_text">Отмена</string>
+    <string name="button_retry_text">Повтор</string>
+    <string name="button_ignore_text">Игнорировать</string>
+    <string name="button_delete_text">Удалить</string>
+    <string name="button_set_text">Задать</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="button_exit_text">Выход</string>
+    <string name="adscription_unknow">Неизв.</string>
+    <string name="cooperation_exception">Исключение</string>
+    <string name="password_hint">Подсказка</string>
+
+    <string name="title">Введите пароль</string>
+    <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
+    <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
+    <string name="set_question_title">Вопрос</string>
+    <string name="set_answer_title">Ответ</string>
+    <string name="need_set_answer_dialog_msg">Введите ответ</string>
+
+    <string name="answer_error_dialog_msg">Неправильный ответ</string>
+    <string name="password_hint_title">Подсказка</string>
+    <string name="your_password_is_dialog_msg">Ваш пароль</string>
+    <string name="recipeint">Адресат</string>
+    <string name="selectAll">Выбрать все</string>
+    <string name="paste">Вставить</string>
+    <string name="inputMethod">Метод ввода</string>
+    <string name="select">Выбор</string>
+    <string name="cut">Вырезать</string>
+    <string name="copy">Копировать</string>
+    <string name="search">Baidu-поиск</string>
+    <string name="clipboard">Буфер обмена</string>
+
+    <string name="stringtopinyinhint">Не распознано</string>
+    <string name="time_picker_dialog_title">Задать время</string>
+    <string name="date_year_toggle">Год</string>
+    <string name="textOverMaxLengthWarnning">максимальная длина</string>
+    <string name="copy_hint_text">Копирование завершено</string>
+    <string name="delOne">Удалить из буфера обмена</string>
+    <string name="delAll">Очистить буфера обмена</string>
+    <string name="clipboardOper">Операции с буфером обмена</string>
+    <string name="cansell">Отмена</string>
+    <string name="openClipboardSound">Вкл. тон клавиш</string>
+    <string name="closeClipboardSound">Выкл. тон клавиш</string>
+    <string name="char_append">или</string>
+    <string name="lookup_tel_details_en">Просмотр деталей</string>
+    <string name="lookup_tel_details_cn">Просмотр деталей</string>
+    <string name="lookup_tel_details_tw">Просмотр деталей</string>
+    <string name="dialog_title_choose_tel">Выбор контакта для просмотра деталей</string>
+    <string name="lunar_calendar_show">Лунный календарь</string>
+    <string name="image_cooperation_title">Опции приложения</string>
+    <string name="date_picker_dialog_title">Задать дату</string>
+    <string name="date_picker_year_checkbox_text">Год</string>
+    <string name="date_picker_lunar_checkbox_text">Лунный</string>
+    <string name="date_picker_allday_checkbox_text">Весь день</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="unSelect_all">Снять выделение</string>
+    <string name="list_action_mode_selected">"Выбрано "</string>
+
+    <string name="list_action_mode_total">"Всего "</string>
+    <string name="actionbar_mainmenu_text">Меню</string>
+    <string name="action_mode_item_more">Еще</string>
+
+    <string name="search_hint_text">Введите ключевые слова</string>
+    <string name="contact_chooser_text">Контакты</string>
+    <string name="clipboard2_title">Буфер обмена</string>
+    <string name="clipboard2_operate_dialog_title">Операции с буфером обмена</string>
+    <string name="clipboard2_operate_delete">Удаление из буфера обмена</string>
+    <string name="clipboard2_operate_lock">Блокировать</string>
+    <string name="clipboard2_operate_unlock">Разблокировать</string>
+    <string name="clipboard2_operate_cancel">Отмена</string>
+    <string name="clipboard2_clear_dialog_title">Информация</string>
+    <string name="clipboard2_clear_dialog_main_content">Очистить буфер обмена?</string>
+    <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
+    <string name="clipboard2_clear_dialog_ok">ОК</string>
+    <string name="clipboard2_clear_dialog_cancel">Отмена</string>
+    <string name="commonbutton_settext_hint">Введите текст</string>
+    <string name="time_picker_separator">:</string>
 </resources>

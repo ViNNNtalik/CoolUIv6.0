@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coolcloud_netdisk_actionbar_navigation_menu_list">
+        <item>Изображения</item>
+        <item>Музыка</item>
+        <item>Видео</item>
+        <item>Документы</item>
+        <item>Прочее</item>
+    </string-array>
+    <string-array name="coolcloud_netdisk_actionbar_navigation_menu_list_1">
+        <item>Список загрузки</item>
+        <item>Список выгрузки</item>
+    </string-array>
+    <string-array name="coolcloud_netdisk_actionbar_more_menu_list">
+        <item>Сеть</item>
+        <item>Миниатюры</item>
+        <item>Поиск</item>
+        <item>Обновить</item>
+        <item>Новая папка</item>
+        <item>Настройки</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="cooperation_help_list">
+        <item>О Облаке Coolpad</item>
+        <item>Предостережение</item>
+        <item>FAQ</item>
+    </string-array>
+    <string-array name="coolyou_problem_array">
+        <item>How do I check the backup and synced data?</item>
+        <item>May CoolCloud consume much data?</item>
+        <item>How do I retrieve the mis-deleted data?</item>
+        <item>How do I retrieve phone data if I have changed or lost my phone?</item>
+        <item>Why does it notify me of permission issues?</item>
+        <item>What do I do when contacts are duplicated?</item>
+        <item>What do I do when I have forgotten CoolCloud password?</item>
+        <item>How many accounts can be registered on the same phone?</item>
+        <item>How do I update CoolCloud?</item>
+        <item>What is the helpline of CoolCloud?</item>
+    </string-array>
+    <string-array name="coolyou_problem_answer_array">
+        <item>A: Log in to www.coolyun.com with your CoolCloud account for data management. We have launched an equivalent site m.coolyun.com for easier visits over your phone.</item>
+        <item>A: CoolCloud syncs only data different from before. After compression, a sync of 100 contacts consumes only 5 KB of data.</item>
+        <item>A: The Trash feature is available at www.coolyun.com to help restore data in case of mis-deletion.</item>
+        <item>A: After you log in to CoolCloud with your account, the backup data, such as contacts, agenda, memos, messages, and call logs, can be restored to the new phone.</item>
+         <item> "A: prompt appears privileges for the following reasons:
+A mobile phone permissions set incorrectly
+  \u0009 \u00091. caused by security software. Please check whether your phone safe security software, if any:
+  \u0009 \u0009 Cloud Security: Find cool cloud data protection, select the Trust;
+  \u0009 \u0009 Cool Butler: Press path data protection - contact / call log / SMS / calendar / location permissions find cool cloud, setting allows;
+  \u0009 \u0009360 mobile guards: press Path Security Tools - Privacy Behavior Monitoring - All software find cool cloud, set up trust;
+  \u0009 \u0009 Tencent Mobile housekeeper: Press path Privacy - Privacy Monitor - Trust Software "find cool clouds, set up the trust;
+  \u0009 \u0009 other security software: Please read cool cloud open contacts, calendar, messages, call records, authority position;
+  \u0009 \u00092. caused by the system itself permissions.
+  \u0009 \u0009MIUI system, press the path system settings - find cool cloud applications, settings I trust the program rights management;
+  Second, the phone adapter problem
+  \u0009 \u0009 please call the cool cloud hotline: 029-88824132, the problem with the model back to the customer, we will process as soon as possible. "</item>
+        <item>A: Log in to www.coolyun.com, go to the Contacts module, and use the Remove duplicate feature.</item>
+        <item>A: Touch Forgot on the login page, enter your email or phone number, and redirect to the reset URL to reset your password.</item>
+        <item>A: A maximum of 5 CoolCloud accounts can be registered on the same phone.</item>
+        <item>A: The latest version of CoolCloud is available at m.coolyun.com and CoolMart.</item>
+        <item>A: The helpline is 029-88824132. Your calls are warmly welcomed.</item>
+    </string-array>
+    <string-array name="coolcloud_week_strings">
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
+    <string-array name="coolcloud_weeks_string">
+        <item>" "</item>
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
+    <string-array name="username_prompt_suffix_list">
+        <item>\@189.cn</item>
+        <item>\@wo.com.cn</item>
+        <item>\@139.com</item>
+        <item>\@sina.cn</item>
+        <item>\@sina.com</item>
+        <item>\@163.com</item>
+        <item>\@qq.com</item>
+        <item>\@126.com</item>
+        <item>\@sohu.com</item>
+        <item>\@yulong.com</item>
+        <item>\@rambler.ru</item>
+        <item>\@yahoo.com.cn</item>
+        <item>\@yeah.net</item>
+        <item>\@hotmail.com</item>
+        <item>\@gmail.com</item>
+        <item>\@yandex.rucom</item>
+        <item>\@mail.ru</item>
+    </string-array>
+    <string-array name="username_prompt_list">
+        <item>139</item>
+        <item>163</item>
+        <item>qq</item>
+        <item>126</item>
+        <item>sohu</item>
+        <item>yulong</item>
+        <item>hotmail</item>
+        <item>gmail</item>
+        <item>yandex</item>
+        <item>mail</item>
+    </string-array>
+    <string-array name="array_sex">
+        <item>Мужчина</item>
+        <item>Женщина</item>
+    </string-array>
+</resources>

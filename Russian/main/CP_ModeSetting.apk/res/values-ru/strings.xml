@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
     <string name="app_name">Приватный режим</string>
     <string name="private_mode">Приватный режим</string>
     <string name="secrecy_app_name">Приватный режим</string>
@@ -13,7 +15,10 @@
     <string name="close">Закрыть</string>
     <string name="entry_mode1_1">1: Быстрое и резкое открытие панели уведомлений </string>
     <string name="entry_mode1_2">2: Ввод  ***### в наборной панели</string>
-    <string name="entry_mode2">Только ввод  ***### в наборной панели</string>
+    <string name="entry_mode2">Ввод  ***### в наборной панели.</string>
+    <string name="entry_mode_1_new">"Нажатие и удержание панели уведомлений, 
+а затем резко провести вниз"</string>
+    <string name="entry_mode_2_new">Ввод  ***### в наборной панели</string>
     <string name="password_setting">Настройки пароля приватности</string>
     <string name="secrecy_password_setting">Настройки пароля</string>
     <string name="input_password_hint">Введите пароль для доступа:</string>
@@ -228,7 +233,7 @@
     <string name="pretend_setting">Настр-ки</string>
     <string name="private_contacts">Приватные контакты</string>
     <string name="private_contacts_setting">Настройка приватного контакта</string>
-    <string name="private_call_setting">Приватные вызовы</string>
+    <string name="private_call_setting">Настройки приватных вызовов</string>
     <string name="pretend_name">Подмена имени</string>
     <string name="pretend_phone">Подмена номера</string>
     <string name="prompt_manner">Как уведомить</string>
@@ -264,6 +269,119 @@
     <string name="advanced_camouflage_batch_setting_title">Расширенные настройки камуфляжа</string>
     <string name="default_text">По умолчанию</string>
     <string name="email_not_available">Эл.почта недоступна</string>
-    <string name="create_and_enter_secrecy">Пароль успешно создан, включен секретный режим</string>
-    <string name="warning_save_mms_Icon_id">Сохранить, чтобы скрыть значок сообщения об ошибке</string>
+    <string name="str_no_private_contacts">Нет приватных контактов</string>
+    <string name="str_forget_password">Забыли пароль?</string>
+    <string name="str_step_one_title">Создание пароля</string>
+    <string name="str_step_two_title">Опции восстановления пароля</string>
+    <string name="str_step_three_title">Подтверждение</string>
+    <string name="str_enter_set_title">Опции активации</string>
+    <string name="str_describe">Защита Ваших вызовов, SMS/MMS, заметок и событий</string>
+    <string name="str_our_private_env">Приватное окружение</string>
+    <string name="str_select_a_icon">Выберите иконку</string>
+    <string name="str_complete">Завершено</string>
+    <string name="str_set_phone_group">Задать номер телефона</string>
+    <string name="str_set_email_group">Задать адрес эл.почты</string>
+    <string name="str_set_question_group">Задать вопрос и ответ</string>
+    <string name="str_auto_set_group">Выбор автомат. отключения</string>
+    <string name="input_password_edit_hint">Введите пароль (4-6 цифр)</string>
+    <string name="private_mms_setting">Настройки приватных SMS/MMS</string>
+    <string name="str_answer_set_hint">Введите ответ</string>
+    <string name="str_your_password">"Пароль: "</string>
+    <string name="str_your_phone_no">"Телефон: "</string>
+    <string name="str_your_email">"Эл. почта: "</string>
+    <string name="str_your_question">"Вопрос: "</string>
+    <string name="str_your_answer">"Ответ: "</string>
+    <string name="str_input_question">Введите вопрос</string>
+    <string name="button_ok_text">ОК</string>
+    <string name="button_cancel_text">Отмена</string>
+    <string name="button_yes_text">Да</string>
+    <string name="button_no_text">Нет</string>
+    <string name="button_abort_text">Отмена</string>
+    <string name="button_retry_text">Повтор</string>
+    <string name="button_ignore_text">Игнорировать</string>
+    <string name="button_delete_text">Удалить</string>
+    <string name="button_set_text">Задать</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="button_exit_text">Выход</string>
+    <string name="switch_button_text_on">Вкл.</string>
+    <string name="switch_button_text_off">Выкл.</string>
+    <string name="adscription_unknow">Неизв.</string>
+    <string name="cooperation_exception">Исключение</string>
+    <string name="password_hint_common">Пароль забыт</string>
+
+    <string name="title">Введите пароль</string>
+    <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
+    <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
+    <string name="login_password_error_dialog_msg1">Неправильный пароль. Можно ввести 1 раз</string>
+    <string name="login_password_error_dialog_msg2">Неправильный пароль. Можно ввести 2 раза</string>
+    <string name="set_question_title">Вопрос</string>
+    <string name="set_answer_title">Ответ</string>
+    <string name="need_set_answer_dialog_msg">Введите ответ</string>
+
+    <string name="answer_error_dialog_msg">Неправильный ответ</string>
+    <string name="password_hint_title">Подсказка</string>
+    <string name="your_password_is_dialog_msg">Ваш пароль</string>
+    <string name="security_password_login">Ввод</string>
+    <string name="security_password_title">Пароль приложения</string>
+    <string name="recipeint">Адресат</string>
+    <string name="selectAll">Выбрать все</string>
+    <string name="paste">Вставить</string>
+    <string name="inputMethod">Метод ввода</string>
+    <string name="select">Выбор</string>
+    <string name="cut">Вырезать</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+    <string name="search">Baidu-поиск</string>
+    <string name="clipboard">Буфер обмена</string>
+
+    <string name="stringtopinyinhint">Не распознано</string>
+    <string name="time_picker_dialog_title">Задать время</string>
+    <string name="date_year_toggle">Год</string>
+    <string name="textOverMaxLengthWarnning">максимальная длина</string>
+    <string name="copy_hint_text">Копирование завершено</string>
+    <string name="delOne">Удалить из буфера обмена</string>
+    <string name="delAll">Очистить буфера обмена</string>
+    <string name="clipboardOper">Операции с буфером обмена</string>
+    <string name="cansell">Отмена</string>
+    <string name="openClipboardSound">Вкл. тон клавиш</string>
+    <string name="closeClipboardSound">Выкл. тон клавиш</string>
+    <string name="char_append">или</string>
+    <string name="lookup_tel_details_en">Просмотр деталей</string>
+    <string name="lookup_tel_details_cn">Просмотр деталей</string>
+    <string name="lookup_tel_details_tw">Просмотр деталей</string>
+    <string name="dialog_title_choose_tel">Выбор контакта для просмотра деталей</string>
+    <string name="lunar_calendar_show">Лунный календарь</string>
+    <string name="image_cooperation_title">Опции приложения</string>
+    <string name="date_picker_dialog_title">Задать дату</string>
+    <string name="date_picker_year_checkbox_text">Год</string>
+    <string name="date_picker_lunar_checkbox_text">Лунный</string>
+    <string name="date_picker_allday_checkbox_text">Весь день</string>
+    <string name="unSelect_all">Снять выделение</string>
+    <string name="list_action_mode_selected">"Выбрано "</string>
+
+    <string name="list_action_mode_total">"Всего "</string>
+    <string name="actionbar_mainmenu_text">Меню</string>
+    <string name="action_mode_item_more">Еще</string>
+
+    <string name="search_hint_text">Введите ключевые слова</string>
+    <string name="contact_chooser_text">Контакты</string>
+    <string name="clipboard2_title">Буфер обмена</string>
+    <string name="clipboard2_operate_dialog_title">Операции с буфером обмена</string>
+    <string name="clipboard2_operate_delete">Удаление из буфера обмена</string>
+    <string name="clipboard2_operate_lock">Блокировать</string>
+    <string name="clipboard2_operate_unlock">Разблокировать</string>
+    <string name="clipboard2_operate_cancel">Отмена</string>
+    <string name="clipboard2_clear_dialog_title">Информация</string>
+    <string name="clipboard2_clear_dialog_main_content">Очистить буфер обмена?</string>
+    <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
+    <string name="clipboard2_clear_dialog_ok">ОК</string>
+    <string name="clipboard2_clear_dialog_cancel">Отмена</string>
+    <string name="commonbutton_settext_hint">Введите текст</string>
+
+    <string name="common_forget_password">Забыли пароль?</string>
+    <string name="google_search_head">http://www.google.com/search?complete=1&amp;q=</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="default_mms">Новое сообщение</string>
+    <string name="default_call">Новое напоминание</string>
 </resources>

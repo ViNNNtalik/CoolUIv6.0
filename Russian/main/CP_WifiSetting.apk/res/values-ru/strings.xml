@@ -934,7 +934,7 @@
     <string name="bluetooth_dock_settings_remember">Запомнить настройки</string>
     <string name="wifi_display_settings_title">Wi-Fi-дисплей</string>
     <string name="wifi_display_enable_menu_item">Включить Wi-Fi-дисплей</string>
-    <string name="wifi_display_no_devices_found">Wi-Fi-дисплеи не найдены</string>
+    <string name="wifi_display_no_devices_found">Wi-Fi не найдены</string>
     <string name="wifi_display_status_connecting">Соединение</string>
     <string name="wifi_display_status_connected">Соединено</string>
     <string name="wifi_display_status_in_use">Используется</string>
@@ -1136,8 +1136,9 @@
     <string name="wifi_tether_enabled_subtext">Точка доступа %1$s активна</string>
     <string name="wifi_tether_failed_subtext">Ошибка подключения</string>
     <string name="wifi_tether_configure_ap_text">Настроить точку доступа Wi-Fi</string>
+    <string name="wifi_tether_advance_configure_ap_text">"Расширенные настройки точки доступа Wi-Fi"</string>
     <string name="wifi_tether_configure_subtext">Точка доступа %1$s %2$s</string>
-    <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
+
     <string name="testing_wifi_info">Информация о Wi-Fi</string>
     <string name="disableNetwork">Отключить сеть</string>
     <string name="enableNetwork">Включить сеть</string>
@@ -1166,6 +1167,22 @@
     <string name="wifi_state_unknown">Неизвестно</string>
     <string name="wifi_config_info">Настройки Wi-Fi</string>
     <string name="config_list_label">Настроенные сети</string>
+    <string name="wifi_auto_connect">Автомат. подключение</string>
+    <string name="wifi_auto_select_title">Сеть>Wi-Fi</string>
+    <string name="wifi_signal_poor_enable_autoasso">Переподключение при слабом сигнале</string>
+    <string name="wifi_auto_select_summary">Выбор при использовании браузера для зыгрузки</string>
+    <string name="wifi_tip_title">Запрос</string>
+    <string name="wifi_tip_message0">Wi-Fi отключен, подключиться по 3G?</string>
+    <string name="wifi_tip_message10">Поиск AP</string>
+    <string name="wifi_tip_message11">, Вы хотите использовать Wi-Fi</string>
+    <string name="wifi_tip_message2">WiFi недоступен, подключиться по 3G?</string>
+    <string name="wifi_tip_message3">WiFi доступен, подключиться по Wi-Fi?</string>
+    <string name="wifi_tip_message4">Wi-Fi выключен, включить его?</string>
+    <string name="no_prompt">Запомнить настройки</string>
+    <string name="Ok">ОК</string>
+    <string name="cance">Отмена</string>
+    <string name="wifi_signal_poor">Слабый сигнал</string>
+    <string name="wifi_signal_poor_content">Изменить подключение на другое приложение?</string>
     <string name="home_settings">Домашние настройки</string>
     <string name="display_settings_title">Wi-Fi-дисплей</string>
     <string name="sound_settings">Звук</string>
@@ -2532,4 +2549,10 @@
     <string name="user_image_take_photo">Снять фото</string>
     <string name="user_image_choose_photo">Выбрать из галереи</string>
     <string name="regulatory_info_text" />
+    <string name="wifi_modify_priority">Изменить приоритет</string>
+    <string name="set_top_priority">Задать высший приоритет</string>
+    <string name="cancel_top_priority">Отменить высший приоритет</string>
+    <string name="operator_connect_point">Нельзя действовать внутри доверенной AP!</string>
+    <string name="wifi_ap_top">Вверх</string>
+    <string name="wifi_ap_down">Вниз</string>
 </resources>

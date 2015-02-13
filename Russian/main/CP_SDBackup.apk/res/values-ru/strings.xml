@@ -53,12 +53,12 @@
     <string name="annex_contact">Объединение контактов</string>
     <string name="have_been_backup_high_version">Сохранена последняя версия</string>
     <string name="have_been_install_high_version">Установлена последняя версия</string>
-    <string name="change_sd_to_udisk">Нет места на SD-карте, перенесено в /Coolpad/BACKUPSD</string>
-    <string name="dx_change_sd_to_udisk">Нет места на SD-карте, перенесено в /ct_backup/backup_all</string>
-    <string name="change_inter_sd_to_udisk">Нет места на SD-карте, перенесено в /backup/Data</string>
-    <string name="to_udisk">Нет SD-карты, перенесено в /Coolpad/BACKUPSD</string>
-    <string name="to_inter_udisk">Нет SD-карты, перенесено в /backup/Data</string>
-    <string name="dx_to_inter_udisk">Нет SD-карты, перенесено в /ct_backup/backup_all</string>
+    <string name="change_sd_to_udisk">Нет места на SD-карте, данные будут сохранены в INTERNAL_STORAGE/Coolpad/BACKUPSD</string>
+    <string name="dx_change_sd_to_udisk">Нет места на SD-карте, данные будут сохранены в INTERNAL_STORAGE/ct_backup/backup_all</string>
+    <string name="change_inter_sd_to_udisk">Нет места на SD-карте, данные будут сохранены в INTERNAL_STORAGE/backup/Data</string>
+    <string name="to_udisk">Нет SD-карты, данные будут сохранены в INTERNAL_STORAGE/Coolpad/BACKUPSD</string>
+    <string name="to_inter_udisk">Нет SD-карты, данные будут сохранены в INTERNAL_STORAGE/backup/Data</string>
+    <string name="dx_to_inter_udisk">Нет SD-карты, данные будут сохранены в INTERNAL_STORAGE/ct_backup/backup_all</string>
     <string name="select_content">Выбор содержимого бэкапа</string>
     <string name="file_only">Только оригинальные файлы</string>
     <string name="file_and_data">Оригинальные файлы и их данные</string>
@@ -76,8 +76,8 @@
     <string name="scanning_sdcard_failed_message">Сканирование SD-карты не удалось (причина: \"%s\")</string>
     <string name="select_vcard_title">Выбор файла визитной карточки</string>
     <string name="no_sdcard_message">SD-карта не обнаружена</string>
-    <string name="progress_shower_message" formatted="false">"%s
-%s"</string>
+
+
     <string name="fail_reason_could_not_open_file" formatted="false">Не удалось открыть \"%s\": %s</string>
     <string name="fail_reason_could_not_initialize_exporter">Инициализация модуля экспорта не удалась: \"%s\"</string>
     <string name="exporting_contact_failed_title">Не удалось экспортировать данные контакта</string>
@@ -105,7 +105,7 @@
     <string name="main_title">Бэкап/восстановление</string>
     <string name="button_backup">Бэкап</string>
     <string name="button_recover">Восстановление</string>
-    <string name="sd_path">/sdcard</string>
+
     <string name="button_update_backup">Обновить</string>
     <string name="button_delete_buckup">Удалить</string>
     <string name="detail_title">Детали</string>
@@ -286,7 +286,7 @@
     <string name="upfile_to_clouds">Синхронизация обновления с Облаком</string>
     <string name="show_string_1">"Без бэкапа: "</string>
     <string name="show_string_2">"Обновление: "</string>
-    <string name="unit" />
+
     <string name="show_string_3">"Установлено: "</string>
     <string name="show_string_4">"Не установлено: "</string>
     <string name="slect_install_path">Выберите путь установки</string>
@@ -300,7 +300,7 @@
     <string name="backup_finsh">Бэкап создан</string>
     <string name="updata_finsh">Обновлено</string>
     <string name="combine_contacts_num">Объединено</string>
-    <string name="contacts_num_unit" />
+
     <string name="combine_prompt">Объединение данных</string>
     <string name="combine_prompt_string1">"Импортируемые файлы имеют одинаковые имена с контактами на устройстве, они были объединены. Общее число: "</string>
     <string name="combine_prompt_string2">Вы можете посмотреть объединенные контакты в Контакты - Детали</string>
@@ -332,7 +332,7 @@
     <string name="is_allow_duplicate_message_3">Заметка: Вы можете посмотреть объединенные контакты в приложении Контакты</string>
     <string name="is_allow_duplicate_message_new">Объединенные данные (номера телефонов и т.д.) не будут потеряны</string>
     <string name="is_allow_duplicate_message_4">"Количество объединенных контактов: "</string>
-    <string name="is_allow_duplicate_message_5" />
+
     <string name="is_allow_duplicate_message_6">Объединить контакты с одинаковыми именами, обнаруженные в импортируемом файле?</string>
     <string name="button_yes">Да</string>
     <string name="button_no">Нет</string>
@@ -340,7 +340,7 @@
 
     <string name="item_selected">"Выбрано: "</string>
     <string name="item_total">"Всего: "</string>
-    <string name="item_select" />
+
     <string name="select_backup_item">Выбор элементов</string>
     <string name="select_recover_item">Выбор элементов</string>
     <string name="doing_cloud_backup">Создание бэкапа в Облако</string>
@@ -372,9 +372,15 @@
     <string name="clear_memory">Сделать оптимизацию? Скорость восстановления увеличится</string>
     <string name="sdcard_doing_backup">Создание бэкапа</string>
     <string name="sdcard_comp_backup_1">"Последний бэкап: "</string>
-    <string name="sdcard_comp_backup_2" />
+
     <string name="honor_host">Добро пожаловать в Бэкап Coolpad!</string>
     <string name="show_tip_content">Приложение может читать и изменять данные о контактах!</string>
+    <string name="honor_host_yidong">Добро пожаловать в бэкап и восстановление</string>
+    <string name="show_tip_content_yidong">Инструмент бэкапа и восстановления только для China Mobile</string>
+    <string name="app_name_recover_yidong">Восстановление</string>
+    <string name="menu_import_coolpad_yidong">Импорт данных</string>
+    <string name="app_name_yidong">Бэкап и восстановление</string>
+    <string name="combine_prompt_string1_yidong">Импортированые контакты имеют одинаковые имена. Приложение поможет избавиться от дубликатов и объединить контакты</string>
     <string name="no_tip_again">Больше не показывать</string>
     <string name="button_ok_two">ОК</string>
     <string name="app_name_recover">Восстановление</string>
@@ -395,24 +401,34 @@
     <string name="SET_SDE_PASSWORD">Нет пароля. Задать пароль?</string>
     <string name="jiami_tip_one">Зашифровать и сделать бэкап данных на SD-карту</string>
     <string name="not_jiami_tip_one">Бэкап plaintext-данные на SD-карту</string>
-    <string name="my_backup_name_edit">Отредактируйте имя бэкапа</string>
+    <string name="my_backup_name_edit">Мой бэкап</string>
+    <string name="backup_path_tip">"Подсказка: "</string>
+    <string name="backup_path_tip_local">"Нет SD-карты, "</string>
     <string name="backup_path">Подсказка: бэкап будет сохранен в</string>
     <string name="backup_local_path">Внутр. хранилище</string>
     <string name="backup_sdcard_path">SD-карта</string>
-    <string name="backup_path_1">>COOLPAD>BACKUPSD</string>
+
     <string name="backup_path_2">"Путь: "</string>
     <string name="loading_data">Загрузка данных, попробуйте позже</string>
+    <string name="apk_backup_path_tip">"Подсказка: "</string>
+    <string name="apk_backup_path_tip_local">"Нет SD-карты, "</string>
     <string name="apk_backup_path">"Подсказка: бэкап APK в: "</string>
     <string name="apk_backup_local_path">Внутр. хранилище</string>
     <string name="apk_backup_sdcard_path">SD-карта</string>
     <string name="apk_backup_path_1">>backup>Приложения</string>
-    <string name="backup_path_3">>ct_backup>backup_all</string>
-    <string name="backup_path_4">>backup>Data</string>
-    <string name="honor_host_yidong">Добро пожаловать в бэкап и восстановление</string>
-    <string name="show_tip_content_yidong">Инструмент бэкапа и восстановления только для China Mobile</string>
-    <string name="app_name_recover_yidong">Восстановление</string>
-    <string name="menu_import_coolpad_yidong">Импорт данных</string>
-    <string name="app_name_yidong">Бэкап и восстановление</string>
-    <string name="combine_prompt_string1_yidong">Импортированые контакты имеют одинаковые имена. Приложение поможет избавиться от дубликатов и объединить контакты</string>
-    <string name="dele_dialog_prompt">Удаление</string>
+    <string name="jiami_backup_title">Ciphertext бэкап файл</string>
+    <string name="mingwen_backup_title">Plaintext бэкап файл</string>
+    <string name="local_backup_title">Локальный бэкап файл</string>
+
+    <string name="cool_yun">Облако Coolpad</string>
+
+    <string name="SDCard_export">Экспорт на SD-карту</string>
+    <string name="Local_export">Экспорт на внутр. хранилище</string>
+    <string name="list_action_mode_selected">" выбрано "</string>
+    <string name="list_action_mode_total">Всего</string>
+
+
+    <string name="select_all">Все</string>
+    <string name="unSelect_all">Очистить</string>
+    <string name="dele_dialog_prompt">Удалить</string>
 </resources>

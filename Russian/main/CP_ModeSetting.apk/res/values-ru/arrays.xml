@@ -90,35 +90,13 @@
         <item>Мой любимый спорт?</item>
         <item>Польз. вопрос</item>
     </string-array>
-
-
-
-
-
-
-
-    <string-array name="days_of_week">
-        <item>" Вс "</item>
-        <item>" Пн "</item>
-        <item>" Вт "</item>
-        <item>" Ср "</item>
-        <item>" Чт "</item>
-        <item>" Пт "</item>
-        <item>" Сб "</item>
+    <string-array name="password_hint_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
-    <string-array name="days_of_week_short">
-        <item>" Вс "</item>
-        <item>" Пн "</item>
-        <item>" Вт "</item>
-        <item>" Ср "</item>
-        <item>" Чт "</item>
-        <item>" Пт "</item>
-        <item>" Сб "</item>
-    </string-array>
-
-
-
-
     <integer-array name="BASIC_FONT_SIZE_ARRAY">
         <item>18</item>
         <item>16</item>

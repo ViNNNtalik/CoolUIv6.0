@@ -26,12 +26,8 @@
         <item quantity="other">%d выбрано</item>
         <item quantity="one">1 выбрано</item>
     </plurals>
-    <plurals name="artist_songs_num_count">
-        <item quantity="other">Песни: %d</item>
-        <item quantity="one">1 песня</item>
-    </plurals>
-    <plurals name="loved_batch_operate_hint">
-        <item quantity="other">В избранное песен: %d</item>
-        <item quantity="one">1 песня в избранное</item>
+    <plurals name="music_random_all_count">
+        <item quantity="other">(Всего  песен: %d)</item>
+        <item quantity="one">(Всего  песен: 1)</item>
     </plurals>
 </resources>

@@ -2,6 +2,8 @@
 <resources>
     <string name="main_no_group">Иначе</string>
     <string name="main_all_group">A</string>
+
+
     <string name="system_db_error">Системная ошибка</string>
     <string name="system_db_error_message">Ошибка базы данных, информация не может быть правильно загружена...</string>
     <string name="default_button_1_title">Кнопка 1</string>
@@ -17,13 +19,6 @@
     <string name="image_preview_center">Центр</string>
     <string name="image_preview_back">Назад</string>
     <string name="image_preview_title">Предпросмотр</string>
-    <string name="button_ok_text">ОК</string>
-    <string name="button_cancel_text">Отмена</string>
-    <string name="button_yes_text">Да</string>
-    <string name="button_no_text">Нет</string>
-    <string name="button_abort_text">Стоп</string>
-    <string name="button_retry_text">Повторить</string>
-    <string name="button_ignore_text">Игнорировать</string>
     <string name="display_monday_text">Понедельник</string>
     <string name="display_tuesday_text">Вторник</string>
     <string name="display_wednesday_text">Среда</string>
@@ -31,9 +26,9 @@
     <string name="display_friday_text">Пятница</string>
     <string name="display_saturday_text">Суббота</string>
     <string name="display_sunday_text">Воскресенье</string>
-    <string name="switch_button_text_on">Вкл.</string>
-    <string name="switch_button_text_off">Выкл.</string>
-    <string name="windows_title_text_about">Информация</string>
+    <string name="windows_title_text_about">Описание</string>
+
+
     <string name="default_time_label0">" Позже "</string>
     <string name="default_time_label1">" Сегодня "</string>
     <string name="default_time_label2">" Вчера "</string>
@@ -44,10 +39,10 @@
     <string name="time_label_before"> Ранее </string>
     <string name="time_label_after"> Позже </string>
     <string name="time_laber_day"></string>
-    <string name="default_group_id1">1</string>
-    <string name="default_group_id2">2</string>
-    <string name="default_group_id3">3</string>
-    <string name="default_group_id4">4</string>
+
+
+
+
     <string name="default_group_id1_name">Личное</string>
     <string name="default_group_id2_name">Работа</string>
     <string name="default_group_id3_name">Развлечение</string>
@@ -70,6 +65,11 @@
     <string name="title_group_drag">Порядок группы</string>
     <string name="batch_delete_group">Опции</string>
     <string name="batch_delete_note">Опции</string>
+    <string name="title_pic_edit">Редактирование фото</string>
+    <string name="title_pic_cut">Обрезка фото</string>
+    <string name="title_coolcloud_login">Логин к аккаунту</string>
+    <string name="title_coolcloud_register">Регистрация аккаунта</string>
+    <string name="title_coolcloud_retrieve">Восстановление пароля</string>
     <string name="btn_all">Все</string>
     <string name="btn_group">Группа</string>
     <string name="btn_new">Новая</string>
@@ -136,13 +136,13 @@
     <string name="menu_group_drag">Сохранить порядок</string>
     <string name="out_of_length">Максимальная длина превышена</string>
     <string name="menu_previous">Назад</string>
-    <string name="menu_previous_Com">Back</string>
+    <string name="menu_previous_Com">Назад</string>
     <string name="menu_next">Далее</string>
     <string name="menu_share">Поделиться</string>
-    <string name="actionmode_menu_picture">Изображение</string>
+    <string name="actionmode_menu_picture">Изобр.</string>
+    <string name="menu_print">Печать</string>
     <string name="menu_export">Экспорт</string>
     <string name="menu_import">Импорт</string>
-    <string name="menu_print">Печать</string>
     <string name="menu_iwanna_rate">Отзыв</string>
     <string name="actionbar_manage_memo">Управление заметками</string>
     <string name="create_new_note">Создать новую заметку</string>
@@ -165,7 +165,7 @@
     <string name="illegal_group_name">Неправильное имя группы</string>
     <string name="tuya_content_empty">Нет граффити</string>
     <string name="dialog_title_tip">Информация</string>
-    <string name="dialog_delete_tip">Удалить заметку</string>
+    <string name="dialog_delete_tip">Удалить</string>
     <string name="dialog_content_add_note_success">Группа создана</string>
     <string name="dialog_content_add_memo_success">Информация записана</string>
     <string name="dialog_content_edit_note_success">Изменено</string>
@@ -219,21 +219,21 @@
     <string name="about_app_name">Название приложения:</string>
     <string name="about_app_name_text">Заметка</string>
     <string name="about_version">Версия:</string>
-    <string name="about_app_version" />
+
     <string name="about_sys_info">Система</string>
-    <string name="about_sys_version">P0</string>
+
     <string name="about_design">Дизайн:</string>
-    <string name="about_design_text">2009-2013</string>
+
     <string name="date_format">dd.MM.yyyy</string>
     <string name="date_format_time">dd.MM.yyyy HH:mm</string>
-    <string name="date_format_today_time">HH:mm</string>
-    <string name="group_name_max_length">20</string>
-    <string name="group_max_quantity">20</string>
-    <string name="note_name_max_length">20</string>
-    <string name="group_max_capacities">200</string>
-    <string name="note_max_length">1000</string>
+
+
+
+
+
+
     <string name="no_result">Нет данных</string>
-    <string name="tip_display_time">5</string>
+
     <string name="selected_sigin">" √"</string>
     <string name="send_email_failure">Приложение для эл. почты не установлено</string>
     <string name="send_ms_failure">Приложение для SMS/MMS не установлено</string>
@@ -273,7 +273,6 @@
     <string name="toast_widget_quick_add">Нажмите Заметку или Добавить</string>
     <string name="toast_location_no_map">Не удается показать на карте из-за отсутствия данных о местоположении</string>
     <string name="toast_filetype_not_supprot">Формат не поддерживается</string>
-    <string name="toast_filesize_not_supprot">Размер не должен быть больше 20 Мб</string>
     <string name="toast_export_success">Файл сохранен в %s</string>
     <string name="toast_file_exists_already">Файл уже существует</string>
     <string name="toast_file_name_illegal">Недопустимые символы</string>
@@ -292,7 +291,7 @@
     <string name="menu_gallery">Галерея</string>
     <string name="menu_record">Диктофон</string>
     <string name="menu_mark">Метка</string>
-    <string name="menu_alarm">Напоминание</string>
+    <string name="menu_alarm">Напомин.</string>
     <string name="menu_private_set">Приватный режим</string>
     <string name="tip_alarm_outofdate">Срок истек</string>
     <string name="search_items">Поиск записей</string>
@@ -341,6 +340,65 @@
     <string name="memo_security_hint_title">Добро пожаловать!</string>
     <string name="memo_security_hint_content">Приложение может потреблять трафик, читать информацию о контактах и определять местоположение</string>
     <string name="secrity_show_dialog">Не показывать снова</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="detection_upgrade">Поиск новой версии</string>
     <string name="network_not_exist">Нет сети? Нажмите здесь >></string>
     <string name="file_select_name">Имя:</string>
     <string name="file_select_type">Тип:</string>
@@ -348,4 +406,134 @@
     <string name="file_select_new">Создание папки</string>
     <string name="edit_set_title">Заголовок</string>
     <string name="tag_group_itemnum">элем.</string>
+    <string name="menu_script">От руки</string>
+    <string name="script_space">Пробел</string>
+    <string name="script_newline">Абзац</string>
+    <string name="script_backspace">Назад</string>
+    <string name="script_brush">Кисть</string>
+    <string name="script_note_title">Заметки от руки</string>
+    <string name="memo_detail_dialog">Детали</string>
+    <string name="memo_detail_textcount">Количество слов</string>
+    <string name="memo_detail_groupname">Группировка</string>
+    <string name="memo_detail_title">Детали</string>
+    <string name="memo_all_title">Все заметки</string>
+    <string name="toast_show_unsupport_web_edit">Нельзя редактировать заметку web-страницы</string>
+    <string name="setting_idsetting">Настройки аккаунта</string>
+    <string name="setting_note_user">"Аккаунт Заметок: "</string>
+    <string name="setting_login">Вход</string>
+    <string name="setting_mode">Режим просмотра</string>
+    <string name="setting_display_thum">Миниатюры</string>
+    <string name="setting_display_list">Список</string>
+    <string name="setting_sync">Синхронизация</string>
+    <string name="setting_autosync">Автоматическая синхронизация</string>
+    <string name="setting_offline_read">Настройки офлайн-режима</string>
+    <string name="setting_only_wifi_sync">Автоматическая синхронизация только по Wi-Fi</string>
+    <string name="setting_only_wifi_download">Автоматическая загрузка только по Wi-Fi</string>
+
+    <string name="main_add_group">Добавить группировку</string>
+    <string name="sync_title">Синхронизация</string>
+    <string name="release_to_refresh">Loosen the immediate synchronization</string>
+    <string name="pull_to_refresh">Потяните immediately synchronize</string>
+    <string name="sync_content">"Последняя синхронизация: "</string>
+    <string name="other">Прочее</string>
+    <string name="sync_failed">Synchronization failed!</string>
+    <string name="sync_init_failed">Synchronous initialization failed!</string>
+    <string name="sync_success">Successful synchronization!</string>
+    <string name="sync_net_error">A network error, please check the network environment!</string>
+    <string name="sync_userinfo_unable">Unable to find the user login information, please login again cool cloud account!</string>
+    <string name="setting_image_login">Click on login</string>
+    <string name="new_no_group_message">Please create a new group after!</string>
+    <string name="edit_no_group_message">Please create a packet after editing!</string>
+    <string name="packet_encryption">Packet encryption</string>
+    <string name="button_ok_text">ОК</string>
+    <string name="button_cancel_text">Отмена</string>
+    <string name="button_yes_text">Да</string>
+    <string name="button_no_text">Нет</string>
+    <string name="button_abort_text">Отмена</string>
+    <string name="button_retry_text">Повтор</string>
+    <string name="button_ignore_text">Игнорировать</string>
+    <string name="button_delete_text">Удалить</string>
+    <string name="button_set_text">Задать</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="button_exit_text">Выход</string>
+    <string name="switch_button_text_on">Вкл.</string>
+    <string name="switch_button_text_off">Выкл.</string>
+    <string name="adscription_unknow">Неизв.</string>
+    <string name="cooperation_exception">Исключение</string>
+    <string name="password_hint">Подсказка</string>
+    <string name="password_maxlength">32</string>
+    <string name="title">Введите пароль</string>
+    <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
+    <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
+    <string name="login_password_error_dialog_msg1">Неправильный пароль. Можно ввести 1 раз</string>
+    <string name="login_password_error_dialog_msg2">Неправильный пароль. Можно ввести 2 раза</string>
+    <string name="set_question_title">Вопрос</string>
+    <string name="set_answer_title">Ответ</string>
+    <string name="need_set_answer_dialog_msg">Введите ответ</string>
+    <string name="answer_maxlength">28</string>
+    <string name="answer_error_dialog_msg">Неправильный ответ</string>
+    <string name="password_hint_title">Подсказка</string>
+    <string name="your_password_is_dialog_msg">Ваш пароль</string>
+    <string name="security_password_login">Ввод</string>
+    <string name="security_password_title">Пароль приложения</string>
+    <string name="recipeint">Адресат</string>
+    <string name="selectAll">Выбрать все</string>
+    <string name="paste">Вставить</string>
+    <string name="inputMethod">Метод ввода</string>
+    <string name="select">Выбор</string>
+    <string name="cut">Вырезать</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+    <string name="search">Baidu-поиск</string>
+    <string name="clipboard">Буфер обмена</string>
+
+    <string name="stringtopinyinhint">Не распознано</string>
+    <string name="time_picker_dialog_title">Задать время</string>
+    <string name="date_year_toggle">Год</string>
+    <string name="textOverMaxLengthWarnning">максимальная длина</string>
+    <string name="copy_hint_text">Копирование завершено</string>
+    <string name="delOne">Удалить из буфера обмена</string>
+    <string name="delAll">Очистить буфера обмена</string>
+    <string name="clipboardOper">Операции с буфером обмена</string>
+    <string name="cansell">Отмена</string>
+    <string name="openClipboardSound">Вкл. тон клавиш</string>
+    <string name="closeClipboardSound">Выкл. тон клавиш</string>
+    <string name="char_append">или</string>
+    <string name="lookup_tel_details_en">Просмотр деталей</string>
+    <string name="lookup_tel_details_cn">Просмотр деталей</string>
+    <string name="lookup_tel_details_tw">Просмотр деталей</string>
+    <string name="dialog_title_choose_tel">Выбор контакта для просмотра деталей</string>
+    <string name="lunar_calendar_show">Лунный календарь</string>
+    <string name="image_cooperation_title">Опции приложения</string>
+    <string name="date_picker_dialog_title">Задать дату</string>
+    <string name="date_picker_year_checkbox_text">Год</string>
+    <string name="date_picker_lunar_checkbox_text">Лунный</string>
+    <string name="date_picker_allday_checkbox_text">Весь день</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="unSelect_all">Снять выделение</string>
+    <string name="list_action_mode_selected">"Выбрано "</string>
+
+    <string name="list_action_mode_total">"Всего "</string>
+    <string name="actionbar_mainmenu_text">Меню</string>
+    <string name="action_mode_item_more">Еще</string>
+
+    <string name="search_hint_text">Введите ключевые слова</string>
+    <string name="common_search_hint_text">Поиск</string>
+    <string name="contact_chooser_text">Контакты</string>
+    <string name="clipboard2_title">Буфер обмена</string>
+    <string name="clipboard2_operate_dialog_title">Операции с буфером обмена</string>
+    <string name="clipboard2_operate_delete">Удаление из буфера обмена</string>
+    <string name="clipboard2_operate_lock">Блокировать</string>
+    <string name="clipboard2_operate_unlock">Разблокировать</string>
+    <string name="clipboard2_operate_cancel">Отмена</string>
+    <string name="clipboard2_clear_dialog_title">Информация</string>
+    <string name="clipboard2_clear_dialog_main_content">Очистить буфер обмена?</string>
+    <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
+    <string name="clipboard2_clear_dialog_ok">ОК</string>
+    <string name="clipboard2_clear_dialog_cancel">Отмена</string>
+    <string name="commonbutton_settext_hint">Введите текст</string>
+    <string name="time_picker_separator">:</string>
+    <string name="common_forget_password">Забыли пароль?</string>
+    <string name="common_login_del">Очистка</string>
+    <string name="google_search_head">http://www.google.com/search?complete=1&amp;q=</string>
 </resources>

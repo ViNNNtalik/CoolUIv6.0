@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="permlab_downloadManager">Доступ к менеджеру загрузок</string>
+    <string name="permdesc_downloadManager">Приложение получит доступ к менеджеру загрузок и сможет загружать файлы через него. Вредоносные приложения смогут таким образом прерывать загрузки и просматривать личную информацию</string>
+    <string name="permlab_downloadManagerAdvanced">Расширенные функции менеджера загрузок</string>
+    <string name="permdesc_downloadManagerAdvanced">Приложение получит доступ к расширенным функциям менеджера загрузок. Вредоносные приложения смогут таким образом прерывать загрузки и просматривать личную информацию</string>
+    <string name="permlab_downloadCompletedIntent">Отправление оповещения о загрузке</string>
+    <string name="permdesc_downloadCompletedIntent">Приложение сможет отправлять оповещения о завершенных загрузках. Вредоносные приложения смогут таким образом мешать работе приложений, загружающих файлы</string>
+    <string name="permlab_downloadCacheNonPurgeable">Резервирование места в кэше</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Приложение сможет загружать файлы в кэш загрузки (который не может быть автоматически очищен), если менеджеру загрузок потребуется больше места</string>
+    <string name="permlab_accessAllDownloads">Доступ ко всем загрузкам</string>
+    <string name="permdesc_accessAllDownloads">Приложение сможет открывать и изменять загрузки независимо от того, через какое приложение они были загружены</string>
+    <string name="download_unknown_title">&lt;Без названия></string>
+
+    <string name="notification_filename_extras">" и %d еще"</string>
+    <string name="notification_download_complete">Загрузка завершена</string>
+    <string name="notification_download_failed">Не удалось загрузить файл</string>
+    <string name="notification_need_wifi_for_size">Загрузка только по Wi-Fi</string>
+    <string name="wifi_required_title">Слишком большой файл для загрузки через 2G/3G</string>
+    <string name="wifi_required_body" formatted="false">"Для завершения загрузки файла размером %s  необходимо подключение к сети Wi-Fi.
+
+Чтобы продолжить загрузку позже через Wi-Fi, нажмите %s "</string>
+    <string name="wifi_recommended_title">Поставить в очередь на загрузку позже?</string>
+    <string name="wifi_recommended_body" formatted="false">"Если загрузить %s  сейчас, батарея может быстро разрядиться. Также не исключено превышение трафика и, как результат, увеличение расходов.
+
+Чтобы выполнить загрузку позже через Wi-Fi, нажмите %s"</string>
+    <string name="button_queue_for_wifi">Добавить в очередь</string>
+    <string name="button_cancel_download">Отмена</string>
+    <string name="button_start_now">Запустить</string>
     <string name="application_name">Лаунчер</string>
     <string name="home">Домой</string>
     <string name="uid_name">Android Core Apps</string>
@@ -11,8 +38,8 @@
     <string name="widgets_tab_label">Виджеты</string>
     <string name="long_press_widget_to_add">Нажмите и удержите для выбора виджета</string>
     <string name="market">Магазин</string>
-    <string name="widget_dims_format">%1$d x %2$d</string>
-    <string name="external_drop_widget_pick_format">%1$s (%2$d x %3$d)</string>
+
+
     <string name="external_drop_widget_error">Не удается добавить элемент на рабочий стол</string>
     <string name="external_drop_widget_pick_title">Выберите виджет</string>
     <string name="rename_folder_label">Имя папки</string>
@@ -89,6 +116,7 @@
     <string name="menu_edit">Редактировать</string>
     <string name="menu_coolshow">Темы</string>
     <string name="menu_hide_app">Скрыть приложения</string>
+    <string name="one_key_lock_screen">Локскрин</string>
     <string name="nomorethan">Папка заполнена</string>
     <string name="hide_show">Видимые приложения</string>
     <string name="hide_hide">Скрытые приложения</string>
@@ -121,6 +149,7 @@
 
 
 
+
     <string name="app_name">Батарея+</string>
     <string name="monday">Понедельник</string>
     <string name="tuesday">Вторник</string>
@@ -136,7 +165,57 @@
     <string name="alarm">Будильник</string>
     <string name="todolist">Расписание</string>
     <string name="quit">Выход</string>
-    <string name="coolpad_backup_app_title">Бэкап и восстановление</string>
+    <string name="settings_icon_wifi_auto_update_title">Автомат. обновление по Wi-Fi</string>
+    <string name="settings_icon_manager_title">Иконки в HD</string>
+    <string name="settings_icon_dialog_check_result_message">Иконок, требующих обновления: %1$d</string>
+    <string name="settings_icon_dialog_check_result_button_positive">ОК</string>
+    <string name="settings_icon_dialog_check_result_button_negative">Отмена</string>
+    <string name="settings_icon_dont_show_next_time">Больше не показывать</string>
+    <string name="settings_icon_no_need_update">Нет доступных иконок в HD</string>
+    <string name="settings_icon_description">Иконки в HD будут периодически обновляться для частых приложений</string>
+    <string name="settings_icon_checking_update">Поиск обновлений...</string>
+    <string name="settings_icon_update_icons_right_now">Иконок для обновления: %1$d</string>
+    <string name="settings_icon_update_icons_title">Обновление иконок в HD</string>
+    <string name="settings_icon_notification_update_icons_done_title">Обновлено иконок: %1$d</string>
+    <string name="settings_icon_notification_update_icons_done_message">%1$s обновлено</string>
+    <string name="settings_icon_notification_checking_result_message">Найдены иконки в HD для таких приложений, как %1$s (%2$d всего). Нажмите для обновления</string>
+    <string name="settings_icon_update_time_string_format">Обновлено: %1$s</string>
+    <string name="settings_icon_updated_icons">Обновлено иконок: %1$d</string>
+    <string name="settings_icon_already_updated_icons">Обновлено иконок: %1$d</string>
+    <string name="settings_icon_pause_update">Пауза</string>
+    <string name="settings_icon_resume_update">Возобновить</string>
+    <string name="settings_icon_update_error_string_format">Ошибка: %1$s</string>
+    <string name="settings_icon_update_failed">Не удалось обновить</string>
+    <string name="recover_all_hide_apps">Показать все скрытые приложения на рабочем столе?</string>
+    <string name="recover_all_hide_apps_done">Показано на рабочем столе</string>
+    <string name="recover_one_hide_app_done">Показано на рабочем столе</string>
+    <string name="recover">Восстановление</string>
+    <string name="hide_app_locked_title">Введите пароль</string>
+    <string name="lockscreen_access_pattern_start">Ввод графического ключа</string>
+    <string name="lockscreen_access_pattern_cleared">Графический ключ сброшен</string>
+    <string name="lockscreen_access_pattern_cell_added">Ячейка добавлена</string>
+    <string name="lockscreen_access_pattern_detected">Графический ключ введен</string>
+    <string name="lockpattern_retry_button_text">Повторить</string>
+    <string name="lockpattern_continue_button_text">Продолжить</string>
+
+    <string name="lockpattern_recording_intro_header">Начертите графический ключ разблокировки</string>
+    <string name="lockpattern_settings_help_how_to_record">Как начертить графический ключ разблокировки</string>
+    <string name="lockpattern_recording_incorrect_too_short">Соедините как минимум 4 точки. Повторите попытку:</string>
+    <string name="lockpattern_pattern_entered_header">Графический ключ разблокировки записан!</string>
+    <string name="lockpattern_need_to_confirm">Для подтверждения начертите графический ключ повторно:</string>
+    <string name="lockpattern_need_to_unlock_wrong">Повторить:</string>
+    <string name="lockpattern_pattern_confirmed_header">Новый графический ключ разблокировки:</string>
+    <string name="lockpattern_recording_inprogress">По завершении отпустите палец</string>
+    <string name="lockpattern_note_later_message">Графический ключ нарисован неверно %1$d раз(а). Повторите через %2$d сек.</string>
+    <string name="lockpattern_note_wrong_message">Неверный пароль. Осталось попыток: %1$d</string>
+    <string name="lockpattern_length_not_enough_message">Пароль слишком короткий. Попробуйте еще раз</string>
+    <string name="lockpattern_clear_password_message">Очистить пароль?</string>
+    <string name="lockpattern_clear_password_done">Пароль очищен</string>
+    <string name="auto_arrange_icon_detail">Это очистит текущее размещение иконок и отсортирует их автоматически</string>
+    <string name="auto_arrange_icon_title">Сортировка иконок</string>
+    <string name="add_app_not_selected">Не выбранных приложений</string>
+    <string name="shouqi_wallpaper">Рок-обои</string>
+    <string name="modify_folder_name_not_permited">Нельзя переименовать папку</string>
     <string name="no_premisson_close_ttwindow">Не разрешено закрытие страницы китайских новостей в классическом стиле</string>
     <string name="settings_actionbar_title">Параметры</string>
     <string name="menu_desktop_settings">Параметры</string>
@@ -169,15 +248,34 @@
     <string name="settings_workspace_cycle_switch_summary">Возможность циклического перехода</string>
     <string name="settings_wallpaper_scroll_title">Прокрутка обоев</string>
     <string name="settings_wallpaper_scroll_summary">Прокрутка обоев при смене рабочих столов</string>
-    <string name="settings_launcher_style_dual">Активировать классический стиль</string>
-    <string name="settings_launcher_style_compound">Активировать стиль LEWA</string>
+    <string name="settings_launcher_style_dual">Активировать стиль Классика</string>
+    <string name="settings_launcher_style_compound">Активировать стиль Минимализм</string>
+    <string name="settings_launcher_icon_manager">Иконки в высоком разрешении</string>
     <string name="pending_add_category_shortcut">Ярлыки</string>
     <string name="pending_add_category_other">Еще</string>
     <string name="pending_add_empty_folder">Пустая папка</string>
     <string name="pending_add_clean_widget">Очистка</string>
+    <string name="pending_add_change_wallpaper">Изменение обоев</string>
+    <string name="pending_add_flashlight">Фонарик</string>
+    <string name="get_camera_instance_failed">Нет доступа к камере. Убедитесь, что ее не использует другое приложение</string>
+    <string name="change_wallpaper_too_fast">Идет смена  обоев. Ожидайте...</string>
+    <string name="change_wallpaper_too_fast_one">Загрузка...</string>
+    <string name="change_wallpaper_too_fast_two">Загрузка...</string>
+    <string name="change_wallpaper_too_fast_three">Загрузка...</string>
+    <string name="change_wallpaper_to_shake_one">Встряхните для смены обоев</string>
+    <string name="change_wallpaper_to_shake_two">Встряхните сейчас</string>
+    <string name="change_wallpaper_to_shake_three">Встряхните для смены обоев</string>
+    <string name="change_wallpaper_to_shake_four">Встряхните сейчас</string>
+    <string name="change_wallpaper_to_shake_finish_one">Вы можете попробовать еще</string>
+    <string name="change_wallpaper_to_shake_finish_two">Еще раз</string>
+    <string name="change_wallpaper_to_shake_handling_one">Избегайте повторного встряхивания</string>
+    <string name="change_wallpaper_to_shake_handling_two">Избегайте повторного встряхивания</string>
+    <string name="change_wallpaper_to_shake_first_one">Переключение...</string>
+    <string name="change_wallpaper_to_shake_first_two">Обработка...</string>
+    <string name="change_wallpaper_to_is_handling">Ожидайте...</string>
     <string name="pending_add_smart_arrange">Сортировка</string>
-    <string name="menu_classic_mode">Класический стиль</string>
-    <string name="menu_single_mode">Стиль LEWA</string>
+    <string name="menu_classic_mode">Классика</string>
+    <string name="menu_single_mode">Минимализм</string>
     <string name="settings_arrange_group_all_text">Сортировать все</string>
     <string name="settings_arrange_group_new_text">Сортировать новые приложения</string>
     <string name="settings_arrange_ungroup_text">Расформировать все</string>
@@ -186,12 +284,13 @@
     <string name="settings_arrange_ungroup_summary">Расформировать все папки на рабочих столах</string>
     <string name="dialog_button_negative">Отмена</string>
     <string name="dialog_button_positive">ОК</string>
+    <string name="dialog_common_title">Подсказки</string>
     <string name="settings_arrange_apply">Применить</string>
     <string name="settings_arrange_dialog_title">Информация</string>
     <string name="settings_arrange_dialog_ungroup_message">Расформировать все папки на рабочих столах</string>
     <string name="settings_switch_launcher_style_dialog_title">Информация</string>
-    <string name="settings_switch_launcher_style_dialog_message1">Активировать классический стиль?</string>
-    <string name="settings_switch_launcher_style_dialog_message2">Активировать стиль LEWA?</string>
+    <string name="settings_switch_launcher_style_dialog_message1">Активировать стиль Классика?</string>
+    <string name="settings_switch_launcher_style_dialog_message2">Активировать стиль Минимализм?</string>
     <string name="droptarget_hint_widget">Добавить или редактировать виджет</string>
     <string name="droptarget_hint_effect">Задать эффект</string>
     <string name="folder_dismiss_dialog_title">Расформ. папку</string>
@@ -229,4 +328,12 @@
     <string name="progress_loading">Загрузка...</string>
     <string name="group_all_failed_hint">Операция не поддерживается. Ожидайте...</string>
     <string name="group_all_finished">Приложения отсортированы</string>
+    <string name="settings_icon_auto_arrange_title">Автомат. размещение иконок</string>
+    <string name="text_folder_merge">В папку</string>
+    <string name="text_small_tools">Инструменты</string>
+    <string name="text_app_search">Поиск</string>
+    <string name="ungroup_folder_content">Разгруппировать \"%1$s\"</string>
+    <string name="ungroup_folder_description">После разгруппировки иконки приложений будут перемещены на рабочий стол</string>
+    <string name="delete_package_content">Удалить \"%1$s\"</string>
+    <string name="delete_package_description">После деинсталляции данные будут удалены</string>
 </resources>

@@ -139,7 +139,8 @@
     <string name="security_find_phone_uac_remout_req_failed"> Please enable cool cloud account services </string>
     <string name="security_find_phone_guard_setting_pass_tip"> close the anti-theft feature, will not be able to retrieve the phone remotely. To close, please enter the Cool housekeeper password </string>
     <string name="security_find_phone_no_tip"> This feature is under development, so stay tuned </string>
-    <string name="security_find_phone_setting_foget_pass"> Forgot your password </string>
+    <string name="security_find_phone_setting_foget_pass">Забыли пароль? </string>
+    <string name="security_find_phone_setting_foget_pass_1">Забыли пароль?</string>
     <string name="security_find_phone_sim_change_smscontent"> Dear Cool housekeeper user, hello. Your friend s mobile phone cards have been replaced. Your friends may be stolen phone. Please contact as soon as your friend, login housekeeper were cool mobile remote control. </string>
     <string name="security_find_phone_setting_coolaccount_tip"> Cool unbundling account </string>
     <string name="security_find_phone_setting_coolaccount_message"> perform this operation, the unit will lift and cool account binding, the phone once lost can not be recovered by Cool account, please be careful! </string>
@@ -201,6 +202,13 @@
     <string name="security_find_phone_photo_get_title"> Forensics Photo </string>
     <string name="security_find_phone_no_trace_info_prompt"> No location information, scroll down to try? </string>
     <string name="security_find_phone_history_trace_loading_process"> Loading historical trajectory </string>
+    <string name="security_find_phone_no_data_tip">Нет данных</string>
+    <string name="security_find_phone_password_cancel">Отмена</string>
+    <string name="security_find_phone_password_login">Логин</string>
+    <string name="security_find_phone_password_title">Пароль Менеджера Coolpad</string>
+    <string name="security_find_phone_passwords_times">Неверно, попробуйте еще раз</string>
+    <string name="security_find_phone_input_pass_error_info">Неверно, осталось попыток: %1$s</string>
+    <string name="security_find_phone_open_phone_smscontent">Дорогой пользователь Coolpad. Возможно, у Вашего друга украли телефон. Свяжитесь с нами, если увидите активность его телефона</string>
     <string name="app_name"> CP_AntiTheft </string>
     <string name="action_settings"> Settings </string>
     <string name="hello_world"> Hello world! </string>
@@ -1561,6 +1569,8 @@
     <string name="security_text_set_password">Пароль</string>
     <string name="security_text_private_password">Настройки безопасности</string>
     <string name="security_text_float_window_set">Настройки рабочего стола</string>
+    <string name="security_text_method_set">Набор функций</string>
+    <string name="security_text_other_set">Другие настройки</string>
     <string name="security_text_speed_float_window">Поплавок оптимизации</string>
     <string name="security_text_flux_float_window">Поплавок трафика</string>
     <string name="security_text_other">Прочее</string>
@@ -1586,6 +1596,9 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_credits_rule_content_five"> Uninstall Cool housekeeper -2 points </string>
     <string name="security_credits_rule_tips"> Note: The statistics for the server standard time period, not to the local system based on the time </string>
     <string name="security_text_password_manager">Пароль Менеджера</string>
+    <string name="security_text_accelerate_manager">Очистка памяти</string>
+    <string name="security_text_flowmonitor_manager">Трафик</string>
+    <string name="security_text_kavass_manager">Перехватчик</string>
     <string name="security_text_coolaccount">Аккаунт Облака Coolpad</string>
     <string name="security_text_about_security">О приложении</string>
     <string name="security_text_coolguanjia_help">Помощь</string>
@@ -1648,11 +1661,12 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_text_code_safebox">Пароль Сейфа</string>
     <string name="security_my_apps">Мои приложения</string>
     <string name="security_text_save_mode">Режим безопасности</string>
-    <string name="security_text_economy_protect">Системная безопасность</string>
     <string name="security_text_privacy_mode">Приватный режим</string>
     <string name="security_text_data_pretend">Камуфляж</string>
     <string name="security_text_data_protect">Права доступа</string>
-    <string name="security_text_apk_lock">Блокировка приложений</string>
+    <string name="security_text_apk_lock">Блокировка прил.</string>
+    <string name="security_text_apk_lock_program_title">Блокировка приложений</string>
+    <string name="security_text_apk_lock_title">Менеджер Coolpad защищает Вас!</string>
     <string name="security_text_money_protect">Монитор расходов</string>
     <string name="security_text_code_box">Пароль для Сейфа</string>
     <string name="security_text_onekey_protect">Активная защита</string>
@@ -1670,6 +1684,7 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_residual_files">Остаточные файлы</string>
     <string name="security_useless_installation_package">Ненужные APK-файлы</string>
     <string name="security_settings">Настройки</string>
+    <string name="security_accelerate_settings">Параметры очистки памяти</string>
     <string name="security_my_msg">Мои сообщения</string>
     <string name="security_set_readed">Прочитано</string>
     <string name="security_trash_clear">Очистка ненужных файлов</string>
@@ -1773,6 +1788,8 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_outer_sdcard_space">Место на SD-карте</string>
     <string name="security_sdcard_space">SD-карта</string>
     <string name="security_app">Приложения</string>
+    <string name="security_apklock_locked">"Заблокировано "</string>
+    <string name="security_apklock_unlocked">"Разблокировано "</string>
     <string name="security_pic">Изображения</string>
     <string name="security_video">Видео</string>
     <string name="security_others">Прочее</string>
@@ -2006,7 +2023,7 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_text_mobile_is_health_enough">Устройство в оптимальном состоянии</string>
     <string name="security_text_please_improve_health">Можно оптимизировать</string>
     <string name="security_text_background_process_tip1">" нет приложений в фоне"</string>
-    <string name="security_text_background_process_tip2">" приложений в фоне: %1$d, к очистке %2$s"</string>
+    <string name="security_text_background_process_tip2">" к очистке: %1$d, памяти %2$s"</string>
     <string name="security_text_background_process_tip3">" очищено %1$d приложений, освобождено %2$s"</string>
     <string name="security_text_boot_running_tip1">" нет элементов"</string>
     <string name="security_text_boot_running_tip2">" элем. можно отключить"</string>
@@ -2057,9 +2074,8 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_text_apk_move_to_internal">Во внутр. память</string>
     <string name="security_text_apk_count"> прил. можно переместить</string>
     <string name="security_forbid_autorun_count"> прил. запрещена автозагрузка</string>
-    <string name="security_text_apk_totalsize">" прил., размер: "</string>
-    <string name="security_text_apk_inactive"> not a commonly used applications </string>
-    <string name="security_text_apk_elecquan"> apps backstage power consumption </string>
+    <string name="security_text_apk_inactive"> " неактив. приложения"</string>
+    <string name="security_text_apk_elecquan">" прилож. с фоновым потреблением заряда"</string>
     <string name="security_text_apk_flow"> apps backstage sneak flow Total </string>
     <string name="security_text_apk_flow_month"> (this month) </string>
     <string name="security_text_apk_datasize"> data </string>
@@ -2076,7 +2092,6 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_text_content2"> 1, the unloading system preinstalled software </string>
     <string name="security_text_content3"> 2, prohibit the software from the start, the control software permissions </string>
     <string name="security_text_content4"> 3, network control, to prevent sneak flow </string>
-    <string name="security_text_content5">Active defense after  open fully protects your phone safe </string>
     <string name="security_text_openprotectedright"> Start ROOT authorization </string>
     <string name="security_text_tipforopenprotected"> Using this feature, you need to enable proactive defense, click Install </string>
     <string name="security_text_tipforxposedinstalled_reboot"> active defense has been installed, you need to restart to take effect </string>
@@ -2094,11 +2109,11 @@ Query calls once +1 points (one day only get once integral) "</string>
     <string name="security_money_steal_proctect_sms_item_1">Отправка SMS</string>
     <string name="security_money_steal_proctect_mms_item_1">Отправка MMS</string>
     <string name="security_contacts_control">Чтение контактов</string>
-    <string name="security_contacts_edit_control">Правка контактов</string>
+    <string name="security_contacts_edit_control">Правка/удаление контактов</string>
     <string name="security_sms_control">Чтение сообщений</string>
-    <string name="security_sms_edit_control">Правка сообщений</string>
+    <string name="security_sms_edit_control">Правка/удаление сообщений</string>
     <string name="security_calllog_control">Чтение журналов вызова</string>
-    <string name="security_calllog_edit_control">Правка журналов вызова</string>
+    <string name="security_calllog_edit_control">Правка/удаление  журнала вызовов</string>
     <string name="security_calendar_control">Чтение Календаря</string>
     <string name="security_text_reference">"Приложение с "</string>
     <string name="security_text_private_data">" разрешениями"</string>
@@ -2131,7 +2146,7 @@ Bluetooth-монитор включен"</string>
     <string name="security_recovery"> restore </string>
     <string name="security_recycle"> Trash </string>
     <string name="security_has"> have </string>
-    <string name="security_sys_app_can_recovery"> a system software can restore </string>
+    <string name="security_sys_app_can_recovery">to restore the system software</string>
     <string name="security_more_clear"> More cleanup </string>
     <string name="security_memory"> memory </string>
     <string name="security_fileanalyst"> large files (> 10MB) </string>
@@ -2154,7 +2169,6 @@ Bluetooth-монитор включен"</string>
     <string name="security_text_security_mode_second">2. Предупреждение расходов из-за действий зловредных приложений</string>
     <string name="security_text_security_mode_third">3. Защита устройства от прослушки</string>
     <string name="security_text_security_mode_fourth">4. Защита от считывания информации о Вашем местоположении</string>
-    <string name="security_text_security_mode_five">5. Предупреждение других видов нарушения безопасности устройства</string>
     <string name="security_text_security_mode_cancel">Отмена</string>
     <string name="security_text_security_mode_off">Выкл.</string>
     <string name="security_text_security_mode_on">Вкл.</string>
@@ -2176,15 +2190,22 @@ Bluetooth-монитор включен"</string>
     <string name="security_text_scan_has_ad">Приложения с рекламой</string>
     <string name="security_safe_state_check">Проверка</string>
     <string name="security_safe_state_cancel">Отмена</string>
+    <string name="security_safe_state_stop">Пауза</string>
     <string name="security_text_scan_text">Сканирование уведомлений…</string>
+    <string name="security_text_scanning">"Сканирование: "</string>
+    <string name="security_text_virus_scanning">Проверка на вирусы...</string>
+
+
+    <string name="security_text_scan_sum">Проверено приложений: %d</string>
     <string name="security_scan_no_data">Устройство чистое. 0 приложений содержат рекламу</string>
     <string name="security_text_unit_app" />
     <string name="security_contain_adv_app">Прилож. с рекламой (%d)</string>
     <string name="security_text_initing">Подсчет...</string>
     <string name="security_text_recheck">Перепроверить</string>
+    <string name="security_text_allforbid">Все запрещено</string>
     <string name="security_text_scan_title">Приложения с рекламой и уведомлениями</string>
-    <string name="security_text_ad_abstract">"%1$s прилож. содержа(и)т рекламу "</string>
-    <string name="security_adblock_scan_num">1/128</string>
+    <string name="security_text_ad_abstract">"С рекламой в панели уведомлений "</string>
+
     <string name="security_text_switchbutton_on">Вкл.</string>
     <string name="security_autorun_is_open">Разрешено</string>
     <string name="security_autorun_is_forbid">Запрещено</string>
@@ -2258,14 +2279,25 @@ Bluetooth-монитор включен"</string>
     <string name="security_remove_delete">Переместить или удалить</string>
     <string name="security_please_handle_the_following_data">Данные для обработки</string>
     <string name="security_floating_window_protect_apps">С приложениями</string>
-    <string name="security_main_fragment_ischecking"> Scanning </string>
-    <string name="security_main_fragment_finish_improve"> optimization is complete </string>
-    <string name="security_main_fragment_one_key_improve"> a key optimization </string>
-    <string name="security_main_fragment_score"> min </string>
-    <string name="lable_line"> dividing line </string>
+    <string name="security_main_fragment_one_key_improve">Оптимизация</string>
+    <string name="security_main_fragment_score">" % "</string>
+    <string name="lable_line">Разделительная линия</string>
+    <string name="security_access_control_permission_type">Категория разрешений</string>
+    <string name="security_access_control_muti_operaion_description">Вы можете использовать групповое изменение разрешений</string>
+    <string name="security_access_control_sigle_permission_muti_operaion_description">Вы можете использовать групповое изменение разрешений</string>
+    <string name="open_security_text_security_mode">Открыть безопасный режим</string>
+    <string name="security_main_is_checking">Сканирование</string>
+    <string name="security_main_check_is_good">Безопасность на высоком уровне</string>
+    <string name="security_main_check_is_poor">Безопасность под угрозой</string>
+    <string name="security_main_onclick_open">Нажмите, чтоыб открыть</string>
+    <string name="security_permission_oper_info">Разрешено: %1$s раз(а), запрещено: %2$s раза(а)</string>
+    <string name="security_input_pass_hint">Введите пароль от Менеджера Coolpad</string>
+    <string name="security_input_pass_error_info">Неверный пароль, осталось попыток: %1$s</string>
+    <string name="security_password_cancel">Отмена</string>
+    <string name="security_password_confirm">ОК</string>
+    <string name="security_setting_forget_password_red">Забыли пароль?</string>
     <string name="security_app_lock"> has been locked applications </string>
     <string name="security_app_unlock"> unlocked applications </string>
-    <string name="security_app_unlock_cool_shop"> Cool Mall </string>
     <string name="security_isAllowed">Разрешить</string>
     <string name="security_isAlert">Не показывать снова</string>
     <string name="security_startpf">Блокировка прав</string>
@@ -2296,7 +2328,7 @@ Bluetooth-монитор включен"</string>
     <string name="security_has_hiden">Спрятано</string>
     <string name="security_every_time_alert">Уведомлять</string>
     <string name="security_beforbidden" />
-    <string name="security_monitored_app">Отслеживаемые прил. (%d)</string>
+    <string name="security_monitored_app">Отслеживаемые прил.</string>
     <string name="security_multioperation">Групповые действия</string>
     <string name="security_setting_alerttype_allowed_title">Уведомления о доступе</string>
     <string name="security_setting_alerttype_allowed_summary">Уведомлять, когда запрашивается доступ к данным</string>
@@ -2307,10 +2339,8 @@ Bluetooth-монитор включен"</string>
     <string name="security_applist_checkall">Все</string>
     <string name="security_setting_description">Назначение прав доступа приложениям</string>
     <string name="security_start_permfilter">Активировать защиту</string>
-    <string name="security_dlg_modifysetting_title">Измение прав</string>
     <string name="security_dlg_modifysetting_message">Изменить права доступа приложениям?</string>
     <string name="security_applist_recovery_success">Восстановлено</string>
-    <string name="security_applist_modify_success">Изменено</string>
     <string name="security_confirm_allow">, разрешить?</string>
     <string name="security_isrunning2">Попытка удалить или изменить данные %1$s</string>
     <string name="security_isrunning">Попытка доступа к данным %1$s</string>
@@ -2328,6 +2358,7 @@ Bluetooth-монитор включен"</string>
     <string name="security_toast_dataprotection_setting">Изменение прав через Менеджер > Защита данных</string>
     <string name="security_init_data">Инициализация...</string>
     <string name="security_save_data">Сохранение данных...</string>
+    <string name="security_locating">Определение местоположения...</string>
     <string name="security_hello">Hello World, CoolCloud!</string>
     <string name="security_app_name_listenpro">Антипрослушка</string>
     <string name="security_listenprotection_alert">Антипрослушка включена</string>
@@ -2413,6 +2444,9 @@ Bluetooth-монитор включен"</string>
     <string name="security_toast_subtype_camera_camera">Камера</string>
     <string name="security_proType_pug">pug</string>
     <string name="security_file_isdestroy">Восстановление защитных ресурсов... Изменения вступят в силу после перезагрузки</string>
+    <string name="already">Уже</string>
+    <string name="data_security">Безопасность данных</string>
+    <string name="security_pretend_mobile_add_title">Добавить модель устройства</string>
     <string name="calendar_info_events">Events: %1$d</string>
     <string name="calendar_info_events_dirty">Events: %1$d, Unsaved: %2$d</string>
     <string name="debug_tool_start_button">Start</string>
@@ -2432,11 +2466,12 @@ Bluetooth-монитор включен"</string>
     <string name="read_write_all_voicemail_label">Access all voicemails</string>
     <string name="read_write_all_voicemail_description">Allows the application to store and retrieve all voicemails that this device can access.</string>
     <string name="security_flow_monitor_title">Трафик</string>
+    <string name="security_flow_monitor_switch">Мониторинг трафика</string>
     <string name="security_online_monitor_title">Доступ к сети</string>
     <string name="security_notify">Уведомление</string>
     <string name="security_text_flowused">"Исп. "</string>
     <string name="security_text_flowrest">"Доступно: "</string>
-    <string name="security_text_monthflowused">"В этом месяце: "</string>
+    <string name="security_text_monthflowused">"Этот месяц: "</string>
     <string name="security_text_outofflow">Порог превышен</string>
     <string name="security_text_rest">Доступно</string>
     <string name="security_card_1">SIM1</string>
@@ -2446,8 +2481,8 @@ Bluetooth-монитор включен"</string>
     <string name="security_flowmt_useinfo_stop">Включение Трафика</string>
     <string name="security_flowmt_mt_no_setting">Задайте тарифный план для контроля трафика</string>
     <string name="security_flowmt_mt_enough">Месячный трафик в пределах лимита</string>
-    <string name="security_flowmt_mt_little">Месячный трафик почти привышен</string>
-    <string name="security_flowmt_mt_no_flow">Месячный трафик привышен</string>
+    <string name="security_flowmt_mt_little">Месячный трафик почти превышен</string>
+    <string name="security_flowmt_mt_no_flow">Месячный трафик превышен</string>
     <string name="security_flowmt_adjust_flow">Калибровка</string>
     <string name="security_flowmt_set_flow">Задать тарифный план</string>
     <string name="security_dialog_re_autojust">Изменить команду</string>
@@ -2504,6 +2539,7 @@ Bluetooth-монитор включен"</string>
     <string name="security_text_no_setting_title">Тарифный план не задан</string>
     <string name="security_text_no_setting_summary">Задайте тарифный план</string>
     <string name="security_text_apn">3G</string>
+    <string name="security_text_apn_sign">3G</string>
     <string name="security_text_wifi_title">Wi-Fi</string>
     <string name="security_text_apn_title">3G</string>
     <string name="security_text_bat_title">С доступом к передаче данных</string>
@@ -2585,13 +2621,14 @@ Bluetooth-монитор включен"</string>
     <string name="security_flow_day_alert_content2">, please note that the excess flow rates. </string>
     <string name="security_flow_over_alert_content"> this month with the flow has exceeded </string>
     <string name="security_flow_apnoff_alarm_content"> your traffic has exhausted this month, has been for you automatically turn off data network. </string>
-    <string name="security_text_flowmt_ntf_notify1">Месячный трафик почти привышен</string>
-    <string name="security_text_flowmt_ntf_notify2">Месячный трафик привышен</string>
-    <string name="security_text_flowmt_ntf_notify3"> traffic over, please note the tariff </string>
+    <string name="security_text_flowmt_ntf_notify1">Устройство в отличном состоянии</string>
+    <string name="security_text_flowmt_ntf_notify2">Менеджер защитит устройство</string>
+    <string name="security_text_flowmt_ntf_notify3">Месячный трафик превышен</string>
     <string name="security_text_pls_set_flow"> set the flow of packages </string>
     <string name="security_text_dicount_off"> unopened discount period </string>
     <string name="security_flow_isnot_setted">" не задано"</string>
     <string name="security_flow_mouth_used"> this month with the flow </string>
+    <string name="security_flow_mouth_total">Ежемесячно</string>
     <string name="security_adjust_faild_tip"> automatic calibration fails, the system does not recognize the format of this traffic messages, manually calibrated. </string>
     <string name="security_adjust_sms_send_success"> free calibration message has been sent, please wait for the operator to reply </string>
     <string name="security_adjust_sms_send_fail"> free SMS sending calibration fails, check your card settings </string>
@@ -2623,6 +2660,7 @@ Bluetooth-монитор включен"</string>
     <string name="security_tv_wifi">Wi-Fi</string>
     <string name="security_core_app">Основные приложения</string>
     <string name="security_applist_notify_dialog">Список приложений загружается...</string>
+    <string name="security_internet_software_control">Контроль трафика</string>
     <string name="security_average_day_flow">"Рекомендуемый объем: "</string>
     <string name="security_average_day_flow_day">M/день</string>
     <string name="security_flowmt_discount_period_notify">Внимательно пользуйтесь данной опцией</string>
@@ -2649,7 +2687,7 @@ Bluetooth-монитор включен"</string>
     <string name="security_usemeory">Исп.</string>
     <string name="security_lock_alert_setting"> alert settings </string>
     <string name="security_lock_flow_monitor"> lock screen traffic monitoring </string>
-    <string name="security_lock_flow_monitor_subtitle"> lock screen time is more than five minutes of traffic consumption monitoring remind </string>
+    <string name="security_lock_flow_monitor_subtitle">Lock screen time is more than five minutes of traffic consumption</string>
     <string name="security_lock_flow_use_whitelist"> lock screen consumes whitelist </string>
     <string name="security_lock_flow_use_whitelist_subtitle"> whitelist applications </string>
     <string name="security_lock_flow_auto_disconnect_tile"> Smart off the net during the lock screen </string>
@@ -2665,8 +2703,8 @@ Bluetooth-монитор включен"</string>
     <string name="security_status_bar_lock_flow_used"> consumption during the lock screen </string>
     <string name="security_flow_left_bracket"> Flow (</string>
     <string name="security_flow_right_bracket">) </string>
-    <string name="security_lock_flow_how_many_app_used"> apps consume </string>
-    <string name="security_lock_flow_used_alert_title"> lock screen flow consumed remind </string>
+    <string name="security_lock_flow_how_many_app_used">Потребление прилож.</string>
+    <string name="security_lock_flow_used_alert_title">Уведомление о потреблении трафика</string>
     <string name="security_standard_flow_surplus">Остаток стандарта</string>
     <string name="security_total">"Всего "</string>
     <string name="security_idle_surplus_flow">Остаток бонуса</string>
@@ -2677,17 +2715,24 @@ Bluetooth-монитор включен"</string>
     <string name="security_flow_packages_detail">Детали потребления в соответствии с тарифным планом</string>
     <string name="security_flow_card1">Трафик SIM1</string>
     <string name="security_flow_card2">Трафик SIM2</string>
-    <string name="security_province_traffic_packages"> province Universal Flow </string>
-    <string name="security_country_traffic_packages"> domestic general flow </string>
-    <string name="security_province_4G_traffic_packages"> province 4G traffic </string>
-    <string name="security_country_4G_traffic_packages"> domestic 4G traffic </string>
+    <string name="security_province_traffic_packages">Общее потребление трафика</string>
+    <string name="security_country_traffic_packages">Общее потребление трафика</string>
+    <string name="security_province_4G_traffic_packages">Общее потребление 4G трафика</string>
+    <string name="security_country_4G_traffic_packages">Общее потребление 4G трафика</string>
     <string name="security_idle_flow">Бонусный трафик</string>
-    <string name="security_2G_3G_traffic_packages"> Generic Flow (2G / 3G / 4G) </string>
-    <string name="security_already_used"> (used% 1$s) </string>
-    <string name="security_left_used"> (remaining%1$s) </string>
-    <string name="security_traffic_packages_information">"(Package: %1$ s has been used %2$s)"</string>
-    <string name="security_traffic_packages"> (Package: %1$s)</string>
-    <string name="security_no_card"> undetectable SIM card information </string>
+    <string name="security_2G_3G_traffic_packages">Общий трафик (2G/3G/4G)</string>
+    <string name="security_already_used">" (использовано: %1$s)</string>
+    <string name="security_left_used">" (осталось: %1$s)</string>
+    <string name="security_traffic_packages_information">"(Тарифный план: %1$s использовано %2$s)"</string>
+    <string name="security_traffic_packages"> (Тарифный план: %1$s)</string>
+    <string name="security_no_card">Нечитаемая информация SIM-карты</string>
+    <string name="security_flow_packages_buy">Покупка пакета с трафиком</string>
+    <string name="security_flow_packages_buy_details">Разумный объем трафика к приобретению</string>
+    <string name="security_bill_recharge">Предоплаченный сервис</string>
+    <string name="security_bill_recharge_detail">Удомная система предоплаты</string>
+    <string name="charge_remainder">Баланс для предоплаты</string>
+    <string name="call_remainder">Напоминание</string>
+    <string name="message_remainder">Сообщение с напоминанием</string>
     <string name="security_text_help_title_onekeyimprove"> a key to accelerate the optimization </string>
     <string name="security_text_help_onekeyimprove2"> 2. Click the Back button to return to the main page of cool butler </string>
     <string name="security_text_help_onekeyimprove1"> 1. Click a button to accelerate the optimization button, cool examination housekeeper automatically accelerate and optimize </string>
@@ -2747,8 +2792,6 @@ Bluetooth-монитор включен"</string>
     <string name="security_text_help_againseguard1"> 1. Click to open the intrusion switch, binding cool cloud account </string>
     <string name="security_text_help_againseguard2"> 2. Click bound phone into a remote control interface </string>
     <string name="security_text_help_againseguard3"> 3. Click SMS control, sends instructions to the theft of stolen mobile phone stolen cell phone remote control </string>
-    <string name="security_text_help_againseguard4"> 4. Click the marker stolen, stolen phones can tag </string>
-    <string name="security_text_help_againseguard5"> 5. Click on the photo evidence, to view the current phone models photographed </string>
     <string name="security_text_help_title_antipeeping"> anti-peeping </string>
     <string name="security_text_help_antipeeping1"> 1. Click NFC unlock switch </string>
     <string name="security_text_help_antipeeping2"> 2. Tap the screen to unlock password-protected, follow the prompts </string>
@@ -2849,8 +2892,11 @@ Bluetooth-монитор включен"</string>
     <string name="security_add_blacklist_member_succeed">Добавлено в черный список</string>
     <string name="security_add_vip_member_succeed">Добавлено в белый список</string>
     <string name="security_add_from_call_log">Из журнала вызовов</string>
+    <string name="security_add_from_call_log_title">Журнал вызовов</string>
     <string name="security_add_from_sms_log">Из журнала SMS/MMS</string>
+    <string name="security_add_from_sms_log_title">Журнал SMS/MMS</string>
     <string name="security_add_from_contact">Из Контактов</string>
+    <string name="security_add_from_contact_title">Контакты</string>
     <string name="security_add_city">По региону (для Китая)</string>
     <string name="security_add_by_hand">Ввод</string>
     <string name="security_add_vip_found_in_black">Номер есть в черном списке. Перенести в белый список?</string>
@@ -2940,7 +2986,7 @@ Bluetooth-монитор включен"</string>
     <string name="security_other_setting">Другие настройки</string>
     <string name="security_record_setting">Настройки записи</string>
     <string name="security_current_mode">Текущий режим:</string>
-    <string name="security_after_intercept_handle_way">Действие после перехвата</string>
+    <string name="security_after_intercept_handle_way">После перехвата</string>
     <string name="security_add_strange_incoming_call_number_to_blacklist">Уведомление о неизв. номере</string>
     <string name="security_immediately_hang_up">Повесить трубку</string>
     <string name="security_no_vibrate_no_rings">Без мелодии и вибрации (экран вкл.)</string>
@@ -3284,6 +3330,7 @@ NFC-монитор включен"</string>
     <string name="security_text_ntf_hide">Спрятанные уведомления</string>
     <string name="security_text_ntf_uninstall">Деинсталляция</string>
     <string name="security_text_ntf_not_allow_uninstall">Системные приложения нельзя удалить</string>
+    <string name="security_password_title">Пароль Менеджера Coolpad</string>
     <string name="security_create_pass_title">Создание пароля</string>
     <string name="security_dialog_new_pass">Ввод пароля:</string>
     <string name="security_set_pass_success">Пароль создан</string>
@@ -3295,6 +3342,7 @@ NFC-монитор включен"</string>
     <string name="security_next_step">Далее</string>
     <string name="security_up_step">Назад</string>
     <string name="security_set_user_defined_answer">Подсказка:</string>
+    <string name="security_set_hint_question">Введите вопрос:</string>
     <string name="security_set_hint_answer">Введите ответ:</string>
     <string name="security_password_make_sure">Please confirm the following information is correct</string>
     <string name="security_undefined">Не настроено</string>
@@ -3339,6 +3387,7 @@ NFC-монитор включен"</string>
     <string name="security_string_must_not_index_of">Не должно содержать специальных символов</string>
     <string name="security_string_must_not_index_of_remind">Введите действующий адрес эл.почты</string>
     <string name="security_string_advise_not_input_localnumber">Не используйте тел.номер этого устройства</string>
+    <string name="security_string_new_cellphone_number">Введите новый тел. номер</string>
     <string name="security_string_mms_content_start">Утерян пароль. Требуется случайный пароль</string>
     <string name="security_string_mms_content_end">Мой временный пароль. Пароль действителен в течение 24 часов</string>
     <string name="security_string_mms_send_success">Новый временный пароль будет выслан на указанный телефонный номер</string>
@@ -3355,14 +3404,14 @@ NFC-монитор включен"</string>
     <string name="security_set_pass_success_dialog_msg3">Пароль:</string>
     <string name="security_set_pass_success_dialog_msg4">Подсказка:</string>
     <string name="security_set_pass_success_dialog_msg5">Ответ:</string>
-   <string name="security_create_password"> Create a password </string>
-    <string name="security_input_pass_hint">Введите пароль для Менеджера</string>
-    <string name="security_input_pass_error_info"> password is wrong, you can re-enter the% 1 $ s times </string>
-    <string name="security_find_pass">Пароль забыт!</string>
-    <string name="security_clear_pass_dialog_title"> Note </string>
-    <string name="security_clear_pass_dialog_content"> sure you want to clear cool butler password? </string>
-    <string name="security_change_pass_dialog_title"> Change Password housekeeper Cool </string>
-    <string name="security_change_pass_find_back_method"> Change Password Forgot way </string>
+    <string name="security_create_password"> Create a password </string>
+    <string name="security_input_pass_title">Пароль</string>
+    <string name="security_input_fake_pass_hint">Введите поддельный пароль</string>
+    <string name="security_find_pass">Забыли пароль?</string>
+    <string name="security_clear_pass_dialog_title">Заметка</string>
+    <string name="security_clear_pass_dialog_content">Очистить пароль от Менеджера Coolpad?</string>
+    <string name="security_change_pass_dialog_title">Изменить пароль от Менеджера</string>
+    <string name="security_change_pass_find_back_method">Изменить метод восстановления пароля</string>
     <string name="security_pass_hint_question">Изменение подсказки</string>
     <string name="security_pass_hint_question_answer">Изменение ответа</string>
     <string name="security_pass_hint_mobile">Изменение тел. номера</string>
@@ -3375,6 +3424,7 @@ NFC-монитор включен"</string>
     <string name="security_modify_pass_success"> Change Password Cool butler success </string>
     <string name="security_clear_pass_success"> Clear Cool housekeeper password success </string>
     <string name="security_clear_pass_faraway_success"> approved, cool housekeeper password has been cleared, effective after restart the phone! </string>
+    <string name="security_password_login">Вход</string>
     <string name="security_password_protect">Хранилище паролей</string>
     <string name="security_remind_use_password">Необходимо установить пароль, чтобы пользоваться Хранилищем паролей</string>
     <string name="security_use">Вкл.</string>
@@ -3415,6 +3465,9 @@ NFC-монитор включен"</string>
     <string name="security_account_name">Имя:</string>
     <string name="security_account">Аккаунт:</string>
     <string name="security_account_password">Пароль:</string>
+    <string name="security_account_name_hint"> Пожалуйста, укажите имя аккаунта</string>
+    <string name="security_account_hint">Пожалуйста, укажите номер счета</string>
+    <string name="security_account_password_hint">Введите пароль</string>
     <string name="security_passwords_protection_setting">Настройки Хранилища паролей</string>
     <string name="security_setting_modify_password">Изменить пароль</string>
     <string name="security_setting_modify_relate_mobile">Изменить телефонный номер</string>
@@ -3452,6 +3505,8 @@ NFC-монитор включен"</string>
     <string name="security_text_trustzone_third">3. Хранение данных под паролем позволяет обезопасить их от злонамеренных действий</string>
     <string name="security_text_trustzone_iknow">Я знаю!</string>
     <string name="security_password_input_limit_digit">"!#$%&amp;'()*+,-./:;&lt;=>?@[^_`{|}~0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ"</string>
+    <string name="security_password_information">Отличный ход! Храните тут все свои пароли от игр, электронной почты, веб-сайтов, программного обеспечения, счетов. Это приложение неприступно для взлома!</string>
+    <string name="security_password_myself">Только безопасность Сейфа!</string>
     <string name="security_pugforbid_applist_checkall">Разрешение на включение GPS</string>
     <string name="security_pugforbid_applist_title">Доступ к местоположению</string>
     <string name="security_pugforbid_applist_title2">Использование стороннего приложения для антислежки</string>
@@ -3495,14 +3550,16 @@ NFC-монитор включен"</string>
     <string name="security_root_without_root"> did not get ROOT privileges </string>
     <string name="security_root_not_support_root"> does not support ROOT authorization </string>
     <string name="security_root_unkown_model"> Unknown models </string>
-    <string name="security_root_begin_root"> start ROOT </string>
-    <string name="security_root_begin_root_again"> reapply ROOT privileges </string>
-    <string name="security_root_root_again"> terminal has ROOT, ROOT re-apply for authorization? </string>
-    <string name="security_root_end_root"> has ROOT </string>
-    <string name="security_root_request"> pending ROOT privileges! </string>
-    <string name="security_root_download"> Loading ROOT program! </string>
-    <string name="security_root_close_root"> does not support ROOT </string>
-    <string name="security_root_download_root_package"> Download ROOT program </string>
+    <string name="security_root_begin_root">Начало</string>
+    <string name="security_root_begin_root_again">Повторный запрос прав Суперпользователя</string>
+    <string name="security_root_root_again">У Вас есть права Суперпользователя. Запрасить заново?</string>
+    <string name="security_root_state_requesting">Запрос прав Суперпользователя</string>
+    <string name="security_root_state_downloading">Загрузка приложения</string>
+    <string name="security_root_state_success">У Вас есть права Суперпользователя!</string>
+    <string name="security_root_request">Запрос прав Суперпользователя</string>
+    <string name="security_root_download">Загрузка приложения </string>
+    <string name="security_root_close_root">Нет поддержки прав Суперпользователя</string>
+    <string name="security_root_download_root_package">Загрузка приложения</string>
     <string name="security_root_network"> The current network is unavailable, set the current network </string>
     <string name="security_root_error_server"> remote server exception, please try later </string>
     <string name="security_root_error_imei"> phone IMEI number abnormal </string>
@@ -3521,10 +3578,9 @@ NFC-монитор включен"</string>
     <string name="security_root_continue"> Continue </string>
     <string name="security_root_read_hint"> Please read the above agreement carefully! </string>
     <string name="security_root_has_read_hint"> I have read the above terms and accept all content </string>
-    <string name="security_root_hint"> "\ u0009 \ u0009 \ u0009 \ u0009Root usually for Android mobile phone system is concerned, it allows users to gain superuser privileges .Root Android operating system is typically used to help users over the phone manufacturer restrictions, allows the user to uninstall the mobile phone manufacturers, carriers, third-party channels in certain applications preinstalled on the phone, and some require superuser privileges to run applications.
+    <string name="security_root_hint"> "\u0009\u0009\u0009\u0009 Root usually for Android mobile phone system is concerned, it allows users to gain superuser privileges .Root Android operating system is typically used to help users over the phone manufacturer restrictions, allows the user to uninstall the mobile phone manufacturers, carriers, third-party channels in certain applications preinstalled on the phone, and some require superuser privileges to run applications.
  
   Note:
- 
   After 1.Root failure may cause the phone can not boot or can not properly use certain features, you need to brush back the original rom to recover.
   2. Get Root privileges imprudent to grant permission, malicious viruses or Trojan software use this privilege, may cause great harm and destruction.
   3. may incorrectly use Root privileges to remove system core components, causing the system can not boot, the phone does not work properly.
@@ -3547,7 +3603,10 @@ NFC-монитор включен"</string>
     <string name="security_text_other_model">Пользовательский режим</string>
     <string name="security_text_select_mode">Выбор режима</string>
     <string name="security_text_select_intelligence">Расширенный уровень</string>
+    <string name="security_text_select_intelligence_description">Управление экономией, ЦПУ, подсветкой, Bluetooth, пробуждением</string>
     <string name="security_text_select_appPower">Потребление заряда</string>
+    <string name="security_text_select_appPower_description">Потребление приложениями заряда в фоне</string>
+    <string name="security_text_select_appPower_stop_app">Остановка</string>
     <string name="security_text_normal_model_description">Для дома, работы и ежедневного использования</string>
     <string name="security_text_savingpower_model_description">Для использования в дороге</string>
     <string name="security_text_longtime_model_description">Для отдыха при редком доступе к зарядке</string>
@@ -3754,7 +3813,6 @@ NFC-монитор включен"</string>
     <string name="security_power_decection_start_cpu_mode">Умная экономия ЦПУ</string>
     <string name="security_power_decection_start_absolve_app_mode">Запрет ЦПУ временное пробуждение в режиме ожидания</string>
     <string name="security_power_decection_start_intelligence_bright_mode">Оптимизация времени подсветки экрана</string>
-    <string name="security_text_dump_energy">Остаток заряда</string>
     <string name="security_button_ok_text">ОК</string>
     <string name="security_button_cancel_text">Отмена</string>
     <string name="security_button_yes_text">Да</string>
@@ -3892,6 +3950,8 @@ NFC-монитор включен"</string>
     <string name="security_yl_seccenter_virus_kill_sec_rate">/сек.</string>
     <string name="security_yl_seccenter_virus_kill_scan_finish_unsafe">Проверка прервана</string>
     <string name="security_yl_seccenter_virus_kill_one_key_clear">Очистка</string>
+    <string name="security_yl_seccenter_virus_kill_clear_ok">"Обработано "</string>
+    <string name="security_yl_seccenter_virus_kill_file_clear_ok">"Обработано "</string>
     <string name="security_yl_seccenter_virus_kill_uninstall_success">Успешно удалено</string>
     <string name="security_yl_seccenter_virus_kill_uninstall_unsuccess">Не удалось удалить</string>
     <string name="security_yl_seccenter_virus_kill_total" />
@@ -3901,6 +3961,7 @@ NFC-монитор включен"</string>
     <string name="security_yl_seccenter_virus_kill_scan_files_total">"Проверено файлов: "</string>
     <string name="security_yl_seccenter_virus_kill_danger_files_information">"Зараженные файлы: "</string>
     <string name="security_yl_seccenter_virus_kill_unit" />
+    <string name="security_yl_seccenter_virus_kill_null">Нет</string>
     <string name="security_yl_seccenter_virus_kill_risk_files_information">"Подозрительные файлы: "</string>
     <string name="security_yl_seccenter_virus_kill_look_for_danger">Существует риск безопасности</string>
     <string name="security_yl_seccenter_virus_update_no_network_information">Нет соединения с сетью. Проверьте, а затем повторите!</string>

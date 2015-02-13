@@ -1,18 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="password_hint_entries">
+        <item>Моя начальная школа?</item>
+        <item>Моя средняя школа?</item>
+        <item>Мой универ?</item>
+        <item>Мой любимый спорт?</item>
+        <item>Польз. вопрос</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string-array name="msa">
         <item>Удалить аккаунт</item>
         <item>Изменить пароль</item>
     </string-array>
-    <string-array name="polyphone_cities">
-        <item>长春|嫦春</item>
-        <item>长沙|嫦沙</item>
-        <item>长沙/湘潭/株洲|嫦沙/湘潭/株洲</item>
-        <item>长治|嫦治</item>
-        <item>重庆|崇庆</item>
-        <item>沈阳|婶阳</item>
-        <item>厦门|夏门</item>
-    </string-array>
+
+
+
+
+
+
+
+
+
     <string-array name="system_group_name">
         <item>Контакты</item>
         <item>Конфиденц.</item>
@@ -24,4 +129,23 @@
         <item>2</item>
         <item>1</item>
     </integer-array>
+    <string-array name="week_strings">
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
+    <string-array name="weeks_string">
+        <item>" "</item>
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
 </resources>

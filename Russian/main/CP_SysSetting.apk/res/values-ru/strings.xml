@@ -119,11 +119,11 @@
     <string name="no">Нет</string>
     <string name="create">Создать</string>
     <string name="device_info_default">Неизвестно</string>
-    <string name="header_category_wireless_networks">БЕСПРОВОДНЫЕ СЕТИ</string>
-    <string name="header_category_device">УСТРОЙСТВО</string>
-    <string name="header_category_personal">ЛИЧНЫЕ ДАННЫЕ</string>
-    <string name="header_category_account">АККАУНТЫ</string>
-    <string name="header_category_system">СИСТЕМА</string>
+    <string name="header_category_wireless_networks">Беспроводные сети</string>
+    <string name="header_category_device">Устройство</string>
+    <string name="header_category_personal">Личные данные</string>
+    <string name="header_category_account">Аккаунты</string>
+    <string name="header_category_system">Система</string>
     <string name="turn_on_radio">Включить радио</string>
     <string name="turn_off_radio">Выключить радио</string>
     <string name="sms_over_ims_on">Включить SMS через IMS</string>
@@ -791,7 +791,7 @@
     <string name="search_settings">Поиск</string>
     <string name="search_settings_summary">Настроить параметры и управлять историей поиска</string>
     <string name="display_settings">Экран</string>
-    <string name="notification_control_center_label">Управление строкой состояния</string>
+    <string name="notification_control_center_label">Строка состояния</string>
     <string name="accelerometer_title">Автоповорот экрана</string>
     <string name="accelerometer_summary_on">Автоматически менять ориентацию экрана при повороте устройства</string>
     <string name="accelerometer_summary_off">Автоматически менять ориентацию экрана при повороте устройства</string>

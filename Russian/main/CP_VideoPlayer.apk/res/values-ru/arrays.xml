@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="password_hint_entries">
+        <item>Моя начальная школа?</item>
+        <item>Моя средняя школа?</item>
+        <item>Мой универ?</item>
+        <item>Мой любимый спорт?</item>
+        <item>Польз. вопрос</item>
+    </string-array>
+
+
+
+
+
+
+
 
 
 
