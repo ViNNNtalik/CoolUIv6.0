@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
     <string name="app_name">Проводник</string>
     <string name="dual_app_name">Проводник</string>
     <string name="root_directory_already">Это корневая директория</string>
@@ -68,6 +70,7 @@
     <string name="menu_logout">Выйти</string>
     <string name="menu_refresh">Обновить</string>
     <string name="menu_setting">Настройки</string>
+    <string name="menu_big_file_search">Поиск больших файлов</string>
     <string name="menu_download_path_setting">Задать путь загрузки</string>
     <string name="menu_browser_mode">Режим просмотра</string>
     <string name="menu_all_album">Все альбомы</string>
@@ -79,6 +82,7 @@
     <string name="menu_add_files">Добавить файл</string>
     <string name="menu_movepath">Изменить путь</string>
     <string name="menu_modifypassword">Изменить пароль</string>
+    <string name="menu_delete_all">Удалить все</string>
     <string name="btn_copy">Копировать</string>
     <string name="btn_cut">Вырезать</string>
     <string name="btn_delete">Удалить</string>
@@ -88,6 +92,8 @@
     <string name="btn_paste">Вставить</string>
     <string name="btn_uncompress">Распаковать</string>
     <string name="btn_confirm">ОК</string>
+    <string name="btn_restore">Восстановление</string>
+    <string name="btn_add_restored">Добавить восстановленые</string>
     <string name="btn_more">Еще</string>
     <string name="item_copy">Копировать</string>
     <string name="item_delete">Удалить</string>
@@ -108,6 +114,8 @@
     <string name="item_uploadtonetdisk">Загрузить в Облако</string>
     <string name="item_setmode">Как приватный</string>
     <string name="item_ReleaseMode">Как общий</string>
+    <string name="item_restore">Восстановление</string>
+    <string name="item_add_restored">Добавить восстановленые</string>
     <string name="downloads">Загрузки</string>
     <string name="pictures">Изобр.</string>
     <string name="audio">Аудио</string>
@@ -128,6 +136,7 @@
     <string name="system_ppd">PPD система</string>
     <string name="system_sed">SED система</string>
     <string name="other">"Прочее "</string>
+    <string name="recycled">В корзине</string>
     <string name="success">Успешно</string>
     <string name="failed">Не удалось</string>
     <string name="no_file">Нетфайла</string>
@@ -162,16 +171,27 @@
     <string name="dialog_banch_copy_failed">Групповое копирование не удалось</string>
     <string name="dialog_banch_copy_success">Файлы скопированы</string>
     <string name="dialog_delete_doing">Удаление…</string>
+    <string name="dialog_restore_doing">Восстановление...</string>
+    <string name="dialog_add_recycled_doing">Добавление удаленных...</string>
     <string name="dialog_delete_success">Файл удален</string>
+    <string name="dialog_restore_success">Восстановление файлов</string>
+    <string name="dialog_add_recycled_success">Добавление удаленных файлов</string>
     <string name="dialog_banch_delete_success">Файлы удалены</string>
+    <string name="dialog_banch_restore_success">Файлы восстановлены</string>
+    <string name="dialog_banch_add_recycled_success">Добавление удаленных файлов</string>
     <string name="dialog_delete_failed">Удаление не удалось</string>
+    <string name="dialog_restore_failed">Восстановление не удалось</string>
+    <string name="dialog_add_recycled_failed">Не удалось добавить удаленные файлы</string>
     <string name="dialog_banch_delete_failed">Групповое удаление не удалось</string>
+    <string name="dialog_banch_restore_failed">Failed to restore files.</string>
+    <string name="dialog_banch_add_recycled_failed">Failed to add recycled files.</string>
     <string name="dialog_delete_srcfile_failed">Удаление исходного файла не удалось</string>
     <string name="dialog_uncompress_doing">Распаковка...</string>
     <string name="dialog_decrypt_doing">Расшифровка... Ожидайте</string>
     <string name="dialog_compress_doing">Упаковка...</string>
     <string name="dialog_compress_send_doing">Упаковка файла...</string>
     <string name="dialog_add_favorite_doing">Добавление... Ожидайте</string>
+    <string name="dialog_add_recycle_doing">adding recycled...</string>
     <string name="dialog_move_doing">Перемещение…</string>
     <string name="dialog_move_failed">Перемещение не удалось</string>
     <string name="dialog_move_success">Файл перемещен</string>
