@@ -43,7 +43,7 @@
     <string name="mmvideo_add_download_error">Не удалось добавить в список загрузки</string>
     <string name="mmvideo_add_download_success">Успешно добавлено в список загрузки，</string>
     <string name="mmvideo_not_find_video">Похожее видео не найдено</string>
-    <string name="app_name">Видео</string>
+    <string name="mmvideo_app_name">Видео</string>
 
 
     <string name="mmvideo_no_external_storage">Нет внешнего накопителя</string>
@@ -592,4 +592,8 @@ Wi-Fi"</string>
     <string name="UMIgnore">Игнорировать</string>
     <string name="UMToast_IsUpdating">Обновление....</string>
     <string name="UMDialog_InstallAPK">Последняя версия скачана. Установить ее?</string>
+    <string name="mmvideo_dlna_setting">Открыть DLNA</string>
+    <string name="mmvideo_download_direction_allow">Разрешить</string>
+    <string name="mmvideo_alert_dialog_forbidden">Запретить</string>
+    <string name="mmvideo_login_del">Пусто</string>
 </resources>
