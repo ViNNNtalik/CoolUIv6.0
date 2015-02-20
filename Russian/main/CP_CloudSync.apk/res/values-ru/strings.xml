@@ -53,7 +53,7 @@
     <string name="coolcloud_netdisk_app_name">Облако</string>
     <string name="coolcloud_netdisk_my_netdisk">Облако</string>
     <string name="coolcloud_netdisk_actionbar_text_1">Выбрано %1$s</string>
-    <string name="coolcloud_netdisk_actionbar_text_2">Выбор</string>
+    <string name="coolcloud_netdisk_actionbar_text_2">Все</string>
     <string name="coolcloud_netdisk_actionbar_text_3">Отмена</string>
     <string name="coolcloud_netdisk_actionbar_right_popup_menu_listview">Список</string>
     <string name="coolcloud_netdisk_actionbar_right_popup_menu_gridview">Миниатюры</string>
@@ -61,10 +61,10 @@
     <string name="coolcloud_netdisk_title_text_select_default_download_location">Выбор места загрузки по умолчанию</string>
     <string name="coolcloud_netdisk_title_text_downlist">Список загрузки</string>
     <string name="coolcloud_netdisk_title_text_uploadlist">Список выгрузки</string>
-    <string name="coolcloud_netdisk_title_edittext_hint">Поиск файлов в Облаке</string>
+    <string name="coolcloud_netdisk_title_edittext_hint">Поиск файлов</string>
     <string name="coolcloud_netdisk_title_edittext_select_upload_location">Место выгрузки</string>
     <string name="coolcloud_netdisk_btn_text_search">Поиск</string>
-    <string name="coolcloud_netdisk_myphoto">Моя камера</string>
+    <string name="coolcloud_netdisk_myphoto">Камера</string>
     <string name="coolcloud_netdisk_camera">Камера</string>
     <string name="coolcloud_netdisk_camera_2">Камера</string>
     <string name="coolcloud_netdisk_mycamera">Моя камера</string>
@@ -80,19 +80,19 @@
     <string name="coolcloud_netdisk_category_theme">Темы</string>
     <string name="coolcloud_netdisk_category_zip">Архивы</string>
     <string name="coolcloud_netdisk_category_netdisk_dir">Все файлы</string>
-    <string name="coolcloud_netdisk_category_bar_info">Емкость диска: %1$s из %2$s</string>
+    <string name="coolcloud_netdisk_category_bar_info">Емкость: %1$s из %2$s</string>
     <string name="coolcloud_netdisk_category_bar_info_fetching">Получение информации...</string>
-    <string name="coolcloud_netdisk_tip_folder_is_empty">Папка пуста ~</string>
-    <string name="coolcloud_netdisk_tip_no_subfolder">Нет вложенных папок ~</string>
-    <string name="coolcloud_netdisk_tip_no_this_type_of_files">Нет такого файла, быстро загрузить его ~</string>
-    <string name="coolcloud_netdisk_tip_no_match_result">Нет результатов ~</string>
-    <string name="coolcloud_netdisk_tip_no_transport_record">Нет записей ~</string>
-    <string name="coolcloud_netdisk_tip_no_img">Нет изображения ~</string>
+    <string name="coolcloud_netdisk_tip_folder_is_empty">Папка пуста</string>
+    <string name="coolcloud_netdisk_tip_no_subfolder">Нет вложенных папок</string>
+    <string name="coolcloud_netdisk_tip_no_this_type_of_files">Нет такого файла. Выгрузить</string>
+    <string name="coolcloud_netdisk_tip_no_match_result">Нет совпадений</string>
+    <string name="coolcloud_netdisk_tip_no_transport_record">Нет записей передачи</string>
+    <string name="coolcloud_netdisk_tip_no_img">Нет изображений</string>
     <string name="coolcloud_netdisk_progress_dialog_msg_deling">Удаление...</string>
     <string name="coolcloud_netdisk_progress_dialog_msg_pause">Пауза...</string>
     <string name="coolcloud_netdisk_dialog_msg_comfirm_del">Подтвердить удаление?</string>
-    <string name="coolcloud_netdisk_dialog_title_content_upload_type">Тип выгружаемых данных</string>
-    <string name="coolcloud_netdisk_dialog_title_content_net_type_set">Настройки типа сети</string>
+    <string name="coolcloud_netdisk_dialog_title_content_upload_type">Тип данных</string>
+    <string name="coolcloud_netdisk_dialog_title_content_net_type_set">Тип сети</string>
     <string name="coolcloud_netdisk_dialog_btn_text_create">Создать</string>
     <string name="coolcloud_netdisk_dialog_btn_text_cancel">Отмена</string>
     <string name="coolcloud_netdisk_dialog_btn_text_set">Настройки</string>
@@ -105,10 +105,10 @@
     <string name="coolcloud_netdisk_toast_msg_add_to_downlist">Добавлено в список загрузки</string>
     <string name="coolcloud_netdisk_toast_msg_add_to_uplist">Добавлено в список выгрузки</string>
     <string name="coolcloud_netdisk_toast_msg_no_permit_create_folder">В этой папке нельзя создавать папки</string>
-    <string name="coolcloud_netdisk_toast_msg_is_exist_task">Файл был загружен на Облако, Вы не можете загрузить его снова</string>
+    <string name="coolcloud_netdisk_toast_msg_is_exist_task">Файл уже  загружен в Облако</string>
     <string name="coolcloud_netdisk_toast_msg_file_cannot_open">Тип файлов не поддерживается</string>
     <string name="coolcloud_netdisk_toast_msg_download_failed">Загрузка не удалась</string>
-    <string name="coolcloud_netdisk_toast_msg_set_success">Успешно задано</string>
+    <string name="coolcloud_netdisk_toast_msg_set_success">Успешно</string>
     <string name="coolcloud_netdisk_toast_msg_cannot_download_or_share_dir">Нельзя загрузить или поделиться папкой</string>
     <string name="coolcloud_netdisk_toast_msg_cannot_download_dir">Нельзя загрузить папку</string>
     <string name="coolcloud_netdisk_toast_msg_cannot_share_dir">Нельзя поделиться папкой</string>
@@ -116,138 +116,140 @@
     <string name="coolcloud_netdisk_toast_msg_no_sdcard">Нет SD-карты</string>
     <string name="coolcloud_netdisk_toast_msg_no_net_connection">Нет сети</string>
     <string name="coolcloud_netdisk_toast_msg_upload_file_exist">Файл уже существует</string>
-    <string name="coolcloud_netdisk_toast_msg_please_select_upload_file">Выберите файл для выгрузки</string>
+    <string name="coolcloud_netdisk_toast_net_not_allow">Войдите в Облако Coolpad</string>
+    <string name="coolcloud_netdisk_toast_msg_please_select_upload_file">Выберите файл</string>
     <string name="coolcloud_netdisk_toast_msg_no_select_file">Нет выбранных файлов</string>
     <string name="coolcloud_netdisk_toast_msg_file_name_cannot_contains_follow_character">"Имя файла не должно содержать следующих символов: "</string>
-    <string name="coolcloud_netdisk_textview_search_result">Результаты поиска (%1$s)</string>
+    <string name="coolcloud_netdisk_textview_search_result">Результаты (%1$s)</string>
     <string name="coolcloud_netdisk_textview_downloading">Загрузка (%1$s)</string>
-    <string name="coolcloud_netdisk_textview_downloaded">Загрузка завершена (%1$s)</string>
+    <string name="coolcloud_netdisk_textview_downloaded">Загружено (%1$s)</string>
     <string name="coolcloud_netdisk_textview_uploading">Выгрузка (%1$s)</string>
-    <string name="coolcloud_netdisk_textview_uploaded">Выгрузка завершена (%1$s)</string>
+    <string name="coolcloud_netdisk_textview_uploaded">Выгружено (%1$s)</string>
     <string name="coolcloud_netdisk_textview_task_status_waiting">Ожидание</string>
     <string name="coolcloud_netdisk_textview_task_status_pause">Пауза</string>
-    <string name="coolcloud_netdisk_textview_task_status_downloaded">Загрузка завершена</string>
+    <string name="coolcloud_netdisk_textview_task_status_downloaded">Загружено</string>
     <string name="coolcloud_netdisk_textview_task_status_download_failed">Загрузка не удалась</string>
     <string name="coolcloud_netdisk_textview_task_status_pause_download">Пауза загрузки</string>
     <string name="coolcloud_netdisk_textview_task_status_pause_upload">Пауза выгрузки</string>
-    <string name="coolcloud_netdisk_textview_task_status_uploaded">Выгрузка завершена</string>
+    <string name="coolcloud_netdisk_textview_task_status_uploaded">Выгружено</string>
     <string name="coolcloud_netdisk_textview_task_status_upload_failed">Выгрузка не удалась</string>
     <string name="coolcloud_netdisk_textview_select_upload_path">Место выгрузки</string>
     <string name="coolcloud_netdisk_textview_make_dir">Новая папка</string>
-    <string name="coolcloud_netdisk_textview_choose_locate">"Место выгрузки: "</string>
-    <string name="coolcloud_netdisk_textview_choose_loading">Загружается...</string>
-    <string name="coolcloud_netdisk_textview_choose_no_files">Нет файлов</string>
+    <string name="coolcloud_netdisk_textview_choose_locate">"Место: "</string>
+    <string name="coolcloud_netdisk_textview_choose_loading">Загрузка...</string>
+    <string name="coolcloud_netdisk_textview_choose_no_files">Нет файлов в папке</string>
     <string name="coolcloud_netdisk_textview_udisk">Внутреннее хранилище</string>
-    <string name="coolcloud_netdisk_textview_sd_card">SD</string>
-    <string name="coolcloud_netdisk_textview_sd_card_2">SD2</string>
-    <string name="coolcloud_netdisk_textview_external_sd_card">EXTERNAL_SD</string>
+    <string name="coolcloud_netdisk_textview_sd_card">SD-карта</string>
+    <string name="coolcloud_netdisk_textview_sd_card_2">SD-карта 2</string>
+    <string name="coolcloud_netdisk_textview_external_sd_card">SD-карта</string>
     <string name="coolcloud_netdisk_textview_default_download_path">Путь загрузки по умолчанию</string>
     <string name="coolcloud_netdisk_textview_net_set">Выбор сети</string>
-    <string name="coolcloud_netdisk_textview_net_set_tip">Рекомендуется загружать и выгружать по Wi-Fi</string>
+    <string name="coolcloud_netdisk_textview_net_set_tip">Рекомендуется использовать Wi-Fi</string>
     <string name="coolcloud_netdisk_textview_bottom_btn_orig_img">Оригинал</string>
     <string name="coolcloud_netdisk_textview_bottom_btn_download">Загрузка</string>
     <string name="coolcloud_netdisk_textview_bottom_btn_share">Поделиться</string>
     <string name="coolcloud_netdisk_textview_bottom_btn_delete">Удалить</string>
     <string name="coolcloud_netdisk_string_operation_ok">ОК</string>
     <string name="coolcloud_netdisk_string_operation_cancel">Отмена</string>
-    <string name="coolcloud_netdisk_btn_text_coolyun_coolcloud_netdisk">Диск Облака</string>
+    <string name="coolcloud_netdisk_btn_text_coolyun_coolcloud_netdisk">Диск на Облаке</string>
     <string name="coolcloud_netdisk_btn_text_create_folder">Новая папка</string>
     <string name="coolcloud_netdisk_btn_text_upload">Выгрузка</string>
     <string name="coolcloud_netdisk_btn_text_upload_1">Выгрузка (%1$s)</string>
     <string name="coolcloud_netdisk_btn_text_selected">Выбрано: (%1$s)</string>
-    <string name="coolcloud_netdisk_btn_text_ok">OK</string>
+    <string name="coolcloud_netdisk_btn_text_ok">ОК</string>
     <string name="coolcloud_netdisk_loading">Загрузка, ожидайте...</string>
-    <string name="coolcloud_netdisk_string_share_version_failed">Старая версия Облака, обновите приложение...</string>
-    <string name="coolcloud_netdisk_share_image_url_desc">\# Нажмите, чтобы открыть ссылку #</string>
+    <string name="coolcloud_netdisk_string_share_version_failed">Обновите приложение Облако...</string>
+    <string name="coolcloud_netdisk_share_image_url_desc">\# Нажмите, чтобы открыть #</string>
     <string name="coolcloud_netdisk_string_find_files_failed_null">Подходящий фал не найден</string>
     <string name="coolcloud_netdisk_btn_files_save_path">Сохранить настройки</string>
-    <string name="coolcloud_netdisk_tip_bind_cancel">Выход из авторизованных операций</string>
+    <string name="coolcloud_netdisk_tip_bind_cancel">Отмена операции</string>
     <string name="coolcloud_netdisk_tip_bind_exception">Ошибка связи, попробуйте позже</string>
     <string name="coolcloud_netdisk_dialog_only_wifi">"Wi-Fi. 
 Наиболее оптимальный способ доступа"</string>
     <string name="coolcloud_netdisk_dialog_not_only_wifi">"3G и Wi-Fi.
 Возможен расход трафика по 3G"</string>
     <string name="coolcloud_netdisk_share_failed_unsupport">Данным типом файла нельзя поделиться</string>
-    <string name="coolcloud_netdisk_share_failed_file_unexist">Убедитесь, что загрузка завершена перед тем, как поделиться</string>
-    <string name="coolcloud_netdisk_search_failed_empty_input">Введите для поиска имя файла или ключевое слово</string>
-    <string name="coolcloud_netdisk_toast_bind_yunpan_tip">Войдите в Облако перед использованием</string>
-    <string name="coolcloud_netdisk_toast_login_yunpan_tip">Войдите в Облако перед использованием</string>
+    <string name="coolcloud_netdisk_share_failed_file_unexist">Поделиться после загрузки</string>
+    <string name="coolcloud_netdisk_search_failed_empty_input">Введите имя файла или ключевое слово</string>
+    <string name="coolcloud_netdisk_toast_bind_yunpan_tip">Войдите в Облако</string>
+    <string name="coolcloud_netdisk_toast_login_yunpan_tip">Войдите в Облако</string>
     <string name="coolcloud_netdisk_toast_upload_file_error_unexist">Файл размером 0KB не может быть выгружен</string>
     <string name="coolcloud_netdisk_toast_has_not_can_select_files">Не удается выбрать файл</string>
     <string name="coolcloud_netdisk_toast_network_unavailable">Ошибка соединения</string>
-    <string name="coolcloud_netdisk_toast_task_unselected">Выберите задачу для удаления</string>
+    <string name="coolcloud_netdisk_toast_task_unselected">Выберите задачу</string>
     <string name="coolcloud_netdisk_toast_task_choose_again">Файл уже в списке задач</string>
     <string name="coolcloud_netdisk_toast_processing_task">Идет обработка, ожидайте...</string>
     <string name="coolcloud_netdisk_no_network_connection_toast">Ошибка подключения к сети</string>
-    <string name="coolcloud_netdisk_config_space_congratulations">Поздравляем, у Вас свободно %1$s!</string>
+    <string name="coolcloud_netdisk_config_space_congratulations">Свободно %1$s</string>
     <string name="coolcloud_netdisk_config_space_help_tips">"Подсказка: "</string>
-    <string name="coolcloud_netdisk_config_space_help_tips_content">Получайте 15G на Диске за каждое подключенное устройство!</string>
-    <string name="coolcloud_netdisk_dunhao">、</string>
-    <string name="coolcloud_netdisk_juhao">。</string>
-    <string name="coolcloud_netdisk_tip_binding">Идет обработка, ожидайте...</string>
-    <string name="coolcloud_netdisk_send_pic_null">Изображения не могут быть загружены</string>
-    <string name="coolcloud_netdisk_toast_share_failed">Нельзя поделиться файлами, выберите изображения</string>
+    <string name="coolcloud_netdisk_config_space_help_tips_content">Получайте 15G на Облаке за каждое подключенное устройство!</string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_sync">Синхр.</string>
-    <string name="coolcloud_backupsucess">" создан бэкап"</string>
+    <string name="coolcloud_netdisk_tip_binding">Запуск...</string>
+    <string name="coolcloud_netdisk_send_pic_null">Изображения не могут быть выгружены</string>
+    <string name="coolcloud_netdisk_toast_share_failed">Нельзя поделиться файлами</string>
+    <string name="coolcloud_netdisk_myspace">My zone</string>
+    <string name="coolcloud_netdisk_textview_task_status_continue_download">Continue</string>
+    <string name="coolcloud_netdisk_textview_task_status_continue_upload">Continue</string>
+    <string name="coolcloud_netdisk_wlan_upload_download">Only via WLAN</string>
+    <string name="coolcloud_netdisk_wlan_upload_download_sub">Download or upload only via WLAN</string>
+    <string name="coolcloud_netdisk_tansport_list">Transfer list</string>
+    <string name="coolcloud_netdisk_support_by_baidu">Service by Baidu Cloud</string>
+    <string name="coolcloud_netdisk_nohas_file">No files,please upload!</string>
+    <string name="coolcloud_app_name">Облако</string>
+    <string name="coolcloud_data_sync">Синхронизация</string>
+    <string name="coolcloud_data_backup">Бэкап</string>
+    <string name="coolcloud_data_cloud_disk">Диск на Облаке</string>
+    <string name="coolcloud_data_recovery">Восстановление</string>
+    <string name="coolcloud_phone_antithreft">Антивор</string>
+    <string name="coolcloud_contacts">Контакты</string>
+    <string name="coolcloud_autosync_closed">Автомат. синхронизация выключена</string>
+    <string name="coolcloud_autobackup_closed">Автомат. бэкап выключен</string>
+    <string name="coolcloud_sync">Синхронизация</string>
+    <string name="coolcloud_backupsucess">Бэкап создан</string>
     <string name="coolcloud_backupfailed">Бэкап не удался</string>
     <string name="coolcloud_backupcancel">Бэкап отменен</string>
-    <string name="coolcloud_syncsucess">" успешно синхронизировано"</string>
-    <string name="coolcloud_syncfail">" синхронизация не удалась"</string>
-    <string name="coolcloud_synccancel">" синхронизация отменена"</string>
+    <string name="coolcloud_syncsucess">Синхронизировано</string>
+    <string name="coolcloud_syncfail">Синхронизация не удалась</string>
+    <string name="coolcloud_synccancel">Синхронизация отменена</string>
     <string name="coolcloud_sync_running">"Синхронизация "</string>
     <string name="coolcloud_backup_running">Создание бэкапа</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_myphoto">Моя камера</string>
+    <string name="coolcloud_name_contacts">Контакты</string>
+    <string name="coolcloud_name_cardcontacts">Контакты устройства</string>
+    <string name="coolcloud_name_cloudcontacts">Контакты Облака</string>
+    <string name="coolcloud_name_sms">SMS/MMS</string>
+    <string name="coolcloud_name_crecord">Журнал вызовов</string>
+    <string name="coolcloud_name_calendar">Календарь</string>
+    <string name="coolcloud_name_notes">Заметки</string>
+    <string name="coolcloud_name_note">Данные заметок и групп</string>
+    <string name="coolcloud_name_phrase">Фразы</string>
+    <string name="coolcloud_name_bookmark">Закладки</string>
+    <string name="coolcloud_name_picture">Фото</string>
+    <string name="coolcloud_name_sound_record">Аудиозаписи</string>
+    <string name="coolcloud_name_phone_setting">Настройки</string>
+    <string name="coolcloud_name_phone_app">Приложения</string>
+    <string name="coolcloud_name_net_disk">Диск на Облаке</string>
+    <string name="coolcloud_name_contactgroup">Группы контактов</string>
+    <string name="coolcloud_login_cancel">Отмена входа в аккаунт</string>
+    <string name="coolcloud_login_failed">Не удалось войти</string>
+    <string name="coolcloud_system_have_not_login">Нет входа в аккаунт</string>
+    <string name="coolcloud_system_request_user_info_error">Не удалось получить пользовательскую информацию</string>
+    <string name="coolcloud_backup_phone_setting_default_summary">Бэкап настроек Вашего устройства</string>
+    <string name="coolcloud_backup_phone_apk_default_summary">Бэкап данных Ваших приложений</string>
+    <string name="coolcloud_cloud_disk_default_summary">Кооперация с Облаком Baidu</string>
+    <string name="coolcloud_myphoto">Камера</string>
     <string name="coolcloud_camera">Камера</string>
     <string name="coolcloud_mycamera">Моя камера</string>
     <string name="coolcloud_camera_2">Камера</string>
     <string name="coolcloud_photo">Фото</string>
     <string name="coolcloud_photo_2">Камера</string>
-    <string name="coolcloud_photo_3">Album</string>
+    <string name="coolcloud_photo_3">Изображение</string>
 
-
-
-    <string name="coolcloud_type_phone_setting">Настройки устройства</string>
-
-    <string name="coolcloud_phone_setting_launch">Параметры лаунчера</string>
+    <string name="coolcloud_login_server_prompt">"Посетите coolyun.com
+для управления Вашими данными в любое время"</string>
+    <string name="coolcloud_type_phone_setting">Настройки</string>
+    <string name="coolcloud_backuping_desk_setting">Создание бэкапа настроек лаунчера</string>
+    <string name="coolcloud_phone_setting_launch">Лаунчер</string>
     <string name="coolcloud_phone_setting_browser">Браузер</string>
     <string name="coolcloud_phone_setting_kavass">Перехватчик</string>
     <string name="coolcloud_phone_setting_callsetting">Параметры вызова</string>
@@ -257,145 +259,149 @@
     <string name="coolcloud_phone_setting_quickdial">Быстрый набор</string>
     <string name="coolcloud_phone_setting_systemsetting">Пользоват. настройки</string>
     <string name="coolcloud_phone_setting_wifi">Пароли Wi-Fi</string>
-    <string name="coolcloud_phone_setting_waitting_recover">Ожидание восстановления...</string>
-    <string name="coolcloud_phone_setting_waitting_backup">Ожидание бэкапа...</string>
+    <string name="coolcloud_phone_setting_waitting_recover">Подготовка...</string>
+    <string name="coolcloud_phone_setting_waitting_backup">Подготовка...</string>
     <string name="coolcloud_phone_setting_cancel_recover">Отмена восстановления</string>
     <string name="coolcloud_phone_setting_cancel_backup">Отмена бэкапа</string>
     <string name="coolcloud_phone_setting_backup">Бэкап настроек устройства</string>
     <string name="coolcloud_phone_setting_recover">Восстановление настроек устройства</string>
     <string name="coolcloud_phone_setting_is_uploading">Выгрузка, ожидайте...</string>
-    <string name="coolcloud_phone_setting_backup_success">" создан бэкап"</string>
-    <string name="coolcloud_phone_setting_backup_failed">" ошибка создания бэкапа"</string>
+    <string name="coolcloud_phone_setting_backup_success">Бэкап создан</string>
+    <string name="coolcloud_phone_setting_backup_failed">Ошибка создания бэкапа</string>
     <string name="coolcloud_phone_setting_backup_not_support">Ваше устройство не поддерживает бэкап</string>
-    <string name="coolcloud_phone_setting_backup_canceled">" бэкап отменен"</string>
-    <string name="coolcloud_phone_setting_recover_success">" успешно восстановлено"</string>
+    <string name="coolcloud_phone_setting_backup_canceled">Бэкап отменен</string>
+    <string name="coolcloud_phone_setting_recover_success">Успешно восстановлено</string>
     <string name="coolcloud_phone_setting_recover_failed">Ошибка восстановления</string>
     <string name="coolcloud_phone_setting_recover_not_support">Ваше устройство не поддерживает восстановление</string>
-    <string name="coolcloud_phone_setting_recover_cancel">Восстановление отменено</string>
-    <string name="coolcloud_phone_setting_update_success">" успешно обновлено"</string>
+    <string name="coolcloud_phone_setting_recover_cancel">Омена восстановления</string>
+    <string name="coolcloud_phone_setting_update_success">Обновлено</string>
     <string name="coolcloud_group_detail_setting_update_success">Успешно обновлено</string>
-    <string name="coolcloud_phone_setting_is_uploading_ex">"Выгрузка бэкапа настроек "</string>
-    <string name="coolcloud_phone_setting_setting_info" />
-    <string name="coolcloud_phone_setting_upload_persent">"Прогресс выгрузки: "</string>
-    <string name="coolcloud_phone_setting_setting_upload">Выгрузка бэкапа настроек</string>
+    <string name="coolcloud_phone_setting_is_uploading_ex">Выгрузка</string>
+    <string name="coolcloud_phone_setting_setting_info">Настройки</string>
+    <string name="coolcloud_phone_setting_upload_persent">"Прогресс: "</string>
+    <string name="coolcloud_phone_setting_setting_upload">Выгрузка</string>
     <string name="coolcloud_phone_setting_download_file_error">Загрузка не удалась</string>
-    <string name="coolcloud_phone_setting_is_downloading_ex">"Загрузка бэкапа настроек "</string>
-    <string name="coolcloud_phone_setting_download_persent">"Прогресс загрузки: "</string>
-    <string name="coolcloud_phone_setting_setting_download">Загрузка настроек</string>
+    <string name="coolcloud_phone_setting_is_downloading_ex">Загрузка</string>
+    <string name="coolcloud_phone_setting_download_persent">Прогресс</string>
+    <string name="coolcloud_phone_setting_setting_download">Загрузка</string>
     <string name="coolcloud_phone_setting_download_error">Загрузка не удалась</string>
     <string name="coolcloud_phone_setting_no_recover_data">Вы не создавали бэкап настроек устройства!</string>
     <string name="coolcloud_phone_setting_is_refreshing">Пожалуйста, ожидайте...</string>
     <string name="coolcloud_phone_setting_backup_is_cancel">Отменить создание бэкапа настроек?</string>
     <string name="coolcloud_phone_setting_recover_is_cancel">Отменить восстановление настроек?</string>
-    <string name="coolcloud_phone_setting_this_phone">" Это устр-во"</string>
-    <string name="coolcloud_phone_setting_recover_list">Восстановление настроек</string>
+    <string name="coolcloud_phone_setting_this_phone">Это устр-во</string>
+    <string name="coolcloud_phone_setting_recover_list">Восстановление</string>
     <string name="coolcloud_setting_backup">Бэкап настроек</string>
     <string name="coolcloud_setting_backup_summary">Резервирование польз. настроек устройства</string>
     <string name="coolcloud_setting_recovery">Восстановление настроек</string>
     <string name="coolcloud_setting_recovery_summary">Восстановление данных не нарушает работу устройства</string>
     <string name="coolcloud_waitting_load_date">Загрузка данных, ожидайте...</string>
-    <string name="coolcloud_select_phone">Выбор устройства 
+    <string name="coolcloud_select_phone">Выбор устройства
 для восстановления</string>
-    <string name="coolcloud_internet_failed">network not to force please refresh retry!</string>
+    <string name="coolcloud_internet_failed">Плохой сигнал сети</string>
     <string name="coolcloud_tip_title">Информация</string>
     <string name="coolcloud_ensure">ОК</string>
     <string name="coolcloud_cancel">Отмена</string>
-    <string name="coolcloud_recovery">Восст.</string>
+    <string name="coolcloud_recovery">Восстановление</string>
     <string name="coolcloud_refresh">Обновить</string>
-
-
+    <string name="coolcloud_backup_only_wlan">Только по Wi-Fi</string>
+    <string name="coolcloud_backup_immediately">Создать бэкап</string>
     <string name="coolcloud_cancel_backup">Отмена бэкапа</string>
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_sms_backup_all">Бэкап SMS/MMS</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_only_backup_on_wifi">wifi only backup, check the network environment</string>
-    <string name="coolcloud_only_recover_on_wifi">in wifi only under restoration, check the network environment</string>
+    <string name="coolcloud_please_open_wlan">Нет подключения по  Wi-Fi</string>
+    <string name="coolcloud_sync_sms_secd_view_item_name">Автомат. бэкап SMS/MMS</string>
+    <string name="coolcloud_sync_cardcontact_secd_view_item_name">Автомат. бэкап контактов на устройстве</string>
+    <string name="coolcloud_sync_sms_secd_view_default_summary">Автомат. бэкап SMS/MMS в Облако</string>
+    <string name="coolcloud_sync_cardcontact_secd_view_default_summary">Автомат. бэкап контактов на устройстве в Облако</string>
+    <string name="coolcloud_sync_sms_secd_view_only_wlan_default_summary">Бэкап SMS/MMS только по Wi-Fi</string>
+    <string name="coolcloud_sync_cardcontact_secd_view_only_wlan_default_summary">Бэкап контактов на устройстве только по Wi-Fi</string>
+    <string name="coolcloud_sync_sms_secd_view_sying_summary">Создание бэкапа</string>
+    <string name="coolcloud_sync_crecord_secd_view_item_name">Автомат. бэкап журнала вызовов</string>
+    <string name="coolcloud_sync_crecord_secd_view_default_summary">Автомат. бэкап журнала вызовов в Облако</string>
+    <string name="coolcloud_sync_crecord_secd_view_only_wlan_default_summary">Бэкап журнала вызовов только по Wi-Fi</string>
+    <string name="coolcloud_sync_crecord_secd_view_sying_summary">Создание бэкапа</string>
+    <string name="coolcloud_sms_backup_all">Бэкап всех SMS/MMS</string>
+    <string name="coolcloud_sms_backup_all_summary">Бэкап всех SMS/MMS в Облако</string>
+    <string name="coolcloud_crecord_backup_all">Бэкап всего журнала вызовов</string>
+    <string name="coolcloud_crecord_backup_all_summary">Бэкап всего журнала вызовов в Облако</string>
+    <string name="coolcloud_phonesetting_secd_view_item_name">Автомат. бэкап настроек</string>
+    <string name="coolcloud_phonesetting_secd_view_only_wlan_default_summary">Бэкап настроек только по Wi-Fi</string>
+    <string name="coolcloud_phonesetting_secd_view_recover_default_summary">Восстановление настроек устройства из Облака</string>
+    <string name="coolcloud_phonesetting_recovery">Восстановление настроек</string>
+    <string name="coolcloud_backuping">Создание бэкапа</string>
+    <string name="coolcloud_recovering">Восстановление</string>
+    <string name="coolcloud_last_backup">Последний бэкап</string>
+    <string name="coolcloud_last_recovery">Последнее восстановление</string>
+    <string name="coolcloud_sync_picture">Автомат. бэкап фото</string>
+    <string name="coolcloud_sync_picture_only_wlan">Только по Wi-Fi</string>
+    <string name="coolcloud_sync_picture_default_summary">Бэкап фото в Облако</string>
+    <string name="coolcloud_sync_picture_only_wlan_summary">Бэкап фото только по Wi-Fi</string>
+    <string name="coolcloud_sync_sound_record">Автомат. бэкап аудиозаписей</string>
+    <string name="coolcloud_sync_sound_record_only_wlan">Только по Wi-Fi</string>
+    <string name="coolcloud_sync_sound_record_default_summary">Бэкап аудиозаписей в Облако</string>
+    <string name="coolcloud_sync_sound_record_only_wlan_summary">Бэкап аудиозаписей только по Wi-Fi</string>
+    <string name="coolcloud_only_backup_on_wifi">Бэкап только по Wi-Fi. Проверьте сеть</string>
+    <string name="coolcloud_only_recover_on_wifi">Восстановление только по Wi-Fi. Проверьте сеть</string>
     <string name="coolcloud_phone_apk_recover">Приложения</string>
     <string name="coolcloud_cancel_all_select">Отмена</string>
-    <string name="coolcloud_begin_app_backup">began to cloud backup</string>
+    <string name="coolcloud_begin_app_backup">Создать бэкап</string>
     <string name="coolcloud_app_backup_back">Назад</string>
-    <string name="coolcloud_no_backup_app">select backup application</string>
-    <string name="coolcloud_loading_unload_app">Loading local application ...</string>
+    <string name="coolcloud_no_backup_app">Select backup apps</string>
+    <string name="coolcloud_loading_unload_app">Loading app data...</string>
     <string name="coolcloud_loading_recover_app">Загрузка списка приложений...</string>
-    <string name="coolcloud_app_has_all_upload">pro, your applications in the cloud backup on the</string>
-    <string name="coolcloud_app_yun_upload">Applications Cloud seconds pass</string>
-    <string name="coolcloud_coolmart_app_can_supload">Some applications can be seconds pass on coolmart!</string>
-    <string name="coolcloud_wifi_yun_backup">wifi cloud backup</string>
-    <string name="coolcloud_yun_backuping">is cloud backup</string>
-    <string name="coolcloud_auto_upload_when_wifi_is_connect">automatic backup when not on coolmart applications will connect wifi.</string>
-    <string name="coolcloud_is_cancel_app_backup">whether to cancel the mobile application backup?</string>
-    <string name="coolcloud_waitting_wifi_upload">wait wifi automatically upload</string>
-    <string name="coolcloud_is_cancel_app_recover">whether to cancel the mobile application recovery?</string>
-    <string name="coolcloud_waitting_wifi_download">wait wifi automatically download</string>
-    <string name="coolcloud_cancel_backup_app">cancel the backup</string>
-    <string name="coolcloud_yun_backup_success">cloud backup success</string>
-    <string name="coolcloud_start_recover_app">began to recover</string>
-
-    <string name="coolcloud_please_select_one_backup_apk">Please select at least application one to back up</string>
-    <string name="coolcloud_please_select_one_recover_apk">select the application you want to restore at least one</string>
-
-    <string name="coolcloud_isloading_icon_please_wait">Loading logo, Please Wait</string>
-    <string name="coolcloud_isClosing_ftp_upload_wait">Checking network, later</string>
-    <string name="coolcloud_no_one_need_backup_apk">pro, did not back up your application</string>
-    <string name="coolcloud_no_had_backup_apk">pro, you have not done a backup application</string>
-    <string name="coolcloud_load_apk_failed_to_retry">pro, load application list failed, please try again!</string>
-    <string name="coolcloud_apk_recover_failed_to_retry">application recovery fails, reconnect wifi!</string>
-    <string name="coolcloud_apk_backup_failed_to_retry">application backup failed, reconnect wifi!</string>
-    <string name="coolcloud_no_external_device_to_download">does not detect an external storage device, you can not download!</string>
-    <string name="coolcloud_can_recover_app">recoverable application</string>
-
+    <string name="coolcloud_app_has_all_upload">Apps successfully backed up to cloud.</string>
+    <string name="coolcloud_app_yun_upload">Fast transfer</string>
+    <string name="coolcloud_coolmart_app_can_supload">Apps in Coolmart can be transferred in no time.</string>
+    <string name="coolcloud_wifi_yun_backup">Cloud backup via WLAN</string>
+    <string name="coolcloud_yun_backuping">Backing up</string>
+    <string name="coolcloud_auto_upload_when_wifi_is_connect">Apps not in Coolmart will be backed up automatically via WLAN.</string>
+    <string name="coolcloud_is_cancel_app_backup">Cancel the backup of apps?</string>
+    <string name="coolcloud_waitting_wifi_upload">Preparing for auto-upload</string>
+    <string name="coolcloud_is_cancel_app_recover">Cancel the recovery of apps?</string>
+    <string name="coolcloud_waitting_wifi_download">Preparing for auto-download</string>
+    <string name="coolcloud_cancel_backup_app">Cancel</string>
+    <string name="coolcloud_yun_backup_success">Data backed up.</string>
+    <string name="coolcloud_start_recover_app">Download and install</string>
+    <string name="coolcloud_delete_recover_app">Delete</string>
+    <string name="coolcloud_please_select_one_backup_apk">Select at least 1 app</string>
+    <string name="coolcloud_please_select_one_recover_apk">Select at least 1 app</string>
+    <string name="coolcloud_please_select_one_delete_apk">Select at least 1 app</string>
+    <string name="coolcloud_isloading_icon_please_wait">Loading... Please wait.</string>
+    <string name="coolcloud_isClosing_ftp_upload_wait">Checking the network... Please wait.</string>
+    <string name="coolcloud_no_one_need_backup_apk">All apps have been backed up.</string>
+    <string name="coolcloud_no_had_backup_apk">No app has been backed up.</string>
+    <string name="coolcloud_load_apk_failed_to_retry">Failed to load app list. Please retry.</string>
+    <string name="coolcloud_apk_recover_failed_to_retry">Failed to restore apps. Please connect WLAN.</string>
+    <string name="coolcloud_apk_backup_failed_to_retry">Failed to back up apps. Please connect WLAN.</string>
+    <string name="coolcloud_no_external_device_to_download">No external storage device.</string>
+    <string name="coolcloud_can_recover_app">My apps</string>
+    <string name="coolcloud_recovering_app">Loading</string>
     <string name="coolcloud_app_install_success">Успешно установлено</string>
     <string name="coolcloud_app_install_failed">Установка не удалась</string>
-    <string name="coolcloud_app_download_success">download success</string>
-    <string name="coolcloud_app_download_failed">download failed</string>
-    <string name="coolcloud_cancel_app_recover">cancel resume</string>
-    <string name="coolcloud_installing_app">being installed ...</string>
-    <string name="coolcloud_waitting_app_download">wait for the download ...</string>
-    <string name="coolcloud_app_recover_has_done">complete</string>
-    <string name="coolcloud_phone_apk_backup_success">" создан бэкап"</string>
-    <string name="coolcloud_phone_apk_backup_failed">backup failed</string>
-    <string name="coolcloud_phone_apk_backup_cancel">" бэкап отменен"</string>
-    <string name="coolcloud_safe_valide_please_wait">security verification, please wait ...</string>
-    <string name="coolcloud_check_your_phone_is_ok">Please check the phone card or set the network</string>
-    <string name="coolcloud_net_is_not_open">pro, the network has not been opened yet</string>
-    <string name="coolcloud_app_downloading_to_wait">Loading, please wait!</string>
-    <string name="coolcloud_app_uploading_to_wait">Uploading, please wait!</string>
-    <string name="coolcloud_yun_backup_failed">backup failed</string>
-    <string name="coolcloud_except_all_size">is expected to flow:</string>
-    <string name="coolcloud_local_app_size">Flow</string>
-    <string name="coolcloud_coolmart_app_tip">prompt [0] application in Cool store traffic exists, so no need to upload the backup.</string>
-    <string name="coolcloud_i_see_button">know!</string>
-    <string name="coolcloud_coolmart_apk_tip">Tips</string>
-    <string name="coolcloud_apk_upload_failed_tip">failed</string>
+    <string name="coolcloud_app_download_success">Downloaded</string>
+    <string name="coolcloud_app_download_failed">Failed to download.</string>
+    <string name="coolcloud_cancel_app_recover">Cancel recovery</string>
+    <string name="coolcloud_installing_app">Installing...</string>
+    <string name="coolcloud_waitting_app_download">Preparing...</string>
+    <string name="coolcloud_app_recover_has_done">OK</string>
+    <string name="coolcloud_phone_apk_backup_success">Бэкап создан</string>
+    <string name="coolcloud_phone_apk_backup_failed">Failed to back up.</string>
+    <string name="coolcloud_phone_apk_backup_cancel">Бэкап отменен</string>
+    <string name="coolcloud_safe_valide_please_wait">Verifying... Please wait.</string>
+    <string name="coolcloud_check_your_phone_is_ok">Check phone card or set network.</string>
+    <string name="coolcloud_net_is_not_open">No available network.</string>
+    <string name="coolcloud_app_downloading_to_wait">Downloading... Please wait.</string>
+    <string name="coolcloud_app_uploading_to_wait">Uploading... Please wait.</string>
+    <string name="coolcloud_yun_backup_failed">Failed to back up.</string>
+    <string name="coolcloud_except_all_size">Data:</string>
+    <string name="coolcloud_local_app_size">Data</string>
+    <string name="coolcloud_coolmart_app_tip">App already exists in Coolmart. You can upload in no time.</string>
+    <string name="coolcloud_i_see_button">I see</string>
+    <string name="coolcloud_coolmart_apk_tip">Information</string>
+    <string name="coolcloud_apk_upload_failed_tip">Failure</string>
     <string name="coolcloud_apk_upload_wait_tip">Wait</string>
-    <string name="coolcloud_upload_failed_to_retry">retry</string>
-    <string name="coolcloud_has_backup_app_back_again">application has been backed up will be re backup to this backup based.</string>
-    <string name="coolcloud_p2refresh_head_load_more">Еще</string>
+    <string name="coolcloud_upload_failed_to_retry">Retry</string>
+    <string name="coolcloud_has_backup_app_back_again">Backup apps will be backed up again.</string>
+    <string name="coolcloud_p2refresh_head_load_more">Загрузить еще</string>
     <string name="coolcloud_p2refresh_end_load_more">Еще</string>
     <string name="coolcloud_p2refresh_end_click_load_more">Нажмите для загрузки</string>
     <string name="coolcloud_p2refresh_release_refresh">Отпустите для обновления</string>
@@ -404,383 +410,386 @@
     <string name="coolcloud_p2refresh_doing_end_refresh">Загрузка ...</string>
     <string name="coolcloud_p2refresh_refresh_lasttime">"Обновление: "</string>
     <string name="coolcloud_apk_backup_app">Бэкап польз. приложений</string>
-    <string name="coolcloud_apk_backup_app_summary">Резервирование польз. приложений в Облако</string>
-    <string name="coolcloud_apk_recovery_app">Восстановление польз. приложений</string>
+    <string name="coolcloud_apk_backup_app_summary">Бэкап приложений в Облако</string>
+    <string name="coolcloud_apk_recovery_app">Восстановление приложений</string>
     <string name="coolcloud_apk_recovery_app_summary">Восстановление данных не нарушает работу устройства</string>
-    <string name="coolcloud_apk_manual_install">manually install</string>
-    <string name="coolcloud_recovercontacttip">whether to restore more contacts to the phone from a cool cloud server?</string>
-    <string name="coolcloud_yun_backup_failed_num_1">backup success</string>
-    <string name="coolcloud_yun_backup_failed_num_2">backup failed</string>
-    <string name="coolcloud_apk_upload_sucess_tip">success</string>
-    <string name="coolcloud_local_app_stored">has been backed up</string>
-    <string name="coolcloud_all_backup_apk_has_backuped">selected application has been backed up, go back!</string>
-    <string name="coolcloud_backup_app_begin">backup application</string>
-    <string name="coolcloud_recovering_apk">Loading application, please wait!</string>
-    <string name="coolcloud_all_recover_apk_has_recovered">selected application has the latest version, please re-election or return!</string>
-    <string name="coolcloud_local_app_stored_new">is the latest version</string>
-    <string name="coolcloud_network_invalide_warning">Current 2G / 3G networks, the cost of recovery will generate traffic, it is recommended in the WIFI recovery! whether to continue?</string>
-    <string name="coolcloud_exit_recovering_warning">exit may lead to recovery fails! continue?</string>
-    <string name="coolcloud_continue_recvoery">Continue Recovery</string>
+    <string name="coolcloud_apk_manual_install">Manually install</string>
+    <string name="coolcloud_recovercontacttip">Restore more contacts to your phone?</string>
+    <string name="coolcloud_yun_backup_failed_num_1">backed up.</string>
+    <string name="coolcloud_yun_backup_failed_num_2">not backed up.</string>
+    <string name="coolcloud_apk_upload_sucess_tip">Success</string>
+    <string name="coolcloud_local_app_stored">Backed up</string>
+    <string name="coolcloud_all_backup_apk_has_backuped">Selected apps have been backed up.</string>
+    <string name="coolcloud_backup_app_begin">Backing up</string>
+    <string name="coolcloud_recovering_apk">Loading apps... Please wait.</string>
+    <string name="coolcloud_all_recover_apk_has_recovered">Selected apps are of the latest version. Select again or go back.</string>
+    <string name="coolcloud_local_app_stored_new">This is the latest version.</string>
+    <string name="coolcloud_network_invalide_warning">Recovery via data net may cause additional charges. Continue?</string>
+    <string name="coolcloud_exit_recovering_warning">Exiting it may cause recovery failures. Continue?</string>
+    <string name="coolcloud_continue_recvoery">Continue</string>
     <string name="coolcloud_network_setting">Настройки сети</string>
-    <string name="coolcloud_downloading_has">" загружено, осталось "</string>
-    <string name="coolcloud_files">file</string>
+    <string name="coolcloud_downloading_has">Загрузка...</string>
+    <string name="coolcloud_files">осталось файлов</string>
     <string name="coolcloud_download_completed">Загрузка завершена</string>
-    <string name="coolcloud_sweet_hints">Tips</string>
-    <string name="coolcloud_recoversuccess">" успешно восстановлено"</string>
-    <string name="coolcloud_recoverfailed">restore failed</string>
-    <string name="coolcloud_cancelrecovertip">Tip</string>
-    <string name="coolcloud_exit">Exit</string>
-    <string name="coolcloud_label_unknown">unknown</string>
-    <string name="coolcloud_networkstatuserror">not connect to the server, check the network configuration</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_recovery_already">has been restored</string>
-    <string name="coolcloud_task_list">transfer list</string>
-    <string name="coolcloud_task_completed">Completed</string>
-    <string name="coolcloud_task_not_completed">unfinished</string>
-    <string name="coolcloud_task_waiting">wait for transmission</string>
-    <string name="coolcloud_task_is_empty">Oh, you do not transfer records!</string>
-    <string name="coolcloud_task_clear_all">Empty</string>
-    <string name="coolcloud_file_not_eixist">file does not exist!</string>
+    <string name="coolcloud_sweet_hints">Информация</string>
+    <string name="coolcloud_recoversuccess">Восстановлено</string>
+    <string name="coolcloud_recoverfailed">Не удалось восстановить</string>
+    <string name="coolcloud_cancelrecovertip">Информация</string>
+    <string name="coolcloud_exit">Выход</string>
+    <string name="coolcloud_label_unknown">Неизвестно</string>
+    <string name="coolcloud_networkstatuserror">Сервер недоступен</string>
+    <string name="coolcloud_apk_backup_recover_view_wlan_default_summary">Автомат. бэкап приложений только по Wi-Fi</string>
+    <string name="coolcloud_apk_recover_view_default_summary">Просмотр бэкапа приложений и выбор их для установки</string>
+    <string name="coolcloud_backuping_picture">Создание бэкапа фото</string>
+    <string name="coolcloud_backuping_sound_record">Создание бэкапа аудиозаписей</string>
+    <string name="coolcloud_recover_sms">Восстановление SMS/MMS</string>
+    <string name="coolcloud_recover_crecord">Восстановление журнала вызовов</string>
+    <string name="coolcloud_recover_picture">Восстановление фото</string>
+    <string name="coolcloud_recover_sound_record">Восстановление аудиозаписей</string>
+    <string name="coolcloud_recover_cardcontact">Восстановление контактов на устройстве</string>
+    <string name="coolcloud_recover_sms_item_default_summary">Восстановление SMS/MMS из Облака</string>
+    <string name="coolcloud_recover_crecord_item_default_summary">Восстановление журнала вызовов из Облака</string>
+    <string name="coolcloud_recover_picture_item_default_summary">Восстановление фото из Облака</string>
+    <string name="coolcloud_recover_cardcontact_item_default_summary">Восстановление контактов из Облака</string>
+    <string name="coolcloud_enter_coolwind_password">Введите пароль</string>
+    <string name="coolcloud_common_progress_dialog_summary_wait">Ожидайте...</string>
+    <string name="coolcloud_is_recovering">Восстановление</string>
+    <string name="coolcloud_revocer_all">Восстановить все</string>
+    <string name="coolcloud_is_check_password">Проверка пароля</string>
+    <string name="coolcloud_password_not_right">Неверный пароль</string>
+    <string name="coolcloud_item_recover_by_num">Восстановление по элементам</string>
+    <string name="coolcloud_item_recover_by_phone_num">Восстановление по номеру</string>
+    <string name="coolcloud_item_recover_by_time">Восстановление по времени</string>
+    <string name="coolcloud_item_recover_by_folder">Восстановление по папкам</string>
+    <string name="coolcloud_sms_inbox_folder">Входящие</string>
+    <string name="coolcloud_sms_sended_folder">Отправленные</string>
+    <string name="coolcloud_sms_drafts_folder">Черновики</string>
+    <string name="coolcloud_crecord_dialed_calllog">Набранные</string>
+    <string name="coolcloud_crecord_received_calllog">Отвеченные</string>
+    <string name="coolcloud_crecord_missed_calllog">Неотвеченные</string>
+    <string name="coolcloud_crecord_temporary_calllog">Кэш</string>
+    <string name="coolcloud_cloud_sms_num">"SMS/MMS на Облаке: "</string>
+    <string name="coolcloud_cloud_crecord_num">"Журнал вызовов на Облаке: "</string>
+    <string name="coolcloud_recovery_already">Восстановлено</string>
+    <string name="coolcloud_task_list">Список передачи</string>
+    <string name="coolcloud_task_completed">Завершено</string>
+    <string name="coolcloud_task_not_completed">Незавершено</string>
+    <string name="coolcloud_task_waiting">Подготовка к передаче</string>
+    <string name="coolcloud_task_is_empty">Нет записей</string>
+    <string name="coolcloud_task_clear_all">Очистить</string>
+    <string name="coolcloud_file_not_eixist">Файл не существует</string>
     <string name="coolcloud_add_pic_select">Выбор изображения</string>
-    <string name="coolcloud_done">Завершено</string>
-    <string name="coolcloud_opened">Открыто</string>
-    <string name="coolcloud_closed">Закрыто</string>
+    <string name="coolcloud_add_sound_record_select">Выбор аудиозаписей</string>
+    <string name="coolcloud_done">ОК</string>
+    <string name="coolcloud_opened">Включено</string>
+    <string name="coolcloud_closed">Выключено</string>
     <string name="coolcloud_no_data">Нет данных</string>
-    <string name="coolcloud_choice_data_to_rev">Please select the data you want to restore</string>
-    <string name="coolcloud_process_error">processing error, please try again!</string>
-    <string name="coolcloud_go_backup">go Backup</string>
-    <string name="coolcloud_no_sdcard">not found a memory card</string>
+    <string name="coolcloud_choice_data_to_rev">Select items</string>
+    <string name="coolcloud_process_error">Error encountered. Please retry.</string>
+    <string name="coolcloud_go_backup">Back up</string>
+    <string name="coolcloud_no_sdcard">No storage card detected.</string>
     <string name="coolcloud_gettingdata">Идет сбор данных. Ожидайте...</string>
-
-
-
-
-
-
-
-    <string name="coolcloud_to">recipient</string>
-
-    <string name="coolcloud_send_data_now">is sending data</string>
+    <string name="coolcloud_psw_can_not_be_null">Password cannot be blank.</string>
+    <string name="coolcloud_psw_is_not_right">Incorrect password.</string>
+    <string name="coolcloud_please_enter_coolwind_psw">Enter password</string>
+    <string name="coolcloud_please_enter_specifyed_phone_num">Enter the specified number</string>
+    <string name="coolcloud_latest">Latest</string>
+    <string name="coolcloud_item" />
+    <string name="coolcloud_from">From</string>
+    <string name="coolcloud_to">to</string>
+    <string name="coolcloud_not_login">Unlogged</string>
+    <string name="coolcloud_send_data_now">Sending data</string>
     <string name="coolcloud_process_data_now">Обработка данных</string>
-    <string name="coolcloud_process_local_data">are local data</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_name">Введите имя пользователя</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="coolcloud_process_local_data">Processing local data</string>
+    <string name="button_set_text">Setup</string>
+    <string name="button_cancel_text">Cancel</string>
+    <string name="date_picker_dialog_title">Set date</string>
+    <string name="date_picker_year_checkbox_text">Year</string>
+    <string name="date_picker_lunar_checkbox_text" />
+    <string name="date_picker_allday_checkbox_text">All day</string>
+    <string name="select_all">All</string>
+    <string name="unSelect_all">Clear</string>
+    <string name="list_action_mode_selected" />
+    <string name="list_action_mode_item">selected</string>
+    <string name="list_action_mode_total">Total</string>
+    <string name="actionbar_mainmenu_text">Menu</string>
+    <string name="action_mode_item_more">More</string>
+    <string name="list_action_mode_items" />
+    <string name="search_hint_text">Enter keywords</string>
+    <string name="date_year_toggle">Show year</string>
+    <string name="lunar_calendar_show" />
+    <string name="time_picker_separator">:</string>
+    <string name="year">-</string>
+    <string name="month">-</string>
+    <string name="day" />
+    <string name="birth_no_remind">Do not remind</string>
+    <string name="coolcloud_date_picker_dialog_title">Set date</string>
+    <string name="coolcloud_date_picker_year_checkbox_text">Year</string>
+    <string name="coolcloud_date_picker_lunar_checkbox_text">Lunar calendar</string>
+    <string name="coolcloud_name">Облако Coolpad</string>
+    <string name="coolcloud_name_one_key_recover_contacts">Восст-ние</string>
+    <string name="coolcloud_name_one_key_backup_contacts">Бэкап</string>
+    <string name="coolcloud_name_one_key_sync_contacts">Синхронизация</string>
+    <string name="coolcloud_name_contacts_in_location">На устройстве</string>
+    <string name="coolcloud_name_contacts_in_cloud">На Облаке</string>
+    <string name="coolcloud_contact_neaten">Управление контактами</string>
+    <string name="coolcloud_contact_one_key_recover">Восстановление</string>
+    <string name="coolcloud_contact_more">Еще</string>
+    <string name="coolcloud_contact_buttom_text">Посетите coolyun.com для просмотра контактов на Облаке</string>
+    <string name="coolcloud_contact_prevention">Безопасность</string>
+    <string name="coolcloud_date_year_toggle">Показать год</string>
+    <string name="coolcloud_app_download_failed_tost_message">apps not downloaded. Download them again?</string>
+    <string name="coolcloud_name_contacts_advanced_sync">Расшир. синхронизация</string>
+    <string name="coolcloud_name_contacts_trash">Корзина</string>
+    <string name="coolcloud_name_contacts_combine">Объединение контактов</string>
+    <string name="coolcloud_month">Месяц</string>
+    <string name="coolcloud_autobackup_opened">Автомат. бэкап включен</string>
+    <string name="coolcloud_lunar_calendar_show">Show lunar calendar</string>
+    <string name="coolcloud_button_set_text">Setup</string>
+    <string name="coolcloud_button_cancel_text">Cancel</string>
+    <string name="coolcloud_date_picker_allday_checkbox_text">All day</string>
+    <string name="coolcloud_time_picker_separator">:</string>
+    <string name="coolcloud_app_update_no_tips">提示信息</string>
+    <string name="coolcloud_app_update_no_content_message">您当前版本很新了，去官网看看有惊喜哦！</string>
+    <string name="coolcloud_app_update_no_btn_msg">去官网看看</string>
+    <string name="coolcloud_app_update_yes_tips">升级提示</string>
+    <string name="coolcloud_app_update_yes_content_message">新版本快快升级</string>
+    <string name="coolcloud_app_update_yes_btn_ok_msg">立即升级</string>
+    <string name="coolcloud_app_update_yes_btn_cancel_msg">以后再说</string>
+    <string name="coolcloud_app_update_yes_size">大小：</string>
+    <string name="coolcloud_app_update_yes_version">版本号:</string>
     <string name="coolcloud_search">Search</string>
-    <string name="coolcloud_search_contact">search for contacts</string>
-    <string name="coolcloud_search_doing_please_wait">Searching, please wait</string>
-    <string name="coolcloud_data_is_empty">make contacts fly a bar ....</string>
-    <string name="coolcloud_sync_contacts_recycle">Contacts Trash</string>
-    <string name="coolcloud_recoverletter">are synchronized, and then resume later</string>
-    <string name="coolcloud_sync_reovering_now">being restored, please wait</string>
-    <string name="coolcloud_input_something_to_search">Please enter the name or number to search</string>
-    <string name="coolcloud_select_saved_infomation">Выбор способа синхронизации</string>
+    <string name="coolcloud_search_contact">Search for contacts</string>
+    <string name="coolcloud_search_doing_please_wait">Searching... Please wait.</string>
+    <string name="coolcloud_data_is_empty">Loading...</string>
+    <string name="coolcloud_sync_contacts_recycle">Корзина</string>
+    <string name="coolcloud_recoverletter">Syncing... Retry later.</string>
+    <string name="coolcloud_sync_reovering_now">Restoring... Please wait.</string>
+    <string name="coolcloud_input_something_to_search">Enter name or number</string>
+    <string name="coolcloud_select_saved_infomation">Выбор элементов</string>
     <string name="coolcloud_cover_with_server">Приоритет локальным данным</string>
     <string name="coolcloud_cover_with_local">Приоритет данным в Облаке</string>
     <string name="coolcloud_unite_local_and_server">Комбинирование данных</string>
     <string name="coolcloud_unite_repeate_contacts">Дубликаты контактов</string>
-    <string name="coolcloud_unite_repeate_success">Объединение завершено успешно</string>
-    <string name="coolcloud_sync_for_no_reapeate">It is strongly recommended that you synchronize your contacts to a network from repeated problems</string>
-    <string name="coolcloud_ok_to_sync">Well, sync</string>
-    <string name="coolcloud_no_sync">Синхр.</string>
-    <string name="coolcloud_load_repeate_contacts_data">Load duplicate contact data</string>
-    <string name="coolcloud_no_repeat_contacts">Great, found no duplicate contacts</string>
-    <string name="coolcloud_local_contacts_recycle">Локальные Контакты в корзине</string>
-    <string name="coolcloud_server_contacts_recycle">Облачные Контакты в корзине</string>
-    <string name="coolcloud_loading_local_contacts_recycle">Load local recycling data</string>
-    <string name="coolcloud_sync_contacts_recover_success">Contact recovery success</string>
-    <string name="coolcloud_sync_recovering_local_contacts">being restored contacts</string>
+    <string name="coolcloud_unite_repeate_success">Объединено</string>
+    <string name="coolcloud_sync_for_no_reapeate">Sync contact data to cloud to avoid duplication</string>
+    <string name="coolcloud_ok_to_sync">Да</string>
+    <string name="coolcloud_no_sync">Нет</string>
+    <string name="coolcloud_load_repeate_contacts_data">Load duplicate contacts</string>
+    <string name="coolcloud_no_repeat_contacts">No duplication</string>
+    <string name="coolcloud_local_contacts_recycle">Локальная корзина</string>
+    <string name="coolcloud_server_contacts_recycle">Облачная корзина</string>
+    <string name="coolcloud_loading_local_contacts_recycle">Load local trash data</string>
+    <string name="coolcloud_sync_contacts_recover_success">Data restored.</string>
+    <string name="coolcloud_sync_recovering_local_contacts">Restoring contact data...</string>
     <string name="coolcloud_combine_contact_by_last_update_time">При комбинировании приоритет у поздней версии</string>
     <string name="coolcloud_localize_search">Search</string>
     <string name="coolcloud_ellipsis">...</string>
-    <string name="coolcloud_data_refresh">Data refresh, please try again wait</string>
+    <string name="coolcloud_data_refresh">Updating... Try again later.</string>
     <string name="coolcloud_contacs_list_name_known">Unknown</string>
-    <string name="coolcloud_contact_guid">Please open mobile phone address book contact data is empty or contact permission is not turned on in sync</string>
-    <string name="coolcloud_calendar_guid">Please open phone calendar data is empty or unopened calendar permissions in sync</string>
-    <string name="coolcloud_continue_sync">Continue sync</string>
-    <string name="coolcloud_view_guid">View guide</string>
-    <string name="coolcloud_sms_backup">Information Backup</string>
-    <string name="coolcloud_phone_sms_backup_percent">phone information backup</string>
-    <string name="coolcloud_calllog_backup">"Бэкап журнала вызовов "</string>
-    <string name="coolcloud_validate_sms_text">authentication code</string>
-    <string name="coolcloud_friend_circle">circle of friends</string>
-    <string name="coolcloud_explore_title">found</string>
-    <string name="coolcloud_my_profile">Мой аккаунт</string>
-    <string name="coolcloud_version_down">This major update version exists, does not support the cover, you need to log in again, giving you the inconvenience, sorry!</string>
-    <string name="coolcloud_sim_changed_title">Cool cloud security alert</string>
-    <string name="coolcloud_sim_changed_tip">detects that your phone card has been replaced, in order to secure re-login</string>
-    <string name="coolcloud_dialog_confirm">Confirm</string>
+    <string name="coolcloud_contact_guid">No contact data or contact permission not authorized.</string>
+    <string name="coolcloud_calendar_guid">No calendar data or calendar permission not authorized.</string>
+    <string name="coolcloud_continue_sync">Resume</string>
+    <string name="coolcloud_view_guid">Help</string>
+    <string name="coolcloud_sms_backup">Backup</string>
+    <string name="coolcloud_phone_sms_backup_percent">Back up phone data</string>
+    <string name="coolcloud_calllog_backup">Бэкап журнала вызовов</string>
+    <string name="coolcloud_validate_sms_text">Verification code</string>
+    <string name="coolcloud_friend_circle">Pals</string>
+    <string name="coolcloud_explore_title">Find</string>
+    <string name="coolcloud_my_profile">Аккаунт</string>
+    <string name="coolcloud_version_down">This version involves significant updates. You need to log in again.</string>
+    <string name="coolcloud_sim_changed_title">Reminder</string>
+    <string name="coolcloud_sim_changed_tip">Phone card changed. Please log in again.</string>
+    <string name="coolcloud_dialog_confirm">OK</string>
     <string name="coolcloud_dialog_cancel">Cancel</string>
-    <string name="coolcloud_join_to_group">enter the group</string>
-    <string name="coolcloud_check_user_session">User authentication failed, please re-login</string>
-    <string name="coolcloud_check_max_file_size">file size can not exceed 5M, please re-select!</string>
-    <string name="coolcloud_check_is_not_eixist">file does not exist, please re-select!</string>
-    <string name="coolcloud_save_failed">Save Failed!</string>
-    <string name="coolcloud_cool_cloud_side">CoolcloudServer</string>
-    <string name="coolcloud_eidt_share">Edit Share</string>
-    <string name="coolcloud_sure_to_del_transport_list">Are you sure to empty the transfer list?</string>
-    <string name="coolcloud_loading_struggling">Попытка загрузки...</string>
-    <string name="coolcloud_processing_contact_photo">are dealing with contact picture</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_send_success">sent successfully</string>
-    <string name="coolcloud_newwork_no_signal">network anomalies</string>
-    <string name="coolcloud_send_failed">Send failed</string>
-    <string name="coolcloud_user_no_login">user is not logged in, please login cool cloud</string>
-    <string name="coolcloud_data_is_error">data anomalies</string>
-    <string name="coolcloud_send_same_invalid">microblogging send the same content once enough friends</string>
+    <string name="coolcloud_join_to_group">Join group</string>
+    <string name="coolcloud_check_user_session">Failed to authenticate. Log in again.</string>
+    <string name="coolcloud_check_max_file_size">File size cannot exceed 5 MB.</string>
+    <string name="coolcloud_check_is_not_eixist">No such file. Select again.</string>
+    <string name="coolcloud_save_failed">Failed to save.</string>
+    <string name="coolcloud_cool_cloud_side">CoolCloud</string>
+    <string name="coolcloud_eidt_share">Edit</string>
+    <string name="coolcloud_sure_to_del_transport_list">Clear transfer list?</string>
+    <string name="coolcloud_loading_struggling">Загрузка...</string>
+    <string name="coolcloud_processing_contact_photo">Processing...</string>
+    <string name="coolcloud_onekey_recovery_quickdial">Быстрый набор</string>
+    <string name="coolcloud_onekey_recovery_input">Input settings</string>
+    <string name="coolcloud_onekey_recovery_blackwhite_list">Black &amp; white list</string>
+    <string name="coolcloud_onekey_recovery_individuation">Preferences</string>
+    <string name="coolcloud_onekey_recovery_immediately">Восстановление</string>
+    <string name="coolcloud_onekey_select_oneitem">Select an item</string>
+    <string name="coolcloud_onekey_recovery_success">Restored</string>
+    <string name="coolcloud_onekey_recovery_week">Within 1 week</string>
+    <string name="coolcloud_onekey_recovery_mounth">Within 1 month</string>
+    <string name="coolcloud_onekey_recovery_quarter">Within 3 months</string>
+    <string name="coolcloud_onekey_recovery_cancle">Cancel the recovery of one key?</string>
+    <string name="coolcloud_recovery_cancel">Cancel the recovery ?</string>
+    <string name="coolcloud_select_all">All</string>
+    <string name="coolcloud_unSelect_all">Clear</string>
+    <string name="coolcloud_list_action_mode_selected" />
+    <string name="coolcloud_list_action_mode_item">selected</string>
+    <string name="coolcloud_list_action_mode_total">Total</string>
+    <string name="coolcloud_actionbar_mainmenu_text">Menu</string>
+    <string name="coolcloud_action_mode_item_more">More</string>
+    <string name="coolcloud_list_action_mode_items" />
+    <string name="coolcloud_search_hint_text">Enter keywords</string>
+    <string name="coolcloud_year">-</string>
+    <string name="coolcloud_day" />
+    <string name="coolcloud_birth_no_remind">Do not remind</string>
+    <string name="coolcloud_send_success">Sent</string>
+    <string name="coolcloud_newwork_no_signal">Network exception.</string>
+    <string name="coolcloud_send_failed">Failed to send.</string>
+    <string name="coolcloud_user_no_login">Please log in to CoolCloud</string>
+    <string name="coolcloud_data_is_error">Data exception.</string>
+    <string name="coolcloud_send_same_invalid">Suffice to post it only once.</string>
     <string name="coolcloud_name2">Name</string>
-    <string name="coolcloud_companyname">Name</string>
-    <string name="coolcloud_companytitle">Company Position</string>
-    <string name="coolcloud_mobile">Номер телефона</string>
-    <string name="coolcloud_home">house</string>
-    <string name="coolcloud_business">Unit</string>
-    <string name="coolcloud_work_fax">Unit Fax</string>
-    <string name="coolcloud_home_fax">Home Fax</string>
+    <string name="coolcloud_companyname">Company</string>
+    <string name="coolcloud_companytitle">Position</string>
+    <string name="coolcloud_mobile">Телефонный номер</string>
+    <string name="coolcloud_home">Home</string>
+    <string name="coolcloud_business">Dept</string>
+    <string name="coolcloud_work_fax">Company fax</string>
+    <string name="coolcloud_home_fax">Home fax</string>
     <string name="coolcloud_pager">Pager</string>
     <string name="coolcloud_other">Other</string>
-    <string name="coolcloud_callback">callback number</string>
-    <string name="coolcloud_car">car phone</string>
-    <string name="coolcloud_work_pref">Switchboard</string>
+    <string name="coolcloud_callback">Call back</string>
+    <string name="coolcloud_car">Phone at car</string>
+    <string name="coolcloud_work_pref">Company switchboard</string>
     <string name="coolcloud_isdn">ISDN</string>
     <string name="coolcloud_pref">Switchboard</string>
-    <string name="coolcloud_fax">other fax</string>
-    <string name="coolcloud_radio">wireless device</string>
-    <string name="coolcloud_telex">Telegraph</string>
+    <string name="coolcloud_fax">Other fax</string>
+    <string name="coolcloud_radio">Wireless device</string>
+    <string name="coolcloud_telex">Telegram</string>
     <string name="coolcloud_ttytdd">TTY TDD</string>
-    <string name="coolcloud_work_mobile">unit phone</string>
-    <string name="coolcloud_work_pager">Unit pager</string>
+    <string name="coolcloud_work_mobile">Company phone</string>
+    <string name="coolcloud_work_pager">Company pager</string>
     <string name="coolcloud_assistant">Assistant</string>
     <string name="coolcloud_mms">MMS</string>
     <string name="coolcloud_custom">Custom</string>
-    <string name="coolcloud_number">No</string>
-    <string name="coolcloud_work_email">office e-mail</string>
-    <string name="coolcloud_private_email">private email</string>
+    <string name="coolcloud_number">Number</string>
+    <string name="coolcloud_work_email">Office email</string>
+    <string name="coolcloud_private_email">Private email</string>
     <string name="coolcloud_yahoo">Yahoo</string>
-    <string name="coolcloud_belongGroup">belonged grouping</string>
-    <string name="coolcloud_ringtone_call">ringtones</string>
-    <string name="coolcloud_ringtone_message">Information ringtones</string>
+    <string name="coolcloud_belongGroup">Group</string>
+    <string name="coolcloud_ringtone_call">Ringtone</string>
+    <string name="coolcloud_ringtone_message">Message tone</string>
     <string name="coolcloud_web">Website</string>
-    <string name="coolcloud_work_address">Address</string>
-    <string name="coolcloud_private_address">personal address</string>
-    <string name="coolcloud_other_address">Other Address</string>
+    <string name="coolcloud_work_address">Company address</string>
+    <string name="coolcloud_private_address">Household address</string>
+    <string name="coolcloud_other_address">Other address</string>
     <string name="coolcloud_gender">Пол</string>
     <string name="coolcloud_modify_gender">Изменение пола</string>
     <string name="coolcloud_male">М</string>
     <string name="coolcloud_female">Ж</string>
-    <string name="coolcloud_gender_na">Unknown</string>
+    <string name="coolcloud_gender_na">Неизв.</string>
     <string name="coolcloud_nickname2">Никнейм</string>
     <string name="coolcloud_birthday">Birthday</string>
-    <string name="coolcloud_anniversary">Day</string>
-    <string name="coolcloud_reback">Notes</string>
-    <string name="coolcloud_brother">Brothers</string>
-
-    <string name="coolcloud_domestic_partner">cohabiting partner></string>
-    <string name="coolcloud_father">father</string>
-
+    <string name="coolcloud_anniversary">Anniversary</string>
+    <string name="coolcloud_reback">Remarks</string>
+    <string name="coolcloud_brother">Brother</string>
+    <string name="coolcloud_child ">Children</string>
+    <string name="coolcloud_domestic_partner">Companion</string>
+    <string name="coolcloud_father">Father</string>
+    <string name="coolcloud_friend ">Friend</string>
     <string name="coolcloud_manager">Manager</string>
-
-
-    <string name="coolcloud_partner">Partners</string>
-    <string name="coolcloud_referred_by">Referrals</string>
-    <string name="coolcloud_relative">relatives</string>
+    <string name="coolcloud_mother ">Mother</string>
+    <string name="coolcloud_parent ">Parents</string>
+    <string name="coolcloud_partner">Partner</string>
+    <string name="coolcloud_referred_by">Intermediary</string>
+    <string name="coolcloud_relative">Kin</string>
     <string name="coolcloud_sister">Sister</string>
-    <string name="coolcloud_spouse">spouse</string>
-    <string name="coolcloud_no_group">Ungrouped</string>
-    <string name="coolcloud_popup_menu_phone">phone number</string>
-    <string name="coolcloud_popup_menu_email">Email address</string>
-    <string name="coolcloud_popup_menu_remark">Notes</string>
-    <string name="coolcloud_popup_menu_im">IM NO</string>
+    <string name="coolcloud_spouse">Spouse</string>
+    <string name="coolcloud_no_group">No group</string>
+    <string name="coolcloud_popup_menu_phone">Phone</string>
+    <string name="coolcloud_popup_menu_email">Email</string>
+    <string name="coolcloud_popup_menu_remark">Remarks</string>
+    <string name="coolcloud_popup_menu_im">IM</string>
     <string name="coolcloud_popup_menu_web">Website</string>
     <string name="coolcloud_popup_menu_addr">Address</string>
-    <string name="coolcloud_popup_menu_sex">Sex</string>
+    <string name="coolcloud_popup_menu_sex">Gender</string>
     <string name="coolcloud_popup_menu_nick_name">Никнейм</string>
     <string name="coolcloud_popup_menu_birthday">Birthday</string>
-    <string name="coolcloud_popup_menu_anniversary">Day</string>
-    <string name="coolcloud_popup_menu_relationship">kinship</string>
+    <string name="coolcloud_popup_menu_anniversary">Anniversary</string>
+    <string name="coolcloud_popup_menu_relationship">Relative</string>
     <string name="coolcloud_popup_menu_address">Address</string>
-    <string name="coolcloud_popup_menu_company_job">units / Jobs</string>
-    <string name="coolcloud_popup_menu_birthday_anniversary">Birthday / Anniversary</string>
-    <string name="coolcloud_popup_menu_ringtone">ringtones</string>
-    <string name="coolcloud_popup_menu_groups">Packet</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_recycle_preview_get_info_fail">preview information acquisition failed.</string>
-    <string name="coolcloud_recycle_preview_invaild_fail">illegal tactics.</string>
-    <string name="coolcloud_recycle_preview_result">sync preview the results</string>
-    <string name="coolcloud_recycle_preview_connecting">Connect to Server ...</string>
-    <string name="coolcloud_recycle_preview_noneed_sync">Contacts do not need to sync</string>
-    <string name="coolcloud_recycle_preview_sync_result">After synchronization: the phone will increase {nAddNum} people who delete {nDelNum}</string>
-
-
-
-
-
-
-
-    <string name="coolcloud_feedback_has_reply">your feedback has been restored, please click to view!</string>
-
-
-
+    <string name="coolcloud_popup_menu_company_job">Dept/position</string>
+    <string name="coolcloud_popup_menu_birthday_anniversary">Birthday/anniversary</string>
+    <string name="coolcloud_popup_menu_ringtone">Ringtone</string>
+    <string name="coolcloud_popup_menu_groups">Group</string>
+    <string name="coolcloud_one_key_recovery_summary">Восстановление данных из Облака</string>
+    <string name="coolcloud_anti_threft_summary">Защита устройства от кражи</string>
+    <string name="coolcloud_im_qq">QQ</string>
+    <string name="coolcloud_im_window_live">Windows Live</string>
+    <string name="coolcloud_im_skype">Skype</string>
+    <string name="coolcloud_im_google_talk">Google Talk</string>
+    <string name="coolcloud_im_aim">AIM</string>
+    <string name="coolcloud_im_yahoo">Yahoo</string>
+    <string name="coolcloud_im_icq">ICQ</string>
+    <string name="coolcloud_im_jabber">Jabber</string>
+    <string name="coolcloud_contactsgroup">Group</string>
+    <string name="coolcloud_safe_antitheft_prompt">You have not installed Anti-theft. Download it (Wi-Fi preferred)?</string>
+    <string name="coolcloud_safe_antitheft_wifi_text">%% of mobile data will be consumed. Continue?</string>
+    <string name="coolcloud_safe_antitheft_return_home">Cancel</string>
+    <string name="coolcloud_safe_antitheft_download">Download</string>
+    <string name="coolcloud_safe_antitheft_cancle_download">Cancel</string>
+    <string name="coolcloud_safe_antitheft_download_fail">Failed to download.</string>
+    <string name="coolcloud_safe_antitheft_title">Anti-theft</string>
+    <string name="coolcloud_safe_antitheft_process">Downloaded:</string>
+    <string name="coolcloud_recycle_preview_get_info_fail">Failed to obtain info.</string>
+    <string name="coolcloud_recycle_preview_invaild_fail">Invalid policy.</string>
+    <string name="coolcloud_recycle_preview_result">Sync preview results</string>
+    <string name="coolcloud_recycle_preview_connecting">Connecting...</string>
+    <string name="coolcloud_recycle_preview_noneed_sync">No need to sync contact data.</string>
+    <string name="coolcloud_recycle_preview_sync_result">You will add %1$d members and delete %2$d members.</string>
+    <string name="coolcloud_load_wait">Loading...</string>
+    <string name="coolcloud_input_invlide">Invalid input.</string>
+    <string name="coolcloud_time_pick_warning_toast">Start time must be earlier than end time.</string>
+    <string name="coolcloud_syncing_source_please_wait">Syncing %... Please wait.</string>
+    <string name="coolcloud_backuping_recovering_source_please_wait">Backing up or restoring %... Please wait.</string>
+    <string name="coolcloud_backuping_source_please_wait">Backing up %... Please wait.</string>
+    <string name="coolcloud_reply">Reply</string>
+    <string name="coolcloud_feedback_has_reply">A new reply. Touch to view it.</string>
+    <string name="coolcloud_name_coolcloud_share_summary">Communication makes work easier.</string>
+    <string name="coolcloud_backuping_quik_dial_info">Backing up...</string>
+    <string name="coolcloud_recovering_quik_dial_info">Restoring...</string>
     <string name="coolcloud_about_label">О прил.</string>
-
-    <string name="coolcloud_share">Реком.</string>
-    <string name="coolcloud_setting_recommend">recommend to other social networks</string>
-
-
-
-
-    <string name="coolcloud_please_acree_art">Please agree to the Terms of Service</string>
-    <string name="coolcloud_newversion_check">detected %1$s new version, the version number is %2$s, whether to upgrade now?</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="coolcloud_feedback">Feedback</string>
+    <string name="coolcloud_share">Share</string>
+    <string name="coolcloud_setting_recommend">Other social media</string>
+    <string name="coolcloud_version_checking">Checking...</string>
+    <string name="coolcloud_version_is_up_to_date">This is the latest version.</string>
+    <string name="coolcloud_version_is">Version:</string>
+    <string name="servicearticle">Usage clauses</string>
+    <string name="coolcloud_please_acree_art">I agree to the clauses</string>
+    <string name="coolcloud_newversion_check">Check version</string>
+    <string name="coolcloud_help">Help</string>
+    <string name="coolcloud_intimacy">Privacy</string>
+    <string name="coolcloud_introudce">About CoolCloud</string>
+    <string name="coolcloud_notice">Caution</string>
+    <string name="coolcloud_problem">FAQ</string>
+    <string name="coolcloud_feedback_telnumber">Helpline: 029-88824132</string>
+    <string name="coolcloud_feedback_dial">Call</string>
+    <string name="coolcloud_feedback_is_null">Content cannot be blank.</string>
+    <string name="coolcloud_feedback_success">"Sent.
+You will be contacted ASAP."</string>
+    <string name="coolcloud_feedback_failed">"Failed to send.
+Please try again."</string>
+    <string name="coolcloud_bbs_refer">If you have any questions, visit our BBS.</string>
+    <string name="coolcloud_bbs_link">CoolCloud BBS</string>
+    <string name="coolcloud_upload_log">Send issue logs</string>
+    <string name="coolcloud_send">Send</string>
+    <string name="coolcloud_uploadlog_introudce">Description</string>
+    <string name="coolcloud_input_max">Character length exceeds the limit.</string>
     <string name="coolcloud_upload_file_failed">Выгрузка не удалась!</string>
-    <string name="coolcloud_pass_sending">being sent, please wait ...</string>
-    <string name="coolcloud_recommend_coolwind_text">I am using a cool cloud to share life and chat. Cool Cloud Application Download: http: //m.coolyun.com</string>
-
-
-
-
-
-    <string name="coolcloud_this_no_sdcard">no SD card, you can not upload the information files!</string>
+    <string name="coolcloud_pass_sending">Sending... Please wait.</string>
+    <string name="coolcloud_recommend_coolwind_text">I am using CoolCloud, which is available at http://m.coolyun.com.</string>
+    <string name="coolcloud_uploadlog_content">"1. Obtain an SD card. 
+ 2. The uploaded file contains detailed issue reports but involves no data in regard to your preferences and personal data."</string>
+    <string name="coolcloud_feedback_keeptouchus">Call us or send your feedback</string>
+    <string name="coolcloud_feedback_write_problem">Please send us your question and phone number. We will contact you ASAP.</string>
+    <string name="coolcloud_domain_name">www.coolyun.com</string>
+    <string name="coolcloud_this_no_sdcard">No SD card.</string>
     <string name="coolcloud_servicearticledata">"u0009\u0009 This Agreement is a legal agreement between you and the cool cloud service provider, indicates that you are willing to accept the terms of service of this Agreement together with all updates, patches terms of the software license, and all regulations and policies referred to in this Agreement, together constitute an agreement between you and the cool cloud as you agree to the terms of this agreement, please click Agree, if you do not agree to the terms of this agreement, do not click Agree Do not use this service you must accept and abide by the terms of this agreement you made​​.
  \u0009\u0009 a definition cool cloud services
   Yulong Coolpad cool cloud is to provide online cloud sync services, including contacts, calendar, text messages, call records of real-time synchronization service (of course, requires a network connection), and delete data in the server for a backup, for example, when at the end of the phone when the user changes the contents of the above information inside, cool cloud initiative immediately and let cool cloud with one other device to synchronize access to the account, not only in the cool cloud mobile terminal to provide these services and applications, while also providing a complete set of operation of web pages.
@@ -798,332 +807,626 @@
   When you use a key to activate the Registration cool cloud, we will use your phone to send a text message back to our server, fees charged by the operator, in addition to not spend any of your costs
 "</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="coolcloud_app_install_finish">Установка завершена</string>
-
-    <string name="coolcloud_auth_sync_tip">Welcome to the cool cloud synchronization, the synchronization process needs to synchronize item you open to read, add, modify, delete and other operations. If not possible, synchronous operation can not be performed. Whether to allow this operation?</string>
-    <string name="coolcloud_auth_location_tip">Welcome to the cool cloud location, location needs to read your location information. If not allowed, positioning impossible. Whether to allow this operation?</string>
-    <string name="coolcloud_auth_recover_tip">Welcome to the cool cloud recovery, the recovery process needs to recover items added, modified, and other operations. If allowed to resume operation can not be performed. Whether to allow this operation?</string>
-    <string name="coolcloud_auth_remind_tip">next longer prompts</string>
-    <string name="coolcloud_net_tip">Welcome to the cool cloud applications, in use, this application will use the following functions using network communications, read contacts, read text messages, access to location information, the protection of user privacy is a Cool term basis for policy, the software will not disclose your personal information, please rest assured that use. Allow?</string>
-    <string name="coolcloud_agree">agree</string>
-    <string name="coolcloud_local_del_sync_msg">Cool Cloud found you delete a large number of local contacts</string>
-    <string name="coolcloud_server_del_sync_msg">Cool Cloud found you delete a large number of contacts cloud</string>
-    <string name="coolcloud_local_del_recovery_msg">Cool Clouds find your local delete all contacts, whether recovered from the cool cloud account?</string>
-    <string name="coolcloud_server_del_backup_msg">find your cool cloud account deleted all contacts, whether local backup to the cloud?</string>
-    <string name="coolcloud_go_sync">to sync</string>
-    <string name="coolcloud_go_recovery">to restore</string>
-    <string name="coolcloud_i_kown">Know</string>
-    <string name="coolcloud_exception_toast">Напоминание Облака</string>
-
-
-
-
-
-    <string name="app_name">Облако</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="coolcloud_introudce_content1">"1. 酷云是宇龙酷派基于云计算推出的个人数据同步，存储平台，目前内容包括联系人、日程、记事本、浏览器书签的双向即时同步，短信、通话记录、图片的自动备份，并且您可以通过手机端“查找我的手机”开关，远程控制您的手机。酷云简单易用，让您轻松设置! 
+ 2. 您若有多个手机，那么这些手机只需要登录同一帐户，经过酷云同步后，您的这些手机上的联系人、日程、记事本、浏览器书签数据将保持一致，当您的一个手机中的联系人、日程、记事本、书签发生变化后，经过酷云云同步，变化的数据将出现在您的其它终端中，您不必担心在每次新建一个联系人时，都需要在每一部手机中新建。当您更换手机时，只要您登录酷云，那么您云中的的联系人、日程数据会自动同步至您登录的终端中，方便快捷。
+ 3. 联系人、日程、记事本、浏览器书签为双向同步，如果您更换了手机，想要在新手机中使用这些数据，则您只需选择同步即可，云端的数据会自动同步到您的手机上，如果您想在您的新手机中看到您过去的短信和通话记录，则您只需要对短信、通话记录进行恢复即可。
+ 4. 酷云同时提供了一整套的web操作页面，您可以登录"</string>
+    <string name="coolcloud_introudce_content2">"，在网站中管理自己的数据，同时web端提供私密模式，保护您的私密数据安全。
+ 5. Web端提供了回收站功能，防止用户进行误删除操作，您删除的数据会自动进入回收站，在回收站中您可以对数据进行恢复和彻底删除操作。
+ 6. 一个酷云帐号支持15台手机同时登录使用，登录后，这些手机中的联系人、日程、记事本、浏览器书签数据经过酷云云同步后将保持一致。"</string>
+    <string name="coolcloud_notice_content1">"1. 在第一次进行的同步过程中数据交换量较多，因此时间较长，这段时间内请您尽量保证网络畅通，以便可以快速完成同步。
+ 2. 您若有两台或两台以上手机需要绑定同一酷云帐户，那么需要您先将一台手机绑定这一帐户，当这台手机中的数据完成第一次同步后，再进行绑定其它手机。
+ 3. 您登录帐户后，无需注销本帐户，酷云云服务会一直在线，若选择注销，酷云服务则无法使用。
+ 4. 您若绑定酷云帐户的手机不小心遗失，请您立刻去"</string>
+    <string name="coolcloud_notice_content2">"或在您的另一个终端进行密码修改，密码修改后，丢失的终端将不能进行数据同步和恢复，保护您的数据安全。
+ 5. 如果您的一个手机已经绑定了酷云帐号，若您想要更换此手机，请将此登录酷云帐号进行注销，否则可能将影响您的后续使用。
+ 6. 在web端您可以控制清除某台手机内的信息，让您的手机更加安全。"</string>
+    <string name="coolcloud_problem_content1">"1. Why does it respond slow at the first sync?
+"</string>
+    <string name="coolcloud_problem_content2">"A: At the first sync, CoolCloud initiates data authentication and protection and uploads phone data. This involves processing a large quantity of data.
+"</string>
+    <string name="coolcloud_problem_content3">"2. Why are messages and call logs only backed up, while contacts, agenda, memos, and browser bookmarks are synced bidirectionally?
+"</string>
+    <string name="coolcloud_problem_content4">"A: Messages and call logs multiply too drastically to be accommodated in your phone. 
+"</string>
+    <string name="coolcloud_problem_content5">"3. Does the sync consume much data?
+"</string>
+    <string name="coolcloud_problem_content6">"A: Little data is required for syncing contacts, agenda, memos, and bookmarks that do not experience frequent changes. You are advised to avoid frequent logins and logouts to minimize data usage.
+"</string>
+    <string name="coolcloud_problem_content7">"4. Why does it notify me that the upper limit is reached for registries?
+"</string>
+    <string name="coolcloud_problem_content8">"A: A maximum of 5 CoolCloud accounts can be registered on the same phone.
+"</string>
+    <string name="coolcloud_problem_content9">"5. Why does it notify me that the upper limit is reached for logins?
+"</string>
+    <string name="coolcloud_problem_content10">A: A maximum of 15 phones can simultaneously access the CoolCloud server with the same account.</string>
+    <string name="coolcloud_intimacy_data_html">&lt;html> &lt;head> &lt;meta http-equiv=Content-Type content=text/html; charset=utf-8 /> &lt;/head> &lt;body style=text-align:justify;color:grey;background-color:white;padding:0 20px> 我们非常重视保护您的隐私，酷云 使用多重加密技术，对用户存储在 酷云云端的数据进行严格的管理和 保护，防止您的个人资料丢失，被 盗用或篡改！本协议是您与酷云服 务提供商之间达成的法律协议，当 您点击一键激活或使用酷云服务 时，表明您已仔细阅读本条款并愿 意接受本服务条款。本协议连同一 切更新、增补条款、软件许可，以 及本协议中提及的所有规章政策， 共同构成您与酷云之间的协议。&lt;br/> 一、 酷云服务简介&lt;br/> 酷云是宇龙酷派提供的在线云计算同步服务，包括日历、通讯录、通话记录、短信、书签、记事本、图片等的即时同步服务（当然需要有网络连接），同时在服务器中对删除数据进行了备份，例如当用户在手机端变更了上述内容里面的资料时，酷云会即时并主动的让同一个酷云帐户的其他设备获得同步，酷云不但在手机端提供这些服务和应用，同时也提供手机web与PCweb操作功能。&lt;br/> 二、 服务风险及免责声明&lt;br/> 用户需要理解并同意，本服务涉及到互联网及移动通讯等服务，可能会受其中的很多环节不稳定因素的影响。因此服务存在众多不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、移动通信网络、互联网网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，酷云对服务的及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。对于不可抗力或非酷云过错原因导致的用户数据损失、丢失或服务停止，酷云将不承担任何责任。同时不得线下交易酷云帐号。&lt;br/> 三、 服务条款的变更与通知&lt;br/> （1）酷云将保留随时或不时更新、修订、补充及以其它方式修改本协议并就您对有关服务的使用施加新的或额外的规则、政策、条款或条件的权利。前述更新、修订、补充以及额外的规则、政策、条款和条件（本协议称额外条款）酷云将通过相关页面公布修改内容。修改后的服务一旦公布，将立即生效并纳入本协议。如果您不同意所改动的内容，您可以终止相关服务。&lt;br/> （2） 对于系统发生故障影响到本服务的正常运行，酷云承诺及时处理进行修复。但由此而给您带来的不便请您敬请谅解，酷云将不负责赔偿您的精神损失。&lt;br/> 四、 用户义务与责任&lt;br/> （1）用户不得利用本服务或在酷云网页上、复制、上传、存储、传播任何危害国家安全、损害国家荣誉和利益、煽动民族仇恨、民族歧视、宣扬邪教和封建迷信、任何妨碍社会治安或反动、暴力、凶杀、虚假、恐怖、骚扰、侮辱、诽谤、恐吓、淫秽色情或教唆犯罪等法律法规禁止的内容。&lt;br/> （2）用户不得利用本服务进行故意制作、传播计算机病毒等破坏性程序，不得针对本服务、与本服务连接的服务器或网络制造干扰、混乱，或违反连接本服务的网络的任何要求、程序、政策或规则，否则酷云将保留追究其法律责任的权利并有权将其提交给相关部门处理。&lt;br/> （3）用户同意遵守《中华人民共和国宪法》、《中华人民共和国民法通则》、《中华人民共和国著作权法》、《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》、《信息网络传播权保护条例》、《互联网著作权行政保护办法》等有关国家法律和法规、实施办法。&lt;br/> （4）遵守所有与使用服务有关的网络协议、规定、程序与惯例。&lt;br/> 五、 关于一键激活&lt;br/> 您在使用一键激活注册酷云时，我们会使用您的手机向我们的服务器后台发送一条短信，费用由运营商收取！&lt;br/> 本服务条款的版权归宇龙酷派所有，保留一切解释和修改权利。如您对酷云产品有任何意见，请拨打酷云热线:&lt;br/>029-88824132或登录www.coolyun.com 进行反馈。&lt;br/> &lt;/body> &lt;/html></string>
+    <string name="coolcloud_autosync_opened">Автомат. бэкап включен</string>
+    <string name="coolcloud_sync_cardcontact_recv_view_sying_summary">Restoring card contact data...</string>
+    <string name="coolcloud_quikdail_secd_view_item_name">Бэкап быстрого набора</string>
+    <string name="coolcloud_quikdail_secd_view_only_wlan_default_summary">Бэкап быстрого набора только по Wi-Fi</string>
+    <string name="coolcloud_quikdail_secd_view_recover_default_summary">Восстановление быстрого набора из Облака</string>
+    <string name="coolcloud_quikdail_recovery">Восстановление быстрого набора</string>
+    <string name="coolcloud_sync_cardcontact_secd_view_sying_summary">Создание бэкапа контактов на устройстве...</string>
+    <string name="coolcloud_safe_antitheft_net_fail">Проверьте сеть</string>
+    <string name="coolcloud_backup_phone_quikdial_default_summary">Бэкап Вашего быстрого набора</string>
+    <string name="coolcloud_name_coolcloud_share">Приложение ОблакоShare</string>
+    <string name="coolcloud_name_quikdial">Быстрый набор</string>
+    <string name="coolcloud_app_install_finish">Установлено</string>
+    <string name="coolcloud_safe_antitheft_update">New version of Anti-theft detected. Update it (Wi-Fi preferred)?</string>
+    <string name="coolcloud_auth_sync_tip">Welcome to CoolCloud Sync. CoolCloud needs to read, add, modify, and delete your sync items to sync successfully. Agree?</string>
+    <string name="coolcloud_auth_location_tip">Welcome to CoolCloud Location. CoolCloud needs to obtain your location to locate successfully. Agree?</string>
+    <string name="coolcloud_auth_recover_tip">Welcome to CoolCloud Recovery. CoolCloud needs to add and modify recovery items to recover successfully. Agree?</string>
+    <string name="coolcloud_auth_remind_tip">Do not show again</string>
+    <string name="coolcloud_net_tip">Welcome to CoolCloud. This app consumes mobile data when reading contacts and messages and obtaining your location. In this case, your personal info will not be disclosed to a third party. Agree?</string>
+    <string name="coolcloud_agree">Agree</string>
+    <string name="coolcloud_local_del_sync_msg">You have deleted many local contacts.</string>
+    <string name="coolcloud_server_del_sync_msg">You have deleted many cloud contacts.</string>
+    <string name="coolcloud_local_del_recovery_msg">You have deleted all local contacts. Restore them from the cloud?</string>
+    <string name="coolcloud_server_del_backup_msg">All cloud contacts have been deleted. Back up local contacts to the cloud?</string>
+    <string name="coolcloud_go_sync">Sync</string>
+    <string name="coolcloud_go_recovery">Восстановление</string>
+    <string name="coolcloud_i_kown">I see</string>
+    <string name="coolcloud_exception_toast">Напоминание</string>
+    <string name="sim_changed_title">Reminder</string>
+    <string name="sim_changed_tip">Phone card changed. Please log in again.</string>
+    <string name="please_input_login_pwd">Enter password</string>
+    <string name="coolcloud_no_data_to_recovery">No data to restore.</string>
+    <string name="coolcloud_recover_sms_no_support">No support sms recover function！</string>
+    <string name="security_app_name">酷云防盗</string>
+    <string name="security_action_settings">Настройки</string>
+    <string name="security_hello_world">Hello world!</string>
+    <string name="security_findphone">找回手机</string>
+    <string name="security_opensecurity">开启防盗</string>
+    <string name="security_findphonecancle">取消</string>
+    <string name="security_findphoneconfirm">确定</string>
+    <string name="security_text_tip1">请输入酷管家密码，开启防盗。未有酷管家密码，请先设置酷管家密码。</string>
+    <string name="security_text_tip2">只有进入防盗模式才可修改防盗设置，手机被盗后可远程控制手机。</string>
+    <string name="security_text_not_pass">创建密码</string>
+    <string name="security_toast_inputpass_wrong">您输入的密码有误，请重新输入</string>
+    <string name="security_toast_inputpass_wrong_create_tip">您未设置酷管家密码，请设置酷管家密码</string>
+    <string name="security_toast_inputpass_null">密码不能为空，请输入密码</string>
+    <string name="security_text_input_cool_guard_hint">请输入酷管家密码</string>
+    <string name="security_bind_coolcloud_tip1">请立即登录酷云账号！</string>
+    <string name="security_bind_coolcloud_tip2">登录绑定酷云账号！随时定位、远程控制手机！</string>
+    <string name="security_text_input_coolcloud_username_hint">手机号码/邮箱</string>
+    <string name="security_bind_coolcloud_immedite">登录酷云账户</string>
+    <string name="security_text_create_newcount">创建新账号</string>
+    <string name="security_text_foget_pass">忘记密码？</string>
+    <string name="security_title_phone_guard">手机防盗</string>
+    <string name="security_title_open_guard">开启防盗</string>
+    <string name="security_phone_gard_icon_summary">酷云账号：</string>
+    <string name="security_phone_gard_icon_summary1">正在监控被盗手机，可远程控制手机！</string>
+    <string name="security_current_phone">当前手机</string>
+    <string name="security_bind_phone">您绑定的其他手机</string>
+    <string name="security_telecontrol_sms_control">短信控制</string>
+    <string name="security_telecontrol_sign_stolen">标记被盗</string>
+    <string name="security_telecontrol_send_sms">发送信息</string>
+    <string name="security_telecontrol_diabolo">手机响铃</string>
+    <string name="security_telecontrol_clean_info">删除数据</string>
+    <string name="security_telecontrol_history_operation">历史操作</string>
+    <string name="security_telecontrol_takephone_manual">手动拍照</string>
+    <string name="security_telecontrol_history_trace">历史轨迹</string>
+    <string name="security_telecontrol_location">定位刷新</string>
+    <string name="security_telecontrol_title">远程控制</string>
+    <string name="security_findphone_please_entry_caution">亲，谢谢保管一段时间，有空就还给我吧！</string>
+    <string name="security_findphone_caution_entry">发送短信内容输入</string>
+    <string name="security_ensure">确定</string>
+    <string name="security_findphone_send_msg_ensure">发送</string>
+    <string name="security_cancel">取消</string>
+    <string name="security_find_phone_is_sending_cmd">正在发送命令，请稍候...</string>
+    <string name="security_p2refresh_release_refresh">松开刷新</string>
+    <string name="security_p2refresh_refresh_lasttime">最近更新 : </string>
+    <string name="security_find_phone_have_no_records">亲，暂时还没有消息记录哦。</string>
+    <string name="security_p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="security_p2refresh_doing_head_refresh">正在刷新…</string>
+    <string name="security_p2refresh_doing_end_refresh">加载中…</string>
+    <string name="security_p2refresh_head_load_more">加载更多</string>
+    <string name="security_p2refresh_end_click_load_more">点击加载</string>
+    <string name="security_p2refresh_end_load_more">更多</string>
+    <string name="security_findphone_result_execute_success">:执行成功</string>
+    <string name="security_findphone_result_execute_failed">:执行失败</string>
+    <string name="security_findphone_type_take_photo">手动拍照</string>
+    <string name="security_findphone_result_not_support_takephoto">执行失败:版本太低，不支持该功能</string>
+    <string name="security_findphone_result_nonsupport_guard">:执行失败,手机不支持酷管家防盗</string>
+    <string name="security_findphone_result_guard_not_opened">:执行失败,手机尚未开启酷管家防盗</string>
+    <string name="security_findphone_result_psw_incorrect">:执行失败,您输入的安全密码不正确</string>
+    <string name="security_findphone_is_loading_records">正在加载操作记录，请稍候</string>
+    <string name="security_findphone_type_set_trace_status">设置定位轨迹开关</string>
+    <string name="security_findphone_type_set_trace_frequence">设置定位轨迹频率</string>
+    <string name="security_findphone_type_send_msg">发送消息</string>
+    <string name="security_findphone_type_ring">手机响铃</string>
+    <string name="security_findphone_type_enter_guard">防盗模式</string>
+    <string name="security_findphone_type_clear_data">删除数据</string>
+    <string name="security_findphone_type_msg_records">消息记录</string>
+    <string name="security_findphone_type_photo_list">取证照片</string>
+    <string name="security_findphone_type_location_trace">定位轨迹</string>
+    <string name="security_title_find_phone_setting">设置</string>
+    <string name="security_findphone_primary_setting">基本设置</string>
+    <string name="security_findphone_setting_find_lost_phone">找回被盗手机</string>
+    <string name="security_findphone_set_boot_pass_protect">开机密码保护</string>
+    <string name="security_findphone_close_guard">关闭防盗</string>
+    <string name="security_findphone_setting_already">已设置</string>
+    <string name="security_findphone_boot_already">已开启</string>
+    <string name="security_findphone_boot_close_already">已关闭</string>
+    <string name="security_findphone_phone_info">机主信息</string>
+    <string name="security_findphone_cool_account">酷账号</string>
+    <string name="security_findphone_friends_number">亲友号码:</string>
+    <string name="security_findphone_bind_already">已绑定</string>
+    <string name="security_findphone_unbind">未绑定</string>
+    <string name="security_findphone_add_already">已添加</string>
+    <string name="security_findphone_unadd_already">未添加</string>
+    <string name="security_findphone_friends_number1">亲友号码</string>
+    <string name="security_guard_tip">手机防盗已开启，请输入酷管家密码 。</string>
+    <string name="security_guard_find_pass">密码找回</string>
+    <string name="security_find_lose_phone_string">找回手机</string>
+    <string name="security_identify_this_phone_string">鉴定本机</string>
+    <string name="security_find_phone_method_select">请选择其中一种方式找回手机</string>
+    <string name="security_find_phone_by_coolcoudaccount">通过酷云账号找回手机</string>
+    <string name="security_find_phone_by_friendsnumber">通过亲友号码找回手机</string>
+    <string name="security_find_phone_guard_help">查看防盗帮助</string>
+    <string name="security_login_coolcloud_account_prex">酷云账号：</string>
+    <string name="security_devicelocalizer_message_content_tip">请注意以下信息：</string>
+    <string name="security_devicelocalizer_message_warning">酷云提醒</string>
+    <string name="security_devicelocalizer_message_ok">确定</string>
+    <string name="security_devicelocalizer_message_voice_warning">酷云铃音已启动</string>
+    <string name="security_findp_hone_security_pass_input_title">安全密码输入</string>
+    <string name="security_clean_info_pass_tip">请输入酷云账户密码</string>
+    <string name="security_close_guard_pass_tip">请输入酷管家密码</string>
+    <string name="security_close_guard_pass_cleaninfo">为了您的数据安全，请输入酷管家防盗密码</string>
+    <string name="security_findphone_delete_data_prompt">此操作将会使您的对应手机恢复出厂设置，是否继续操作？</string>
+    <string name="security_title_find_phone_history_operation">历史操作</string>
+    <string name="security_select_all">全选</string>
+    <string name="security_unSelect_all">全清</string>
+    <string name="security_util_s">秒前</string>
+    <string name="security_util_m">分前</string>
+    <string name="security_util_h">小时前</string>
+    <string name="security_util_d">天前</string>
+    <string name="security_find_phone_location_return">定位请求发送成功！</string>
+    <string name="security_find_phone_info_return">短消息发送成功！</string>
+    <string name="security_find_phone_ring_return">响铃消息发送成功！</string>
+    <string name="security_find_phone_antithef_return">防盗消息发送成功！</string>
+    <string name="security_find_phone_clearinfo_return">清除信息消息发送成功！</string>
+    <string name="security_find_phone_history_trace_return">历史轨迹获取消息发送成功！</string>
+    <string name="security_find_phone_take_photo_return">拍照消息发送成功！</string>
+    <string name="security_find_phone_obtain_devicelist">正在获取绑定设备列表</string>
+    <string name="security_find_phone_wakeup">起床了!!!</string>
+    <string name="security_find_phone_not_remider">不再提醒</string>
+    <string name="security_find_phone_guard_help1">防盗功能是高端商务手机所具有的一项特殊功能，它可以有效的保护您的数据安全，并帮助您找回遗失的手机。</string>
+    <string name="security_find_phone_guard_help2">具体功能如下：</string>
+    <string name="security_find_phone_guard_help3">1、当您开启防盗功能后，开机时必须输入正确的密码，否则将进入被盗模式，在被盗模式下除了拨号盘 外，其他应用一概不能使用;</string>
+    <string name="security_find_phone_guard_help3_1">2、当您开启防盗功能后，手机可以接受预留电话号码发送的各种防盗指令，并执行相应的操作，比如锁 卡、销毁资料等。</string>
+    <string name="security_find_phone_guard_help4">防盗指令包括：</string>
+    <string name="security_find_phone_guard_help5">1.销毁资料指令——防盗销毁资料</string>
+    <string name="security_find_phone_guard_help5_1">2.呼叫转移指令——防盗呼转XXX</string>
+    <string name="security_find_phone_guard_help5_2">3.停止呼叫转移——防盗停止呼转</string>
+    <string name="security_find_phone_guard_help5_3">4.转发短信指令——防盗转发短信XXX</string>
+    <string name="security_find_phone_guard_help5_4">5.停止转发短信——防盗停止转发短信</string>
+    <string name="security_find_phone_guard_help5_5">6.锁卡指令——防盗锁卡</string>
+    <string name="security_find_phone_guard_help5_6">7.锁机指令——防盗锁机</string>
+    <string name="security_find_phone_guard_help5_7">8.取消防盗指令——防盗取消</string>
+    <string name="security_find_phone_guard_help6">例如，要销毁资料，直接发送短信内容“防盗销毁资料”即可，要实现呼叫转移，直接发送短信内容“防盗呼转XXX”即可，其中XXX为用户真实的呼转号码。</string>
+    <string name="security_find_phone_guard_help_title">防盗帮助</string>
+    <string name="security_find_phone_password_wrong">您输入的密码有误，请重新输入</string>
+    <string name="security_find_phone_password_exist">已创建过酷管家密码，请输入正确密码</string>
+    <string name="security_find_phone_uac_remout_req_failed">请启用酷云账户服务</string>
+    <string name="security_find_phone_guard_setting_pass_tip">关闭防盗功能，将无法远程找回手机。 如需关闭，请输入酷管家密码</string>
+    <string name="security_find_phone_no_tip">该功能正在开发中，敬请期待</string>
+    <string name="security_find_phone_setting_foget_pass">忘记密码</string>
+    <string name="security_find_phone_sim_change_smscontent">尊敬的酷管家用户，您好。您的好友的手机卡已被替换。您的好友手机可能被盗。请尽快联系您的好友，登录酷管家进行手机远程控制。</string>
+    <string name="security_find_phone_setting_coolaccount_tip">解绑酷账号</string>
+    <string name="security_find_phone_setting_coolaccount_message">进行本次操作，本机将与酷账号解除绑定，手机一旦丢失将无法通过酷账号找回，请慎重！</string>
+    <string name="security_find_phone_setting_coolaccount_tip2">账号：</string>
+    <string name="security_find_phone_setting_coolaccount_success">酷账号解除绑定成功！</string>
+    <string name="security_find_phone_setting_coolaccount_fail">酷账号解除绑定失败！</string>
+    <string name="security_find_phone_relative_num_modify">更改</string>
+    <string name="security_find_phone_relative_modify_tip">用亲友号码向被盗手机发送以下防盗指令可远程控制被盗手机</string>
+    <string name="security_find_phone_relative_modify_send_sms">给亲友备忘防盗指令</string>
+    <string name="security_find_phone_relative_guard_title">防盗指令包括：</string>
+    <string name="security_find_phone_relative_phone_send">立即发送防盗指令给亲友号码</string>
+    <string name="security_find_phone_relative_phone_hint">请添加亲友号码</string>
+    <string name="security_find_phone_relative_phone_hint1">请输入亲友号码</string>
+    <string name="security_find_phone_relative_phone_title">更改亲友号码</string>
+    <string name="security_find_phone_relative_sms_tip">是否确定立即发送防盗指令给亲友号码？</string>
+    <string name="security_find_phone_relative_sms_tip1">备忘防盗指令</string>
+    <string name="security_find_phone_relative_phone_text">添加亲友号码，可远程发送防盗指令到被盗手机</string>
+    <string name="security_find_phone_relative_phone_toast">请输入正确的亲友号码</string>
+    <string name="security_find_phone_relative_addition">注：可用任意手机被盗手机发送上述防盗指令，需要在对应的防盗指令后面加#酷管家密码</string>
+    <string name="security_find_phone_relative_activity_hint1">请输入被盗手机号码</string>
+    <string name="security_find_phone_relative_activity_hint2">请输入酷管家密码</string>
+    <string name="security_find_phone_relative_activity_hint3">选择所需要进行的操作</string>
+    <string name="security_find_phone_relative_activity_tip1">销毁资料指令</string>
+    <string name="security_find_phone_relative_activity_tip2">呼叫转移指令</string>
+    <string name="security_find_phone_relative_activity_tip3">停止呼叫转移</string>
+    <string name="security_find_phone_relative_activity_tip4">转发短信指令</string>
+    <string name="security_find_phone_relative_activity_tip5">停止转发短信</string>
+    <string name="security_find_phone_relative_activity_tip6">锁卡指令</string>
+    <string name="security_find_phone_relative_activity_tip7">锁机指令</string>
+    <string name="security_find_phone_relative_activity_tip8">取消防盗指令</string>
+    <string name="security_find_phone_relative_activity_bt">发送指令</string>
+    <string name="security_find_phone_relative_phonenum_wrong_toast">您输入的被盗手机号码有误</string>
+    <string name="security_find_phone_relative_instruction_null">请选择您发送的指令</string>
+    <string name="security_find_phone_sign_guard_signbt">标记</string>
+    <string name="security_find_phone_sign_guard_local_tip">我知道了</string>
+    <string name="security_find_phone_sign_guard_local_tip1">您可以远程给被盗手机打上“被盗”标记，他人可轻易查询该手机是否为被盗手机。</string>
+    <string name="security_find_phone_sign_guard_title_tip">标记为被盗手机</string>
+    <string name="security_find_phone_sign_guard_add_tip">马上给手机打上”被盗“标记后，他人可轻易查询该手机是否为被盗手机。请确认您丢失该手机后再进行标记。</string>
+    <string name="security_find_phone_sign_guard_subtraction_tip">如果手机已找回，请去掉该台手机的”被盗“标记。确定现在去掉”被盗“标记？</string>
+    <string name="security_find_phone_sign_guard_setting_guard">经鉴定，您的手机曾被人标记为”被盗“手机，您可以联系卖家咨询手机的来源，谢谢鉴定。</string>
+    <string name="security_find_phone_sign_guard_setting_unguard">经鉴定，您的手机未被人标记为”被盗“手机，您可放心使用，谢谢鉴定。</string>
+    <string name="security_find_phone_sign_guard_setting_title">手机鉴定结果</string>
+    <string name="security_find_phone_relative_guard_sms">尊敬的酷管家用户，您好,您的好友手机可能被盗。请尽快联系您的好友，登录酷管家进行手机远程控制。</string>
+    <string name="security_find_phone_sign_guard_sign_toast">正在进行标记，请稍后......</string>
+    <string name="security_find_phone_sign_guard_close_toast">正在去除标记，请稍后......</string>
+    <string name="security_find_phone_guid_text">开启云端防盗，帮您找回并销毁被盗手机数据</string>
+    <string name="security_find_phone_guard_start">防盗</string>
+    <string name="security_find_phone_guard_cancal_callback">防盗已取消</string>
+    <string name="security_find_phone_have_no_photos">亲，暂时还没有照片哦。</string>
+    <string name="security_find_phone_type_take_photo">获取照片</string>
+    <string name="security_find_phone_is_loading_photo">正在加载照片，请稍后</string>
+    <string name="security_find_phone_msg_sended_success">消息已发出</string>
+    <string name="security_find_phone_msg_sended_failed">消息未发送成功</string>
+    <string name="security_find_phone_this_sdcard_no_can_save">SD卡已满，无法保存！</string>
+    <string name="security_find_phone_save_failed">保存失败!</string>
+    <string name="security_find_phone_save_to">保存至</string>
+    <string name="security_find_phone_on_loading">正在加载...</string>
+    <string name="security_find_phone_share">分享</string>
+    <string name="security_find_phone_photo_get_title">取证照片</string>
+    <string name="security_find_phone_no_trace_info_prompt">暂时没有位置信息，下拉试试?</string>
+    <string name="security_find_phone_history_trace_loading_process">正在加载历史轨迹</string>
+    <string name="security_find_phone_no_data_tip">无数据</string>
+    <string name="security_find_phone_no_login_tip">未登录</string>
+    <string name="security_find_phone_password_cancel">清空</string>
+    <string name="security_find_phone_password_login">登录</string>
+    <string name="security_find_phone_passwords_times">密码输入错误，请重新输入密码</string>
+    <string name="security_find_phone_input_pass_error_info">密码错误,您还可再输入 %1$s 次</string>
+    <string name="security_find_phone_send_sms_control_tip">此手机不支持该功能</string>
+    <string name="security_find_phone_sms_phone_number_invalid">号码非法</string>
+    <string name="security_find_phone_devicelocalizer_notification_title">酷云</string>
+    <string name="security_find_phone_devicelocalizer_notification_content">酷云提醒</string>
+    <string name="app_name">Аккаунт Облака</string>
+    <string name="umgr_coolaccount">CoolCloud account</string>
+    <string name="umgr_about_coolaccount"><u>About CoolCloud account</u></string>
+    <string name="umgr_prologue_prompt1">Easy access to all Coolpad services with a CoolCloud account</string>
+    <string name="umgr_prologue_prompt2">\u0009\u0009A CoolCloud account allows you to access all Coolpad Internet services and sync all phone data, such as contacts, call logs, messages, and photos.</string>
+    <string name="umgr_skip_login_text">Skip</string>
+    <string name="umgr_nologin_prompt">"\u0009\u0009Having not logged in to CoolCloud, you may fail to use features, such as CoolMart, CoolGame, and backup of contacts to cloud. 
+ \u0009\u0009You will be notified of login to CoolCloud when requiring the preceding services."</string>
+    <string name="umgr_login_prompt">\u0009\u0009Thank you for logging in to CoolCloud. You will be spared repeated logins to use the following services:</string>
+    <string name="umgr_login_usephone">Start</string>
+    <string name="umgr_prologue_title">CoolCloud account</string>
+    <string name="umgr_prologue_login">Existing account</string>
+    <string name="umgr_prologue_register_btntitle">New account</string>
+    <string name="umgr_personal_center_title">Settings</string>
+    <string name="umgr_coolaccount_label">CoolCloud account:</string>
+    <string name="umgr_personal_center_coolyun">Cloud service</string>
+    <string name="umgr_personal_center_coolsync">CoolCloud service</string>
+    <string name="umgr_personal_center_coolyun_prompt">Back up contacts, messages, and photos to CoolCloud</string>
+    <string name="umgr_personal_center_myassets">My assets</string>
+    <string name="umgr_personal_center_coolmoney">Coins:</string>
+    <string name="umgr_personal_center_see_coolmoney">Coming soon</string>
+    <string name="umgr_personal_center_alert">Coming soon</string>
+    <string name="umgr_personal_center_coolbean">Beans:</string>
+    <string name="umgr_personal_center_see_coolbean">View consumption of beans</string>
+    <string name="umgr_personal_center_howget_coolbean">How to get coins and beans?</string>
+    <string name="umgr_personal_center_accountsetting">Account settings</string>
+    <string name="umgr_personal_center_personalinfo">Профиль</string>
+    <string name="umgr_personal_center_modify_personalinfo">Edit avatar or gender info</string>
+    <string name="umgr_personal_center_pwdmanage">Password</string>
+    <string name="umgr_personal_center_modifypwd">Change password</string>
+    <string name="umgr_personal_center_bindmanage">Binding</string>
+    <string name="umgr_personal_center_modifybind">Change phone number or email address</string>
+    <string name="umgr_personal_center_other">Other</string>
+    <string name="umgr_personal_center_loginout">Exit</string>
+    <string name="umgr_personal_center_versioncode">Version:</string>
+    <string name="umgr_personal_center_modify_icon">Change avatar</string>
+    <string name="uac_add_photo_title">Add photo</string>
+    <string name="uac_add_take_pictue">Camera</string>
+    <string name="uac_add_select_picture">Select image</string>
+    <string name="uac_upload_picture">Uploading</string>
+    <string name="umgr_account_upgrade_prompt">Temporary account %s will be updated for you to enjoy more Coolpad services</string>
+    <string name="umgr_please_input_bind_phone">Enter a phone number to bind</string>
+    <string name="umgr_account_upgrade_confirm">OK</string>
+    <string name="umgr_account_upgrade_cancel">Not now</string>
+    <string name="uac_consume_tab_title">Consumption</string>
+    <string name="uac_income_tab_title">Income</string>
+    <string name="uac_coolbean_title">My beans</string>
+    <string name="uac_get_moret_text">View more</string>
+    <string name="uac_no_get_coolbean_consume">Info not obtained.</string>
+    <string name="uac_no_get_coolbean_income">Info not obtained.</string>
+    <string name="cooperarion_pull_refresh_recently">Latest update:</string>
+    <string name="cooperation_pull_refresh_now">Updating...</string>
+    <string name="cooperation_pull_refreshing">Updating</string>
+    <string name="cooperation_pull_to_refresh">Drag to update</string>
+    <string name="cooperation_release_to_refresh">Release to update</string>
+    <string name="umgr_personal_info_title">Profile</string>
+    <string name="umgr_personal_info_realname">Name</string>
+    <string name="umgr_personal_info_gender">Gender</string>
+    <string name="umgr_personal_info_birthday">Birthday</string>
+    <string name="umgr_personal_info_age">Age</string>
+    <string name="umgr_personal_info_city">City</string>
+    <string name="umgr_personal_info_company">Company</string>
+    <string name="umgr_personal_info_profession">Job</string>
+    <string name="umgr_personal_info_editinfo">Edit</string>
+    <string name="umgr_personal_select_gender">Select gender</string>
+    <string name="umgr_personal_info_noset">Not set</string>
+    <string name="umgr_personal_info_get_error">Failed to obtain personal info.</string>
+    <string name="umgr_personal_info_nickname">Nickname</string>
+    <string name="inpit_utf8_str">Change code to utf-8</string>
+    <string name="umgr_personal_info_nickname_hint">Enter your nickname.</string>
+    <string name="umgr_alert_dialog_title_birthday">Set birthday</string>
+    <string name="umgr_calendar_month">month</string>
+    <string name="umgr_personal_info_modify_company">Change company</string>
+    <string name="umgr_personal_info_add_company">Add company</string>
+    <string name="umgr_modify_photo_failure">Failed to change.</string>
+    <string name="umgr_pwd_manage_oldpwd">Old password:</string>
+    <string name="umgr_pwd_manage_newpwd">New password:</string>
+    <string name="umgr_pwd_manage_confirmpwd">Confirm:</string>
+    <string name="umgr_pwd_manage_savemodify">Save</string>
+    <string name="umgr_pwd_mange_hinttext">6 to 16 letters or digits</string>
+    <string name="umgr_bind_manage_bindphone">Bind number</string>
+    <string name="umgr_bind_manage_rebind">Bind again</string>
+    <string name="umgr_bind_manage_bind">Bind</string>
+    <string name="umgr_bind_manage_bindmail">Bind email</string>
+    <string name="umgr_bind_manage_nobind">Not bound</string>
+    <string name="umgr_bind_manage_enterpwd_title">Enter your password</string>
+    <string name="umgr_bind_manage_bind_success">Bound successfully</string>
+    <string name="uac_bind_manage_enterpwd_tip">Enter your password and touch Next to start binding.</string>
+    <string name="uac_bind_manage_bindphone_phone">Phone number</string>
+    <string name="umgr_bind_manage_bindphone_hinttext">Number of 11 digits</string>
+    <string name="uac_bind_manage_bindphone_authcode">Verification code</string>
+    <string name="uac_bind_manage_prompt">Message will arrive soon. Obtain the message again if it fails to arrive within 60s.</string>
+    <string name="uac_bindmail_dialog_title">Sent</string>
+    <string name="uac_bindphone_dialog_title">Bound successfully</string>
+    <string name="uac_dialog_title">Information</string>
+    <string name="uac_dialog_mail_body">Verification mail has been sent and remains valid within 24 hours. Perform binding according to the instructions.</string>
+    <string name="uac_dialog_sms_body">Verification code has been sent to your phone.</string>
+    <string name="uac_dialog_ok">OK</string>
+    <string name="uac_dialog_cancel">Cancel</string>
+    <string name="umgr_third_forward_start">1. Log in and bind account</string>
+    <string name="umgr_third_forward_end">2. Migrate data</string>
+    <string name="umgr_third_forward_useold">Account already exists.</string>
+    <string name="umgr_third_forward_getnew">Create account and perform binding</string>
+    <string name="umgr_third_forward_oldaccount_tip">%s account to update:</string>
+    <string name="umgr_third_forward_account">CoolCloud account:</string>
+    <string name="umgr_third_forward_passward">Password:</string>
+    <string name="umgr_third_forward_account_hint">Enter your CoolCloud account</string>
+    <string name="umgr_third_forward_pwd_hint">Enter password</string>
+    <string name="uac_logout_title">Log out</string>
+    <string name="uac_logout_prompty_body">Current account %s</string>
+    <string name="uac_logout_pwd_is_null">Password cannot be blank.</string>
+    <string name="uac_logout_progress_text">Exiting</string>
+    <string name="umgr_title_login">CoolCloud account</string>
+    <string name="umgr_title_register">Register with CoolCloud</string>
+    <string name="umgr_title_bind">Bind account</string>
+    <string name="umgr_title_findpwd">Forgot</string>
+    <string name="umgr_title_auth">Authorization</string>
+    <string name="umgr_title_agreement">Agreement</string>
+    <string name="umgr_title_privacy">Privacy clauses</string>
+    <string name="umgr_title_forward">Update</string>
+    <string name="umgr_title_switch_user">Switch account</string>
+    <string name="umgr_title_forwand_bind">Bind CoolCloud account</string>
+    <string name="umgr_title_password_manage">Password</string>
+    <string name="umgr_please_holdon">Please wait.</string>
+    <string name="umgr_please_login">Log in to CoolCloud</string>
+    <string name="umgr_please_forward_format">Enter your CoolCloud account to bind it with the %s account</string>
+    <string name="umgr_please_forward_default">Enter your CoolCloud account to bind it with the CoolYou account</string>
+    <string name="umgr_please_login_format">Log in to %s with CoolCloud account</string>
+    <string name="umgr_please_login_third_format1">Log in with %s account</string>
+    <string name="umgr_login_use_third_format">Log in to %s</string>
+    <string name="umgr_login_use_third_default">Log in to CoolYou</string>
+    <string name="umgr_please_input_username">Phone number or email address</string>
+    <string name="umgr_please_input_phone">Enter phone number</string>
+    <string name="umgr_please_input_email">Enter email address</string>
+    <string name="umgr_please_input_password">Password of 6 to 16 characters</string>
+    <string name="umgr_please_input_authcode">SMS verification code</string>
+    <string name="umgr_please_confirm_password">Confirm password</string>
+    <string name="umgr_please_set_password">Set password</string>
+    <string name="umgr_please_input_username_registered">Enter specified phone number</string>
+    <string name="umgr_please_input_authcode_received">Enter verification code</string>
+    <string name="umgr_please_input_new_password">Enter new password</string>
+    <string name="umgr_show_psw">Show password</string>
+    <string name="umgr_whether_forget_password_ornot">Forgot</string>
+    <string name="umgr_whether_register_ornot">Register</string>
+    <string name="umgr_login">Login</string>
+    <string name="umgr_register">Register</string>
+    <string name="umgr_bind">Bind</string>
+    <string name="umgr_skip">Skip</string>
+    <string name="umgr_login_lightly">Fast login</string>
+    <string name="umgr_register_agree_clause_1">Your registry indicates that you abide by</string>
+    <string name="umgr_login_agree_clause_1">Your login indicates that you abide by</string>
+    <string name="umgr_agree_clause_2_user">the related</string>
+    <string name="umgr_agree_clause_2_agreement">usage agreement</string>
+    <string name="umgr_agree_clause_2_and">and</string>
+    <string name="umgr_agree_clause_2_privacy">privacy clauses</string>
+    <string name="umgr_prologue_prompt_1">CoolCloud account allows you to sync messages, contacts, and photos</string>
+    <string name="umgr_prologue_prompt_2">and enjoy various CoolCloud services</string>
+    <string name="umgr_login_registered">Existing account</string>
+    <string name="umgr_prologue_register">New account</string>
+    <string name="umgr_get_authcode">Get code</string>
+    <string name="umgr_psw_rules">The password consists of 6 to 16 characters, including at least 1 digit and 1 letter. Special characters are supported and letters are case-sensitive.</string>
+    <string name="umgr_last_step">Back</string>
+    <string name="umgr_next_step">Next</string>
+    <string name="umgr_complete_register">Done</string>
+    <string name="umgr_registered_to_login">Account registered</string>
+    <string name="umgr_registered_to_login_format">Your %s has been registered.</string>
+    <string name="umgr_phonenumber">Number</string>
+    <string name="umgr_email">Email</string>
+    <string name="umgr_login_directly">Login</string>
+    <string name="umgr_registe_by_other">Other methods</string>
+    <string name="umgr_complete">OK</string>
+    <string name="umgr_findpwd">Forgot</string>
+    <string name="umgr_allow_3th_access">This app can perform the following with your CoolCloud account</string>
+    <string name="umgr_allow_3th_access_format">%s can perform the following with your CoolCloud account</string>
+    <string name="umgr_auth_and_login">Authorize and login</string>
+    <string name="umgr_auth_and_login_format">Authorize and login (%ds)</string>
+    <string name="umgr_coolcloud_name">CoolCloud account</string>
+    <string name="umgr_3th_name">Third party</string>
+    <string name="umgr_countdown_format">%ds</string>
+    <string name="umgr_register_complete_format">Your %s account has been registered.</string>
+    <string name="umgr_findpwd_complete_format">Password retrieved for your %s account.</string>
+    <string name="umgr_register_light_user">The following account is registered</string>
+    <string name="umgr_username_is">User name:</string>
+    <string name="umgr_login_account">Account</string>
+    <string name="umgr_login_password">Password</string>
+    <string name="umgr_password_is">Password:</string>
+    <string name="umgr_start_3th">Start</string>
+    <string name="umgr_exit">Exit</string>
+    <string name="umgr_use_current">Use current account</string>
+    <string name="umgr_switch_user">Switch account</string>
+    <string name="umgr_switch_format">There has been a login user</string>
+    <string name="umgr_coolpad_bbs">CoolYou</string>
+    <string name="umgr_user_present_in_bbs">A user has logged in to %s with the current CoolCloud account</string>
+    <string name="umgr_third_binded">Log in with the specified CoolCloud account</string>
+    <string name="umgr_rcode_illigel_request">Request packet error.</string>
+    <string name="umgr_rcode_user_unlogined">No user has logged in.</string>
+    <string name="umgr_rcode_register_failure">Failed to register.</string>
+    <string name="umgr_rcode_username_used">User name has been used.</string>
+    <string name="umgr_rcode_user_absent">User does not exist.</string>
+    <string name="umgr_rcode_password_mismatch">Password mismatch.</string>
+    <string name="umgr_rcode_user_disabled">Account has been rescinded or needs activation.</string>
+    <string name="umgr_rcode_user_probation_expired">Grace period has expired.</string>
+    <string name="umgr_rcode_device_register_user_too_much">Number of registries exceeds the limit.</string>
+    <string name="umgr_rcode_link_failure">Invalid link.</string>
+    <string name="umgr_rcode_modification_failure">Correct the operation error.</string>
+    <string name="umgr_rcode_database_failure">Database operation failure.</string>
+    <string name="umgr_rcode_device_login_user_too_much">Number of logins exceeds the limit.</string>
+    <string name="umgr_rcode_get_password_failure">Failed to obtain password.</string>
+    <string name="umgr_rcode_incorrect_original_password">Incorrect old password.</string>
+    <string name="umgr_rcode_get_userinfo_failure">Failed to obtain user info.</string>
+    <string name="umgr_rcode_user_activated">Account activated.</string>
+    <string name="umgr_rcode_activate_link_failure">The link has become invalid.</string>
+    <string name="umgr_rcode_userinfo_modification_failure">Failed to modify personal info.</string>
+    <string name="umgr_rcode_logout_failure">Failed to log out.</string>
+    <string name="umgr_rcode_private_password_modification_failure">Failed to change private password.</string>
+    <string name="umgr_rcode_phoneno_binded">This phone number has been used.</string>
+    <string name="umgr_rcode_device_disabled">Device has been rescinded.</string>
+    <string name="umgr_rcode_authcode_failure">Incorrect code.</string>
+    <string name="umgr_rcode_authcode_expired">Code has expired.</string>
+    <string name="umgr_rcode_user_unbind_phoneno">No number has been bound.</string>
+    <string name="umgr_rcode_password_modification_failure">Failed to change password.</string>
+    <string name="umgr_rcode_phoneno_register_required">Number not registered.</string>
+    <string name="umgr_rcode_illigel_private_password">Illegal private password.</string>
+    <string name="umgr_rcode_illigel_device">Illegal device.</string>
+    <string name="umgr_rcode_user_unactivited">Account not activated.</string>
+    <string name="umgr_rcode_user_password_empty">Password not configured.</string>
+    <string name="umgr_rcode_network_failure">Operation failure</string>
+    <string name="umgr_rcode_user_unauthed">Account not verified.</string>
+    <string name="umgr_rcode_authcode_sent_beyond_maximum">Number of sending attempts exceeds the limit.</string>
+    <string name="umgr_rcode_nickname_existed">Nickname already exists.</string>
+    <string name="umgr_rcode_user_forbidden">Account rescinded.</string>
+    <string name="umgr_rcode_session_expired">Invalid session.</string>
+    <string name="umgr_rcode_deviceid_absent">Device ID does not exist.</string>
+    <string name="umgr_rcode_third_binded">CoolYou account already bound.</string>
+    <string name="umgr_rcode_api_unauthed">API not authorized.</string>
+    <string name="umgr_rcode_illigel_response_type">Invalid or no response type.</string>
+    <string name="umgr_rcode_appid_required">No application ID parameter.</string>
+    <string name="umgr_rcode_appkey_required">No application verification password parameter.</string>
+    <string name="umgr_rcode_illigel_http_authorization">No authentication info in HTTP packet header.</string>
+    <string name="umgr_rcode_illigel_grant_type">Illegal or no authorization type.</string>
+    <string name="umgr_rcode_code_required">No verification code parameter.</string>
+    <string name="umgr_rcode_refresh_token_required">No update token parameter.</string>
+    <string name="umgr_rcode_access_token_required">No update token parameter.</string>
+    <string name="umgr_rcode_appid_absent">No application ID or unregistered application.</string>
+    <string name="umgr_rcode_illigel_appkey">Illegal or mismatched verification password.</string>
+    <string name="umgr_rcode_illigel_redirect_url">Illegal redirection URL.</string>
+    <string name="umgr_rcode_app_offline">Application not online.</string>
+    <string name="umgr_rcode_illigel_access_token">Illegal token parameter.</string>
+    <string name="umgr_rcode_access_token_expired">Token has expired.</string>
+    <string name="umgr_rcode_access_token_abolished">Rescinded token.</string>
+    <string name="umgr_rcode_validate_access_token_failure">Failed to verify token.</string>
+    <string name="umgr_rcode_illigel_uid">Illegal user ID.</string>
+    <string name="umgr_rcode_get_appid_failure">Failed to obtain application ID.</string>
+    <string name="umgr_rcode_get_code_failure">Failed to obtain verification code.</string>
+    <string name="umgr_rcode_get_access_token_by_code_failure">Failed to obtain access token based on verification code.</string>
+    <string name="umgr_rcode_code_reused">Code used repeatedly.</string>
+    <string name="umgr_rcode_get_access_token_failure">Failed to obtain access token.</string>
+    <string name="umgr_rcode_get_refresh_token_failure">Failed to obtain update token.</string>
+    <string name="umgr_rcode_get_app_scope_failure">Failed to obtain app permission list.</string>
+    <string name="umgr_rcode_get_app_scope_on_user_failure">Failed to obtain user-to-application authorization list.</string>
+    <string name="umgr_rcode_get_api_failure">Failed to obtain API info.</string>
+    <string name="umgr_rcode_authorize_scope_failure">The user has failed to authorize specified apps.</string>
+    <string name="umgr_rcode_authorize_expiretime_failure">The user has failed to authorize specified apps.</string>
+    <string name="umgr_rcode_api_unauthorized">API not authorized.</string>
+    <string name="umgr_rcode_app_apply_permissions_required">API permission not assigned for the application.</string>
+    <string name="umgr_rcode_http_failure">Transfer error.</string>
+    <string name="umgr_rcode_http_post_required">Network request method error.</string>
+    <string name="umgr_rcode_http_req_failure">Network request error.</string>
+    <string name="umgr_rcode_http_res_failure">Network response error.</string>
+    <string name="umgr_rcode_http_recv_failure">Error encountered during data receiving.</string>
+    <string name="umgr_rcode_http_client_protocol_failure">Client protocol error.</string>
+    <string name="umgr_rcode_http_ioexception">Network request exception.</string>
+    <string name="umgr_rcode_input_appid_mismatch">Inconsistency between the input and registered application IDs.</string>
+    <string name="umgr_rcode_json_parse_failure">Failed to parse JSON.</string>
+    <string name="umgr_rcode_server_uninstalled">Service not installed.</string>
+    <string name="umgr_rcode_server_startup_failure">Failed to start service.</string>
+    <string name="umgr_rcode_illigel_appid_configuration">Illegal configuration info for application ID</string>
+    <string name="umgr_rcode_response_mismatch">Response and request not matched.</string>
+    <string name="umgr_rcode_rpc_failure">Failed to call remotely.</string>
+    <string name="umgr_rcode_zip_failure">Failed to compress data.</string>
+    <string name="umgr_rcode_unzip_failure">Failed to decompress data.</string>
+    <string name="umgr_rcode_userid_required">User ID required.</string>
+    <string name="umgr_rcode_get_local_logininfo_failed">Failed to obtain local login info.</string>
+    <string name="umgr_rcode_ok">All operations succeeded.</string>
+    <string name="umgr_rcode_fail">Unknown error.</string>
+    <string name="umgr_error_illigel_username">Illegal user.</string>
+    <string name="umgr_error_illigel_authcode">Verification code is not digits.</string>
+    <string name="umgr_error_illigel_pwd">Password does not meet requirements.</string>
+    <string name="umgr_error_illigel_confirm_pwd">Password mismatch.</string>
+    <string name="umgr_rcode_illigel_phone">Phone number does not meet requirements.</string>
+    <string name="umgr_rcode_illigel_mail">Email does not meet requirements.</string>
+    <string name="umgr_rcode_modify_pwd_success">Password changed.</string>
+    <string name="umgr_scope_unknown">Other permission</string>
+    <string name="umgr_scope_getuserinfo">Obtain user info</string>
+    <string name="umgr_modify_success">Changed</string>
+    <string name="umgr_clause_coolaccount">"\u0009\u0009本协议是您与酷云服务提供商之间达成的法律协议，表明您愿意接受本服务条款。本协议连同一切更新、增补条款、软件许可，以及本协议中提及的所有规章和政策，共同构成您与酷云之间的协议。如您同意本协议条款，请您点击“同意”，如您不同意本协议条款，请勿点击“同意”，也不要使用本服务。您必须接受并遵守向您提出的本协议条款。
+ \u0009\u0009一.酷云服务的定义
+ 酷云是宇龙酷派提供的在线云计算同步服务，内容包括联系人、日历、短信、通话记录的即时同步服务（当然需要有网络连接），同时在服务器中对删除数据进行了备份，例如当用户在手机端变更了上述内容里面的资料时，酷云会即时并主动的让同一个酷云帐户的其他设备获得同步，酷云不但在手机端提供这些服务和应用，同时也提供一套完整的web操作页面。
+ \u0009\u0009二.服务风险及免责声明
+ 用户需要理解并同意，本服务涉及到互联网及移动通讯等服务，可能会受其中的很多环节不稳定因素的影响。因此服务存在众多不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、移动通信网络、互联网网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，酷云对服务的及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。对于不可抗力或非酷云过错原因导致的用户数据损失、丢失或服务停止，酷云将不承担任何责任。同时不得线下交易酷云账号。
+ \u0009\u0009三.服务条款的变更与通知
+ （1）酷云将保留随时或不时更新、修订、补充及以其它方式修改本协议并就您对有关服务的使用施加新的或额外的规则、政策、条款或条件的权利。前述更新、修订、补充以及额外的规则、政策、条款和条件（本协议称“额外条款”）将通过web页面的公告或向您的帐户联系信息中所列的邮件地址发送电子邮件，或者邮寄信件方式发送通知给您，一经您接受，将立即生效并纳入本协议。如果您不同意所改动的内容，您可以终止相关服务。
+ （2） 对于系统发生故障影响到本服务的正常运行，酷云承诺及时处理进行修复。但由此而给您带来的不便，敬请谅解，酷云将不负责赔偿您的精神损失。
+ \u0009\u0009四.用户义务与责任
+ （1）用户不得利用本服务或在酷云网页上、复制、上传、存储、传播任何危害国家安全、损害国家荣誉和利益、煽动民族仇恨、民族歧视、宣扬邪教和封建迷信、任何妨碍社会治安或反动、暴力、凶杀、虚假、恐怖、骚扰、侮辱、诽谤、恐吓、淫秽色情或教唆犯罪等法律法规禁止的内容。
+ （2）用户不得利用本服务进行故意制作、传播计算机病毒等破坏性程序，不得针对本服务、与本服务连接的服务器或网络制造干扰、混乱，或违反连接本服务的网络的任何要求、程序、政策或规则，否则酷云将保留追究其法律责任的权利并有权将其提交给相关部门处理。
+ （3）用户同意遵守《中华人民共和国宪法》、《中华人民共和国民法通则》、《中华人民共和国著作权法》、《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》、《信息网络传播权保护条例》、《互联网著作权行政保护办法》等有关国家法律和法规、实施办法。
+ （4）遵守所有与使用服务有关的网络协议、规定、程序与惯例。
+ \u0009\u0009五.关于一键激活
+ 您在使用“一键激活”注册酷云时，我们会使用您的手机向我们的服务器后台发送一条短信，费用由运营商收取，此外不花费您的任何费用。
+"</string>
+    <string name="umgr_clause_agreement">"\u0009\u0009本协议是您与酷云服务提供商之间达成的法律协议，表明您愿意接受本服务条款。本协议连同一切更新、增补条款、软件许可，以及本协议中提及的所有规章和政策，共同构成您与酷云之间的协议。如您同意本协议条款，请您点击“同意”，如您不同意本协议条款，请勿点击“同意”，也不要使用本服务。您必须接受并遵守向您提出的本协议条款。
+ \u0009\u0009一.酷云服务的定义
+ 酷云是宇龙酷派提供的在线云计算同步服务，内容包括联系人、日历、短信、通话记录的即时同步服务（当然需要有网络连接），同时在服务器中对删除数据进行了备份，例如当用户在手机端变更了上述内容里面的资料时，酷云会即时并主动的让同一个酷云帐户的其他设备获得同步，酷云不但在手机端提供这些服务和应用，同时也提供一套完整的web操作页面。
+ \u0009\u0009二.服务风险及免责声明
+ 用户需要理解并同意，本服务涉及到互联网及移动通讯等服务，可能会受其中的很多环节不稳定因素的影响。因此服务存在众多不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、移动通信网络、互联网网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，酷云对服务的及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。对于不可抗力或非酷云过错原因导致的用户数据损失、丢失或服务停止，酷云将不承担任何责任。同时不得线下交易酷云账号。
+ \u0009\u0009三.服务条款的变更与通知
+ （1）酷云将保留随时或不时更新、修订、补充及以其它方式修改本协议并就您对有关服务的使用施加新的或额外的规则、政策、条款或条件的权利。前述更新、修订、补充以及额外的规则、政策、条款和条件（本协议称“额外条款”）将通过web页面的公告或向您的帐户联系信息中所列的邮件地址发送电子邮件，或者邮寄信件方式发送通知给您，一经您接受，将立即生效并纳入本协议。如果您不同意所改动的内容，您可以终止相关服务。
+ （2） 对于系统发生故障影响到本服务的正常运行，酷云承诺及时处理进行修复。但由此而给您带来的不便，敬请谅解，酷云将不负责赔偿您的精神损失。
+ \u0009\u0009四.用户义务与责任
+ （1）用户不得利用本服务或在酷云网页上、复制、上传、存储、传播任何危害国家安全、损害国家荣誉和利益、煽动民族仇恨、民族歧视、宣扬邪教和封建迷信、任何妨碍社会治安或反动、暴力、凶杀、虚假、恐怖、骚扰、侮辱、诽谤、恐吓、淫秽色情或教唆犯罪等法律法规禁止的内容。
+ （2）用户不得利用本服务进行故意制作、传播计算机病毒等破坏性程序，不得针对本服务、与本服务连接的服务器或网络制造干扰、混乱，或违反连接本服务的网络的任何要求、程序、政策或规则，否则酷云将保留追究其法律责任的权利并有权将其提交给相关部门处理。
+ （3）用户同意遵守《中华人民共和国宪法》、《中华人民共和国民法通则》、《中华人民共和国著作权法》、《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》、《信息网络传播权保护条例》、《互联网著作权行政保护办法》等有关国家法律和法规、实施办法。
+ （4）遵守所有与使用服务有关的网络协议、规定、程序与惯例。
+ \u0009\u0009五.关于一键激活
+ 您在使用“一键激活”注册酷云时，我们会使用您的手机向我们的服务器后台发送一条短信，费用由运营商收取，此外不花费您的任何费用。
+"</string>
+    <string name="umgr_clause_privacy">"\u0009\u0009我们非常重视保护您的隐私，酷云使用多重加密技术，对用户存储在酷云云端的数据进行严格的管理和保护，防止您的个人资料丢失，被盗用或篡改！本协议是您与酷云服务提供商之间达成的法律协议，当您点击“一键激活”或使用酷云服务时，表明您已仔细阅读本条款并愿意接受本服务条款。本协议连同一切更新、增补条款、软件许可，以及本协议中提及的所有规章和政策，共同构成您与酷云之间的协议。
+ \u0009\u0009一、 酷云服务简介
+ 酷云是宇龙酷派提供的在线云计算同步服务，包括日历、通讯录、通话记录、短信、书签、记事本、图片等的即时同步服务（当然需要有网络连接），同时在服务器中对删除数据进行了备份，例如当用户在手机端变更了上述内容里面的资料时，酷云会即时并主动的让同一个酷云帐户的其他设备获得同步，酷云不但在手机端提供这些服务和应用，同时也提供手机web与PCweb操作功能。
+ \u0009\u0009二、 服务风险及免责声明
+ 用户需要理解并同意，本服务涉及到互联网及移动通讯等服务，可能会受其中的很多环节不稳定因素的影响。因此服务存在众多不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、移动通信网络、互联网网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，酷云对服务的及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。对于不可抗力或非酷云过错原因导致的用户数据损失、丢失或服务停止，酷云将不承担任何责任。同时不得线下交易酷云账号。
+ \u0009\u0009三、 服务条款的变更与通知
+ （1）酷云将保留随时或不时更新、修订、补充及以其它方式修改本协议并就您对有关服务的使用施加新的或额外的规则、政策、条款或条件的权利。前述更新、修订、补充以及额外的规则、政策、条款和条件（本协议称“额外条款”）酷云将通过相关页面公布修改内容。修改后的服务一旦公布，将立即生效并纳入本协议。如果您不同意所改动的内容，您可以终止相关服务。
+ （2） 对于系统发生故障影响到本服务的正常运行，酷云承诺及时处理进行修复。但由此而给您带来的不便请您敬请谅解，酷云将不负责赔偿您的精神损失。
+ \u0009\u0009四、 用户义务与责任
+ （1）用户不得利用本服务或在酷云网页上、复制、上传、存储、传播任何危害国家安全、损害国家荣誉和利益、煽动民族仇恨、民族歧视、宣扬邪教和封建迷信、任何妨碍社会治安或反动、暴力、凶杀、虚假、恐怖、骚扰、侮辱、诽谤、恐吓、淫秽色情或教唆犯罪等法律法规禁止的内容。
+ （2）用户不得利用本服务进行故意制作、传播计算机病毒等破坏性程序，不得针对本服务、与本服务连接的服务器或网络制造干扰、混乱，或违反连接本服务的网络的任何要求、程序、政策或规则，否则酷云将保留追究其法律责任的权利并有权将其提交给相关部门处理。
+ （3）用户同意遵守《中华人民共和国宪法》、《中华人民共和国民法通则》、《中华人民共和国著作权法》、《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》、《信息网络传播权保护条例》、《互联网著作权行政保护办法》等有关国家法律和法规、实施办法。
+ （4）遵守所有与使用服务有关的网络协议、规定、程序与惯例。
+ \u0009\u0009五、 关于一键激活
+ 您在使用“一键激活”注册酷云时，我们会使用您的手机向我们的服务器后台发送一条短信，费用由运营商收取！
+ \u0009\u0009本服务条款的版权归宇龙酷派所有，保留一切解释和修改权利。如您对酷云产品有任何意见，请拨打酷云热线：029-88824132或者进入网站：www.coolyun.com 进行反馈。
+"</string>
+    <string name="coolcloud_recover_sound_record_item_default_summary">Просмотр аудиозаписей на Облаке для восстановления</string>
 </resources>

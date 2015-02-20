@@ -1151,8 +1151,8 @@
     <string name="unknown">Неизвестно</string>
     <string name="sort_order_alpha">Сортировать по имени</string>
     <string name="sort_order_size">Сортировать по размеру</string>
-    <string name="show_running_services">Показать активные службы</string>
-    <string name="show_background_processes">Показать кэшируемые процессы</string>
+    <string name="show_running_services">Кэш. процессы</string>
+    <string name="show_background_processes">Актив. службы</string>
     <string name="reset_app_preferences">Сбросить настройки</string>
     <string name="reset_app_preferences_title">Сбросить настройки?</string>
     <string name="reset_app_preferences_desc">"Будут сброшены следующие настройки:
@@ -2534,7 +2534,7 @@
     <string name="bugreport_title">Подготовка отчета об ошибках</string>
     <string name="user_list_title">Другие пользователи</string>
     <string name="user_add_user_menu">Добавить пользователя</string>
-    <string name="filter_apps_disabled">Выкл.</string>
+    <string name="filter_apps_disabled">Выключено</string>
     <string name="phoneinfo_settings">Конфигурация устройства</string>
     <string name="fast_mode_charge">Эффективный (рекоменд.)</string>
     <string name="normal_mode_charge">Общий</string>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<browser version="201407201600" default_page="0">
+
+
+	<page scroll="true" name="webcategory">		                                   
+        <block name="Быстрые ссылки" id="105" icon="homepage/icon/cool_website.png">
+            <url_list column="3" more="true">
+
+				<link name="Форум 4pda" color="#606060" iconurl="" url="http://4pda.ru/forum"/>
+				<link name="China Iphone" color="#606060" iconurl="" url="http://forum.china-iphone.ru"/>
+				<link name="Coolpad" color="#606060" iconurl="" url="http://bbs.coolpad.com/forum.php"/>
+ 
+				<link name="Google" color="#606060" iconurl="" url="http://google.com"/>
+				<link name="Яндекс" color="#606060" iconurl="" url="http://yandex.ru"/>
+				<link name="Лента.ру" color="#606060" iconurl="" url="http://lenta.ru"/>
+
+				<link name="4pda" color="#606060" iconurl="" url="http://4pda.ru"/>
+ 				<link name="Сhina Review" color="#606060" iconurl="" url="http://china-review.com.ua/"/>
+ 				<link name="Онлайнер" color="#606060" iconurl="" url="http://onliner.by"/>
+
+				<link name="Фильм.ру" color="#606060" iconurl="" url="http://film.ru"/>
+				<link name="Телестрекоза" color="#606060" iconurl="" url="https://telestrekoza.com/"/>
+				<link name="Кинопоиск" color="#606060" iconurl="" url="http://kinopoisk.ru"/>
+
+
+            </url_list>
+        </block>
+
+	</page>
+	<page name="navigation">
+		<navigation column="4">                       
+		</navigation>
+	</page>
+
+<!-- 	<page name="advertisement"> -->
+<!-- 		<ad index="1" type="page" id="408c8e8818f70dbb09ed60634e8e11cehao"/> -->
+<!-- 	</page> -->
+	
+    <search_engines version="201407051400"  location="webcategory">
+        <category name="web" preferred="baidu">
+			  <engine name="baidu" label="百度" keyword="baidu" faviconUri="homepage/search/favicon/ic_searchengine_baidu.png" 
+searchUri="http://www.google.ru/search?hl=ru&amp;ie=UTF-8&amp;ua=bd_&amp;q=" encoding="UTF-8" suggestUri="" />
+			  <engine name="easou" label="宜搜" keyword="easou" faviconUri="homepage/search/favicon/ic_searchengine_easou.png" searchUri="http://ad2.easou.com/j10ad/ea2.jsp?channel=11&amp;wver=t&amp;cid=bacn3504_49616_D_1&amp;q={searchTerms}" encoding="UTF-8" suggestUri="" />	
+			  <engine name="yicha" label="易查" keyword="yicha" faviconUri="homepage/search/favicon/ic_searchengine_yicha.png" searchUri="http://page.yicha.cn/tp/s.y?key={searchTerms}&amp;site=&amp;at=i_box" encoding="UTF-8" suggestUri="" />			  	  	  
+			  <engine name="139" label="139" keyword="139" faviconUri="homepage/search/favicon/ic_searchengine_139.png" searchUri="http://s.139.com/search.do?q={searchTerms}" encoding="UTF-8" suggestUri="" />			  	  	  
+		</category>
+		
+        <category name="picture" preferred="baidu">
+			  <engine name="baidu" label="百度" keyword="baidu" faviconUri="homepage/search/favicon/ic_searchengine_baidu.png" searchUri="http://wap.baidu.com/img?tn=bdwis&amp;bd_page_type=1&amp;word={searchTerms}" encoding="UTF-8" suggestUri="" />
+		</category>
+		
+        <category name="video" preferred="baidu">
+			  <engine name="baidu" label="百度" keyword="baidu" faviconUri="homepage/search/favicon/ic_searchengine_baidu.png" searchUri="http://m.baidu.com/video?from=1089a&amp;ua=&amp;pu=&amp;word={searchTerms}" encoding="UTF-8" suggestUri="" />
+			  <engine name="easou" label="宜搜" keyword="easou" faviconUri="homepage/search/favicon/ic_searchengine_easou.png" searchUri="http://ad2.easou.com/j10ad/ea2.jsp?channel=5&amp;wver=t&amp;cid=bacn3504_49616_D_1&amp;q={searchTerms}" encoding="UTF-8" suggestUri="" />		  
+		</category>
+		
+        <category name="shopping" preferred="taobao">
+            <engine name="taobao" label="淘宝" keyword="taobao" faviconUri="homepage/search/favicon/ic_searchengine_taobao.png" searchUri="http://s8.m.taobao.com/munion/search.htm?q={searchTerms}" encoding="UTF-8" suggestUri="" />
+            <engine name="jdong" label="京东" keyword="jdong" faviconUri="homepage/search/favicon/ic_searchengine_jdong.png" searchUri="http://m.360buy.com/ware/search.action?keyword={searchTerms}" encoding="UTF-8" suggestUri="" />
+        	</category>
+		
+        <category name="novel" preferred="easou">
+			  <engine name="baidu" label="百度" keyword="baidu" faviconUri="homepage/search/favicon/ic_searchengine_baidu.png" searchUri="http://m.baidu.com/s?from=1089a&amp;ua=&amp;pu=&amp;word={searchTerms}" encoding="UTF-8" suggestUri="" />
+			  <engine name="easou" label="宜搜" keyword="easou" faviconUri="homepage/search/favicon/ic_searchengine_easou.png" searchUri="http://ad2.easou.com/j10ad/ea2.jsp?channel=2&amp;wver=t&amp;cid=bacn3504_49616_D_1&amp;q={searchTerms}" encoding="UTF-8" suggestUri="" />
+			  <engine name="yicha" label="易查" keyword="yicha" faviconUri="homepage/search/favicon/ic_searchengine_yicha.png" searchUri="http://yicha.cn/union/u.jsp?p=tb&amp;site=2145960940&amp;key={searchTerms}" encoding="UTF-8" suggestUri="" />			  	  	  
+		</category>
+		<!--
+		<category name="music"  preferred="" />
+		<category name="app"  preferred="" />
+		<category name="new"  preferred="" />
+		-->
+    </search_engines>
+</browser>

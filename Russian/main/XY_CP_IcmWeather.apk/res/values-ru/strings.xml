@@ -95,6 +95,7 @@
     <string name="tts_msg_low">Наименьшая температура</string>
     <string name="tts_msg_level">Уровень</string>
     <string name="tts_msg_below_zero">Минус</string>
+    <string name="tts_msg_data_empty">Прогноз погоды устарел, пожалуйста, обновите его прямо сейчас!</string>
     <string name="xiaobing_image_save_tip_success">"Сохранение в: "</string>
     <string name="xiaobing_image_save_tip_process">Загрузка, ожидайте...</string>
     <string name="xiaobing_image_save_net_error">Ошибка сети... </string>

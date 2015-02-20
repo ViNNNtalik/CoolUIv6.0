@@ -21,6 +21,7 @@
     <string name="btn_yes">Да</string>
     <string name="btn_no">Нет</string>
     <string name="btn_ok">ОК</string>
+    <string name="btn_exit">Выход из FM-радио</string>
     <string name="btn_cancel">Отменить</string>
     <string name="dlg_progress_title">Сканирование</string>
     <string name="dlg_progress_text">Сканирование каналов…</string>
@@ -103,7 +104,7 @@
     <string name="menu_scan_start">Сканирование</string>
     <string name="msg_scanning">Сканирование всех станций…</string>
     <string name="menu_clean">Очистить Избранное</string>
-    <string name="menu_sleep">Автовыкл.</string>
+    <string name="menu_sleep">Автомат. выкл.</string>
     <string name="onoff_warning">Коснитесь для старта</string>
     <string name="msg_starting">Старт...</string>
     <string name="msg_off">Выключение...</string>
@@ -130,7 +131,7 @@
     <string name="select_delete">Удалить записи?</string>
     <string name="plug_headset_warning">Вставьте наушники</string>
     <string name="fm_stop_toast">FM-радио выключается</string>
-    <string name="add_to_count">Добавить в Избранное?</string>
+    <string name="add_to_count">Добавлено в список каналов</string>
     <string name="searched_info">Каналы определены:</string>
     <string name="msg_search_title">FM</string>
     <string name="message_scanning">Сканирование...</string>
@@ -144,9 +145,12 @@
     <string name="shuting_down_fmradio_in_airplane_mode">FM-радио выключается из-за включенного режима полета</string>
     <string name="phone_running_warning">Завершите вызов перед использованием FM-радио</string>
     <string name="tell_save_record">Сохранение записей</string>
+    <string name="save_record_toast">Запись сохранена, используйте соответствующее приложение для прослушивания</string>
     <string name="forbid_speaker_in_special_mode">Нельзя использовать спикер в режиме совещания и тихом режиме</string>
     <string name="silent_in_meeting_model">Нельзя регулировать громкость настраивать в режиме совещания и тихом режиме</string>
-    <string name="dialog_sleep_title">Выбор времени автовыключения</string>
+    <string name="dialog_sleep_title">Выбор времени автомат. выключения</string>
     <string name="menu_turning_off">Выключение FM-радио</string>
-    <string name="autoclose">Автозакрытие</string>
+    <string name="autoclose">Автомат. выключение</string>
+    <string name="searchwarninfo">Будут сброшены все каналы. Уверены, что хотите продолжить?</string>
+    <string name="cleanwarninfo">Уверены, что хотите удалить все каналы?</string>
 </resources>

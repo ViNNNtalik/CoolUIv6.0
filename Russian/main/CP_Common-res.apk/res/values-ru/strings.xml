@@ -20,7 +20,7 @@
     <string name="adscription_unknow">Неизв.</string>
     <string name="cooperation_exception">Исключение</string>
     <string name="password_hint">Подсказка</string>
-    <string name="password_maxlength">32</string>
+
     <string name="title">Введите пароль</string>
     <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
     <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
@@ -29,7 +29,7 @@
     <string name="set_question_title">Вопрос</string>
     <string name="set_answer_title">Ответ</string>
     <string name="need_set_answer_dialog_msg">Введите ответ</string>
-    <string name="answer_maxlength">28</string>
+
     <string name="answer_error_dialog_msg">Неправильный ответ</string>
     <string name="password_hint_title">Подсказка</string>
     <string name="your_password_is_dialog_msg">Ваш пароль</string>

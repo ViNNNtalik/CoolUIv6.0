@@ -116,4 +116,5 @@
     <string name="safety_notification_title">Режим \"Вечность\" включен</string>
     <string name="safety_notification_context">Выключено Wi-Fi, 3G, GPRS, GPS, доступ к записи, камере</string>
     <string name="safety_mode_description">Выключено Wi-Fi, 3G, GPRS, GPS, доступ к записи, камере</string>
+    <string name="quiet_mode_tips">Включение/выключение тихого режима</string>
 </resources>

@@ -281,8 +281,8 @@
     <string name="all_item_title">Всего %s</string>
     <string name="select_item_title">%s выбрано</string>
     <string name="multimedia_note_title">Заметка-мультимедиа</string>
-    <string name="pic_note_title">Заметка-фото</string>
-    <string name="rec_note_title">Заметка-аудио</string>
+    <string name="pic_note_title">Заметка с фото</string>
+    <string name="rec_note_title">Заметка с аудио</string>
     <string name="dialog_select_date_title">Выбор даты</string>
     <string name="dialog_select_time_title">Выбор времени</string>
     <string name="dialog_save_mark_text">Сохранить записи?</string>
@@ -336,10 +336,22 @@
     <string name="create_time_string">Создано:</string>
     <string name="update_time_string">Сохранено:</string>
     <string name="help_string">"Боковая колонка
-Для ее отобржения нажмите на иконку в нижней левой части или сделайте свайп направо или налево"</string>
+Для ее отображения нажмите на иконку в нижней левой части или сделайте свайп вправо/влево"</string>
     <string name="memo_security_hint_title">Добро пожаловать!</string>
     <string name="memo_security_hint_content">Приложение может потреблять трафик, читать информацию о контактах и определять местоположение</string>
     <string name="secrity_show_dialog">Не показывать снова</string>
+    <string name="pic_edit_cutting">Обрезание</string>
+    <string name="pic_edit_tagging">Метка</string>
+    <string name="pic_edit_tuya">Граффити</string>
+    <string name="account_add">Добавить аккаунт</string>
+    <string name="account_cancel">Выйти из аккаунта</string>
+    <string name="setting_account_cancel">Отмена аккаунта</string>
+    <string name="cool_cloud_login_progressdialog_title">Загрузка...</string>
+    <string name="cool_cloud_login_progressdialog_content">Ожадийте...</string>
+    <string name="cool_cloud_login_hint_userid">Введите адрес эл. почты</string>
+    <string name="cool_cloud_login_ok">Вход завершен успешно</string>
+    <string name="cool_cloud_login_timeout">Таймаут сети</string>
+    <string name="cool_cloud_login_error">Ошибка, повторите операцию</string>
 
 
 
@@ -373,20 +385,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="setting_coolcloud_account">Аккаунт Облака Coolpad</string>
+    <string name="setting_coolcloud_account_state">Нет входа в аккаунт</string>
 
 
 
@@ -405,13 +405,13 @@
     <string name="file_select_save">Сохранено в:</string>
     <string name="file_select_new">Создание папки</string>
     <string name="edit_set_title">Заголовок</string>
-    <string name="tag_group_itemnum">элем.</string>
+    <string name="tag_group_itemnum">" элем."</string>
     <string name="menu_script">От руки</string>
     <string name="script_space">Пробел</string>
     <string name="script_newline">Абзац</string>
     <string name="script_backspace">Назад</string>
     <string name="script_brush">Кисть</string>
-    <string name="script_note_title">Заметки от руки</string>
+    <string name="script_note_title">Заметка от руки</string>
     <string name="memo_detail_dialog">Детали</string>
     <string name="memo_detail_textcount">Количество слов</string>
     <string name="memo_detail_groupname">Группировка</string>
@@ -427,24 +427,24 @@
     <string name="setting_sync">Синхронизация</string>
     <string name="setting_autosync">Автоматическая синхронизация</string>
     <string name="setting_offline_read">Настройки офлайн-режима</string>
-    <string name="setting_only_wifi_sync">Автоматическая синхронизация только по Wi-Fi</string>
+    <string name="setting_only_wifi_sync">Автомат. синхронизация только по Wi-Fi</string>
     <string name="setting_only_wifi_download">Автоматическая загрузка только по Wi-Fi</string>
 
     <string name="main_add_group">Добавить группировку</string>
     <string name="sync_title">Синхронизация</string>
-    <string name="release_to_refresh">Loosen the immediate synchronization</string>
-    <string name="pull_to_refresh">Потяните immediately synchronize</string>
+    <string name="release_to_refresh">Отпустите для синхронизации</string>
+    <string name="pull_to_refresh">Потяните для синхронизации</string>
     <string name="sync_content">"Последняя синхронизация: "</string>
     <string name="other">Прочее</string>
-    <string name="sync_failed">Synchronization failed!</string>
-    <string name="sync_init_failed">Synchronous initialization failed!</string>
-    <string name="sync_success">Successful synchronization!</string>
-    <string name="sync_net_error">A network error, please check the network environment!</string>
-    <string name="sync_userinfo_unable">Unable to find the user login information, please login again cool cloud account!</string>
-    <string name="setting_image_login">Click on login</string>
-    <string name="new_no_group_message">Please create a new group after!</string>
-    <string name="edit_no_group_message">Please create a packet after editing!</string>
-    <string name="packet_encryption">Packet encryption</string>
+    <string name="sync_failed">Синхронизация не удалась!</string>
+    <string name="sync_init_failed">Старт синхронизации не удался!</string>
+    <string name="sync_success">Успешно синхронизировано!</string>
+    <string name="sync_net_error">Ошибка сети. Проверьте подключение!</string>
+    <string name="sync_userinfo_unable">Нет информации о логине пользователя. Войдите заново в аккаунт Облака Coolpad!</string>
+    <string name="setting_image_login">Нажмите на вход</string>
+    <string name="new_no_group_message">Вначале создайте группу!</string>
+    <string name="edit_no_group_message">Вначале создайте группу!</string>
+    <string name="packet_encryption">Групповое шифрование</string>
     <string name="button_ok_text">ОК</string>
     <string name="button_cancel_text">Отмена</string>
     <string name="button_yes_text">Да</string>
@@ -461,7 +461,7 @@
     <string name="adscription_unknow">Неизв.</string>
     <string name="cooperation_exception">Исключение</string>
     <string name="password_hint">Подсказка</string>
-    <string name="password_maxlength">32</string>
+
     <string name="title">Введите пароль</string>
     <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
     <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
@@ -470,7 +470,7 @@
     <string name="set_question_title">Вопрос</string>
     <string name="set_answer_title">Ответ</string>
     <string name="need_set_answer_dialog_msg">Введите ответ</string>
-    <string name="answer_maxlength">28</string>
+
     <string name="answer_error_dialog_msg">Неправильный ответ</string>
     <string name="password_hint_title">Подсказка</string>
     <string name="your_password_is_dialog_msg">Ваш пароль</string>

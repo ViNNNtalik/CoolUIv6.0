@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
     <string name="browser_theme_resource_style">compatible</string>
     <string name="browser_listview_disable_item_need_divider">true</string>
     <string name="browser_startpage_config_server">http://127.0.0.1/</string>
@@ -12,7 +14,9 @@
     <string name="browser_hao123_webapp_homepage">http://m.hao123.com/client_favoritesurl?z=2&amp;set=1</string>
     <string name="browser_start_webapp_homepage">http://127.0.0.1/</string>
     <string name="browser_hot_contents_url">http://127.0.0.1/</string>
+    <string name="browser_hot_contents_test_url">http://127.0.0.1/</string>
     <string name="browser_weather_host_url">http://m.hao123.com/b/oem/weather_data?ip=%1$s&amp;prov=%2$s&amp;city=%3$s</string>
+    <string name="headline">Последние новости</string>
     <string name="browser_application_name">Интернет</string>
     <string name="browser_choose_upload">Выберите файл для выгрузки</string>
     <string name="browser_uploads_disabled">Выгрузка файлов выключена</string>
@@ -221,6 +225,7 @@
     <string name="browser_pref_security_accept_cookies">Принимать Сookies</string>
     <string name="browser_pref_message_news">Горячие новости</string>
     <string name="browser_pref_message_joke">Шутки</string>
+    <string name="browser_pref_prompt_info">Сообщение с запросом</string>
     <string name="browser_update_setting">Обновление</string>
     <string name="browser_update_unknown_error">Неизвестная ошибка</string>
     <string name="browser_update_timeout">Таймаут соединения</string>
@@ -357,7 +362,7 @@
     <string name="browser_download_success">Загрузка завершена</string>
     <string name="browser_download_running">Скачивание...</string>
     <string name="browser_download_pending">Начинается загрузка...</string>
-    <string name="browser_download_pending_network">Ожидание подключения к данным...</string>
+    <string name="browser_download_pending_network">Подключение...</string>
     <string name="browser_download_running_paused">Ожидание подключения к данным...</string>
     <string name="browser_download_canceled">Загрузка отменена</string>
     <string name="browser_download_not_acceptable">Ошибка загрузки. Содержимое не поддерживается</string>
@@ -367,9 +372,9 @@
     <string name="browser_download_device_aborted">Нет доступного накопителя</string>
     <string name="browser_dump_nav">Дамп кэша</string>
     <string name="browser_dump_counters">Дамп V8 counters</string>
-    <string name="browser_homepage_base">https://www.google.com/webhp?client={CID}&amp;source=android-home</string>
-    <string name="browser_instant_base">http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
-    <string name="browser_picasa">Picasa</string>
+
+
+
     <string name="browser_search_the_web">Поиск в Интернете</string>
     <string name="browser_webstorage_outofspace_notification_title">Хранилище браузера заполнено</string>
     <string name="browser_webstorage_outofspace_notification_text">Нажмите для освобождения места</string>
@@ -381,7 +386,8 @@
     <string name="browser_webstorage_origin_summary_mb_stored">Mб, сохраненные в памяти</string>
     <string name="browser_loading_video">Загрузка видео</string>
     <string name="browser_geolocation_permissions_prompt_message">Приложение хочет знать Ваше местоположение</string>
-    <string name="browser_geolocation_permissions_prompt_share">Поделиться местоположением</string>
+    <string name="browser_geolocation_permissions_prompt_share">Запрос</string>
+    <string name="browser_geolocation_permissions_title">Поделиться местоположением</string>
     <string name="browser_geolocation_permissions_prompt_dont_share">Отклонить</string>
     <string name="browser_geolocation_permissions_prompt_remember">Запомнить предпочтение</string>
     <string name="browser_geolocation_permissions_prompt_toast_allowed">Этот сайт может получить доступ к Вашему местоположению. Измените это в Настройки -> Настройки веб-сайта</string>
@@ -503,6 +509,7 @@
     <string name="browser_prompt_url_max_length">Число символов в URL-адресе достигло максимума</string>
     <string name="browser_prompt_page_turn_on">Переворот страницы клавишами громкости</string>
     <string name="browser_prompt_page_turn_off">Нельзя ереворачивать страницы клавишами громкости</string>
+    <string name="browser_prompt_clear_search_success">Очистка поиска завершена успешно!</string>
     <string name="browser_pref_land_mode_summary">Задать ориентацию экрана при просмотре</string>
     <string name="browser_favorites">Избранное</string>
     <string name="browser_bookmark_histroy">Закл./Истор.</string>
@@ -514,6 +521,8 @@
     <string name="browser_recover_bookmark">Восстановить</string>
     <string name="browser_clear_all_histories">Очистить историю</string>
     <string name="browser_clear_all">Очистить все</string>
+    <string name="browser_if_clear_search_all">Очистить историю ввода?</string>
+    <string name="browser_clear_search_all">Очистка истории ввода</string>
     <string name="browser_folder">Папка</string>
     <string name="browser_select_folder">Выбор папки</string>
     <string name="browser_saveFolder">Сохранить</string>
@@ -546,7 +555,8 @@
     <string name="browser_tool_bar_back_title">Назад</string>
     <string name="browser_clear_all_records">Очистить историю и кэш</string>
     <string name="browser_do_not_prompt_content">Не показывать снова</string>
-    <string name="browser_browser_exit_title">Выйти из браузера?</string>
+    <string name="browser_browser_exit_title">Выход</string>
+    <string name="browser_browser_exit_content">Выйти из браузера?</string>
     <string name="browser_press_again_and_exit_browser">Нажмите еще раз для выхода</string>
     <string name="browser_browser_exit_confirm">ОК</string>
     <string name="browser_browser_exit_cancel">Отмена</string>
@@ -575,6 +585,7 @@
     <string name="browser_advanced_Setting">"Расширенные "</string>
     <string name="browser_attitude_feedback">Отзыв</string>
     <string name="browser_message_Setting">Push-уведомления</string>
+    <string name="browser_prompt_setting">Запрос</string>
     <string name="browser_pref_land_mode_title">Ориентация экрана</string>
     <string name="browser_pref_land_mode_system">Авто</string>
     <string name="browser_pref_land_mode_portrait">Портрет</string>
@@ -702,7 +713,7 @@
 "</string>
     <string name="browser_download_no_sdcard_dlg_msg2">Для загрузки требуется SD-карта.</string>
     <string name="browser_download_filename_hint">Имя</string>
-    <string name="browser_download_filesize_hint">Размер</string>
+    <string name="browser_download_filesize_hint">"Размер: "</string>
     <string name="browser_download_filepath_hint">Путь</string>
     <string name="browser_select_path">Выбрать путь</string>
     <string name="browser_no_remind">Не показывать снова</string>
@@ -778,6 +789,7 @@
     <string name="browser_getin_normal">Полный экран выключен</string>
     <string name="browser_nav_reach_max_count">Нельзя добавить больше записей</string>
     <string name="browser_prompt_send_link_to_desktop">Нельзя создать ярлык для адреса</string>
+    <string name="browser_prompt_send_link_to_desktop_succeed">Ярлык создан</string>
     <string name="browser_prompt_popup_new_windows">Всплывающее окно заблокировано. Вы можете изменить настройки, чтобы разрешить их</string>
     <string name="browser_search_baidu">Baidu</string>
     <string name="browser_search_google">Google</string>
@@ -787,6 +799,7 @@
     <string name="browser_debug_clear_config_file">Очистка файлов конфигурации</string>
     <string name="browser_debug_saved_message">Изменения вступят в силу после перезагрузки</string>
     <string name="browser_debug_ad_server_prompt">Соединено с тестовым ad-сервером</string>
+    <string name="browser_debug_switch_to_v2">Переключиться на V2</string>
     <string name="browser_prompt_js_alert_get_data_failed">Не удалось получить данные</string>
     <string name="browser_prompt_js_alert_load_failed_and_need_to_refresh">Не удалось загрузить</string>
     <string name="browser_prompt_quick_back">Вернуться прямо на первую страницу</string>
@@ -989,6 +1002,7 @@
     <string name="browser_stringtopinyinhint">Не определено</string>
     <string name="browser_textOverMaxLengthWarnning">Максимальная длина</string>
     <string name="browser_copy_hint_text">Скопировано</string>
+    <string name="commonbutton_settext_hint">Ввод текста</string>
     <string name="browser_delOne">Удалить из буфера обмена</string>
     <string name="browser_delAll">Очистить буфер обмена</string>
     <string name="browser_clipboardOper">Действия с буфером обмена</string>
@@ -1018,7 +1032,7 @@
     <string name="browser_pick_wifi_no">Нет</string>
     <string name="browser_pref_content_readmode_switch_auto">Автомат. ночной режим (23:00-07:00)</string>
     <string name="browser_pref_content_readmode_switch_auto_summary">Период с 23:00 до 07:00 задан как ночной режим</string>
-    <string name="browser_pref_content_readmode_switch_auto_hint_message">Включить автомат. ночной режим</string>
+    <string name="browser_pref_content_readmode_switch_auto_hint_message">Включить автомат. ночной режим?</string>
     <string name="browser_pref_content_readmode_switch_auto_hint_yes">Автомат. ночной режим включен. Для изменений войдите в Настройки/Расширенные</string>
     <string name="browser_pref_content_readmode_switch_auto_hint_no">Автомат. ночной режим  выключен. Для изменений войдите в Настройки/Расширенные</string>
     <string name="browser_readmode_switch_auto_hint">Ночной режим включен</string>
@@ -1038,6 +1052,13 @@
     <string name="browser_sliding_to_the_left_prompt">Добро пожаловать!</string>
     <string name="browser_back_to_the_first_page">Возврат на первую страницу</string>
     <string name="browser_forward_to_the_last_page">Переход на последнюю страницу</string>
+    <string name="browser_news_section_more">Еще...</string>
+    <string name="browser_news_refresh_button_content">Обновить</string>
+    <string name="browser_startpage_title">Стартовая страница</string>
+    <string name="browser_action_select_text">Выбор текста</string>
+    <string name="browser_action_select_all">ВЫБРАТЬ ВСЕ</string>
+    <string name="browser_action_share">ПОДЕЛИТЬСЯ</string>
+    <string name="browser_action_find">ПОИСК</string>
     <string name="browser_umeng_value_forward">Вперед</string>
     <string name="browser_umeng_value_back">Назад</string>
     <string name="browser_umeng_value_mainview">Домой</string>
@@ -1072,6 +1093,8 @@
     <string name="browser_umeng_value_section_hotnews_refresh">Обновление</string>
     <string name="browser_umeng_value_section_hotnews_prev">Назад</string>
     <string name="browser_umeng_value_section_hotnews_next">Далее</string>
+    <string name="browser_no_matches">Нет совпадений</string>
+    <string name="browser_find_on_page">Поиск на странице</string>
     <string name="umeng_common_action_info_exist">Приложение уже в списке загрузки</string>
     <string name="umeng_common_info_interrupt">Загрузка прервана</string>
     <string name="umeng_common_action_pause">Пауза</string>
@@ -1093,7 +1116,7 @@
     <string name="UMUpdateContent">Содержание обновления</string>
     <string name="UMUpdateSize">"Размер апдейта: "</string>
     <string name="UMTargetSize">"Заданный размер: "</string>
-    <string name="UMGprsCondition">(Внимание: Нет Wi-Fi)</string>
+    <string name="UMGprsCondition">(Внимание: нет Wi-Fi)</string>
     <string name="UMUpdateNow">Обновить сейчас</string>
     <string name="UMAppUpdate">Приложение обновляется</string>
     <string name="UMNotNow">Не сейчас</string>

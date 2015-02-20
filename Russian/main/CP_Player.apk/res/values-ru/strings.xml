@@ -168,9 +168,9 @@
     <string name="mmmusic_setting_audio_size_title">Размер фильтра</string>
     <string name="mmmusic_setting_audio_clear_cache">Очистка кэша</string>
     <string name="mmmusic_setting_online_part_title">Открыть или закрыть онлайн-музыку</string>
-    <string name="mmmusic_setting_desklyric_title">Настольная лирика</string>
-    <string name="mmmusic_setting_desklyric_lock">Блокировка настольной лирики</string>
-    <string name="mmmusic_setting_desk_lock_show">Отображение настольной лирики</string>
+    <string name="mmmusic_setting_desklyric_title">Поплавок с лирикой</string>
+    <string name="mmmusic_setting_desklyric_lock">Фиксация поплавка с лирикой</string>
+    <string name="mmmusic_setting_desk_lock_show">Показывать поплавок с лирикой</string>
 
     <string name="mmmusic_setting_allow_mobile">Загрузка и воспроизведение по сети</string>
     <string name="mmmusic_setting_check_update">"Автоматическая проверка обновлений "</string>
@@ -181,7 +181,7 @@
     <string name="mmmusic_setting_exit">Выход</string>
     <string name="mmmusic_local_select_all">Все</string>
     <string name="mmmusic_local_select_cancel">Очистить</string>
-    <string name="mmmusic_more_bell">Мелодия вызова</string>
+    <string name="mmmusic_more_bell">На вызов</string>
     <string name="mmmusic_more_delete">Удалить</string>
     <string name="mmmusic_more_share">Поделиться</string>
     <string name="mmmusic_more_add">Добавить</string>
@@ -261,16 +261,16 @@
     <string name="msg_not_toast_again">Не показывать снова</string>
     <string name="mmmusic_search_clear">Очистить</string>
     <string name="mmmusic_discovery_net_data_empty">Не удается получить из Интернета</string>
-    <string name="setting_desklyric_title">Настольная лирика</string>
-    <string name="desklyric_lock">Блокировка настольной лирики</string>
-    <string name="desklyric_unlock">Нажмите, чтобы разблокировать настольную лирику</string>
-    <string name="desklyric_unfixed">Настольная лирика разблокирована</string>
-    <string name="desklyric_fixed">Настольная лирика заблокирована</string>
+    <string name="setting_desklyric_title">Поплавок с лирикой</string>
+    <string name="desklyric_lock">Фиксация поплавка с лирикой</string>
+    <string name="desklyric_unlock">Снять фиксацию поплавка с лирикой</string>
+    <string name="desklyric_unfixed">Нет фиксации поплавка с лирикой</string>
+    <string name="desklyric_fixed">Поплавок с лирикой зафиксирован</string>
     <string name="desklyric_nolyric">Нет лирики</string>
     <string name="desklyric_nolyric_title">Музыка Coolpad</string>
-    <string name="desk_lrc_close">Настольная лирика закрыта. Вы можете включить ее в настройках</string>
-    <string name="desk_lrc_lock">Настольная лирика заблокирована. Вы можете разблокировать ее в настройках</string>
-    <string name="desk_lrc_unlock">Настольная лирика разблокирована</string>
+    <string name="desk_lrc_close">Поплавок с лирикой выключен. Вы можете включить в настройках</string>
+    <string name="desk_lrc_lock">Поплавок с лирикой зафиксирован. Вы можете снять фиксацию в строке состояния</string>
+    <string name="desk_lrc_unlock">Нет фиксации поплавка с лирикой</string>
     <string name="hot_recommend">Рекомендовано</string>
     <string name="is_online_shown">Показывается онлайн</string>
     <string name="mmmusic_local_delete_songs">Определить выбранные песни из списка удаленных?</string>
@@ -308,7 +308,7 @@
     <string name="add_to_playlist_success">Добавлено в плейлист успешно</string>
     <string name="scan_filter_small_audio">Фильтрация файлом менее 60 секунд</string>
     <string name="scan_start_to_scan">Начало сканирования</string>
-    <string name="scan_cancel_to_scan">Отмена сканирования</string>
+    <string name="scan_cancel_to_scan">Отмена</string>
     <string name="scan_back_to_local">Назад к музыке</string>
     <string name="scan_have_scanned">"Просканировано "</string>
     <string name="scan_have_scanned_new">",новых "</string>

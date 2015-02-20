@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неверный SIM PUK-код, осталось попыток до блокировки: %d</item>
+        <item quantity="one">Неверный SIM PUK-код, осталось попыток до блокировки: %d</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неверный SIM PIN-код, осталось попыток: %d</item>
+        <item quantity="one">Неверный SIM PIN-код, осталось до блокировки: %d</item>
+    </plurals>
+</resources>

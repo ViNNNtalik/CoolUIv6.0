@@ -81,7 +81,6 @@
         <item>Длинное нажатие в правом углу скроллера - быстрая прокрутка списков</item>
         <item>Длинное нажатие на веб-страницах для всплывающих меню</item>
         <item>В режиме инкогнито не записываются история посещения сайтов, поиска и Cookies</item>
-        <item>Нажатие страницы для включения элементов</item>
         <item>Нажатие левой клавиши - быстрое добавление в закладки</item>
         <item>В режиме без фото загружается быстрее</item>
         <item>Режим в фоне - позволяет быстро открывать новые страницы в фоне</item>
@@ -136,6 +135,8 @@
         <item>http://xuan.3g.cn</item>
     </string-array>
     <string-array name="browser_common_url">
+        <item>百度</item>
+        <item>http://www.baidu.com</item>
         <item>网易</item>
         <item>http://3g.163.com</item>
         <item>新浪</item>
@@ -967,9 +968,6 @@
         <item>新华网</item>
         <item>http://www.xinhuanet.com</item>
         <item>@raw/browser_def_thumb_xinhua</item>
-        <item>谷歌</item>
-        <item>http://www.google.com/m</item>
-        <item>@raw/browser_def_thumb_google</item>
         <item>东方财富</item>
         <item>http://www.eastmoney.com</item>
         <item>@raw/browser_def_thumb_money</item>
@@ -1038,7 +1036,7 @@
         <item>3</item>
         <item>@drawable/browser_bookmark_60</item>
         <item>网址导航</item>
-        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=34227&amp;fcid=1571</item>
+        <item>http://stat.hao.uc.cn/stat_site.php?nid=34227&amp;fcid=1571</item>
         <item>@raw/browser_daohang</item>
         <item>软件下载</item>
         <item>http://www.coolmart.net.cn</item>
@@ -1050,31 +1048,31 @@
         <item>http://i.ifeng.com/cptouch?ch=zd_kp_llsy&amp;vt=5</item>
         <item>@raw/browser_fenghuang</item>
         <item>新浪</item>
-        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=11060&amp;fcid=1571</item>
+        <item>http://stat.hao.uc.cn/stat_site.php?nid=11060&amp;fcid=1571</item>
         <item>@raw/browser_sina</item>
         <item>搜狐</item>
         <item>http://m.sohu.com/?_trans_=000011_kp_9gg</item>
         <item>@raw/browser_sohu</item>
         <item>淘宝</item>
-        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=683&amp;fcid=1571</item>
+        <item>http://stat.hao.uc.cn/stat_site.php?nid=683&amp;fcid=1571</item>
         <item>@raw/browser_taobao</item>
         <item>腾讯网</item>
-        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=11086&amp;fcid=1571</item>
+        <item>http://stat.hao.uc.cn/stat_site.php?nid=11086&amp;fcid=1571</item>
         <item>@raw/browser_txw</item>
         <item>QQ空间</item>
-        <item>http://a1844.oadz.com/link/C/1844/4643/MONgOc6dnAvRv9zYUIvo0RoHIq8_/p007/0/http://stat.hao.uc.cn/stat_site.php?nid=9354&amp;fcid=1571</item>
+        <item>http://stat.hao.uc.cn/stat_site.php?nid=9354&amp;fcid=1571</item>
         <item>@raw/browser_qqkongjian</item>
         <item>糗事百科</item>
         <item>http://m.qiushibaike.com/?ref=waphao123</item>
         <item>@raw/browser_qiushibaike</item>
     </array>
     <integer-array name="BROWSER_BASIC_FONT_SIZE_ARRAY">
-        <item>24</item>
-        <item>20</item>
         <item>18</item>
         <item>16</item>
         <item>14</item>
         <item>12</item>
+        <item>10</item>
+        <item>8</item>
     </integer-array>
     <string-array name="browser_search_engines_cm">
         <item>google</item>
@@ -1225,6 +1223,70 @@
         <item>SCREEN_ORIENTATION_PORTRAIT</item>
         <item>SCREEN_ORIENTATION_LANDSCAPE</item>
     </string-array>
+    <string-array name="browser_webview_phone_menu">
+        <item>Вызов...</item>
+        <item>Добавить контакт</item>
+        <item>Копировать</item>
+    </string-array>
+    <string-array name="browser_webview_email_menu">
+        <item>Эл. почта</item>
+        <item>Копировать</item>
+    </string-array>
+    <string-array name="browser_webview_geo_menu">
+        <item>Карта</item>
+        <item>Копировать</item>
+    </string-array>
+    <string-array name="browser_webview_anchor_menu">
+        <item>Открыть в новой вкладке в фоне</item>
+        <item>Открыть в новой вкладке</item>
+        <item>Закладка</item>
+        <item>Сохранить ссылку</item>
+        <item>Поделиться ссылкой</item>
+        <item>Копировать URL</item>
+        <item>Копировать текст ссылки</item>
+    </string-array>
+    <string-array name="browser_webview_cannotopentab_anchor_menu">
+        <item>Закладка</item>
+        <item>Сохранить ссылку</item>
+        <item>Поделиться ссылкой</item>
+        <item>Копировать URL</item>
+        <item>Копировать текст ссылки</item>
+    </string-array>
+    <string-array name="browser_webview_image_menu">
+        <item>Сохранить изображение</item>
+        <item>Просмотр изображения</item>
+        <item>Поделиться изображением</item>
+        <item>Задать как обои</item>
+    </string-array>
+    <string-array name="browser_webview_media_menu">
+        <item>Сохранить video</item>
+        <item>Воспроизвести видео</item>
+        <item>Поделиться ссылкой</item>
+    </string-array>
+    <string-array name="browser_webview_image_anchor_menu">
+        <item>Открыть в новой вкладке в фоне</item>
+        <item>Открыть в новой вкладке</item>
+        <item>Закладка</item>
+        <item>Сохранить ссылку</item>
+        <item>Поделиться ссылкой</item>
+        <item>Копировать URL</item>
+        <item>Копировать текст ссылки</item>
+        <item>Сохранить изображение</item>
+        <item>Просмотр изображения</item>
+        <item>Поделиться изображением</item>
+        <item>Задать как обои</item>
+    </string-array>
+    <string-array name="browser_webview_cannotopentab_image_anchor_menu">
+        <item>Закладка</item>
+        <item>Сохранить ссылку</item>
+        <item>Поделиться ссылкой</item>
+        <item>Копировать URL</item>
+        <item>Копировать текст ссылки</item>
+        <item>Сохранить изображение</item>
+        <item>Просмотр изображения</item>
+        <item>Поделиться изображением</item>
+        <item>Задать как обои</item>
+    </string-array>
     <string-array name="browser_snapshot_context_dialog_list_items">
         <item>Перейти по URL</item>
         <item>Закладка</item>
@@ -1277,6 +1339,7 @@
         <item>Повтор</item>
     </string-array>
     <string-array name="browser_download_history_context_paused">
+        <item>"Отмена "</item>
         <item>Возобновить</item>
     </string-array>
     <string-array name="browser_download_history_context_running">
@@ -1298,12 +1361,12 @@
         <item>Данные форм</item>
         <item>Очистить пароли</item>
     </string-array>
-    <string-array name="browser_pref_default_text_size_values">
-        <item>30</item>
-        <item>20</item>
-        <item>10</item>
-        <item>0</item>
-    </string-array>
+
+
+
+
+
+
     <string-array name="browser_handle_pdf_choices">
         <item>Загрузка</item>
         <item>Открыть</item>
