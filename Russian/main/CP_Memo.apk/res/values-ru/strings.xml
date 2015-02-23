@@ -352,52 +352,52 @@
     <string name="cool_cloud_login_ok">Вход завершен успешно</string>
     <string name="cool_cloud_login_timeout">Таймаут сети</string>
     <string name="cool_cloud_login_error">Ошибка, повторите операцию</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="cool_cloud_password_retrieve">Пароль, измените привязку к тел. номеру или адресу эл. почты</string>
+    <string name="cool_cloud_password_retrieve_mail">Пароль, измените пароль</string>
+    <string name="cool_cloud_password_retrieve_phone">Пароль, ищите пароль в сообщении</string>
+    <string name="cool_cloud_hint_code">Код подтверждения</string>
+    <string name="cool_cloud_hint_nickname">Введите имя пользователя</string>
+    <string name="cool_cloud_hint_password">Введите пароль</string>
+    <string name="cool_cloud_hint_password_again">Подтвердите пароль</string>
+    <string name="cool_cloud_userid_no_null">Имя пользователя не может быть пустым</string>
+    <string name="cool_cloud_proving_code_no_null">Код подтверждения не может быть пустым</string>
+    <string name="cool_cloud_nickname_no_null">Имя не может быть пустым</string>
+    <string name="cool_cloud_password_no_null">Пароль не может быть пустым</string>
+    <string name="cool_cloud_register">Регистрация</string>
+    <string name="cool_cloud_register_next">Далее</string>
+    <string name="cool_cloud_login">Логин</string>
+    <string name="cool_cloud_forget_password">Пароль забыт</string>
+    <string name="cool_cloud_user_protocol_note_noe">Заводя аккаунт, Вы соглашаетесь с:</string>
+    <string name="cool_cloud_user_protocol_note_two">Аккаунт Облака Coolpad</string>
+    <string name="cool_cloud_user_protocol_note_three">Пользовательское соглашение</string>
+    <string name="cool_cloud_user_protocol_note_four">и</string>
+    <string name="cool_cloud_user_protocol_note_five">Политика безопасности</string>
+    <string name="cool_cloud_register_hint_userid">Введите адрес эл. почты</string>
+    <string name="cool_cloud_register_get_code">Свободный доступ к коду подтверждения</string>
+    <string name="account_warn_exit">Точно выйти из текущего аккаунта?</string>
+    <string name="setting_account_warn_cancel">Подтверждаете выход из аккаунта?</string>
+    <string name="cool_cloud_retrive_passwprd">Поиск пароля</string>
+    <string name="cool_cloud_retrive_hint_userid">Введите адрес эл. почты</string>
+    <string name="cool_cloud_set_proving_code">Введите код подтверждения</string>
+    <string name="cool_cloud_ok_buttom">ОК</string>
+    <string name="cool_cloud_password_not_same">Пароли не совпадают</string>
+    <string name="cool_cloud_password_set_ok">Новый пароль успешно задан</string>
+    <string name="cool_cloud_get_proving_code">Получите код подтверждения</string>
+    <string name="cool_cloud_get_proving_code_ok">Доступ к коду подтверждения</string>
+    <string name="location_click_init">Нажмите добавить местоположение</string>
     <string name="setting_coolcloud_account">Аккаунт Облака Coolpad</string>
     <string name="setting_coolcloud_account_state">Нет входа в аккаунт</string>
-
-
-
-
-
-
-
-
-
-
-
+    <string name="alert_cancel_account_note1">Необходимо подтверждение вашего аккаунта Облака Coolpad</string>
+    <string name="alert_cancel_account_note2">При выходе из аккаунта Облака Coolpad синхронизация данных будет отменена</string>
+    <string name="alert_cancel_account_hint">Введите пароль от аккаунта</string>
+    <string name="alert_pic_operate_save_tip">Сохранить изменение изображения?</string>
+    <string name="cool_cloud_get_account_info_progressdialog">Ожидайте, идет получение данных о пользователе...</string>
+    <string name="cool_cloud_account_exit_error_tip">"Ошибка входа в аккаунт Облака: "</string>
+    <string name="cool_cloud_account_exit_cancel_tip">Вход в аккаунт Облака был отменен...</string>
+    <string name="cool_cloud_account_exit_ok_tip">Вход в аккаунт завершен успешно</string>
+    <string name="cool_cloud_account_login_cancel_tip">Вход в аккаунт Облака был отменен...</string>
+    <string name="cool_cloud_account_login_error_tip">"Ошибка входа в аккаунт Облака: "</string>
+    <string name="cool_cloud_account_getinfo_error_tip">Ошибка получения пользовательских данных</string>
     <string name="detection_upgrade">Поиск новой версии</string>
     <string name="network_not_exist">Нет сети? Нажмите здесь >></string>
     <string name="file_select_name">Имя:</string>

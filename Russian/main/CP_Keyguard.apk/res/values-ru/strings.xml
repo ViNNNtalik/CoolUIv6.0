@@ -167,12 +167,12 @@
     <string name="fangdao_hint">Введите пароль безопасности</string>
     <string name="password_error">Ошибка</string>
     <string name="mibao_hint">Введите пароль на включение</string>
-    <string name="pass_check_hint">Ошибка, соталось %d попыток</string>
-    <string name="note_wrong_message">Ошибка, соталось %d попыток</string>
+    <string name="pass_check_hint">Ошибка, осталось попыток: %d</string>
+    <string name="note_wrong_message">Ошибка, осталось попыток: %d</string>
     <string name="note_later_message">Вы неправильно ввели пароль 3 раза/ Попробуйте еще раз через %d секунд</string>
 
     <string name="find_password_text">Пароль забыт</string>
-    <string name="keyguard_default_ownerinfo">Мое сердце пылает</string>
+    <string name="keyguard_default_ownerinfo">Сердце пылает</string>
     <string name="lockscreen_pattern_instructions">Введите графический ключ</string>
     <string name="lockscreen_emergency_call">Только 112</string>
     <string name="lockscreen_return_to_call">Вернуться к вызову</string>

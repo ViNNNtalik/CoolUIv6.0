@@ -5,7 +5,7 @@
     <string name="app_name">Проводник</string>
     <string name="dual_app_name">Проводник</string>
     <string name="root_directory_already">Это корневая директория</string>
-    <string name="onCreate">onCreate</string>
+
     <string name="filelatestIconLabel">Загрузка</string>
     <string name="filesortIconLabel">Группы</string>
     <string name="udiskIconLabel">Устройство</string>
@@ -35,20 +35,20 @@
     <string name="netdisk_tip_bind_exception">Ошибка подключения к Облаку</string>
     <string name="netdisk_tip_bind_cancel">Отмена подключения</string>
     <string name="netdisk_toast_network_unavailable">Сеть недоступна</string>
-    <string name="mms_sd">MMS_phone</string>
-    <string name="mms_exsd">MMS_SD</string>
-    <string name="mail_sd">Mail_phone</string>
-    <string name="mail_exsd">Mail_SD</string>
-    <string name="bluetooth_sd">Bluetooth_phone</string>
-    <string name="bluetooth_exsd">Bluetooth_SD</string>
-    <string name="Intercept_sd">Screenshot_phone</string>
-    <string name="Intercept_exsd">Screenshot_SD</string>
-    <string name="IE_sd">Browser_phone</string>
-    <string name="IE_exsd">Browser_SD</string>
-    <string name="PhotoEditor_sd">Modified image_phone</string>
-    <string name="PhotoEditor_exsd">Modified image_SD</string>
-    <string name="myCamera_sd">Album_phone</string>
-    <string name="myCamera_exsd">Album_SD</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="allPicture">Все изображения</string>
     <string name="Intercept">Скриншоты</string>
     <string name="othPicture">Прочее</string>
@@ -126,7 +126,7 @@
     <string name="favorite">Избранное</string>
     <string name="record">Записи</string>
     <string name="safebox">Сейф</string>
-    <string name="ftpServer">FTP</string>
+
     <string name="safebox_filemanager">Все файлы</string>
     <string name="safebox_pwbox">Пароль Сейфа</string>
     <string name="remove_path">Все файлы</string>
@@ -136,7 +136,7 @@
     <string name="system_ppd">PPD система</string>
     <string name="system_sed">SED система</string>
     <string name="other">"Прочее "</string>
-    <string name="recycled">В корзине</string>
+    <string name="recycled">Корзина</string>
     <string name="success">Успешно</string>
     <string name="failed">Не удалось</string>
     <string name="no_file">Нетфайла</string>
@@ -164,7 +164,7 @@
     <string name="alert_dialog_invalid_filename">Неверные семволы</string>
     <string name="dialog_protect_writer">Невозможно записать в папку!</string>
     <string name="dialog_copy_doing">Копирование…</string>
-    <string name="dialog_filesize_doing" />
+
     <string name="alert_dialog_outofMemory">Недостаточно места</string>
     <string name="dialog_copy_failed">Копирование файла не удалось</string>
     <string name="dialog_copy_success">Файл скопирован</string>
@@ -172,26 +172,26 @@
     <string name="dialog_banch_copy_success">Файлы скопированы</string>
     <string name="dialog_delete_doing">Удаление…</string>
     <string name="dialog_restore_doing">Восстановление...</string>
-    <string name="dialog_add_recycled_doing">Добавление удаленных...</string>
+    <string name="dialog_add_recycled_doing">Добавление в корзину...</string>
     <string name="dialog_delete_success">Файл удален</string>
     <string name="dialog_restore_success">Восстановление файлов</string>
-    <string name="dialog_add_recycled_success">Добавление удаленных файлов</string>
+    <string name="dialog_add_recycled_success">Добавление в корзину завершено</string>
     <string name="dialog_banch_delete_success">Файлы удалены</string>
     <string name="dialog_banch_restore_success">Файлы восстановлены</string>
-    <string name="dialog_banch_add_recycled_success">Добавление удаленных файлов</string>
+    <string name="dialog_banch_add_recycled_success">Файлы добавлены в корзину</string>
     <string name="dialog_delete_failed">Удаление не удалось</string>
     <string name="dialog_restore_failed">Восстановление не удалось</string>
-    <string name="dialog_add_recycled_failed">Не удалось добавить удаленные файлы</string>
+    <string name="dialog_add_recycled_failed">Не удалось добавить в корзину</string>
     <string name="dialog_banch_delete_failed">Групповое удаление не удалось</string>
-    <string name="dialog_banch_restore_failed">Failed to restore files.</string>
-    <string name="dialog_banch_add_recycled_failed">Failed to add recycled files.</string>
+    <string name="dialog_banch_restore_failed">Не удалось восстановить файлы</string>
+    <string name="dialog_banch_add_recycled_failed">Не удалось добавить файлы в корзине</string>
     <string name="dialog_delete_srcfile_failed">Удаление исходного файла не удалось</string>
     <string name="dialog_uncompress_doing">Распаковка...</string>
     <string name="dialog_decrypt_doing">Расшифровка... Ожидайте</string>
     <string name="dialog_compress_doing">Упаковка...</string>
     <string name="dialog_compress_send_doing">Упаковка файла...</string>
     <string name="dialog_add_favorite_doing">Добавление... Ожидайте</string>
-    <string name="dialog_add_recycle_doing">adding recycled...</string>
+    <string name="dialog_add_recycle_doing">Добавление в корзину...</string>
     <string name="dialog_move_doing">Перемещение…</string>
     <string name="dialog_move_failed">Перемещение не удалось</string>
     <string name="dialog_move_success">Файл перемещен</string>
@@ -199,12 +199,16 @@
     <string name="dialog_banch_move_success">Файлы перемещены</string>
     <string name="dialog_search_doing">Поиск…</string>
     <string name="dialog_search_ending">Поиск окончен</string>
-    <string name="dialog_search_rename" />
+
     <string name="dialog_read_ending">Чтение завершено!</string>
     <string name="dialog_sort_ending">Сортировка…</string>
     <string name="dialog_backread_ending">Чтение завершено!</string>
     <string name="dialog_banch_confire_deleteFile">Удалить выбранный файл?</string>
+    <string name="dialog_banch_confire_restoreFile">Восстановить выбранное?</string>
+    <string name="dialog_banch_confire_addRecycledFile">Переместить выбранное в корзину?</string>
     <string name="dialog_confire_deleteFile">Удалить выбранную запись?</string>
+    <string name="dialog_confire_restoreFile">Восстановить записи?</string>
+    <string name="dialog_confire_addRecycledFile">Переместить записи в корзину?</string>
     <string name="dialog_compress_failed">Ошибка упаковки!</string>
     <string name="dialog_compress_sucess">Упаковка завершена успешно!</string>
     <string name="dialog_compress_cancel">Упаковка отменена</string>
@@ -272,6 +276,8 @@
     <string name="dialog_rename_cancel">Перемещение отменено</string>
     <string name="dialog_moveto_safebox_cancel">Операция отменена</string>
     <string name="dialog_delete_cancel">Удаление отменено</string>
+    <string name="dialog_restore_cancel">Восстановление отменено</string>
+    <string name="dialog_add_recycled_cancel">Перемещение в корзину отменено</string>
     <string name="file_is_using">Файл используется</string>
     <string name="dialog_not_support_file">Аудиоформат не поддерживается</string>
     <string name="tip_cannot_play_media_file">Не удалось проиграть медиафайл</string>
@@ -330,7 +336,7 @@
     <string name="download_all">Все</string>
     <string name="download_center">Загрузки</string>
     <string name="download_type">Тип файлов</string>
-    <string name="download_APK">APK</string>
+
     <string name="download_picture">Изображение</string>
     <string name="download_music">Музыка</string>
     <string name="search_label">Ключевые слова</string>
@@ -368,13 +374,21 @@
     <string name="dialog_remfav_fail">Не удалось убрать из избранного</string>
     <string name="dialog_remallfav_success">Все убрано из избранного</string>
     <string name="dialog_remallfav_fail">Не удалось все убрать из избранного</string>
+    <string name="dialog_remrecycled_success">Перемещено из корзины</string>
+    <string name="dialog_remrecycled_fail">Не удалось переместить из корзины</string>
+    <string name="dialog_addrecycled_success">Добавлено в корзину</string>
+    <string name="dialog_addrecycled_fail">Не удалось добавить в корзину</string>
     <string name="setting">Настройки</string>
     <string name="setting_display_hidfile">Показывать скрытые файлы</string>
     <string name="setting_display_hidfile_summary">Показывать файлы, имена которых начинаются с точки</string>
     <string name="setting_catalog_translate">Специфические папки</string>
     <string name="setting_catalog_translate_summary">Показывать специфические папки на китайском</string>
     <string name="modify_file_suffix">Расширения файлов</string>
+    <string name="has_enable_recycled">Включение корзины</string>
     <string name="modify_file_suffix_summary">Возможность редактировать расширения файлов при их переименовании</string>
+    <string name="has_enable_recycled_summary">Корзина позволяет, при необходимости, восстановить файлы</string>
+    <string name="has_enable_recycled_summary_2">Включить корзину?</string>
+    <string name="enable_recycled_summary">Корзина включена. Вы можете задать лимит ее размера в настройках</string>
     <string name="encrypt_compress_title">Упаковка</string>
     <string name="encrypt_delete_src">Удалить исходный файл</string>
     <string name="encrypt_password_title">Ввод пароля</string>
@@ -389,7 +403,7 @@
     <string name="netdisk_menu_net_setting">Настройки</string>
     <string name="netdisk_menu_refresh">Обновить</string>
     <string name="dialog_upload_netdisk">Выгрузить в Облако</string>
-    <string name="dialog_upload_canNot_contained_dir">Нельзя Выгрузить в Облако</string>
+    <string name="dialog_upload_canNot_contained_dir">Нельзя выгрузить в Облако</string>
     <string name="netdisk_upload_list">Список выгрузки</string>
     <string name="netdisk_download_list">Список загрузки</string>
     <string name="netdisk_toast_task_choose_again">Уже добавлено в задание</string>
@@ -567,7 +581,7 @@
     <string name="cleaner_cleanselectfiles">Выбор очищенного</string>
     <string name="cleaner_delete">Удаление</string>
     <string name="space_total">"Всего: "</string>
-    <string name="space_used">"Использовано: "</string>
+    <string name="space_used">"Использ: "</string>
     <string name="space_unused">"Свободно:</string>
     <string name="space_unused1">Свободно</string>
     <string name="space_free">"Свободно места: "</string>
@@ -631,9 +645,9 @@
     <string name="clear_file_success_message">Очищено файлов: $1</string>
     <string name="apkinstalled">Установлено</string>
     <string name="apkuninstalled">Не установлено</string>
-    <string name="mms">MMS</string>
+
     <string name="mail">эл.письма</string>
-    <string name="bluetooth">Bluetooth</string>
+
     <string name="folderPicture">Папка с изображениями</string>
     <string name="myCamera">Моя камера</string>
     <string name="scanning_toast">Сканирование... Ожидайте...</string>
@@ -965,6 +979,7 @@
     <string name="menu_item_copy">Копировать</string>
     <string name="menu_item_move">Переместить</string>
     <string name="menu_item_delete">Удалить</string>
+    <string name="menu_item_restore">Восстановить</string>
     <string name="menu_item_rename">Переименовать</string>
     <string name="menu_item_share">Поделиться</string>
     <string name="menu_item_compress">Упаковать (зашифровать)</string>
@@ -975,6 +990,7 @@
     <string name="menu_item_detail">Детали</string>
     <string name="menu_item_headtoloaction">Открыть папку</string>
     <string name="menu_item_shortcut">Добавить ярлык на дом.экран</string>
+    <string name="menu_item_add2recycled">Добавление в корзину</string>
     <string name="alart_welcome_title">Добро пожаловать в Проводник Coolpad!</string>
     <string name="alart_welcome_info">Это приложение может потреблять мобильный трафик для связи с Облаком</string>
     <string name="onekey_activite_info">Заметка: Это сообщение будет отослано при регистрации</string>
@@ -995,17 +1011,21 @@
     <string name="adscription_unknow">Неизв.</string>
     <string name="cooperation_exception">Исключение</string>
     <string name="password_hint">Подсказка</string>
-    <string name="password_maxlength">32</string>
+
     <string name="title">Введите пароль от Менеджера</string>
     <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
-    <string name="login_password_error_dialog_msg">Неправильный пароль Менеджера. Введите заново</string>
+    <string name="login_password_error_dialog_msg">Неверный пароль. Введите заново</string>
+    <string name="login_password_error_dialog_msg1">Неверный пароль. Осталось одна попытка</string>
+    <string name="login_password_error_dialog_msg2">Неверный пароль. Осталось две попытки</string>
     <string name="set_question_title">Вопрос</string>
     <string name="set_answer_title">Ответ</string>
     <string name="need_set_answer_dialog_msg">Введите ответ</string>
-    <string name="answer_maxlength">28</string>
+
     <string name="answer_error_dialog_msg">Неправильный ответ</string>
     <string name="password_hint_title">Подсказка</string>
     <string name="your_password_is_dialog_msg">Ваш пароль</string>
+    <string name="security_password_login">Вход</string>
+    <string name="security_password_title">Сейф</string>
     <string name="recipeint">Адресат</string>
     <string name="selectAll">Выбрать все</string>
     <string name="paste">Вставить</string>
@@ -1016,7 +1036,7 @@
     <string name="share">Поделиться</string>
     <string name="search">Baidu-поиск</string>
     <string name="clipboard">Буфер обмена</string>
-    <string name="hanzitopinyin">pinyin</string>
+
     <string name="stringtopinyinhint">Не распознано</string>
     <string name="time_picker_dialog_title">Задать время</string>
     <string name="date_year_toggle">Год</string>
@@ -1060,5 +1080,31 @@
     <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
     <string name="clipboard2_clear_dialog_ok">ОК</string>
     <string name="clipboard2_clear_dialog_cancel">Отмена</string>
-    <string name="time_picker_separator">:</string>
+    <string name="commonbutton_settext_hint">Введите текст</string>
+
+    <string name="file_sort_path">Типы</string>
+    <string name="file_manager_my_phone">Хранилище</string>
+    <string name="path_tip_info">Подсказка: Вы можете убрать управление</string>
+    <string name="common_forget_password">Забыли пароль?</string>
+    <string name="common_login_del">Удалить все</string>
+    <string name="google_search_head">http://www.google.com/search?complete=1&amp;q=</string>
+    <string name="file_scann_start">Запущено обновление файлов. Ожидайте... </string>
+    <string name="file_scann_process">Обновление, ожидайте</string>
+    <string name="file_scann_finish">Обновление файлов завершено</string>
+    <string name="setting_basic">Базовые настройки</string>
+    <string name="setting_other">Дополнительно</string>
+    <string name="setting_recycled_size">Лимит размера корзины</string>
+    <string name="setting_recycled_size_summary">Старые файлы будут удалены, если размер корзины превысит лимит</string>
+    <string name="setting_recycled_size_value">Размер корзины не более %1$sMб</string>
+    <string name="not_login">Нет входа</string>
+    <string name="not_install_coolwind">Установите приложение CoolWind</string>
+    <string name="wait_for_logging">Вход...</string>
+    <string name="error_for_logging">Вход не удался</string>
+    <string name="error_for_get_message">Сообщение не удалось</string>
+    <string name="to_net_disk">В Облако Coolpad</string>
+    <string name="logout">Выход</string>
+    <string name="binding_baidu_cancel">Отмена привязки</string>
+    <string name="binding_baidu_error">Ошибка привязки</string>
+    <string name="overRecycledMaxSize">"Файл больше лимита корзины. Его нельзя будет восстановить. Продолжить?"</string>
+    <string name="dialog_empty_recycled">Очистить корзину?</string>
 </resources>

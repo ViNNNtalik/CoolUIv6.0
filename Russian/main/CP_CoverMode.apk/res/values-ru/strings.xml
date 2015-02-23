@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abbrev_wday_month_day_no_year">"d.MM   E"</string>
+
+
+    <string name="doubletime_abbrev_wday_month_day_no_year">d MMMM,EEE</string>
+
+    <string name="new_notify_hint">Новое событие</string>
+    <string name="new_mms">Новое сообщение</string>
+    <string name="Notify_no_info">Нет событий</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="keyboardview_keycode_enter">Ввод</string>
+
+
+    <string name="keyguard_charged">Изменено</string>
+    <string name="keyguard_plugged_in">Зарядка %d%%</string>
+    <string name="keyguard_low_battery">Подключите зарядное</string>
+    <string name="lockscreen_emergency_call">Экстренный вызов</string>
+    <string name="lockscreen_return_to_call">К вызову</string>
+    <string name="lockscreen_pattern_wrong">Попробуйте еще раз</string>
+    <string name="lockscreen_password_wrong">Попробуйте еще раз</string>
+    <string name="lockscreen_access_pattern_start">Графический ключ</string>
+    <string name="lockscreen_access_pattern_cleared">Графический ключ очищен</string>
+    <string name="lockscreen_access_pattern_cell_added">Ячейка добавлена</string>
+    <string name="lockscreen_access_pattern_detected">Графический ключ завершен</string>
+    <string name="keyguard_accessibility_pattern_area">Зона графического ключа</string>
+
+    <string name="keyboardview_keycode_delete">Удалить</string>
+    <string name="kg_wrong_pattern">Неверный графический ключ</string>
+    <string name="kg_wrong_password">Неверный пароль</string>
+    <string name="kg_wrong_pin">Неверный пароль</string>
+    <string name="kg_too_many_failed_attempts_countdown">Попробуйте через %ds.</string>
+    <string name="kg_pattern_instructions">Нарисуйте графический ключ</string>
+    <string name="kg_sim_pin_instructions">Введите PIN от SIM-карты</string>
+    <string name="kg_pin_instructions">Введите пароль</string>
+    <string name="kg_password_instructions">Графический ключ</string>
+    <string name="keyguard_accessibility_pin_unlock">Разблокировка PIN</string>
+    <string name="no_answer_call">Пропущенные вызовы</string>
+    <string name="card">SIM</string>
+    <string name="starry_unlock_info">Вверх для разблокировки</string>
+</resources>
