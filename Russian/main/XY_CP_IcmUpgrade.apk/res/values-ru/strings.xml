@@ -24,6 +24,7 @@
     <string name="retry">Повтор</string>
     <string name="description_title">Новая версия</string>
     <string name="waiting">Ожидание</string>
+    <string name="notask_need_start">Нет задач к запуску</string>
     <string name="downloadlist_text_tile">Обновление приложений</string>
     <string name="downloadlist_text_update_success">Успешно обновлено</string>
 </resources>

@@ -288,6 +288,7 @@
         <item>Сон 20 минут</item>
         <item>Сон 25 минут</item>
         <item>Сон 30 минут</item>
+        <item>Сон 60 минут</item>
     </string-array>
 
 
@@ -296,15 +297,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     <string-array name="alarm_set">
-        <item>Будильник зазвонит менее, чем через минуту</item>
-        <item>Будильник зазвонит через %1$s</item>
-        <item>Будильник зазвонит через %2$s</item>
-        <item>Будильник зазвонит через %1$s и %2$s</item>
-        <item>Будильник зазвонит через %3$s</item>
-        <item>Будильник зазвонит через %1$s и %3$s</item>
-        <item>Будильник зазвонит через %2$s и %3$s</item>
-        <item>Будильник зазвонит через %1$s, %2$s и %3$s</item>
+        <item>Будильник менее, чем через минуту</item>
+        <item>Будильник через %1$s</item>
+        <item>Будильник через %2$s</item>
+        <item>Будильник через %1$s и %2$s</item>
+        <item>Будильник через %3$s</item>
+        <item>Будильник через %1$s и %3$s</item>
+        <item>Будильник через %2$s и %3$s</item>
+        <item>Будильник через %1$s, %2$s и %3$s</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>5 минут</item>
@@ -364,4 +376,23 @@
 
 
 
+    <string-array name="week_strings">
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
+    <string-array name="weeks_string">
+        <item>" "</item>
+        <item>" Вс "</item>
+        <item>" Пн "</item>
+        <item>" Вт "</item>
+        <item>" Ср "</item>
+        <item>" Чт "</item>
+        <item>" Пт "</item>
+        <item>" Сб "</item>
+    </string-array>
 </resources>

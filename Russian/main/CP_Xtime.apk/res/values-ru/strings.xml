@@ -5,10 +5,11 @@
 
 
     <string name="app_name">Часы</string>
-    <string name="timePicker_unit_hour">час.</string>
-    <string name="timePicker_unit_minute">мин.</string>
-    <string name="time_am">" AM"</string>
-    <string name="time_pm">" PM"</string>
+    <string name="timePicker_unit_hour">" час."</string>
+    <string name="timePicker_unit_minute">" мин."</string>
+    <string name="timePicker_unit_second">" сек."</string>
+
+
     <string name="selector_city_name">" Город"</string>
     <string name="unknown">Неизв.</string>
     <string name="record_label">"Запись "</string>
@@ -33,8 +34,8 @@
     <string name="ok">ОК</string>
     <string name="china_month">Месяц</string>
     <string name="china_day">День</string>
-    <string name="china_am">AM</string>
-    <string name="china_pm">PM</string>
+
+
     <string name="app_label">Часы</string>
     <string name="add_alarm">Добавить</string>
     <string name="delete_alarm">Удалить будильник</string>
@@ -63,7 +64,7 @@
     <string name="minutes">%s мин.</string>
     <string name="every_day">Каждый день</string>
     <string name="never">Не выбрано</string>
-    <string name="day_concat">", "</string>
+
     <string name="clock_instructions">Выберите часы</string>
     <string name="analog_gadget">Аналоговые часы</string>
     <string name="settings">Настройки</string>
@@ -83,7 +84,7 @@
     <string name="volume_button_setting_summary">Определить функцию этой клавиши во время звонка будильника</string>
     <string name="set_time_title">Задать время</string>
     <string name="alarm_alert_tip_start">"Вы установили повторяющийся будильник "</string>
-    <string name="alarm_alert_tip_end">". "</string>
+
     <string name="alarm_alert_tip_once">Вы установили однократный будильник</string>
     <string name="alarm_alert_need_stop_media">У Вас сработал будильник. Остановите медиа для просмотра</string>
     <string name="countdown_ok_text">ОК</string>
@@ -169,20 +170,20 @@
     <string name="only_ring">Только мелодия</string>
     <string name="only_vibrate">Только вибрация</string>
     <string name="volumeGraduallyUp">Возрастающая громкость</string>
-
-
+    <string name="rand_ring">Случайная мелодия</string>
+    <string name="selfdefined_ring">Пользоват.</string>
     <string name="city">Город</string>
     <string name="sort_by_timezone">По час. поясу</string>
     <string name="sort_by_char">По алфавиту</string>
     <string name="no_result">Нет результатов</string>
-    <string name="selecttime_acitivity_label">Выбор час.пояс/город</string>
-
+    <string name="selecttime_acitivity_label">Выбор час. пояса</string>
+    <string name="selecttime_acitivity_label_city">Выбор города</string>
     <string name="network_hint">Нет сети</string>
     <string name="connectting_network">Определение местоположения...</string>
     <string name="location_failed">Не удалось определить местоположение</string>
     <string name="timepicker_hour">час.</string>
     <string name="timepicker_minute">мин.</string>
-
+    <string name="alarm_backpic">Фон будильника</string>
     <string name="close_alarm_window_text">Слайдинг для выключения будильника</string>
     <string name="close_alert_window_text">Слайдинг для выключения таймера</string>
     <string name="no_gps_title">Информация</string>
@@ -193,40 +194,40 @@
     <string name="message_box_ok">ОК</string>
     <string name="message_box_cancel">Отмена</string>
     <string name="time_minute">" мин."</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="hours_earlier">%d час. больше</string>
+    <string name="hours_later">%d час. меньше</string>
+    <string name="country_standard_time">%s стандартное время</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="stopwatch_reset">Сброс</string>
+    <string name="mutering_title">Звук в тихом режиме</string>
+    <string name="muteturn_title">Беззвучно переворотом</string>
+    <string name="weathercity_title">Город</string>
+    <string name="voicealarm_title">Голосовой вызов</string>
+    <string name="locate_city">Местоположение города</string>
+    <string name="locate_remind">Определение местоположения...</string>
+    <string name="locate_network">Включите сеть!</string>
+    <string name="alarm_bkgactivity_label">Настройки фона</string>
+    <string name="alarm_bkg_gallery">Галерея</string>
+    <string name="alarm_bkg_camera">Камера</string>
+    <string name="weatherinfo_hello">"Привет"</string>
+    <string name="weatherinfo_today">"Погода: "</string>
+    <string name="weatherinfo_city">Город</string>
+    <string name="weatherinfo_tempture">Температура</string>
+    <string name="weatherinfo_to"></string>
+    <string name="weatherinfo_degree">Градус</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="weatherinfo_lingxia">Отрицательно</string>
     <string name="google_search_head">http://www.google.com/search?complete=1&amp;q=</string>
-
-
-
-
-
-
+    <string name="disclaimer_agree">Да</string>
+    <string name="disclaimer_quit">Выход</string>
+    <string name="disclaimer_title">Будильник</string>
+    <string name="disclaimer_message">В процессе использования приложение получит доступ к сети</string>
+    <string name="disclaimer_checkboxtext">Больше не показывать</string>
+    <string name="alarm_remaind">Задать время напоминания</string>
     <string name="button_ok_text">ОК</string>
     <string name="button_cancel_text">Отмена</string>
     <string name="button_yes_text">Да</string>
@@ -243,7 +244,7 @@
     <string name="adscription_unknow">Неизв.</string>
     <string name="cooperation_exception">Исключение</string>
     <string name="password_hint">Подсказка</string>
-    <string name="password_maxlength">32</string>
+
     <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
     <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
     <string name="login_password_error_dialog_msg1">Неправильный пароль. Можно ввести 1 раз</string>
@@ -252,7 +253,6 @@
     <string name="set_answer_title">Ответ</string>
     <string name="need_set_answer_dialog_msg">Введите ответ</string>
 
-    <string name="answer_maxlength">28</string>
     <string name="answer_error_dialog_msg">Неправильный ответ</string>
     <string name="password_hint_title">Подсказка</string>
     <string name="your_password_is_dialog_msg">Ваш пароль</string>
@@ -313,8 +313,8 @@
     <string name="clipboard2_clear_dialog_ok">ОК</string>
     <string name="clipboard2_clear_dialog_cancel">Отмена</string>
     <string name="commonbutton_settext_hint">Введите текст</string>
-    <string name="time_picker_separator">:</string>
+
     <string name="common_forget_password">Забыли пароль?</string>
     <string name="common_login_del">Очистка</string>
-    <string name="IsCoolSystem">Y</string>
+
 </resources>

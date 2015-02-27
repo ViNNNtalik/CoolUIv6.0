@@ -79,6 +79,8 @@
     <string name="dlg_title_update">Обновление прошивки</string>
     <string name="toast_package_downloading_in_background">Пакет обновления загружается в фоне</string>
     <string name="toast_no_available_update">Ваша прошивка самая последняя!</string>
+    <string name="toast_no_available_update_second">Нет обновления...</string>
+    <string name="toast_no_available_update_third">При наличии обновления, Вы будете уведомлены</string>
     <string name="toast_no_available_update_roaming">В связи с нахождением в роуминге не рекомендуется проверять наличие обновления</string>
     <string name="toast_server_not_available">Ваша прошивка самая последняя!</string>
     <string name="toast_in_update">Ваше устройство обновляется. Попробуйте позже</string>
@@ -148,11 +150,14 @@
     <string name="toast_redownload">В прошлый раз обновление было прервано. Пожалуйста, перед обновлением перезагрузите устройство</string>
     <string name="toast_update_modem_fail">Система обновлена</string>
     <string name="toast_remind_change_to_ctnet">Не удалось подключится к WAP</string>
+    <string name="toast_power_not_enough_update">Для обновления необходим заряд батареи не ниже 15%</string>
     <string name="toast_power_not_enough">Низкий заряд батареи. Запустите обновление заново после зарядки</string>
     <string name="toast_network_disconnect">Нет сети</string>
     <string name="dlg_btn_confirm">ОК</string>
     <string name="dlg_message_power_low">Низкий заряд батареи. Зарядите батарею и попробуйте заново</string>
+    <string name="dlg_confirmcharging">ОК</string>
     <string name="dlg_title_hint">Информация</string>
+    <string name="dlg_title_download_confirm">Точно хотите скачать?</string>
     <string name="dlg_title_super_update">Оптимизация системы</string>
     <string name="dlg_message_super_update">"Ваша система требует оптимизации. После ее завершения устройство будет работать более лпавно
 Обновление прошивки не влияет на пользовательские данные
@@ -206,6 +211,7 @@
 1. Обновление прошивки не влияет на пользовательские данные
 2. Загрузка обновления может потреблять много трафика"</string>
     <string name="message_current_detail">Детали</string>
+    <string name="record_current_version">Журнал текущего обновления</string>
     <string name="toast_in_downloading">Загрузка пакета обновления. Делали можно просмотреть в панели уведомлений</string>
     <string name="message_no_history">Нет обновления</string>
     <string name="toast_show_dialog_again12">Этот диалог появится снова после %s</string>
@@ -227,6 +233,7 @@
     <string name="update_need_to_reboot">Обновление требует перезагрузки системы</string>
     <string name="ok_to_reboot">Перезагрузить сейчас</string>
     <string name="later_to_reboot">Перезагрузить позже</string>
+    <string name="toast_network__judge_before_download">Вы используете 3G, рекомендуется переключиться на  Wi-Fi</string>
     <string name="progress_text">%1$s Мб / %2$s Мб</string>
     <string name="update_package_size_text">Размер пакета: %s Мб</string>
     <string name="address_server">Значение предоставлено сервером</string>

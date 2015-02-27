@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="startmode_entries">
+        <item>Hot start</item>
+        <item>Cold start</item>
+    </string-array>
+    <string-array name="startmode_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="brcm_log_entries">
+        <item>Open</item>
+        <item>Close</item>
+    </string-array>
+    <string-array name="brcm_log_values">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+</resources>

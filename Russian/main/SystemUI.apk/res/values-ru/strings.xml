@@ -280,7 +280,7 @@
     <string name="qs_minor_bar_tips">Не показывать в панели уведомлений</string>
     <string name="status_bar_recent_memory">Память</string>
     <string name="status_bar_recent_memory_used">Исп. памяти:</string>
-    <string name="status_bar_recent_memory_free">Свободно:</string>
+    <string name="status_bar_recent_memory_free">" свободно из "</string>
     <string name="status_bar_recent_memory_item_used">Исп.:</string>
     <string name="status_bar_recent_memory_total">Всего памяти:</string>
     <string name="status_bar_earphones_connected">Подключены наушники</string>

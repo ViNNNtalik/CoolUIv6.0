@@ -21,11 +21,11 @@
     <string name="cleansuccess">Очищено успешно</string>
     <string name="cleanfail">Не удалось очистить</string>
     <string name="finish">Завершение</string>
-    <string name="gyroscope_name">RollDiceSM</string>
+
     <string name="flashlight">Вспышка</string>
     <string name="flashlight_status">Статус вспышки</string>
     <string name="flashlight_summary">Проверка работы вспышки</string>
-    <string name="hello">Hello World, CompassActivity!</string>
+
     <string name="compassName">Компас</string>
     <string name="compassTitle">Компас</string>
     <string name="compassSet">Настройки</string>
@@ -43,7 +43,7 @@
     <string name="northlan">Северная широта </string>
     <string name="westlon">Западная долгота </string>
     <string name="southlan">Южная широта</string>
-    <string name="degress">°</string>
+
     <string name="iserrorcompass">Ошибка в компасе?</string>
     <string name="lcd">Дисплей</string>
     <string name="backlight">Подсвет.</string>
@@ -52,10 +52,10 @@
     <string name="vibrator">Вибрац.</string>
     <string name="sound">Звук</string>
     <string name="headset">Гарнит.</string>
-    <string name="bluetooth">Bluetooth</string>
+
     <string name="wifi">Wi-Fi</string>
     <string name="camera">Камера</string>
-    <string name="led">LED</string>
+
     <string name="battery">Зарядка</string>
     <string name="lightsensor">Датчик \nсвета</string>
     <string name="prosensor">Датчик \nприбл.</string>
@@ -110,13 +110,13 @@
     <string name="keyheadset">Гарнитура</string>
     <string name="keypower">Включение</string>
     <string name="keycamera">Камера</string>
-    <string name="keysoftL">S1</string>
-    <string name="keysoftR">S2</string>
-    <string name="keysendC">C</string>
-    <string name="keysendG">G</string>
+
+
+
+
     <string name="keyend">Завершить</string>
     <string name="end">Завершить</string>
-    <string name="keySMS">SMS</string>
+
     <string name="keysearch">Поиск</string>
     <string name="keyup">Вверх</string>
     <string name="keydown">Вниз</string>

@@ -44,8 +44,10 @@
     <string name="show_quick_text_list_dialog_action">Вставить быстрый ответ</string>
     <string name="read_action">Прочитано</string>
     <string name="unread_action">Не прочитано</string>
-    <string name="set_star_action">В избранные</string>
-    <string name="remove_star_action">Из избранных</string>
+    <string name="mark_star_action">В Избранное</string>
+    <string name="mark_unstar_action">Из Избранного</string>
+    <string name="mark_as_star_complete">В Избранном</string>
+    <string name="mark_as_unstar_complete">Не в Избранном</string>
     <string name="refresh_action">Обновление</string>
     <string name="resend_action">Переотправить</string>
     <string name="add_account_action">Добавить аккаунт</string>
@@ -68,6 +70,7 @@
     <string name="choose_attachment_dialog_title">Выбрать вложение</string>
     <string name="move_to_folder_dialog_title">Переместить в папку</string>
     <string name="status_loading_messages">Загрузка писем...</string>
+    <string name="status_loading_more">Загрузка сообщений...</string>
     <string name="status_network_error">Ошибка подключения</string>
     <string name="status_attachment_not_exist_error">Пустое вложение. Файлы могли быть удалены на сервере</string>
     <string name="status_attachment_access_denied_error">Вложение недоступно или слишком большого размера</string>
@@ -80,12 +83,6 @@
     <string name="notification_to_account">Кому: %1$s</string>
     <string name="notification_multiple_new_messages_fmt">Новых писем: %1$d</string>
     <string name="account_name_display_all">Все аккаунты</string>
-
-
-
-
-
-
     <string name="mailbox_name_display_inbox">Входящие</string>
     <string name="mailbox_name_display_outbox">Исходящие</string>
     <string name="mailbox_name_display_drafts">Черновики</string>
@@ -97,13 +94,6 @@
     <string name="picker_mailbox_name_all_inbox">Входящие (все)</string>
     <string name="picker_combined_view_fmt">Комбинированный вид (%s)</string>
     <string name="debug_version_fmt">Версия: %s</string>
-    <string name="debug_enable_debug_logging_label">Включить журнал дополнительной отладки?</string>
-    <string name="debug_enable_exchange_logging_label">Включить журнал анализатора exchange?</string>
-    <string name="debug_enable_exchange_file_logging_label">Включить журнал обмена с SD-картой?</string>
-    <string name="debug_clear_webview_cache">Очистить кэш WebView</string>
-    <string name="debug_disable_graphics_acceleration_label">Отключить аппаратное ускорение графики</string>
-    <string name="debug_force_one_minute_refresh_label">Форсированное обновление в 1 минуту для POP/IMAP</string>
-    <string name="debug_enable_strict_mode_label">Строгий режим (с регистрацией)</string>
     <string name="account_folder_list_summary_inbox">Входящие</string>
     <string name="account_folder_list_summary_starred">Избранные</string>
     <string name="account_folder_list_summary_drafts">Черновики</string>
@@ -121,6 +111,7 @@
     <string name="message_compose_to_hint">Получатели</string>
     <string name="message_compose_cc_hint">Копия</string>
     <string name="message_compose_bcc_hint">Скрытая копия</string>
+    <string name="message_compose_cc_bcc_hint">Копия/скрытая копия</string>
     <string name="message_compose_subject_hint">Тема</string>
     <string name="message_compose_from_label">От:</string>
     <string name="message_compose_to_label">Кому:</string>
@@ -211,6 +202,7 @@
     <string name="message_view_move_to_older">Предыдущее письмо</string>
     <string name="message_list_subject_snippet_divider">" – "</string>
     <string name="account_setup_basics_title">Добавление аккаунта</string>
+    <string name="account_setup_basics_exchange_title">Добавление Exchange-аккаунта</string>
     <string name="account_setup_basics_exchange_title_alternate">Добавление Exchange-аккаунта</string>
     <string name="account_setup_basics_headline">Настройки почты</string>
     <string name="accounts_welcome">Почта поддерживает большинство популярных почтовых служб</string>
@@ -235,10 +227,6 @@
     <string name="account_setup_account_type_title">Тип аккаунта</string>
     <string name="account_setup_account_type_headline">Тип аккаунта</string>
     <string name="account_setup_account_type_instructions">Выберите тип аккаунта</string>
-
-
-
-
     <string name="account_setup_incoming_title">Настройки аккаунта</string>
     <string name="account_setup_incoming_headline">Настройки сервера входящих писем</string>
     <string name="account_setup_incoming_username_label">Имя пользователя</string>
@@ -443,20 +431,6 @@
     <string name="search_slow_warning_title">Ожидание результатов</string>
     <string name="search_slow_warning_message">Ожидание ответа от сервера может занять много времени</string>
     <string name="action_bar_mailbox_list_title">Папки</string>
-    <string name="long_string">Длинная строка</string>
-    <string name="accounts_title">Эл.почта</string>
-    <string name="accounts_context_menu_title">Настройки аккаунта</string>
-    <string name="status_sending_messages_failed">Повтор отправки письма</string>
-    <string name="status_loading_more_failed">Повтор загрузки доп.писем</string>
-    <string name="mailbox_name_server_pending">Ожидание</string>
-
-    <string name="add_contact_dlg_title">Добавить контакт</string>
-    <string name="add_contact_dlg_message_fmt">Добавить \" %s \" в Контакты</string>
-    <string name="account_setup_exchange_domain_hint">Введите домен</string>
-    <string name="account_setup_failed_security_policies_required">Этот Exchange ActiveSync сервер требует параметры безопасности, которые Ваше устройство не поддерживает</string>
-
-
-    <string name="application_name">Эл.почта</string>
 
 
 
@@ -614,6 +588,7 @@
     <string name="account_settings_habitual_phrase_label">Фразы</string>
     <string name="mailbox_outlook_synchronize">Синхронизация с Outlook</string>
     <string name="message_list_sort">Сортировка</string>
+    <string name="message_sort_note">Сортировка</string>
     <string name="message_batch_down">Групповая выгрузка</string>
     <string name="account_settings_sinature">Подпись</string>
     <string name="account_settings_edit">Редактировать настройки</string>
@@ -695,7 +670,6 @@
     <string name="vpn_setings_select_current">Выбор существующего VPN</string>
     <string name="vpn_settings">Настройки VPN</string>
     <string name="subject_is_null">Послать без темы?</string>
-    <string name="message_content_is_null">Письмо без текста. Продолжить?</string>
     <string name="contact_select">Выбор контакта</string>
     <string name="send_time">dd.MM.yyyy HH:mm:ss</string>
     <string name="email_settings">Настройки</string>
@@ -904,22 +878,17 @@
     <string name="batch_opration_done">Завершено</string>
     <string name="message_view_show_pictures_instructions">Показывать инструкции для изображений</string>
     <string name="upgrade_accounts_title">Обновление аккаунтов</string>
-    <string name="status_sending_messages">Отправка писем…</string>
+    <string name="folders_action">Папки</string>
+    <string name="account_setup_check_settings_canceling_msg">Отмена...</string>
+    <string name="account_folder_list_separator_accounts">Аккаунты</string>
     <string name="provider_note_yahoo">Для некоторых типов Yahoo-аккаунтов необходимы особые настройки. Смотрите на YAHOO.COM</string>
     <string name="provider_note_yahoo_uk">Перед использованием Yahoo-аккаунта, убедитесь на сайте YAHOO.COM, что для него включен доступ по POP3</string>
-    <string name="status_loading_more">Загрузка сообщений…</string>
     <string name="message_view_fetching_attachment_toast">Извлечение вложения</string>
     <string name="mark_as_read_action">Как прочитанное</string>
     <string name="message_view_attachment_download_action">Сохранить</string>
-    <string name="message_compose_attachments_skipped_toast">Некоторые вложения нельзя переслать из-за того, что они не были загружены</string>
-    <string name="add_attachment_action">Вложение</string>
-    <string name="account_folder_list_separator_accounts">Аккаунты</string>
-    <string name="folders_action">Папки</string>
-    <string name="account_setup_check_settings_canceling_msg">Отмена...</string>
-    <string name="deselect_all_action">Отмена</string>
-    <string name="accounts_action">Аккаунты</string>
+    <string name="status_sending_messages">Отправка сообщений…</string>
     <string name="login_title">Информация</string>
-    <string name="title">Информация</string>
+    <string name="title_email">Информация</string>
     <string name="open">Открыть веб-страницу</string>
     <string name="addmark">Добавить в  закладки</string>
     <string name="button_yes">Да</string>
@@ -936,7 +905,7 @@
     <string name="attachment_Name">Вложение</string>
     <string name="sendmailagain">Перепослать</string>
     <string name="unlock">Разблокировать</string>
-    <string name="pend_action">Ожидание</string>
+    <string name="star_action">Избранное</string>
     <string name="lock_action">Блокировка</string>
     <string name="lock_submit">Заблокировано</string>
     <string name="lock_cancel">Разблокировано</string>
@@ -957,13 +926,12 @@
     <string name="resetEmail">Восстановить значения по умолчанию</string>
     <string name="checkbox">Отметка</string>
     <string name="listshow">Список предпросмотра</string>
-    <string name="autoshow">Автомат. отображение</string>
     <string name="themeshow">Предпросмотр темы</string>
     <string name="textshow">Предпросмотр текста письма</string>
     <string name="attachmentshow">Предпросмотр вложений</string>
-    <string name="autoline">Авто</string>
     <string name="oneline">1 линия</string>
     <string name="twolines">2 линии</string>
+    <string name="show">Показывать</string>
     <string name="notshow">Не показывать</string>
     <string name="huntbytime">Время (по убыванию)</string>
     <string name="huntbyadd">Отправитель (по возрастанию)</string>
@@ -1034,6 +1002,7 @@
     <string name="toast_no_account">Вы не задали аккаунт эл.почты</string>
     <string name="account_setting_delete_account_summary">Удаление аккаунта и писем</string>
     <string name="index_time_today">Сегодня</string>
+    <string name="index_time_yesterday">Вчера</string>
     <string name="index_attachment_yes">С вложение</string>
     <string name="index_attachment_no">Без вложения</string>
     <string name="index_favorite_yes">В избранном</string>
@@ -1090,6 +1059,7 @@
     <string name="sidebar_header_options">Параметры</string>
     <string name="sidebar_header_coolpad_service">О приложении эл. почта от Coolpad</string>
     <string name="sidebar_intelligent_sync">Умная синхронизация</string>
+    <string name="sidebar_intelligent_sync_summary">Опции умной синхронизации</string>
     <string name="sidebar_feedback">Отзывы</string>
     <string name="sidebar_about">С переводом ViNNNtalik</string>
     <string name="syn_time_start">Начало</string>
@@ -1281,11 +1251,54 @@
     <string name="get_attachment_info_fail_and_stop_send">Получение информации о вложении не удалось. Отправка невозможна</string>
     <string name="credentials_configure_lock_screen_hint">Необходимо задать PIN для локскрина или пароль перед использованием защищенного хранилища</string>
     <string name="fromList_is_empty_description">Пусто</string>
-    <string name="attachment_view_disabel">Запрет просмотра приложения</string>
+    <string name="attachment_view_disable">Запрет просмотра приложения</string>
     <string name="please_imap_startservice_online">Ошибка пароля. Запустите службу IMAP</string>
+    <string name="list_action_mode_selected_email">Выбрано</string>
+
+    <string name="list_action_mode_total_email">"Всего "</string>
+
+    <string name="select_all_email">Все</string>
+    <string name="unselect_all_email">Очистить</string>
+
+
+
+
+
+
+    <string name="debug_enable_debug_logging_label">Включить журнал дополнительной отладки?</string>
+    <string name="debug_enable_exchange_logging_label">Включить журнал анализатора exchange?</string>
+    <string name="debug_enable_exchange_file_logging_label">Включить журнал обмена с SD-картой?</string>
+    <string name="debug_clear_webview_cache">Очистить кэш WebView</string>
+    <string name="debug_disable_graphics_acceleration_label">Отключить аппаратное ускорение графики</string>
+    <string name="debug_force_one_minute_refresh_label">Форсированное обновление в 1 минуту для POP/IMAP</string>
+    <string name="debug_enable_strict_mode_label">Строгий режим (с регистрацией)</string>
+
+
+
+
+    <string name="long_string">Длинная строка</string>
+    <string name="accounts_title">Эл.почта</string>
+    <string name="accounts_context_menu_title">Настройки аккаунта</string>
+    <string name="status_sending_messages_failed">Повтор отправки письма</string>
+    <string name="status_loading_more_failed">Повтор загрузки доп.писем</string>
+    <string name="mailbox_name_server_pending">Ожидание</string>
+
+    <string name="add_contact_dlg_title">Добавить контакт</string>
+    <string name="add_contact_dlg_message_fmt">Добавить \" %s \" в Контакты</string>
+    <string name="account_setup_exchange_domain_hint">Введите домен</string>
+    <string name="account_setup_failed_security_policies_required">Этот Exchange ActiveSync сервер требует параметры безопасности, которые Ваше устройство не поддерживает</string>
+
+
+    <string name="application_name">Эл.почта</string>
+    <string name="message_content_is_null">Письмо пустое. Продолжить?</string>
+    <string name="message_compose_attachments_skipped_toast">Некоторые вложения нельзя переслать из-за того, что они не были загружены</string>
+    <string name="add_attachment_action">Вложение</string>
+    <string name="deselect_all_action">Отмена</string>
+    <string name="accounts_action">Аккаунты</string>
+    <string name="autoshow">Автомат. отображение</string>
     <string name="more_string">%1$s еще...</string>
     <string name="chips_waiting_for_directory_result">Ожидание контактов</string>
-    <string name="copy">Копировать адрес эл. почты</string>
+    <string name="copy_email">Копировать адрес эл. почты</string>
     <string name="picasa_default_destination">Альбом выгрузки</string>
     <string name="summary_title_uploading">Выгрузка</string>
     <string name="summary_title_finished">Завершенные</string>
@@ -1418,7 +1431,6 @@
     <string name="preference_plus_sync_all_prompt_text">Добавление фотографий и видеороликов, не загруженных из телефона в личный веб-альбом, может занять некоторое время. Этот процесс будет выполняться в фоновом режиме. Продолжить?</string>
     <string name="preference_plus_sync_all_prompt_yes">Да</string>
     <string name="preference_plus_sync_all_prompt_no">Нет</string>
-    <string name="account_setup_basics_exchange_title">Добавить Exchange аккаунт</string>
     <string name="send_message">Включая логи ошибок</string>
     <string name="note_message3">Недостаточно места на носителе</string>
     <string name="button_ok_text">ОК</string>
