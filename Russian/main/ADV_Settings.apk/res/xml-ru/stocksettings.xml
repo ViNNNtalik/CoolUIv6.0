@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="Общее">
+        <CheckBoxPreference android:title="Блокировка строки состояния" android:key="status_lock" android:summary="Дважды щелкните верхний правый угол экрана блокировки в строке состояния" />
+        <CheckBoxPreference android:title="Пробуждение клавишей громкости" android:key="volumekey_wakeup" android:summary="Нажатие клавиш громкости пробуждает экран" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/crt" android:key="allow_crt_lockscreen" android:summary="эффект старого телевизора" />
+        <Preference android:title="@string/camera_sound_switch" android:key="camera_sound_switch" android:summary="@string/camera_sound_warning">
+            <intent android:targetPackage="cn.qitu.firesettings" android:action="android.intent.action.MAIN" android:targetClass="cn.qitu.firesettings.CameraSound" />
+        </Preference>
+        <ListPreference android:entries="@array/vold_entries" android:title="@string/switch_vold" android:key="switch_vold" android:defaultValue="0" android:entryValues="@array/vold_values" />
+        <ListPreference android:entries="@array/camera_entries" android:title="@string/default_camera" android:key="camera_change" android:defaultValue="0" android:entryValues="@array/camera_values" />
+        <ListPreference android:entries="@array/sdcard_entries" android:title="Место хранения по умолчанию" android:key="switch_sdcard" android:defaultValue="0" android:entryValues="@array/sdcard_values" />
+    </PreferenceCategory>
+    <Preference android:title="@string/flash_recovery" android:key="flash_recovery" android:summary="@string/flash_recovery_warning" />
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="networkspeed_interval_entries">
+        <item>1 сек.</item>
+        <item>2 сек.</item>
+        <item>3 сек.</item>
+        <item>4 сек.(по умолчанию)</item>
+        <item>5 сек.</item>
+        <item>6 сек.</item>
+        <item>"Не отображать"</item>
+    </string-array>
+    <string-array name="camera_entries">
+        <item>Подсветка клавиш вкл.</item>
+        <item>Подсветка клавиш выкл.</item>
+    </string-array>
+    <string-array name="vold_entries">
+        <item>Камера по умолчанию</item>
+        <item>Камера Coolpad</item>
+    </string-array>
+    <string-array name="sdcard_entries">
+        <item>Внутреннее хранилище</item>
+        <item>SD-карта</item>
+    </string-array>
+</resources>

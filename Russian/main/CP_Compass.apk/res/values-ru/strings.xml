@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Компас</string>
+    <string name="compass">Компас</string>
+
+    <string name="north">Север</string>
+    <string name="east">Восток</string>
+    <string name="south">Юг</string>
+    <string name="west">Запад</string>
+    <string name="eastnorth">Северо-восток</string>
+    <string name="eastsouth">Юго-восток</string>
+    <string name="westsouth">Юго-запад</string>
+    <string name="westnorth">Северо-запад</string>
+    <string name="sure">ОК</string>
+    <string name="calibrate">Калибровка</string>
+    <string name="dialog_string">Рядом могут быть магнитные помехи, для калибровки компаса прокрутите устройство восьмеркой, как показано на рисунки и встряхните его</string>
+    <string name="wait_for_exit">Выход. Ожидайте...</string>
+    <string name="disturb_string_one">Рядом могут быть магнитные помехи, встряхните устройство для калибровки компаса</string>
+    <string name="disturb_string_two">Откалибруйте компас в соответсвии с напрявляющими</string>
+    <string name="calibration">Калибровка завершена</string>
+    <string name="click_calibrat">Калибровка компаса</string>
+    <string name="longitude">"долгота "</string>
+    <string name="latitude">"широта "</string>
+    <string name="eastLongitude">"Восток "</string>
+    <string name="westLongitude">"Запад "</string>
+    <string name="southLatitude">"Юг "</string>
+    <string name="northLatitude">"Север "</string>
+    <string name="pressure">"Давление "</string>
+    <string name="kpa">" кПа"</string>
+    <string name="pa">" Па"</string>
+    <string name="hpa">" гПа"</string>
+    <string name="altitude">"Высота "</string>
+    <string name="meter">" м"</string>
+    <string name="no_value">Нет</string>
+</resources>

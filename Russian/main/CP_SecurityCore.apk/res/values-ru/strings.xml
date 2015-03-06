@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Менеджер_база</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="security_password_look_for">Пороль забыт</string>
+    <string name="security_pass_find_method_not_set_alert">Восстановление пароля не задано. Обратитесь в поддержку Coolpad по телефону 4000111388</string>
+    <string name="security_confirm">ОК</string>
+    <string name="security_cancel">Отмена</string>
+    <string name="security_coolmanage_hint">Cool butler prompt</string>
+    <string name="security_relate_mobile_send_sms_remind_half">Случайный пароль выслан на указанный номер телефона</string>
+    <string name="security_relate_mobile_send_sms_remind_half_complete" />
+    <string name="security_no_availble_sms">Нет исправной SIM-карты, Вы не можете посылать сообщения!</string>
+    <string name="security_string_mms_content_start">Утерян пароль. Требуется случайный пароль</string>
+    <string name="security_string_mms_content_end">Мой временный пароль. Пароль действителен в течение 24 часов</string>
+    <string name="security_string_mms_send_success">Новый временный пароль будет выслан на указанный телефонный номер</string>
+    <string name="security_no_set_relate_mobile">Не задан телефонный номер!</string>
+    <string name="security_password_not_set_question">Не установлен вопрос-подсказка!</string>
+    <string name="security_question_answer_hint_error">Неверный ответ</string>
+    <string name="security_set_pass_success_dialog_msg4">Подсказка:</string>
+    <string name="security_set_pass_success_dialog_msg5">Ответ:</string>
+    <string name="security_password_is_null">Пароль от Менеджера пустой!</string>
+    <string name="security_dialog_new_pass">Ввод пароля:</string>
+    <string name="security_pass_type_length">Пароль содержит от 4 до 6 цифр</string>
+    <string name="security_pass_diff_alert">Введите пароль заново</string>
+    <string name="security_password_input_all_not_the_null">Новый пароль и его подтверждение не могут быть пустыми!</string>
+    <string name="security_password_input_all_not_the_same">Пароли не совпадают!</string>
+    <string name="security_input_four_to_six_words">Введите 4-6 цифр!</string>
+    <string name="security_modify_security_password">Изменение пароля</string>
+    <string name="security_password_modify_success">Пароль Менеджера успешно изменен!</string>
+    <string name="security_password_change_fail">Не удалось изменить пароль</string>
+    <string name="security_dialog_confirm_pass">Подтверждение пароля:</string>
+    <string name="security_hot_swap_description">Вставьте SD-карту для шифрования, введите пароль и нажмите \"ОК\".Если Вы не введете пароль или он будет неправильным, то SD-карта будет недоступна</string>
+    <string name="security_password_incorrect">Неправильный пароль!</string>
+    <string name="security_enter_the_password">Введите пароль!</string>
+    <string name="security_hot_swap_tips">Запрос</string>
+</resources>

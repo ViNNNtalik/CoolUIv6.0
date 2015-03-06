@@ -1003,7 +1003,7 @@
     <string name="card_net_settinig_summary">Установка IP-вызовов, переадресации и режима ожидания</string>
     <string name="default_switch_net_prompt">Автоматически или вручную выбирать сеть при включении</string>
     <string name="default_switch_net">Выбор сети</string>
-    <string name="yl_enable_proximity_sensor_summary">Выключение экрана, когда устройство возле уха</string>
+    <string name="yl_enable_proximity_sensor_summary">Выключение экрана при поднесении к уху</string>
     <string name="description">"Описание: "</string>
     <string name="call_setting_explain">Убедитесь, что служба активна. Для уточнения деталей обратитесь к своему оператору</string>
     <string name="auto_answer">Автоматический ответ</string>
@@ -1029,7 +1029,7 @@
     <string name="phrase_sort_order_prompt">Перетащите иконку справа для сортировки записей</string>
     <string name="only_one_message_warning">Не удается удалить последнее сообщение</string>
     <string name="call_auto_record_enable">Автоматическая запись</string>
-    <string name="call_auto_record_scene">объекты записи</string>
+    <string name="call_auto_record_scene">Объекты записи</string>
     <string name="call_end_record">Проверить записи</string>
     <string name="call_auto_record_contact">Контакты</string>
     <string name="call_auto_record_contact_info">Выбор контактов для автоматической записи (# номеров добавлено)</string>

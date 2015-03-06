@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ответ взмахом</string>
+    <string name="action_settings">Настроки</string>
+    <string name="explan">Проведение рукой над датчиком приближения для ответа или отклонения вызова, поднесение устройства к уху для ответа или отклонения вызова</string>
+    <string name="ON">ВКЛ</string>
+    <string name="OFF">ВЫКЛ</string>
+    <string name="copyright">Копирайт©2013 Necta</string>
+    <string name="supportus">Поддержка</string>
+    <string name="supportreason">Мы будет благодарны, если Вы приобретете полную версию</string>
+    <string name="later">Later</string>
+    <string name="buynow">Купить</string>
+    <string name="global">Глобально</string>
+    <string name="answercall">Отвечать на все вызовы</string>
+    <string name="rejectcall">Отклонять все вызовы</string>
+    <string name="whenanswercall">При ответе на вызов</string>
+    <string name="whenrejectcall">При отклонении вызова</string>
+    <string name="speakeron">Громкая связь вкл.</string>
+    <string name="speakeroff">Громкая связь выкл.</string>
+    <string name="sendsms">Отправить SMS:</string>
+</resources>

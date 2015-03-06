@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="Системные твики">
+        <PreferenceScreen android:title="Фреймворк WSM" android:summary="Включает в себя дополнительные модули xposed">
+            <intent android:targetPackage="pro.burgerz.wsm.manager" android:action="android.intent.action.MAIN" android:targetClass="pro.burgerz.wsm.manager.MainActivity" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:title="@string/netspeedshowing_title" android:key="netspeed_settings" android:summary="@string/netspeedshowing_summary" />
+        <PreferenceScreen android:title="@string/preference_anim_title" android:summary="@string/preference_anim_summary">
+            <intent android:targetPackage="cn.qitu.firesettings" android:action="android.intent.action.MAIN" android:targetClass="cn.qitu.firesettings.ListviewAnimActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Расширенные опции" android:summary="Некоторые специфические твики для прошивки">
+            <intent android:targetPackage="cn.qitu.firesettings" android:action="android.intent.action.MAIN" android:targetClass="cn.qitu.firesettings.StockSettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/normal_settings">
+            <PreferenceScreen android:title="Строка состояния" android:key="bar" android:summary="Настройка цвета строки состояния">
+            <intent android:targetPackage="com.mohammadag.colouredstatusbar" android:action="android.intent.action.MAIN" android:targetClass="com.mohammadag.colouredstatusbar.MainActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Уведомления вспышкой" android:summary="Настройка вспышки во время вызова/уведомлений">
+            <intent android:targetPackage="com.holiestar.flashoncall" android:action="android.intent.action.MAIN" android:targetClass="com.holiestar.flashoncall.MainActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Ответ взмахом" android:key="call" android:summary="Ответ на вызов взмахом руки над экраном">
+            <intent android:targetPackage="com.necta.aircall_accept" android:action="android.intent.action.MAIN" android:targetClass="com.necta.aircall_accept.Main" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Инженерное меню" android:key="lockapps" android:summary="Сбор информации, статистика, тонкие настройки всевозможных параметров устройства">
+            <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.EngineerMode" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="О приложении">
+        <PreferenceScreen android:title="Версия" android:summary="v2.0 (доработка и перевод VINNNtalik)" />
+    </PreferenceCategory>
+</PreferenceScreen>

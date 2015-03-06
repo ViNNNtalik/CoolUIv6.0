@@ -111,6 +111,8 @@
     <string name="people_card_2_calls_ready_pass">Отвеченные вызовы (SIM2)</string>
     <string name="people_card_2_calls_not_pass">Пропущенные вызовы (SIM2)</string>
     <string name="people_card_2_calls_resist">Отклоненные вызовы (SIM2)</string>
+    <string name="people_all_calllog">Все журналы вызовов</string>
+    <string name="people_strange_calllog">Неизвестные вызовы</string>
     <string name="people_card_calls_ready_dial">Набранные вызовы</string>
     <string name="people_card_calls_ready_pass">Отвеченные вызовы</string>
     <string name="people_card_calls_not_pass">Пропущенные вызовы</string>
@@ -302,9 +304,11 @@
     <string name="people_software_label">Версия ПО:</string>
     <string name="people_prl_label">PRL-версия:</string>
     <string name="people_esn_label">ИДМО:</string>
-    <string name="people_uim_label">UIM ID:</string>
-    <string name="people_usim_label">USIM ID:</string>
+
+
+
     <string name="people_imei_title">Номер IMEI</string>
+    <string name="people_device_code">Код устройства</string>
     <string name="people_testmode_title">Тестовый режим</string>
     <string name="people_testmode_text">Тест услуги передачи данных GSM</string>
     <string name="people_testmode_toast">Выберите основную SIM-карту для подключения к сети</string>
@@ -314,8 +318,8 @@
     <string name="people_can_not_call">IP-вызовы не распространяются на номера с +86 / +</string>
     <string name="people_invalid_tel_num">Без номера</string>
     <string name="people_prompt">Инфо</string>
-    <string name="people_sid_label">SID:</string>
-    <string name="people_nid_label">NID:</string>
+
+
     <string name="people_misdata">Слишком длинное число</string>
     <string name="people_unknown_number">Неизвестный номер</string>
     <string name="people_unknown_adscription">Неизвестный номер</string>
@@ -392,12 +396,12 @@
     <string name="people_scriptfocus">Ручной ввод</string>
     <string name="people_digital_input">Цифровой ввод</string>
     <string name="people_keyfocus">Клавиатура</string>
-    <string name="people_name_li">L</string>
-    <string name="people_name_wang">W</string>
-    <string name="people_name_zhang">Z</string>
-    <string name="people_name_liu">L</string>
-    <string name="people_name_chen">C</string>
-    <string name="people_name_yang">Y</string>
+
+
+
+
+
+
     <string name="people_listaddcontacts">Добавить в Контакты</string>
     <string name="people_plassnumber">Введите номер или буквы</string>
     <string name="people_ontouch_number_hellp">Нажмите, чтобы просмотреть уведомления</string>
@@ -521,7 +525,7 @@
     <string name="people_menu_copy">Групповое копирование</string>
     <string name="people_copy">Копировать</string>
     <string name="people_backup_restore">Бэкап</string>
-    <string name="people_send_via_bluetooth">Bluetooth</string>
+
     <string name="people_group_private">Приватная группа</string>
     <string name="people_group_secret">Секретная группа</string>
     <string name="people_set_private">Задать как приватную</string>
@@ -548,7 +552,7 @@
     <string name="people_operate_clear">Очистить</string>
     <string name="people_subject">Тема</string>
     <string name="people_place">Местоположение</string>
-    <string name="people_items" />
+
     <string name="people_ok">ОК</string>
     <string name="people_add">Добавить</string>
     <string name="people_spe_num">Специальные номера</string>
@@ -617,7 +621,7 @@
     <string name="people_emailInfo">Адрес эл. почты</string>
     <string name="people_emailTypeSuffix">Адрес эл. почты</string>
     <string name="people_ringAndGroup">Мелодии/группы</string>
-    <string name="people_im">IM</string>
+
     <string name="people_privateSecretSetting">Настройки приватности</string>
     <string name="people_editAddress">Редактировать адрес</string>
     <string name="people_selectPic">Выбрать изображение</string>
@@ -1187,13 +1191,13 @@
  вызов"</string>
     <string name="people_quick_contact_activity_lable_email">Эл.почта</string>
     <string name="people_quick_contact_activity_lable_structuredPostal">Добавить</string>
-    <string name="people_quick_contact_activity_lable_website">WS</string>
-    <string name="people_quick_contact_activity_lable_im">IM</string>
+
+
     <string name="people_quick_contact_activity_button_dial">Вызов</string>
     <string name="people_quick_contact_activity_card_contact_type">Номер</string>
     <string name="people_quick_contact_activity_card_contact_type1">Номер1</string>
     <string name="people_quick_contact_activity_card_contact_type2">Номер2</string>
-    <string name="people_quick_contact_activity_lable_sns">SNS</string>
+
     <string name="people_quick_contact_local_invisible_directory">Прочее</string>
     <string name="people_quick_contact_invalidContactMessage">Контакт не существует</string>
     <string name="people_quick_contact_audio_chat">Аудиочат</string>
@@ -1284,6 +1288,11 @@
     <string name="people_share_visible_contacts">Передать видимые контакты</string>
     <string name="people_dialog_import_export">Импорт/экспорт контактов</string>
     <string name="people_dialog_import">Импорт контактов</string>
+    <string name="people_editor_list_item_title_phone">Телефон</string>
+    <string name="people_editor_list_item_title_mail">Эл. почта</string>
+    <string name="people_editor_list_item_title_address">Адрес</string>
+    <string name="people_editor_list_item_title_im">IM</string>
+    <string name="people_editor_list_item_title_date">Дата</string>
     <string name="people_string_label">Телефон</string>
     <string name="people_string_contact_old">Телефон</string>
     <string name="people_string_dial_old">Набор</string>

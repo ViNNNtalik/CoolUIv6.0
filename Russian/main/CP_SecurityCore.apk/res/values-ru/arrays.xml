@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="security_password_look_for_method">
+        <item>Телефонный номер</item>
+        <item>Адрес эл. почты</item>
+        <item>Подсказка</item>
+    </string-array>
+</resources>
