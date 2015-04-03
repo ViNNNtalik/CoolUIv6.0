@@ -3,126 +3,16 @@
 
 
 
-    <string name="action_settings">Настройки</string>
-    <string name="weather_details">Детали</string>
-    <string name="speak_launch_project_weather">Запуск сайта  Project Weather</string>
-    <string name="pull_to_refresh_pull_label">Потяните для обновления...</string>
-    <string name="pull_to_refresh_release_label">Отпустите для обновления...</string>
-    <string name="pull_to_refresh_refreshing_label">Обновление...</string>
-    <string name="pull_to_refresh_from_bottom_pull_label">Потяните для обновления...</string>
-    <string name="pull_to_refresh_from_bottom_release_label">Отпустите для обновления...</string>
-    <string name="pull_to_refresh_from_bottom_refreshing_label">Обновление...</string>
-    <string name="forecast_week_last">Вчера</string>
-    <string name="forecast_week_today">Сегодня</string>
-    <string name="forecast_week_monday">Пн</string>
-    <string name="forecast_week_tuesday">Вт</string>
-    <string name="forecast_week_wednesday">Ср</string>
-    <string name="forecast_week_thursday">Чт</string>
-    <string name="forecast_week_friday">Пт</string>
-    <string name="forecast_week_saturday">Сб</string>
-    <string name="forecast_week_sunday">Вс</string>
-    <string name="forecast_weekly_monday">Пн</string>
-    <string name="forecast_weekly_tuesday">Вт</string>
-    <string name="forecast_weekly_wednesday">Ср</string>
-    <string name="forecast_weekly_thursday">Чт</string>
-    <string name="forecast_weekly_friday">Пт</string>
-    <string name="forecast_weekly_saturday">Сб</string>
-    <string name="forecast_weekly_sunday">Вс</string>
-
-    <string name="life_title_1">Индекс одежды</string>
-    <string name="life_title_2">Индекс холода</string>
-    <string name="life_title_3">Индекс мойки машины</string>
-    <string name="life_title_4">Индекс УФ-излучения</string>
-    <string name="life_title_5">Индекс путешествия</string>
-    <string name="life_title_6">Индекс макияжа</string>
-    <string name="life_title_7">Индекс движения</string>
-    <string name="life_title_8">Индекс загрязнения воздуха</string>
-    <string name="warning_tip">Предупреждение</string>
-    <string name="remind_title_pre">Подсказки -</string>
-    <string name="forecast_weekly_na">Н/д</string>
-    <string name="notification_warn_title">Предупреждение о погоде</string>
-    <string name="notification_warn_have"></string>
-    <string name="notification_warn_message">Ранее предупреждение о погоде</string>
-    <string name="pull_to_refresh_tap_label">Нажмите для обновления...</string>
-    <string name="cooperarion_pull_refresh_recently">"Последнее обновление: "</string>
-    <string name="cooperation_pull_refresh_now">Обновить...</string>
-    <string name="cooperation_pull_refreshing">Обновление...</string>
-    <string name="cooperation_pull_to_refresh">Вниз для обновления</string>
-    <string name="cooperation_release_to_refresh">Отпустите для обновления</string>
-    <string name="weather_event_title">События</string>
-    <string name="weather_start_app_title">Рекомендованные приложения</string>
-    <string name="weather_start_app_desc">Лучшие приложения для</string>
-    <string name="weather_city_info_city_title">Информация о городе</string>
-    <string name="weather_city_info_city_desc">Дополнительная информация по событиям и местам города (на китайском)</string>
-    <string name="weather_city_info_type_famous">Знаменитости</string>
-    <string name="weather_city_info_type_food">Еда</string>
-    <string name="weather_city_info_type_travel">События</string>
-    <string name="weather_city_info_baike_title">Городская энциклопедия</string>
-    <string name="weather_space_not_avaliable">Недостаточно места, требуется очистка!</string>
-    <string name="weather_baike_download_success">"Сохранение файла в: "</string>
-    <string name="freind_send">Отправить</string>
-    <string name="freind_chat_hint">Чат с друзьями ~~</string>
-    <string name="xiaobing_data_empty">Пожалуйста, введите свои данные и нажмите отправить</string>
-    <string name="xiaobing_title">Мой  Wheatgrass</string>
-    <string name="xiaobing_chat_tip">Китайская чухня, неприменимая для нас ~~</string>
-    <string name="xiaobing_share_msg">Китайская чухня, неприменимая для нас</string>
-    <string name="xiaobing_delete_title">Пустые чаты</string>
-    <string name="xiaobing_delete_content">Подтверждение очистки всех чатов</string>
-    <string name="xiaobing_delete_ok">ОК</string>
-    <string name="xiaobing_delete_cancel">Отмена</string>
-    <string name="xiaobing_image_loaderror">Не удалось загрузить</string>
-    <string name="xiaobing_head_upload">Загрузка аватара</string>
-    <string name="xiaobing_net_unavaliable"> Проверьте сеть</string>
-    <string name="xiaobing_edit_hint">Дуду %1$s~~</string>
-    <string name="cooperation_list_long_click_title">Подсказка</string>
-    <string name="xiaobing_chat_copy">Копировать</string>
-    <string name="tts_dialog_title">Загрузка голосового пакета</string>
-    <string name="tts_dialog_msg">Оповещение о погоде голосом. Необходимо загрузить 4,5Mб</string>
-    <string name="tts_dialog_ok">Скачать сейчас</string>
-    <string name="tts_dialog_cancel">Позже</string>
-    <string name="tts_notification_title_downloading">Загрузка голосового пакета...</string>
-    <string name="tts_notification_title_downloaded">Голосовой пакет загружен</string>
-    <string name="tts_notification_title_downloaded_msg">Голосовой пакет загружен. Вы можете его использовать!</string>
-    <string name="tts_msg_1">Здравствуйте! Это приложение Погода!</string>
-    <string name="tts_msg_2">Доброе утро! Это приложение Погода!</string>
-    <string name="tts_msg_3">Добрый день! Это приложение Погода!</string>
-    <string name="tts_msg_4">Добрый день! Это приложение Погода!</string>
-    <string name="tts_msg_5">Добрый вечер!  Это приложение Погода!</string>
-    <string name="tts_msg_day">День</string>
-    <string name="tts_msg_night">Ночь</string>
-    <string name="tts_msg_high">Наивысшая температура</string>
-    <string name="tts_msg_degree">Градус</string>
-    <string name="tts_msg_low">Наименьшая температура</string>
-    <string name="tts_msg_level">Уровень</string>
-    <string name="tts_msg_below_zero">Минус</string>
-    <string name="tts_msg_data_empty">Прогноз погоды устарел, пожалуйста, обновите его прямо сейчас!</string>
-    <string name="xiaobing_image_save_tip_success">"Сохранение в: "</string>
-    <string name="xiaobing_image_save_tip_process">Загрузка, ожидайте...</string>
-    <string name="xiaobing_image_save_net_error">Ошибка сети... </string>
-    <string name="xiaobing_image_save">Сохранение</string>
-    <string name="tts_downloading_tip">Загрузка, ожидайте...</string>
-    <string name="home_feel_temper_text">Ощущается как %1$s℃</string>
-    <string name="weather_title_hour">12 часов</string>
-    <string name="weather_title_forecast">Прогноз</string>
-    <string name="weather_title_life">Индекс</string>
-    <string name="weather_title_forecast_trend">Тренд</string>
-    <string name="weather_title_forecast_forecast">Список</string>
-    <string name="weather_hour_sunrise">Восход</string>
-    <string name="weather_hour_sunset">Закат</string>
-    <string name="weather_hour_current_hour">Сейчас</string>
-    <string name="weather_feel_temper_desc_1">Очень холодно</string>
-    <string name="weather_feel_temper_desc_2">Умеренно холодно</string>
-    <string name="weather_feel_temper_desc_3">Холодно</string>
-    <string name="weather_feel_temper_desc_4">Умеренно прохладно</string>
-    <string name="weather_feel_temper_desc_5">Прохладно</string>
-    <string name="weather_feel_temper_desc_6">Комфортно</string>
-    <string name="weather_feel_temper_desc_7">Тепло</string>
-    <string name="weather_feel_temper_desc_8">Горячо</string>
-    <string name="weather_feel_temper_desc_9">Довольно горячо</string>
-    <string name="weather_feel_temper_desc_10">Очень горячо</string>
-    <string name="app_name">Погода</string>
-    <string name="apk_name">Погода</string>
-    <string name="menu_settings">Настройки</string>
+    <string name="com_taobao_tae_sdk_login_progress_message">Вход</string>
+    <string name="com_taobao_tae_sdk_loading_progress_message">Загрузка</string>
+    <string name="com_taobao_tae_sdk_authorize_title">Авторизация</string>
+    <string name="com_taobao_tae_sdk_system_exception">Ошибка системы</string>
+    <string name="com_taobao_tae_sdk_trade_confirm_progress_message">Подтверждение</string>
+    <string name="com_taobao_tae_sdk_trade_title">Подтверждение</string>
+    <string name="com_taobao_tae_sdk_alert_message">Превышен интервал ожидания</string>
+    <string name="com_taobao_tae_sdk_network_not_available_message">Нет сети</string>
+    <string name="com_taobao_tae_sdk_logout_fail_message">Ошибка выхода</string>
+    <string name="com_taobao_tae_sdk_order_title">Корзина</string>
     <string name="tag_0">Погода</string>
     <string name="tag_1">Тренд</string>
     <string name="tag_2">Жизнь</string>
@@ -137,11 +27,8 @@
     <string name="manager_city">Управление городами</string>
     <string name="add_city">Добавление гордов</string>
     <string name="add_city_max">Максимум 9 городов</string>
-
-
-
     <string name="forecast_wind_vane">Ветер</string>
-    <string name="wind_speed"></string>
+    <string name="wind_speed" />
     <string name="signup_continue_button">Продолжить</string>
     <string name="upgrade_notification">Подсказка обновления</string>
     <string name="upgrade_introduce">Инструкция обновления приложения</string>
@@ -159,12 +46,12 @@
     <string name="local_ing">Определяется местоположение......</string>
     <string name="city_exist">Город уже существует</string>
     <string name="city_add_locating">Определение</string>
-    <string name="city_add_locate_success">"Успешно найдено"</string>
+    <string name="city_add_locate_success">Успешно найдено</string>
     <string name="city_add_locate_failed">"Поиск не удался "</string>
-    <string name="city_add_locate_choose">"Выберите город вручную"</string>
+    <string name="city_add_locate_choose">Выберите город вручную</string>
     <string name="version_info_title">"
 Номер версии: %1$s"</string>
-    <string name="version_info_detail_yl"> "Мы стремимся создать самую красивую погоду в мире. Убедитесь, что Вы прочитали и приняли соглашение о предоставлении услуг приложения \"Погода\"
+    <string name="version_info_detail_yl">"Мы стремимся создать самую красивую погоду в мире. Убедитесь, что Вы прочитали и приняли соглашение о предоставлении услуг приложения \"Погода\"
 "</string>
     <string name="version_info_detail_koudai">"Это эксклюзивная версия погоды. Убедитесь, что Вы прочитали и приняли соглашение о предоставлении услуг приложения \"Погода\"
 "</string>
@@ -189,7 +76,7 @@
     <string name="setting_notify_rain">Пожалуйста, не забудьте зонтик</string>
     <string name="setting_notify_snow">Пожалуйста, не забудьте тепло одеться</string>
     <string name="weather_ringtone_setting_silence">Без звука</string>
-    <string name="setting_notify_time">0:00</string>
+
     <string name="setting_notify_hot">Оберегайтесь солнечного удара</string>
     <string name="setting_notify_cool">Оберегайтесь охлаждения</string>
     <string name="setting_notify_high">Больше</string>
@@ -218,14 +105,14 @@
     <string name="share_pm_message_3">", загрязнение "</string>
     <string name="share_pm_message_4">Бесплатная загрузка</string>
     <string name="share_proposal_message_1">"Погода напоминает Вам: Сегодня "</string>
-    <string name="share_proposal_message_2"></string>
+    <string name="share_proposal_message_2" />
     <string name="share_proposal_message_3">Бесплатная загрузка</string>
     <string name="share_message_temp">\# Погода напоминает Вам: Сегодня %1$s，%2$s，%3$s，%4$s℃，Тек. %5$s℃</string>
     <string name="share_message_aqi">Чистота воздуха %1$s, загрязнение %2$s，%3$s</string>
     <string name="share_message_download">Бесплатная загрузка %1$s</string>
     <string name="share_pm_message">\# Погода напоминает Вам: Сегодня %1$s，%2$s, Чистота воздуха %3$s, загрязнение %4$s, %5$s%6$s</string>
-    <string name="share_proposal_message">\# Погода напоминает Вам: Сегодня  %1$s，%2$s%3$s как %4$s，%5$s</string>
-    <string name="share_china_date">\#Погода напоминает Вам: Сегодня  %1$S, лунный %2$s</string>
+    <string name="share_proposal_message">\# Погода напоминает Вам: Сегодня %1$s，%2$s%3$s как %4$s，%5$s</string>
+    <string name="share_china_date">\#Погода напоминает Вам: Сегодня %1$S, лунный %2$s</string>
     <string name="setting_version_new">У Вас самая последняя версия!</string>
     <string name="not_del_dft">Местоположение по умолчанию не может быть удалено</string>
     <string name="if_dft">По умолчанию</string>
@@ -236,7 +123,7 @@
     <string name="feed_back_tip">Вы хотите нам что-нибудь сообщить?</string>
     <string name="feed_back_illegal">Недопустимое содержание</string>
     <string name="feed_back_success">Успешно отправлено. Спасибо за Ваш отзыв!</string>
-    <string name="feed_back_failed">Не удалось отправить. Попробуйте еще раз! </string>
+    <string name="feed_back_failed">Не удалось отправить. Попробуйте еще раз!</string>
     <string name="check_update">Проверяется новая версия</string>
     <string name="theme_loading">Загрузка...</string>
     <string name="theme_loading_failed">Не удалось загрузить .Попробовать заново...</string>
@@ -248,12 +135,7 @@
     <string name="quit">Выход</string>
     <string name="tips_title">Погода</string>
     <string name="none">Н/д</string>
-    <string name="appwidget_rigo_42">Погода (4x2)</string>
-    <string name="appwidget_rigo_52">Погода (5x2)</string>
-    <string name="appwidget_rigo_22">Погода (2x2)</string>
-    <string name="appwidget_rigo_51">Погода (5x1)</string>
-    <string name="appwidget_rigo_41">Погода (4x1)</string>
-    <string name="appwidget_digree">°</string>
+
     <string name="air_good">Отличная</string>
     <string name="weather_auto_update_text">Для обеспечения экономии батареи и трафика в ночное время (с 00:00 до 06:00) и в режиме ожидания приложение \"Погода\" не будет обновляться. В остальное время автоматическое обновление будет происходить в соответствии с заданными параметрами</string>
     <string name="widget_alpha_tips">Описание: При выборе прозрачности фоновое изображение не будет видно</string>
@@ -269,7 +151,7 @@
     <string name="city_add_current">"Тек.полож.: "</string>
     <string name="city_add_click_to_relocate">Определить</string>
     <string name="city_add_locate_first">Нажмите для определения местоположения</string>
-    <string name="city_add_default_city_beijing">北京</string>
+    <string name="city_add_default_city_beijing">Пекин</string>
     <string name="common_string_dou">", "</string>
     <string name="common_string_ju">". "</string>
     <string name="home_last_update_time">Обновлено</string>
@@ -293,6 +175,7 @@
     <string name="weather_city_add_city">Город</string>
     <string name="weather_city_add_province">Регион</string>
     <string name="weather_city_manage_long_press">Долгое нажатие для входа в режим редактирования</string>
+    <string name="weather_city_manage_long_sort">Нажмите и перетащите карточку города для изменения порядка</string>
     <string name="weather_default_weather_desc">Очистить</string>
     <string name="weather_city_query_locate">Местоположение</string>
     <string name="weather_title_city_add">Добавить города</string>
@@ -309,8 +192,8 @@
     <string name="weather_feed_back_send_log">Отправить лог вместе с отзывом</string>
     <string name="weather_copyright">Copyright© 2014. Разработано Coolpad, перевод ViNNNtalik</string>
     <string name="weather_official_title">"Веб-сайт: "</string>
-    <string name="weather_official_website">www.coolyun.com</string>
-    <string name="weather_official_http">http://www.coolyun.com</string>
+
+
     <string name="weather_item_forecast">Прогноз погоды</string>
     <string name="weather_item_trend">Тренд</string>
     <string name="weather_item_life">Индекс жизни</string>
@@ -322,11 +205,12 @@
     <string name="weather_data_wind_direction">СВ ветер</string>
     <string name="weather_data_wind_speed">Скорость ветра 1,0 км/ч</string>
     <string name="weather_data_life_ware">Индекс одежды</string>
+    <string name="weather_data_life_makeup">Косметика</string>
     <string name="weather_setting_item_gps">Местоположение</string>
     <string name="weather_setting_item_notification">Погода в панели уведомлений</string>
     <string name="weather_setting_update_notification">Notification bar weather clears</string>
     <string name="weather_about_email_title">"Эл.почта: "</string>
-    <string name="weather_about_email_text">zuimei@coolyun.com</string>
+
     <string name="weather_about_phone">Горячая линия: 02988824132</string>
     <string name="weather_about_qq">Контакт через QQ：3013836997</string>
     <string name="weather_about_qq_uninstalled">Приложение QQ не установлено</string>
@@ -353,6 +237,7 @@
     <string name="anim_switch">Переключение анимации</string>
     <string name="weather_setting_item_warning">Предупреждения в панели</string>
     <string name="weather_setting_item_background">Обновление в фоне по 3G</string>
+    <string name="weather_setting_item_alarm">Время трансляции</string>
     <string name="weather_setting_item_transparent">Прозрачный виджет</string>
     <string name="weather_setting_item_theme">Настройки темы</string>
     <string name="weather_setting_item_autoupdate">Автоматическое обновление</string>
@@ -451,7 +336,7 @@
     <string name="weather_history_query_text">Консультация</string>
     <string name="enter_city_name_text">Введите название города</string>
     <string name="menu_theme">Темы</string>
-    <string name="menu_recommend"> Рекомендовано</string>
+    <string name="menu_recommend">Рекомендовано</string>
     <string name="weather_no_history">Нет данных. Повторите запрос</string>
     <string name="weather_history_date_error">Запрос прогноза из архива максимум месяц назад</string>
     <string name="weather_theme_load_more">Нажмите для дополнительной загрузки</string>
@@ -486,6 +371,9 @@
     <string name="weather_reminder_change_tip_haze">Обратите внимание: будет туман</string>
     <string name="weather_reminder_change_tip_tornado">Обратите внимание: будет торнадо</string>
     <string name="weather_reminder_change_tip_hail">Обратите внимание: будет град</string>
+    <string name="weather_reminder_change_tip_rainsnow">Обратите внимание: будет снег с дождем</string>
+    <string name="weather_reminder_change_tip_heavyrain">Обратите внимание: будет сильный дождь</string>
+    <string name="weather_reminder_change_tip_heavysnow">Обратите внимание: будет сильный снег</string>
     <string name="weather_reminder_change_tip_more">Есть %1$ напомин. Просмотрите</string>
     <string name="weather_reminder_pm_tip_title">Загрязнение воздуха</string>
     <string name="weather_reminder_pm_tip_content_500">Высокий индекс загрязнения воздуха. Точно хотите на улицу?</string>
@@ -517,30 +405,30 @@
     <string name="widget_skin_all">Все</string>
     <string name="widget_skin_my">Мои</string>
     <string name="widget_default_skin">По умолчанию</string>
-    <string name="widget_default_skin_userCount"> 2000 скачиваний</string>
+    <string name="widget_default_skin_userCount">2000 скачиваний</string>
     <string name="widget_default_skin_abst">Применимо к 2x2, 4x2, 5x2</string>
-    <string name="widget_default_skin_author">liliang</string>
+
     <string name="widget_default_skin_desc">Тема для виджетов с красивыми городами</string>
     <string name="home_wind_degree">" ур. "</string>
     <string name="home_wind_degree_soft">3 ур.</string>
-    <string name="home_hour_hour">Когда</string>
+    <string name="home_hour_hour">Время</string>
     <string name="recommend_download_manager_title">Менеджер загрузок</string>
     <string name="recommend_download_app_version">Версия: V</string>
     <string name="zuimei_weather">Погода</string>
     <string name="widget_default_city_skin">Красивый Китай</string>
-    <string name="widget_default_city_skin_userCount"> 3374 скачиваний</string>
+    <string name="widget_default_city_skin_userCount">3374 скачиваний</string>
     <string name="widget_default_city_skin_abst">Применимо к 2x2, 4x2, 5x2</string>
-    <string name="widget_default_city_skin_author">liliang</string>
+
     <string name="widget_default_city_skin_desc">Тема с красивsb оформлением в стиле Китая</string>
     <string name="widget_not_surpport">Виджет не поддерживается</string>
     <string name="widget_select_other">Выберите другой виджет</string>
     <string name="share_dialog_title">Поделиться</string>
-    <string name="share_to_qq"> QQ</string>
-    <string name="share_to_qzone"> Qzone</string>
+
+
     <string name="share_to_weixin">Микро</string>
     <string name="share_to_pyq">Круги</string>
     <string name="share_to_weibo">Weibo</string>
-    <string name="share_to_txwb">Tencent </string>
+    <string name="share_to_txwb">Tencent</string>
     <string name="share_to_duanxin">SMS</string>
     <string name="share_to_coolyun">Облако</string>
     <string name="share_to_add">Еще</string>
@@ -591,23 +479,23 @@
     <string name="weather_pm_rank_title">Рейтинг</string>
     <string name="weather_pm_rank_city">Город</string>
     <string name="weather_pm_rank_level">Уровень</string>
-    <string name="weather_pm_rank_province"> Область</string>
-    <string name="weather_pm_rank_aqi"> AQI</string>
+    <string name="weather_pm_rank_province">Область</string>
+
     <string name="weather_pm_rank_default_di">Статья</string>
     <string name="weather_pm_rank_default_ming">Название</string>
     <string name="weather_pm_pm10_detail">Вдыхаемые частицы</string>
-    <string name="weather_pm_pm10_title"> PM10</string>
+
     <string name="weather_pm_pm25_detail">Твердые частицы</string>
-    <string name="weather_pm_pm25_title">PM2.5</string>
+
     <string name="weather_pm_co_detail">CO</string>
-    <string name="weather_pm_co_title">CO</string>
+
     <string name="weather_pm_no2_detail">Диоксид азота</string>
-    <string name="weather_pm_no2_title"> NO2</string>
+
     <string name="weather_pm_so2_detail">Сернистый газ</string>
-    <string name="weather_pm_so2_title"> SO2</string>
+
     <string name="weather_pm_aqi_detail">Хорошее качестов воздуха</string>
-    <string name="weather_pm_rank_default_percent">%</string>
-    <string name="weather_pm_rank_default_num">--</string>
+
+
     <string name="weather_pm_text_default_recommand">Рекомендованная деятельность</string>
     <string name="weather_pm_text_default_healthy_effect">Воздействие на здоровье</string>
     <string name="weahter_pm_text_default_advice">Рекомендовано</string>
@@ -635,8 +523,8 @@
     <string name="small_ice">Мое</string>
     <string name="widget_transparent_skin">Прозрачность</string>
     <string name="widget_transparent_skin_userCount">2600</string>
-    <string name="widget_transparent_skin_abst"> 2x2, 4x1, 4x2, 5x1, 5x2</string>
-    <string name="widget_transparent_skin_author">liliang</string>
+    <string name="widget_transparent_skin_abst">2x2, 4x1, 4x2, 5x1, 5x2</string>
+
     <string name="widget_transparent_skin_desc">Непростой</string>
     <string name="about_activity_version">"Версия: "</string>
 
@@ -650,21 +538,213 @@
     <string name="life_proposal_title_share">Поделиться</string>
     <string name="widget_skin_alert_title">Советы</string>
     <string name="widget_skin_alert_content">Добавление через лаунчер - Еще - Погода</string>
-    <string name="temperure_unit_du">°</string>
+
     <string name="enter_weather_text">Вход в Погоду</string>
     <string name="change_bettween_city_trend">(перекл.)</string>
     <string name="click_to_refresh">Обновить</string>
     <string name="nodata">Нет данных</string>
-    <string name="pm_split">·</string>
-    <string name="widget_coollife_transparent_skin">CoolUI 6.0</string>
+
+
     <string name="widget_coollife_transparent_skin_userCount">1200</string>
-    <string name="widget_coollife_transparent_skin_abst">2x2, 4x1, 4x2, 5x1, 5x2 </string>
-    <string name="widget_coollife_transparent_skin_author">liliang</string>
+    <string name="widget_coollife_transparent_skin_abst">2x2、4x1、4x2、5x1、5x2</string>
+
     <string name="widget_coollife_transparent_skin_desc">Новая жизнь началась</string>
     <string name="life_proposal_web_load_failed">Ошибка сети</string>
     <string name="life_proposal_web_reload">Нажмите для обновления</string>
     <string name="str_main_data_overdue">Отпустите для обновления</string>
-    <string name="invalid_date">Неверная дата</string>
+    <string name="xlistview_header_hint_normal">Вниз для обновления</string>
+    <string name="xlistview_header_hint_ready"> Отпустите для обновления</string>
+    <string name="xlistview_header_hint_loading">Загрузка...</string>
+    <string name="xlistview_footer_hint_ready">Еще</string>
+    <string name="xlistview_footer_hint_normal">Еще</string>
+    <string name="p2refresh_refresh_lasttime">Недавно обновлено</string>
+    <string name="p2refresh_head_load_more">Еще</string>
+    <string name="p2refresh_end_load_more">Еще</string>
+    <string name="p2refresh_end_click_load_more">Нажмите для загрузки</string>
+    <string name="p2refresh_release_refresh"> release Refresh</string>
+    <string name="p2refresh_pull_to_refresh"> drop-down refresh</string>
+    <string name="p2refresh_doing_head_refresh">Обновление</string>
+    <string name="p2refresh_doing_end_refresh">Загрузка</string>
+    <string name="yl_money"> ¥</string>
+    <string name="yl_price_suffix"></string>
+    <string name="discount"></string>
+    <string name="have_sale">Продано</string>
+    <string name="piece">элем.</string>
+    <string name="weather_data_recommend">Рекомендовано</string>
+    <string name="weather_data_life_proposal"> Индекс</string>
+    <string name="weather_life_taobao_default_keyword">Женщины</string>
+
+
+    <string name="widget_ivvi_transparent_skin"> IVVI прозрачный</string>
+    <string name="widget_ivvi_transparent_skin_userCount">1000</string>
+    <string name="widget_ivvi_transparent_skin_abst">2x2, 4x1, 4x2, 5x1, 5x2</string>
+
+    <string name="widget_ivvi_transparent_skin_desc"> IVVI. Сделать лучшим</string>
+    <string name="pm_site_title">Контроль</string>
+    <string name="pm_site_rank_title">Рейтинги</string>
+    <string name="current_time_error">Неверное время, установите правильное в системных настройках</string>
+    <string name="weather_taobao_title">Рекомендовано</string>
+    <string name="common_my_order">Мой заказ</string>
+    <string name="common_search_default">Еще</string>
+    <string name="common_search_btn">Поиск</string>
+    <string name="action_settings">Настройки</string>
+    <string name="weather_details">Детали</string>
+    <string name="speak_launch_project_weather">Запуск сайта Project Weather</string>
+    <string name="pull_to_refresh_pull_label">Потяните для обновления...</string>
+    <string name="pull_to_refresh_release_label">Отпустите для обновления...</string>
+    <string name="pull_to_refresh_refreshing_label">Обновление...</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">Потяните для обновления...</string>
+    <string name="pull_to_refresh_from_bottom_release_label">Отпустите для обновления...</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">Обновление...</string>
+    <string name="forecast_week_last">Вчера</string>
+    <string name="forecast_week_today">Сегодня</string>
+    <string name="forecast_week_monday">Пн</string>
+    <string name="forecast_week_tuesday">Вт</string>
+    <string name="forecast_week_wednesday">Ср</string>
+    <string name="forecast_week_thursday">Чт</string>
+    <string name="forecast_week_friday">Пт</string>
+    <string name="forecast_week_saturday">Сб</string>
+    <string name="forecast_week_sunday">Вс</string>
+    <string name="forecast_weekly_monday">Пн</string>
+    <string name="forecast_weekly_tuesday">Вт</string>
+    <string name="forecast_weekly_wednesday">Ср</string>
+    <string name="forecast_weekly_thursday">Чт</string>
+    <string name="forecast_weekly_friday">Пт</string>
+    <string name="forecast_weekly_saturday">Сб</string>
+    <string name="forecast_weekly_sunday">Вс</string>
+
+    <string name="life_title_1">Индекс одежды</string>
+    <string name="life_title_2">Индекс холода</string>
+    <string name="life_title_3">Индекс мойки машины</string>
+    <string name="life_title_4">Индекс УФ-излучения</string>
+    <string name="life_title_5">Индекс путешествия</string>
+    <string name="life_title_6">Индекс макияжа</string>
+    <string name="life_title_7">Индекс движения</string>
+    <string name="life_title_8">Индекс загрязнения воздуха</string>
+    <string name="warning_tip">Предупреждение</string>
+    <string name="remind_title_pre">Подсказки -</string>
+    <string name="forecast_weekly_na">Н/д</string>
+    <string name="notification_warn_title">Предупреждение о погоде</string>
+    <string name="notification_warn_have" />
+    <string name="notification_warn_message">Ранее предупреждение о погоде</string>
+    <string name="pull_to_refresh_tap_label">Нажмите для обновления...</string>
+    <string name="cooperarion_pull_refresh_recently">"Последнее обновление: "</string>
+    <string name="cooperation_pull_refresh_now">Обновить...</string>
+    <string name="cooperation_pull_refreshing">Обновление...</string>
+    <string name="cooperation_pull_to_refresh">Вниз для обновления</string>
+    <string name="cooperation_release_to_refresh">Отпустите для обновления</string>
+    <string name="weather_event_title">События</string>
+    <string name="weather_start_app_title">Рекомендованные приложения</string>
+    <string name="weather_start_app_desc">Лучшие приложения для</string>
+    <string name="weather_city_info_city_title">Информация о городе</string>
+    <string name="weather_city_info_city_desc">Дополнительная информация по событиям и местам города (на китайском)</string>
+    <string name="weather_city_info_type_famous">Знаменитости</string>
+    <string name="weather_city_info_type_food">Еда</string>
+    <string name="weather_city_info_type_travel">События</string>
+    <string name="weather_city_info_baike_title">Городская энциклопедия</string>
+    <string name="weather_space_not_avaliable">Недостаточно места, требуется очистка!</string>
+    <string name="weather_baike_download_success">"Сохранение файла в: "</string>
+    <string name="freind_send">Отправить</string>
+    <string name="freind_chat_hint">Чат с друзьями ~~</string>
+    <string name="xiaobing_data_empty">Пожалуйста, введите свои данные и нажмите отправить</string>
+    <string name="xiaobing_data_blank">Пожалуйста, введите данные</string>
+    <string name="xiaobing_title">Мой Wheatgrass</string>
+    <string name="xiaobing_chat_tip">Китайская чухня, неприменимая для нас ~~</string>
+    <string name="xiaobing_share_msg">Китайская чухня, неприменимая для нас</string>
+    <string name="xiaobing_delete_title">Пустые чаты</string>
+    <string name="xiaobing_delete_content">Подтверждение очистки всех чатов</string>
+    <string name="xiaobing_delete_ok">ОК</string>
+    <string name="xiaobing_delete_cancel">Отмена</string>
+    <string name="xiaobing_image_loaderror">Не удалось загрузить</string>
+    <string name="xiaobing_head_upload">Загрузка аватара</string>
+    <string name="xiaobing_net_unavaliable">Проверьте сеть</string>
+    <string name="xiaobing_edit_hint">Дуду %1$s~~</string>
+    <string name="cooperation_list_long_click_title">Подсказка</string>
+    <string name="xiaobing_chat_copy">Копировать</string>
+    <string name="tts_dialog_title">Загрузка голосового пакета</string>
+    <string name="tts_dialog_msg">Оповещение о погоде голосом. Необходимо загрузить 4,5Mб</string>
+    <string name="tts_dialog_ok">Скачать сейчас</string>
+    <string name="tts_dialog_cancel">Позже</string>
+    <string name="tts_notification_title_downloading">Загрузка голосового пакета...</string>
+    <string name="tts_notification_title_downloaded">Голосовой пакет загружен</string>
+    <string name="tts_notification_title_downloaded_msg">Голосовой пакет загружен. Вы можете его использовать!</string>
+    <string name="tts_msg_1">Здравствуйте! Это приложение Погода!</string>
+    <string name="tts_msg_2">Доброе утро! Это приложение Погода!</string>
+    <string name="tts_msg_3">Добрый день! Это приложение Погода!</string>
+    <string name="tts_msg_4">Добрый день! Это приложение Погода!</string>
+    <string name="tts_msg_5">Добрый вечер! Это приложение Погода!</string>
+    <string name="tts_msg_day">День</string>
+    <string name="tts_msg_night">Ночь</string>
+    <string name="tts_msg_high">Наивысшая температура</string>
+    <string name="tts_msg_degree">Градус</string>
+    <string name="tts_msg_low">Наименьшая температура</string>
+    <string name="tts_msg_level">Уровень</string>
+    <string name="tts_msg_below_zero">Минус</string>
+    <string name="tts_msg_data_empty">Прогноз погоды устарел, пожалуйста, обновите его прямо сейчас!</string>
+    <string name="xiaobing_image_save_tip_success">"Сохранение в: "</string>
+    <string name="xiaobing_image_save_tip_process">Загрузка, ожидайте...</string>
+    <string name="xiaobing_image_save_net_error">Ошибка сети...</string>
+    <string name="xiaobing_image_save">Сохранение</string>
+    <string name="tts_downloading_tip">Загрузка, ожидайте...</string>
+    <string name="home_feel_temper_text">Ощущается как %1$s℃</string>
+    <string name="weather_title_hour">12 часов</string>
+    <string name="weather_title_forecast">Прогноз</string>
+    <string name="weather_title_life">Индекс</string>
+    <string name="weather_title_forecast_trend">Тренд</string>
+    <string name="weather_title_forecast_forecast">Список</string>
+    <string name="weather_hour_sunrise">Восход</string>
+    <string name="weather_hour_sunset">Закат</string>
+    <string name="weather_hour_current_hour">Сейчас</string>
+    <string name="weather_feel_temper_desc_1">Очень холодно</string>
+    <string name="weather_feel_temper_desc_2">Умеренно холодно</string>
+    <string name="weather_feel_temper_desc_3">Холодно</string>
+    <string name="weather_feel_temper_desc_4">Умеренно прохладно</string>
+    <string name="weather_feel_temper_desc_5">Прохладно</string>
+    <string name="weather_feel_temper_desc_6">Комфортно</string>
+    <string name="weather_feel_temper_desc_7">Тепло</string>
+    <string name="weather_feel_temper_desc_8">Горячо</string>
+    <string name="weather_feel_temper_desc_9">Довольно горячо</string>
+    <string name="weather_feel_temper_desc_10">Очень горячо</string>
+    <string name="goto_download_tts_tip"> Нажмите на  значок динамика в правом верхнем углу для загрузки голосовых пакетов</string>
+    <string name="weather_alarm_max_toast">Не более трех</string>
+    <string name="tts_msg_current_time">"Время: "</string>
+    <string name="tts_msg_nexttime">В следующий раз</string>
+    <string name="tts_msg_nexttime_hour">" ч."</string>
+    <string name="tts_msg_nexttime_minite">" мин."</string>
+    <string name="tts_package_downloading">Загрузка голосовых пакетов...</string>
+    <string name="time_picker_dialog_title">Задать время</string>
+    <string name="date_picker_dialog_title">Задать дату</string>
+    <string name="date_time_set">Задать</string>
+    <string name="date_time_done">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="time_picker_increment_minute_button">Прирост в минутах</string>
+    <string name="time_picker_decrement_minute_button">Снижение в минутах</string>
+    <string name="time_picker_increment_hour_button">Прирост в часах</string>
+    <string name="time_picker_decrement_hour_button">Снижение в часах</string>
+    <string name="time_picker_increment_set_pm_button">Задать  PM</string>
+    <string name="time_picker_decrement_set_am_button">Задать AM</string>
+    <string name="time_picker_separator">Время</string>
+    <string name="string_dou">", "</string>
+    <string name="weather_tts_first_tip"> "Возможные причины несрабатывания оповещения приложением Погода:
+1. Устройство выключено
+2. Включен режим без звука
+3. Удален голосовой пакет
+4. Подключены наушники
+5. Установлен низкий уровень громкости"</string>
+    <string name="weather_upgrade_has_new">Есть новая версия!</string>
+    <string name="weather_tts_download_start">Запуск загрузки голосового пакета</string>
+    <string name="weather_tts_download_success">Загрузка голосового пакета завершена</string>
+    <string name="app_name">Погода</string>
+    <string name="apk_name">Погода</string>
+    <string name="menu_settings">Настройки</string>
+
+
+
+    <string name="appwidget_rigo_42">Погода (4x2)</string>
+    <string name="appwidget_rigo_52">Погода (5x2)</string>
+    <string name="appwidget_rigo_22">Погода (2x2)</string>
+    <string name="appwidget_rigo_51">Погода (5x1)</string>
+    <string name="appwidget_rigo_41">Погода (4x1)</string>
     <string name="city_setting">Настройки города</string>
     <string name="appwidget24">Двойная погода</string>
     <string name="appwidget24_4day">Любимая погода</string>
@@ -685,4 +765,5 @@
     <string name="weather_city_error">Список городов пуст</string>
     <string name="weather_smart_string_weather_week2">Неделя</string>
     <string name="weather_theme_use">Исп.</string>
+    <string name="invalid_date">Неверная дата</string>
 </resources>

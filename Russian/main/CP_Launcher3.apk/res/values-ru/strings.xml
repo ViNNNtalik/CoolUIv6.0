@@ -207,6 +207,7 @@
     <string name="lockpattern_pattern_confirmed_header">Новый графический ключ разблокировки:</string>
     <string name="lockpattern_recording_inprogress">По завершении отпустите палец</string>
     <string name="lockpattern_note_later_message">Графический ключ нарисован неверно %1$d раз(а). Повторите через %2$d сек.</string>
+    <string name="lockpattern_note_tick_message">Попробуйте через %1$d сек.</string>
     <string name="lockpattern_note_wrong_message">Неверный пароль. Осталось попыток: %1$d</string>
     <string name="lockpattern_length_not_enough_message">Пароль слишком короткий. Попробуйте еще раз</string>
     <string name="lockpattern_clear_password_message">Очистить пароль?</string>
@@ -233,6 +234,7 @@
     <string name="effect_type_gather">Стяжка</string>
     <string name="effect_type_snake">Змея</string>
     <string name="effect_type_string">Ряд</string>
+    <string name="effect_type_bounce">Отскок</string>
     <string name="delete_target_ungroup_label">Разделить</string>
     <string name="settings_arrange_actionbar_title">Сортировка приложений</string>
     <string name="settings_group_base_title">Базовые параметры</string>

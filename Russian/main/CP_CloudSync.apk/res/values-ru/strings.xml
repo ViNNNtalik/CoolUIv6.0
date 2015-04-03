@@ -497,7 +497,7 @@
     <string name="coolcloud_item" />
     <string name="coolcloud_from">From</string>
     <string name="coolcloud_to">to</string>
-    <string name="coolcloud_not_login">Unlogged</string>
+    <string name="coolcloud_not_login">Нет входа</string>
     <string name="coolcloud_send_data_now">Sending data</string>
     <string name="coolcloud_process_data_now">Обработка данных</string>
     <string name="coolcloud_process_local_data">Processing local data</string>
@@ -549,15 +549,15 @@
     <string name="coolcloud_button_cancel_text">Cancel</string>
     <string name="coolcloud_date_picker_allday_checkbox_text">All day</string>
     <string name="coolcloud_time_picker_separator">:</string>
-    <string name="coolcloud_app_update_no_tips">提示信息</string>
-    <string name="coolcloud_app_update_no_content_message">您当前版本很新了，去官网看看有惊喜哦！</string>
-    <string name="coolcloud_app_update_no_btn_msg">去官网看看</string>
-    <string name="coolcloud_app_update_yes_tips">升级提示</string>
-    <string name="coolcloud_app_update_yes_content_message">新版本快快升级</string>
-    <string name="coolcloud_app_update_yes_btn_ok_msg">立即升级</string>
-    <string name="coolcloud_app_update_yes_btn_cancel_msg">以后再说</string>
-    <string name="coolcloud_app_update_yes_size">大小：</string>
-    <string name="coolcloud_app_update_yes_version">版本号:</string>
+    <string name="coolcloud_app_update_no_tips">Оповещение</string>
+    <string name="coolcloud_app_update_no_content_message">Текущая версия самая новая! Но можно посмотреть все обновления на сайте</string>
+    <string name="coolcloud_app_update_no_btn_msg">Просмотр на сайте</string>
+    <string name="coolcloud_app_update_yes_tips">Подтверждение обновления</string>
+    <string name="coolcloud_app_update_yes_content_message">Быстрое обновление новой версии</string>
+    <string name="coolcloud_app_update_yes_btn_ok_msg">Обновить</string>
+    <string name="coolcloud_app_update_yes_btn_cancel_msg">Позже</string>
+    <string name="coolcloud_app_update_yes_size">"Размер: "</string>
+    <string name="coolcloud_app_update_yes_version">"Номер версии: "</string>
     <string name="coolcloud_search">Search</string>
     <string name="coolcloud_search_contact">Search for contacts</string>
     <string name="coolcloud_search_doing_please_wait">Searching... Please wait.</string>
@@ -751,22 +751,22 @@
     <string name="coolcloud_reply">Reply</string>
     <string name="coolcloud_feedback_has_reply">A new reply. Touch to view it.</string>
     <string name="coolcloud_name_coolcloud_share_summary">Communication makes work easier.</string>
-    <string name="coolcloud_backuping_quik_dial_info">Backing up...</string>
-    <string name="coolcloud_recovering_quik_dial_info">Restoring...</string>
+    <string name="coolcloud_backuping_quik_dial_info">Бэкап...</string>
+    <string name="coolcloud_recovering_quik_dial_info">Восстановление...</string>
     <string name="coolcloud_about_label">О прил.</string>
-    <string name="coolcloud_feedback">Feedback</string>
-    <string name="coolcloud_share">Share</string>
-    <string name="coolcloud_setting_recommend">Other social media</string>
-    <string name="coolcloud_version_checking">Checking...</string>
-    <string name="coolcloud_version_is_up_to_date">This is the latest version.</string>
-    <string name="coolcloud_version_is">Version:</string>
-    <string name="servicearticle">Usage clauses</string>
-    <string name="coolcloud_please_acree_art">I agree to the clauses</string>
-    <string name="coolcloud_newversion_check">Check version</string>
-    <string name="coolcloud_help">Help</string>
-    <string name="coolcloud_intimacy">Privacy</string>
-    <string name="coolcloud_introudce">About CoolCloud</string>
-    <string name="coolcloud_notice">Caution</string>
+    <string name="coolcloud_feedback">Отзывы</string>
+    <string name="coolcloud_share">Поделиться</string>
+    <string name="coolcloud_setting_recommend">Другие соц. медиа</string>
+    <string name="coolcloud_version_checking">Проверка...</string>
+    <string name="coolcloud_version_is_up_to_date">Это последняя версия</string>
+    <string name="coolcloud_version_is">"Версия: "</string>
+    <string name="servicearticle">Пользовательские положения</string>
+    <string name="coolcloud_please_acree_art">Я согласен с условиями</string>
+    <string name="coolcloud_newversion_check">Проверка версии</string>
+    <string name="coolcloud_help">Помощь</string>
+    <string name="coolcloud_intimacy">Безопасность</string>
+    <string name="coolcloud_introudce">Об Облаке Coolpad</string>
+    <string name="coolcloud_notice">Внимание</string>
     <string name="coolcloud_problem">FAQ</string>
     <string name="coolcloud_feedback_telnumber">Helpline: 029-88824132</string>
     <string name="coolcloud_feedback_dial">Call</string>
@@ -806,21 +806,37 @@ Please try again."</string>
  \u0009\u0009 V. on a button to activate
   When you use a key to activate the Registration cool cloud, we will use your phone to send a text message back to our server, fees charged by the operator, in addition to not spend any of your costs
 "</string>
-
-    <string name="coolcloud_introudce_content1">"1. 酷云是宇龙酷派基于云计算推出的个人数据同步，存储平台，目前内容包括联系人、日程、记事本、浏览器书签的双向即时同步，短信、通话记录、图片的自动备份，并且您可以通过手机端“查找我的手机”开关，远程控制您的手机。酷云简单易用，让您轻松设置! 
- 2. 您若有多个手机，那么这些手机只需要登录同一帐户，经过酷云同步后，您的这些手机上的联系人、日程、记事本、浏览器书签数据将保持一致，当您的一个手机中的联系人、日程、记事本、书签发生变化后，经过酷云云同步，变化的数据将出现在您的其它终端中，您不必担心在每次新建一个联系人时，都需要在每一部手机中新建。当您更换手机时，只要您登录酷云，那么您云中的的联系人、日程数据会自动同步至您登录的终端中，方便快捷。
- 3. 联系人、日程、记事本、浏览器书签为双向同步，如果您更换了手机，想要在新手机中使用这些数据，则您只需选择同步即可，云端的数据会自动同步到您的手机上，如果您想在您的新手机中看到您过去的短信和通话记录，则您只需要对短信、通话记录进行恢复即可。
- 4. 酷云同时提供了一整套的web操作页面，您可以登录"</string>
-    <string name="coolcloud_introudce_content2">"，在网站中管理自己的数据，同时web端提供私密模式，保护您的私密数据安全。
- 5. Web端提供了回收站功能，防止用户进行误删除操作，您删除的数据会自动进入回收站，在回收站中您可以对数据进行恢复和彻底删除操作。
- 6. 一个酷云帐号支持15台手机同时登录使用，登录后，这些手机中的联系人、日程、记事本、浏览器书签数据经过酷云云同步后将保持一致。"</string>
-    <string name="coolcloud_notice_content1">"1. 在第一次进行的同步过程中数据交换量较多，因此时间较长，这段时间内请您尽量保证网络畅通，以便可以快速完成同步。
- 2. 您若有两台或两台以上手机需要绑定同一酷云帐户，那么需要您先将一台手机绑定这一帐户，当这台手机中的数据完成第一次同步后，再进行绑定其它手机。
- 3. 您登录帐户后，无需注销本帐户，酷云云服务会一直在线，若选择注销，酷云服务则无法使用。
- 4. 您若绑定酷云帐户的手机不小心遗失，请您立刻去"</string>
-    <string name="coolcloud_notice_content2">"或在您的另一个终端进行密码修改，密码修改后，丢失的终端将不能进行数据同步和恢复，保护您的数据安全。
- 5. 如果您的一个手机已经绑定了酷云帐号，若您想要更换此手机，请将此登录酷云帐号进行注销，否则可能将影响您的后续使用。
- 6. 在web端您可以控制清除某台手机内的信息，让您的手机更加安全。"</string>
+    <string name="coolcloud_intimacy_data">"\u0009\u0009we attach great importance to protecting your privacy, cool cloud using multiple encryption technology, users store strict management and protection of cool and so the end of the data, protect your personal information is lost, stolen or tampered with! This Agreement is a legal agreement between you and the cool cloud service provider, when you click on the "one key to activate" or cool cloud services that you have carefully read the terms and accept the terms of service This Agreement, together with all updates, patches terms, software licenses, and all regulations and policies referred to in this Agreement, together constitute an agreement between you and the cool cloud.
+ \u0009\u0009 a cool Cloud Services
+ Yulong Coolpad cool cloud is offered online cloud synchronization service, including a calendar, address book, call history, text messages, bookmarks, notepads, pictures and other real-time synchronization service (of course, requires a network connection), while in the server deletion data is backed up, for example, when a user changes the mobile terminal inside the above information will immediately cool the cloud and proactively to let other devices in the same account to get a cool cloud sync, cool cloud not only in the mobile terminal to provide these services and applications also provide mobile web and PCweb operating functions.
+ \u0009\u0009 Second, the service risk and Disclaimer
+ Users need to understand and agree that the services related to the Internet and mobile communications, and other services that may be affected by factors of instability which links many. Therefore, the existence of a number of force majeure services, service computer virus or hacker attacks, system instability, user location, user off, mobile communication network, Internet network, communication lines and other causes of disruptions caused by or can not meet user requirements risk. Use of this service users have to bear more risk, cool cloud on the timeliness of service, security, accuracy does not warrant, therefore causing the user to send and receive can not read the message, or mis-delivery, timeliness personal settings, the failure to store or other problems not bear any responsibility. For users of data loss or cool cloud fault force majeure causes, lost or service is stopped, cool cloud will not bear any responsibility. At the same time the transaction may not be below the line cool cloud account.
+ \u0009\u0009 three terms of service changes and notification
+ (A) at any time or cool cloud will keep updating from time to time, revise, supplement, and otherwise modify this Agreement and to impose new or additional rules, policies, terms, or conditions on your use of the Service rights. The previous update, amend, supplement and additional rules, policies, terms and conditions (in this Agreement referred to as "Additional Terms") will be released to modify the contents cool cloud through the relevant pages. Services revised once published, will be effective immediately and incorporated into this Agreement. If you do not agree to change the content, you can terminate the related services.
+ (2) For a system failure affecting the normal operation of this service, cool cloud promise timely processing of repair. But the resulting inconvenience to you please forgive me, cool cloud will not be liable for the loss of your spirit.
+ \u0009\u0009 four, user obligations and responsibilities
+ (1) The user shall not use the Service or the cool cloud web page, copy, upload, store, disseminate any harm to national security, harm national honor and interests, inciting ethnic hatred, ethnic discrimination, propagate cult and feudal superstition, any prejudice to social security or reactionary, violence, murder, false, horror, harassing, abusive, libelous, threatening, pornographic or abetting crime laws and regulations prohibit content.
+ (2) Users shall not use the Service intentionally spreading computer viruses and other destructive programs, not for the Service, servers or networks connected to the Service Manufacturing interference and confusion, or in violation of any of the services required to connect the network, the program , policies or rules, otherwise cool cloud will retain the right to pursue its legal responsibility and the right to submit it to the relevant department.
+ (3) User agrees to abide by "Peoples Republic of China Constitution," "Peoples Republic of China Civil Law", "Peoples Republic of China Copyright Law", "Peoples Republic of China on Guarding State Secrets Law," "Regulations on Protection of Computer Information System Security Peoples Republic of China." "explains Supreme Court to hear disputes involving computer network copyright law applicable number of issues", "Computer Software Protection Regulations", "Information Network Transmission Right Protection Ordinance", "Internet copyright administrative protection measures" and other relevant national laws and regulations the implementation approach.
+ (4) comply with all related services with the use of network protocols, regulations, procedures and practices.
+ \u0009\u0009 five, on a key to activate
+ When you use the "one key to activate the" registration cool cloud, we ll use your phone to send a text message to our server backend, fees charged by the operator!
+\u0009\u0009  Copyrighted  the Terms of Service Yulong Coolpad all, interpret and modify all rights reserved. If you have any comments on the cool cloud offerings, please call cool cloud hotline: 029-88824132, or go to the website: www.coolyun.com feedback.
+"</string>
+   <string name="coolcloud_introudce_content1"> "1. Cool cloud Yulong Coolpad to launch cloud-based personal data synchronization, storage platforms, currently including contacts, calendar, notepad, browser bookmarks instant two-way sync, text messaging, call recording, automatic backup of the picture, and you can phone side "Find My Phone" switch, remote control your phone. Cool cloud simple to use, allowing you to easily set up!
+ 2. if you are more than one phone, then these phones only need to log in the same account, after cool cloud sync your contacts on the phone these, calendar, notepad, browser bookmarks, data will remain the same, when one of your phone contacts, after the schedule, notepad, bookmark changes, and so on through the cool synchronize changed data will appear in your other terminal, you do not have to worry every time a new contact, are needed in each the new phone. When you change phones, as long as you are logged cool cloud, your cloud contacts, calendar data is automatically synchronized to the terminal you are logged in, quick and easy.
+ 3. contacts, calendar, notepad, browser bookmarks for two-way synchronization, if you change your phone, you want to use the data in a new phone, you can simply choose to sync, cloud data will be automatically synced to your on the phone, if you want to see your past text messages and call logs in your new phone, you only need to text messages, call records can be restored.
+ 4. Cool Cloud also provides a set of web pages operation, you can log "</string>
+   <string name="coolcloud_introudce_content2"> ", to manage their own data in the site, while the web side to provide privacy mode to protect your private data safe.
+ 5. Web terminal provides the Recycle Bin function to prevent users accidentally deleted the operation, you will automatically enter data deleted recycle bin, recycle bin and you can restore the data and complete the deletion.
+ 6. A cool cloud account login simultaneously support 15 mobile phone use, log, these phone contacts, calendar, notepad, browser bookmarks sync data through cool and so will remain consistent. "</string>
+   <string name = "coolcloud_notice_content1"> "1. During synchronization, the first conducted large amount of data exchange, so a long time, during which time you try to ensure smooth network, so that you can quickly complete synchronization.
+ 2. If two or more of your phone needs to bind the same cool cloud account, you first need a cellphone to this account, when the data after the completion of this mobile phone for the first time synchronization, and then Binding other phones.
+ 3. After you log in your account without having to log out of the account, the service will always be online and so cool, if you choose canceled, cool cloud services are not available.
+ 4. If you bind cool cloud accidentally lost phone account, you immediately go "</string>
+   <string name = "coolcloud_notice_content2"> "or another password change in your terminal, the password changes, the terminal will not be lost for data synchronization and recovery, protect your data safe.
+ 5. If your phone has a cool cloud bound account, if you want to replace this phone, please log in cool cloud account for this cancellation, it may affect your subsequent use.
+ 6. In the end, you can control web clear information within a mobile phone to make your phone more secure. "</string>
     <string name="coolcloud_problem_content1">"1. Why does it respond slow at the first sync?
 "</string>
     <string name="coolcloud_problem_content2">"A: At the first sync, CoolCloud initiates data authentication and protection and uploads phone data. This involves processing a large quantity of data.
@@ -1093,101 +1109,101 @@ Please try again."</string>
     <string name="umgr_nologin_prompt">"\u0009\u0009Having not logged in to CoolCloud, you may fail to use features, such as CoolMart, CoolGame, and backup of contacts to cloud. 
  \u0009\u0009You will be notified of login to CoolCloud when requiring the preceding services."</string>
     <string name="umgr_login_prompt">\u0009\u0009Thank you for logging in to CoolCloud. You will be spared repeated logins to use the following services:</string>
-    <string name="umgr_login_usephone">Start</string>
+    <string name="umgr_login_usephone">Старт</string>
     <string name="umgr_prologue_title">Аккаунт Облака</string>
-    <string name="umgr_prologue_login">Existing account</string>
-    <string name="umgr_prologue_register_btntitle">New account</string>
-    <string name="umgr_personal_center_title">Settings</string>
+    <string name="umgr_prologue_login">Существующий аккаунт</string>
+    <string name="umgr_prologue_register_btntitle">Новый аккаунт</string>
+    <string name="umgr_personal_center_title">Настройки</string>
     <string name="umgr_coolaccount_label">"Аккаунт Облака: "</string>
-    <string name="umgr_personal_center_coolyun">Cloud service</string>
-    <string name="umgr_personal_center_coolsync">CoolCloud service</string>
-    <string name="umgr_personal_center_coolyun_prompt">Back up contacts, messages, and photos to CoolCloud</string>
-    <string name="umgr_personal_center_myassets">My assets</string>
-    <string name="umgr_personal_center_coolmoney">Coins:</string>
-    <string name="umgr_personal_center_see_coolmoney">Coming soon</string>
-    <string name="umgr_personal_center_alert">Coming soon</string>
-    <string name="umgr_personal_center_coolbean">Beans:</string>
-    <string name="umgr_personal_center_see_coolbean">View consumption of beans</string>
-    <string name="umgr_personal_center_howget_coolbean">How to get coins and beans?</string>
-    <string name="umgr_personal_center_accountsetting">Account settings</string>
+    <string name="umgr_personal_center_coolyun">Облачный сервис</string>
+    <string name="umgr_personal_center_coolsync">Сервис Облака Coolpad</string>
+    <string name="umgr_personal_center_coolyun_prompt">Бэкап контактов, сообщений, фото и т.д. с Облаком</string>
+    <string name="umgr_personal_center_myassets">Средства</string>
+    <string name="umgr_personal_center_coolmoney">"Монеты: "</string>
+    <string name="umgr_personal_center_see_coolmoney">Скоро будет</string>
+    <string name="umgr_personal_center_alert">Скоро будет</string>
+    <string name="umgr_personal_center_coolbean">"Бобы: "</string>
+    <string name="umgr_personal_center_see_coolbean">Посмотреть потребление бобов</string>
+    <string name="umgr_personal_center_howget_coolbean">Как получить монеты и бобы?</string>
+    <string name="umgr_personal_center_accountsetting">Настройки аккаунта</string>
     <string name="umgr_personal_center_personalinfo">Профиль</string>
-    <string name="umgr_personal_center_modify_personalinfo">Edit avatar or gender info</string>
-    <string name="umgr_personal_center_pwdmanage">Password</string>
-    <string name="umgr_personal_center_modifypwd">Change password</string>
-    <string name="umgr_personal_center_bindmanage">Binding</string>
-    <string name="umgr_personal_center_modifybind">Change phone number or email address</string>
-    <string name="umgr_personal_center_other">Other</string>
-    <string name="umgr_personal_center_loginout">Exit</string>
-    <string name="umgr_personal_center_versioncode">Version:</string>
-    <string name="umgr_personal_center_modify_icon">Change avatar</string>
-    <string name="uac_add_photo_title">Add photo</string>
-    <string name="uac_add_take_pictue">Camera</string>
-    <string name="uac_add_select_picture">Select image</string>
-    <string name="uac_upload_picture">Uploading</string>
-    <string name="umgr_account_upgrade_prompt">Temporary account %s will be updated for you to enjoy more Coolpad services</string>
-    <string name="umgr_please_input_bind_phone">Enter a phone number to bind</string>
-    <string name="umgr_account_upgrade_confirm">OK</string>
-    <string name="umgr_account_upgrade_cancel">Not now</string>
-    <string name="uac_consume_tab_title">Consumption</string>
-    <string name="uac_income_tab_title">Income</string>
-    <string name="uac_coolbean_title">My beans</string>
-    <string name="uac_get_moret_text">View more</string>
-    <string name="uac_no_get_coolbean_consume">Info not obtained.</string>
-    <string name="uac_no_get_coolbean_income">Info not obtained.</string>
-    <string name="cooperarion_pull_refresh_recently">Latest update:</string>
-    <string name="cooperation_pull_refresh_now">Updating...</string>
-    <string name="cooperation_pull_refreshing">Updating</string>
-    <string name="cooperation_pull_to_refresh">Drag to update</string>
-    <string name="cooperation_release_to_refresh">Release to update</string>
-    <string name="umgr_personal_info_title">Profile</string>
-    <string name="umgr_personal_info_realname">Name</string>
-    <string name="umgr_personal_info_gender">Gender</string>
-    <string name="umgr_personal_info_birthday">Birthday</string>
-    <string name="umgr_personal_info_age">Age</string>
-    <string name="umgr_personal_info_city">City</string>
-    <string name="umgr_personal_info_company">Company</string>
-    <string name="umgr_personal_info_profession">Job</string>
-    <string name="umgr_personal_info_editinfo">Edit</string>
-    <string name="umgr_personal_select_gender">Select gender</string>
-    <string name="umgr_personal_info_noset">Not set</string>
-    <string name="umgr_personal_info_get_error">Failed to obtain personal info.</string>
-    <string name="umgr_personal_info_nickname">Nickname</string>
-    <string name="inpit_utf8_str">Change code to utf-8</string>
-    <string name="umgr_personal_info_nickname_hint">Enter your nickname.</string>
-    <string name="umgr_alert_dialog_title_birthday">Set birthday</string>
-    <string name="umgr_calendar_month">month</string>
-    <string name="umgr_personal_info_modify_company">Change company</string>
-    <string name="umgr_personal_info_add_company">Add company</string>
-    <string name="umgr_modify_photo_failure">Failed to change.</string>
-    <string name="umgr_pwd_manage_oldpwd">Old password:</string>
-    <string name="umgr_pwd_manage_newpwd">New password:</string>
-    <string name="umgr_pwd_manage_confirmpwd">Confirm:</string>
-    <string name="umgr_pwd_manage_savemodify">Save</string>
-    <string name="umgr_pwd_mange_hinttext">6 to 16 letters or digits</string>
-    <string name="umgr_bind_manage_bindphone">Bind number</string>
-    <string name="umgr_bind_manage_rebind">Bind again</string>
-    <string name="umgr_bind_manage_bind">Bind</string>
-    <string name="umgr_bind_manage_bindmail">Bind email</string>
-    <string name="umgr_bind_manage_nobind">Not bound</string>
-    <string name="umgr_bind_manage_enterpwd_title">Enter your password</string>
-    <string name="umgr_bind_manage_bind_success">Bound successfully</string>
-    <string name="uac_bind_manage_enterpwd_tip">Enter your password and touch Next to start binding.</string>
-    <string name="uac_bind_manage_bindphone_phone">Phone number</string>
-    <string name="umgr_bind_manage_bindphone_hinttext">Number of 11 digits</string>
-    <string name="uac_bind_manage_bindphone_authcode">Verification code</string>
-    <string name="uac_bind_manage_prompt">Message will arrive soon. Obtain the message again if it fails to arrive within 60s.</string>
-    <string name="uac_bindmail_dialog_title">Sent</string>
-    <string name="uac_bindphone_dialog_title">Bound successfully</string>
-    <string name="uac_dialog_title">Information</string>
-    <string name="uac_dialog_mail_body">Verification mail has been sent and remains valid within 24 hours. Perform binding according to the instructions.</string>
-    <string name="uac_dialog_sms_body">Verification code has been sent to your phone.</string>
-    <string name="uac_dialog_ok">OK</string>
-    <string name="uac_dialog_cancel">Cancel</string>
-    <string name="umgr_third_forward_start">1. Log in and bind account</string>
-    <string name="umgr_third_forward_end">2. Migrate data</string>
-    <string name="umgr_third_forward_useold">Account already exists.</string>
-    <string name="umgr_third_forward_getnew">Create account and perform binding</string>
-    <string name="umgr_third_forward_oldaccount_tip">%s account to update:</string>
+    <string name="umgr_personal_center_modify_personalinfo">Изменение аватара и данных контакта</string>
+    <string name="umgr_personal_center_pwdmanage">Пароль</string>
+    <string name="umgr_personal_center_modifypwd">Изменение пароля</string>
+    <string name="umgr_personal_center_bindmanage">Привязка</string>
+    <string name="umgr_personal_center_modifybind">Изменение номера и адреса эл. почты</string>
+    <string name="umgr_personal_center_other">Прочее</string>
+    <string name="umgr_personal_center_loginout">Выход</string>
+    <string name="umgr_personal_center_versioncode">"Версия: "</string>
+    <string name="umgr_personal_center_modify_icon">Изменение аватара</string>
+    <string name="uac_add_photo_title">Добавить фото</string>
+    <string name="uac_add_take_pictue">Камера</string>
+    <string name="uac_add_select_picture">Изображение</string>
+    <string name="uac_upload_picture">Выгрузка</string>
+    <string name="umgr_account_upgrade_prompt">Временный аккаунт %s будет обновлен для получения доступа к службам Coolpad</string>
+    <string name="umgr_please_input_bind_phone">Введите телефонный номер для привязки</string>
+    <string name="umgr_account_upgrade_confirm">ОК</string>
+    <string name="umgr_account_upgrade_cancel">Не сейчас</string>
+    <string name="uac_consume_tab_title">Потребление</string>
+    <string name="uac_income_tab_title">Поступление</string>
+    <string name="uac_coolbean_title">Мои бобы</string>
+    <string name="uac_get_moret_text">Еще</string>
+    <string name="uac_no_get_coolbean_consume">Нет информации</string>
+    <string name="uac_no_get_coolbean_income">Нет информации</string>
+    <string name="cooperarion_pull_refresh_recently">"Последнее обновление: "</string>
+    <string name="cooperation_pull_refresh_now">Обновление...</string>
+    <string name="cooperation_pull_refreshing">Обновление</string>
+    <string name="cooperation_pull_to_refresh">Потяните для обновления</string>
+    <string name="cooperation_release_to_refresh">Отпустите  для обновления</string>
+    <string name="umgr_personal_info_title">Профиль</string>
+    <string name="umgr_personal_info_realname">Имя</string>
+    <string name="umgr_personal_info_gender">Пол</string>
+    <string name="umgr_personal_info_birthday">День рождения</string>
+    <string name="umgr_personal_info_age">Возраст</string>
+    <string name="umgr_personal_info_city">Город</string>
+    <string name="umgr_personal_info_company">Компания</string>
+    <string name="umgr_personal_info_profession">Должность</string>
+    <string name="umgr_personal_info_editinfo">Изменить</string>
+    <string name="umgr_personal_select_gender">Выбор пола</string>
+    <string name="umgr_personal_info_noset">Не задано</string>
+    <string name="umgr_personal_info_get_error">Не удалось получить информацию</string>
+    <string name="umgr_personal_info_nickname">Никнейм</string>
+    <string name="inpit_utf8_str">Изменить кодировку на utf-8</string>
+    <string name="umgr_personal_info_nickname_hint">Введите Ваш никнейм</string>
+    <string name="umgr_alert_dialog_title_birthday">Задать день рождения</string>
+    <string name="umgr_calendar_month">Месяц</string>
+    <string name="umgr_personal_info_modify_company">Изменить компанию</string>
+    <string name="umgr_personal_info_add_company">Добавить компанию</string>
+    <string name="umgr_modify_photo_failure">Не удалось изменить</string>
+    <string name="umgr_pwd_manage_oldpwd">"Старый пароль: "</string>
+    <string name="umgr_pwd_manage_newpwd">"Новый пароль: "</string>
+    <string name="umgr_pwd_manage_confirmpwd">"Подтвержение: "</string>
+    <string name="umgr_pwd_manage_savemodify">Сохранить</string>
+    <string name="umgr_pwd_mange_hinttext">От 6 до 16 символов</string>
+    <string name="umgr_bind_manage_bindphone">Привязать номер</string>
+    <string name="umgr_bind_manage_rebind">Привязать снова</string>
+    <string name="umgr_bind_manage_bind">Привязка</string>
+    <string name="umgr_bind_manage_bindmail">Привязать адрес эл. почты</string>
+    <string name="umgr_bind_manage_nobind">Нет привязки</string>
+    <string name="umgr_bind_manage_enterpwd_title">Введите Ваш пароль</string>
+    <string name="umgr_bind_manage_bind_success">Привязано успешно</string>
+    <string name="uac_bind_manage_enterpwd_tip">Введите пароль и нажмите Далее для привязки</string>
+    <string name="uac_bind_manage_bindphone_phone">Телефонный номер</string>
+    <string name="umgr_bind_manage_bindphone_hinttext">Номер из 11 цифр</string>
+    <string name="uac_bind_manage_bindphone_authcode">Код подтверждения</string>
+    <string name="uac_bind_manage_prompt">Сообщение отправлено. Запросите его снова, если не поступит в течение 60 секунд</string>
+    <string name="uac_bindmail_dialog_title">Отправлено</string>
+    <string name="uac_bindphone_dialog_title">Привязано успешно</string>
+    <string name="uac_dialog_title">Инфомация</string>
+    <string name="uac_dialog_mail_body">Письмо с подтверждением отправлено. Срок действия - 24 часа</string>
+    <string name="uac_dialog_sms_body">Код подтверждения был отправлен на указанный телефонный номер</string>
+    <string name="uac_dialog_ok">ОК</string>
+    <string name="uac_dialog_cancel">Отмена</string>
+    <string name="umgr_third_forward_start">1. Вход и привязка аккаунта</string>
+    <string name="umgr_third_forward_end">2. Перенос данных</string>
+    <string name="umgr_third_forward_useold">Аккаунт уже существует</string>
+    <string name="umgr_third_forward_getnew">Создание аккаунта и его привязка</string>
+    <string name="umgr_third_forward_oldaccount_tip">"%s аккаунт к обновлению: "</string>
     <string name="umgr_third_forward_account">"Аккаунт Облака: "</string>
     <string name="umgr_third_forward_passward">"Пароль: "</string>
     <string name="umgr_third_forward_account_hint">Введите аккаунт Облака</string>
@@ -1199,46 +1215,46 @@ Please try again."</string>
     <string name="umgr_title_login">Аккаунт Облака</string>
     <string name="umgr_title_register">Регистрация в Облаке</string>
     <string name="umgr_title_bind">Связать аккаунт</string>
-    <string name="umgr_title_findpwd">Forgot</string>
-    <string name="umgr_title_auth">Authorization</string>
-    <string name="umgr_title_agreement">Agreement</string>
-    <string name="umgr_title_privacy">Privacy clauses</string>
-    <string name="umgr_title_forward">Update</string>
-    <string name="umgr_title_switch_user">Switch account</string>
+    <string name="umgr_title_findpwd">Забыто</string>
+    <string name="umgr_title_auth">Авторизация</string>
+    <string name="umgr_title_agreement">" Соглашение "</string>
+    <string name="umgr_title_privacy">" Политика безопасности "</string>
+    <string name="umgr_title_forward">Обновление</string>
+    <string name="umgr_title_switch_user">Переключение аккаунтов</string>
     <string name="umgr_title_forwand_bind">Связать аккаунт Облака</string>
-    <string name="umgr_title_password_manage">Password</string>
-    <string name="umgr_please_holdon">Please wait.</string>
-    <string name="umgr_please_login">Log in to CoolCloud</string>
+    <string name="umgr_title_password_manage">Пароль</string>
+    <string name="umgr_please_holdon">Ожидайте</string>
+    <string name="umgr_please_login">Вход в Облако Coolpad</string>
     <string name="umgr_please_forward_format">Enter your CoolCloud account to bind it with the %s account</string>
     <string name="umgr_please_forward_default">Enter your CoolCloud account to bind it with the CoolYou account</string>
     <string name="umgr_please_login_format">Log in to %s with CoolCloud account</string>
     <string name="umgr_please_login_third_format1">Log in with %s account</string>
-    <string name="umgr_login_use_third_format">Log in to %s</string>
-    <string name="umgr_login_use_third_default">Log in to CoolYou</string>
-    <string name="umgr_please_input_username">Phone number or email address</string>
-    <string name="umgr_please_input_phone">Enter phone number</string>
-    <string name="umgr_please_input_email">Enter email address</string>
-    <string name="umgr_please_input_password">Password of 6 to 16 characters</string>
-    <string name="umgr_please_input_authcode">SMS verification code</string>
-    <string name="umgr_please_confirm_password">Confirm password</string>
-    <string name="umgr_please_set_password">Set password</string>
-    <string name="umgr_please_input_username_registered">Enter specified phone number</string>
-    <string name="umgr_please_input_authcode_received">Enter verification code</string>
-    <string name="umgr_please_input_new_password">Enter new password</string>
-    <string name="umgr_show_psw">Show password</string>
-    <string name="umgr_whether_forget_password_ornot">Forgot</string>
-    <string name="umgr_whether_register_ornot">Register</string>
-    <string name="umgr_login">Login</string>
-    <string name="umgr_register">Register</string>
-    <string name="umgr_bind">Bind</string>
-    <string name="umgr_skip">Skip</string>
-    <string name="umgr_login_lightly">Fast login</string>
-    <string name="umgr_register_agree_clause_1">Your registry indicates that you abide by</string>
-    <string name="umgr_login_agree_clause_1">Your login indicates that you abide by</string>
-    <string name="umgr_agree_clause_2_user">the related</string>
-    <string name="umgr_agree_clause_2_agreement">usage agreement</string>
-    <string name="umgr_agree_clause_2_and">and</string>
-    <string name="umgr_agree_clause_2_privacy">privacy clauses</string>
+    <string name="umgr_login_use_third_format">Вход в %s</string>
+    <string name="umgr_login_use_third_default">Вход в CoolYou</string>
+    <string name="umgr_please_input_username">Адрес эл. почты</string>
+    <string name="umgr_please_input_phone">Введите номер телефона</string>
+    <string name="umgr_please_input_email">Введите адрес эл. почты</string>
+    <string name="umgr_please_input_password">Пароль от 6 до 16 символов</string>
+    <string name="umgr_please_input_authcode">SMS-код подтверждения</string>
+    <string name="umgr_please_confirm_password">Подтверить пароль</string>
+    <string name="umgr_please_set_password">Задать пароль</string>
+    <string name="umgr_please_input_username_registered">Введите соответствующий номер телефона</string>
+    <string name="umgr_please_input_authcode_received">Введите код подтверждения</string>
+    <string name="umgr_please_input_new_password">Введите новый пароль</string>
+    <string name="umgr_show_psw">Показать пароль</string>
+    <string name="umgr_whether_forget_password_ornot">Забыто</string>
+    <string name="umgr_whether_register_ornot">Регистрация</string>
+    <string name="umgr_login">Вход</string>
+    <string name="umgr_register">Регистрация</string>
+    <string name="umgr_bind">Связать</string>
+    <string name="umgr_skip">Пропуск</string>
+    <string name="umgr_login_lightly">Быстрый вход</string>
+    <string name="umgr_register_agree_clause_1">Регистрация означает, что Вы соглашаетесь с</string>
+    <string name="umgr_login_agree_clause_1">Вход означает, что Вы соглашаетесь с</string>
+    <string name="umgr_agree_clause_2_user">" положениями "</string>
+    <string name="umgr_agree_clause_2_agreement">"Cоглашения "</string>
+    <string name="umgr_agree_clause_2_and">и</string>
+    <string name="umgr_agree_clause_2_privacy">" Политикой безопасности"</string>
     <string name="umgr_prologue_prompt_1">CoolCloud account allows you to sync messages, contacts, and photos</string>
     <string name="umgr_prologue_prompt_2">and enjoy various CoolCloud services</string>
     <string name="umgr_login_registered">Existing account</string>
@@ -1379,54 +1395,53 @@ Please try again."</string>
     <string name="umgr_scope_unknown">Other permission</string>
     <string name="umgr_scope_getuserinfo">Obtain user info</string>
     <string name="umgr_modify_success">Changed</string>
-    <string name="umgr_clause_coolaccount">"\u0009\u0009本协议是您与酷云服务提供商之间达成的法律协议，表明您愿意接受本服务条款。本协议连同一切更新、增补条款、软件许可，以及本协议中提及的所有规章和政策，共同构成您与酷云之间的协议。如您同意本协议条款，请您点击“同意”，如您不同意本协议条款，请勿点击“同意”，也不要使用本服务。您必须接受并遵守向您提出的本协议条款。
- \u0009\u0009一.酷云服务的定义
- 酷云是宇龙酷派提供的在线云计算同步服务，内容包括联系人、日历、短信、通话记录的即时同步服务（当然需要有网络连接），同时在服务器中对删除数据进行了备份，例如当用户在手机端变更了上述内容里面的资料时，酷云会即时并主动的让同一个酷云帐户的其他设备获得同步，酷云不但在手机端提供这些服务和应用，同时也提供一套完整的web操作页面。
- \u0009\u0009二.服务风险及免责声明
- 用户需要理解并同意，本服务涉及到互联网及移动通讯等服务，可能会受其中的很多环节不稳定因素的影响。因此服务存在众多不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、移动通信网络、互联网网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，酷云对服务的及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。对于不可抗力或非酷云过错原因导致的用户数据损失、丢失或服务停止，酷云将不承担任何责任。同时不得线下交易酷云账号。
- \u0009\u0009三.服务条款的变更与通知
- （1）酷云将保留随时或不时更新、修订、补充及以其它方式修改本协议并就您对有关服务的使用施加新的或额外的规则、政策、条款或条件的权利。前述更新、修订、补充以及额外的规则、政策、条款和条件（本协议称“额外条款”）将通过web页面的公告或向您的帐户联系信息中所列的邮件地址发送电子邮件，或者邮寄信件方式发送通知给您，一经您接受，将立即生效并纳入本协议。如果您不同意所改动的内容，您可以终止相关服务。
- （2） 对于系统发生故障影响到本服务的正常运行，酷云承诺及时处理进行修复。但由此而给您带来的不便，敬请谅解，酷云将不负责赔偿您的精神损失。
- \u0009\u0009四.用户义务与责任
- （1）用户不得利用本服务或在酷云网页上、复制、上传、存储、传播任何危害国家安全、损害国家荣誉和利益、煽动民族仇恨、民族歧视、宣扬邪教和封建迷信、任何妨碍社会治安或反动、暴力、凶杀、虚假、恐怖、骚扰、侮辱、诽谤、恐吓、淫秽色情或教唆犯罪等法律法规禁止的内容。
- （2）用户不得利用本服务进行故意制作、传播计算机病毒等破坏性程序，不得针对本服务、与本服务连接的服务器或网络制造干扰、混乱，或违反连接本服务的网络的任何要求、程序、政策或规则，否则酷云将保留追究其法律责任的权利并有权将其提交给相关部门处理。
- （3）用户同意遵守《中华人民共和国宪法》、《中华人民共和国民法通则》、《中华人民共和国著作权法》、《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》、《信息网络传播权保护条例》、《互联网著作权行政保护办法》等有关国家法律和法规、实施办法。
- （4）遵守所有与使用服务有关的网络协议、规定、程序与惯例。
- \u0009\u0009五.关于一键激活
- 您在使用“一键激活”注册酷云时，我们会使用您的手机向我们的服务器后台发送一条短信，费用由运营商收取，此外不花费您的任何费用。
+    <string name="umgr_clause_coolaccount">"\u0009\u0009This Agreement is a legal agreement between you and the cool cloud service provider, that you are willing to accept the terms of service. This Agreement together with all updates, patches terms, software licenses, and all regulations and policies referred to in this Agreement, together constitute an agreement between you and the cool cloud. If you agree to the terms of the agreement, please click "I agree", if you do not agree to the terms of this agreement, do not click "Agree", and do not use the Service. You must accept and abide by the terms of this Agreement to your questions.
+  \u0009\u0009 a definition cool cloud services
+ Yulong Coolpad cool cloud is offered online cloud synchronization service, including contacts, calendar, SMS, instant call records synchronization service (of course, requires a network connection), and delete data in the server for a backup, for example, when When the user changes the phone side inside the above information will immediately cool the cloud and proactively to let other devices in the same account to get a cool cloud sync, cool cloud not only in the mobile terminal to provide these services and applications, while also providing a complete set operation of web pages.
+ \u0009\u0009 two. Services Risk and Disclaimer
+ Users need to understand and agree that the services related to the Internet and mobile communications, and other services that may be affected by factors of instability which links many. Therefore, the existence of a number of force majeure services, service computer virus or hacker attacks, system instability, user location, user off, mobile communication network, Internet network, communication lines and other causes of disruptions caused by or can not meet user requirements risk. Use of this service users have to bear more risk, cool cloud on the timeliness of service, security, accuracy does not warrant, therefore causing the user to send and receive can not read the message, or mis-delivery, timeliness personal settings, the failure to store or other problems not bear any responsibility. For users of data loss or cool cloud fault force majeure causes, lost or service is stopped, cool cloud will not bear any responsibility. At the same time the transaction may not be below the line cool cloud account.
+ \u0009\u0009 three. Terms of service changes and notification
+ (A) at any time or cool cloud will keep updating from time to time, revise, supplement, and otherwise modify this Agreement and to impose new or additional rules, policies, terms, or conditions on your use of the Service rights. The previous update, amend, supplement and additional rules, policies, terms and conditions (in this Agreement referred to as "Additional Terms") will be contacted via the web page notice or your account information listed in the e-mail address to send an e-mail, or mail notification letter sent to you, once you accept, will be effective immediately and incorporated into this Agreement. If you do not agree to change the content, you can terminate the related services.
+ (2) For a system failure affecting the normal operation of this service, cool cloud promise timely processing of repair. But the resulting inconvenience to you, please understand, cool cloud will not be liable for the loss of your spirit.
+ \u0009\u0009 four user obligations and responsibilities
+ (1) The user shall not use the Service or the cool cloud web page, copy, upload, store, disseminate any harm to national security, harm national honor and interests, inciting ethnic hatred, ethnic discrimination, propagate cult and feudal superstition, any prejudice to social security or reactionary, violence, murder, false, horror, harassing, abusive, libelous, threatening, pornographic or abetting crime laws and regulations prohibit content.
+ (2) Users shall not use the Service intentionally spreading computer viruses and other destructive programs, not for the Service, servers or networks connected to the Service Manufacturing interference and confusion, or in violation of any of the services required to connect the network, the program , policies or rules, otherwise cool cloud will retain the right to pursue its legal responsibility and the right to submit it to the relevant department.
+ (3) User agrees to abide by "Peoples Republic of China Constitution," "Peoples Republic of China Civil Law", "Peoples Republic of China Copyright Law", "Peoples Republic of China on Guarding State Secrets Law," "Regulations on Protection of Computer Information System Security Peoples Republic of China." "explains Supreme Court to hear disputes involving computer network copyright law applicable number of issues", "Computer Software Protection Regulations", "Information Network Transmission Right Protection Ordinance", "Internet copyright administrative protection measures" and other relevant national laws and regulations the implementation approach.
+ (4) comply with all related services with the use of network protocols, regulations, procedures and practices.
+ \u0009\u0009 five. About a key to activate
+ When you use the "one key to activate the" registration cool cloud, we ll use your phone to send a text message to our server backend, fees charged by the operator, in addition to not spend any of your expenses.
 "</string>
-    <string name="umgr_clause_agreement">"\u0009\u0009本协议是您与酷云服务提供商之间达成的法律协议，表明您愿意接受本服务条款。本协议连同一切更新、增补条款、软件许可，以及本协议中提及的所有规章和政策，共同构成您与酷云之间的协议。如您同意本协议条款，请您点击“同意”，如您不同意本协议条款，请勿点击“同意”，也不要使用本服务。您必须接受并遵守向您提出的本协议条款。
- \u0009\u0009一.酷云服务的定义
- 酷云是宇龙酷派提供的在线云计算同步服务，内容包括联系人、日历、短信、通话记录的即时同步服务（当然需要有网络连接），同时在服务器中对删除数据进行了备份，例如当用户在手机端变更了上述内容里面的资料时，酷云会即时并主动的让同一个酷云帐户的其他设备获得同步，酷云不但在手机端提供这些服务和应用，同时也提供一套完整的web操作页面。
- \u0009\u0009二.服务风险及免责声明
- 用户需要理解并同意，本服务涉及到互联网及移动通讯等服务，可能会受其中的很多环节不稳定因素的影响。因此服务存在众多不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、移动通信网络、互联网网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，酷云对服务的及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。对于不可抗力或非酷云过错原因导致的用户数据损失、丢失或服务停止，酷云将不承担任何责任。同时不得线下交易酷云账号。
- \u0009\u0009三.服务条款的变更与通知
- （1）酷云将保留随时或不时更新、修订、补充及以其它方式修改本协议并就您对有关服务的使用施加新的或额外的规则、政策、条款或条件的权利。前述更新、修订、补充以及额外的规则、政策、条款和条件（本协议称“额外条款”）将通过web页面的公告或向您的帐户联系信息中所列的邮件地址发送电子邮件，或者邮寄信件方式发送通知给您，一经您接受，将立即生效并纳入本协议。如果您不同意所改动的内容，您可以终止相关服务。
- （2） 对于系统发生故障影响到本服务的正常运行，酷云承诺及时处理进行修复。但由此而给您带来的不便，敬请谅解，酷云将不负责赔偿您的精神损失。
- \u0009\u0009四.用户义务与责任
- （1）用户不得利用本服务或在酷云网页上、复制、上传、存储、传播任何危害国家安全、损害国家荣誉和利益、煽动民族仇恨、民族歧视、宣扬邪教和封建迷信、任何妨碍社会治安或反动、暴力、凶杀、虚假、恐怖、骚扰、侮辱、诽谤、恐吓、淫秽色情或教唆犯罪等法律法规禁止的内容。
- （2）用户不得利用本服务进行故意制作、传播计算机病毒等破坏性程序，不得针对本服务、与本服务连接的服务器或网络制造干扰、混乱，或违反连接本服务的网络的任何要求、程序、政策或规则，否则酷云将保留追究其法律责任的权利并有权将其提交给相关部门处理。
- （3）用户同意遵守《中华人民共和国宪法》、《中华人民共和国民法通则》、《中华人民共和国著作权法》、《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》、《信息网络传播权保护条例》、《互联网著作权行政保护办法》等有关国家法律和法规、实施办法。
- （4）遵守所有与使用服务有关的网络协议、规定、程序与惯例。
- \u0009\u0009五.关于一键激活
- 您在使用“一键激活”注册酷云时，我们会使用您的手机向我们的服务器后台发送一条短信，费用由运营商收取，此外不花费您的任何费用。
-"</string>
-    <string name="umgr_clause_privacy">"\u0009\u0009我们非常重视保护您的隐私，酷云使用多重加密技术，对用户存储在酷云云端的数据进行严格的管理和保护，防止您的个人资料丢失，被盗用或篡改！本协议是您与酷云服务提供商之间达成的法律协议，当您点击“一键激活”或使用酷云服务时，表明您已仔细阅读本条款并愿意接受本服务条款。本协议连同一切更新、增补条款、软件许可，以及本协议中提及的所有规章和政策，共同构成您与酷云之间的协议。
- \u0009\u0009一、 酷云服务简介
- 酷云是宇龙酷派提供的在线云计算同步服务，包括日历、通讯录、通话记录、短信、书签、记事本、图片等的即时同步服务（当然需要有网络连接），同时在服务器中对删除数据进行了备份，例如当用户在手机端变更了上述内容里面的资料时，酷云会即时并主动的让同一个酷云帐户的其他设备获得同步，酷云不但在手机端提供这些服务和应用，同时也提供手机web与PCweb操作功能。
- \u0009\u0009二、 服务风险及免责声明
- 用户需要理解并同意，本服务涉及到互联网及移动通讯等服务，可能会受其中的很多环节不稳定因素的影响。因此服务存在众多不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、移动通信网络、互联网网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，酷云对服务的及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受阅读消息、或传递错误，个人设定之时效、未予储存或其他问题不承担任何责任。对于不可抗力或非酷云过错原因导致的用户数据损失、丢失或服务停止，酷云将不承担任何责任。同时不得线下交易酷云账号。
- \u0009\u0009三、 服务条款的变更与通知
- （1）酷云将保留随时或不时更新、修订、补充及以其它方式修改本协议并就您对有关服务的使用施加新的或额外的规则、政策、条款或条件的权利。前述更新、修订、补充以及额外的规则、政策、条款和条件（本协议称“额外条款”）酷云将通过相关页面公布修改内容。修改后的服务一旦公布，将立即生效并纳入本协议。如果您不同意所改动的内容，您可以终止相关服务。
- （2） 对于系统发生故障影响到本服务的正常运行，酷云承诺及时处理进行修复。但由此而给您带来的不便请您敬请谅解，酷云将不负责赔偿您的精神损失。
- \u0009\u0009四、 用户义务与责任
- （1）用户不得利用本服务或在酷云网页上、复制、上传、存储、传播任何危害国家安全、损害国家荣誉和利益、煽动民族仇恨、民族歧视、宣扬邪教和封建迷信、任何妨碍社会治安或反动、暴力、凶杀、虚假、恐怖、骚扰、侮辱、诽谤、恐吓、淫秽色情或教唆犯罪等法律法规禁止的内容。
- （2）用户不得利用本服务进行故意制作、传播计算机病毒等破坏性程序，不得针对本服务、与本服务连接的服务器或网络制造干扰、混乱，或违反连接本服务的网络的任何要求、程序、政策或规则，否则酷云将保留追究其法律责任的权利并有权将其提交给相关部门处理。
- （3）用户同意遵守《中华人民共和国宪法》、《中华人民共和国民法通则》、《中华人民共和国著作权法》、《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《最高人民法院关于审理涉及计算机网络著作权纠纷案件适用法律若干问题的解释》、《信息网络传播权保护条例》、《互联网著作权行政保护办法》等有关国家法律和法规、实施办法。
- （4）遵守所有与使用服务有关的网络协议、规定、程序与惯例。
- \u0009\u0009五、 关于一键激活
- 您在使用“一键激活”注册酷云时，我们会使用您的手机向我们的服务器后台发送一条短信，费用由运营商收取！
- \u0009\u0009本服务条款的版权归宇龙酷派所有，保留一切解释和修改权利。如您对酷云产品有任何意见，请拨打酷云热线：029-88824132或者进入网站：www.coolyun.com 进行反馈。
+    <string name="umgr_clause_agreement">"\u0009\u0009This Agreement is a legal agreement between you and the cool cloud service provider, that you are willing to accept the terms of service. This Agreement together with all updates, patches terms, software licenses, and all regulations and policies referred to in this Agreement, together constitute an agreement between you and the cool cloud. If you agree to the terms of the agreement, please click "I agree", if you do not agree to the terms of this agreement, do not click "Agree", and do not use the Service. You must accept and abide by the terms of this Agreement to your questions.
+ \u0009\u0009 a definition cool cloud services
+ Yulong Coolpad cool cloud is offered online cloud synchronization service, including contacts, calendar, SMS, instant call records synchronization service (of course, requires a network connection), and delete data in the server for a backup, for example, when When the user changes the phone side inside the above information will immediately cool the cloud and proactively to let other devices in the same account to get a cool cloud sync, cool cloud not only in the mobile terminal to provide these services and applications, while also providing a complete set operation of web pages.
+ \u0009\u0009 two. Services Risk and Disclaimer
+ Users need to understand and agree that the services related to the Internet and mobile communications, and other services that may be affected by factors of instability which links many. Therefore, the existence of a number of force majeure services, service computer virus or hacker attacks, system instability, user location, user off, mobile communication network, Internet network, communication lines and other causes of disruptions caused by or can not meet user requirements risk. Use of this service users have to bear more risk, cool cloud on the timeliness of service, security, accuracy does not warrant, therefore causing the user to send and receive can not read the message, or mis-delivery, timeliness personal settings, the failure to store or other problems not bear any responsibility. For users of data loss or cool cloud fault force majeure causes, lost or service is stopped, cool cloud will not bear any responsibility. At the same time the transaction may not be below the line cool cloud account.
+ \u0009\u0009 three. Terms of service changes and notification
+ (A) at any time or cool cloud will keep updating from time to time, revise, supplement, and otherwise modify this Agreement and to impose new or additional rules, policies, terms, or conditions on your use of the Service rights. The previous update, amend, supplement and additional rules, policies, terms and conditions (in this Agreement referred to as "Additional Terms") will be contacted via the web page notice or your account information listed in the e-mail address to send an e-mail, or mail notification letter sent to you, once you accept, will be effective immediately and incorporated into this Agreement. If you do not agree to change the content, you can terminate the related services.
+ (2) For a system failure affecting the normal operation of this service, cool cloud promise timely processing of repair. But the resulting inconvenience to you, please understand, cool cloud will not be liable for the loss of your spirit.
+ \u0009\u0009 four user obligations and responsibilities
+ (1) The user shall not use the Service or the cool cloud web page, copy, upload, store, disseminate any harm to national security, harm national honor and interests, inciting ethnic hatred, ethnic discrimination, propagate cult and feudal superstition, any prejudice to social security or reactionary, violence, murder, false, horror, harassing, abusive, libelous, threatening, pornographic or abetting crime laws and regulations prohibit content.
+ (2) Users shall not use the Service intentionally spreading computer viruses and other destructive programs, not for the Service, servers or networks connected to the Service Manufacturing interference and confusion, or in violation of any of the services required to connect the network, the program , policies or rules, otherwise cool cloud will retain the right to pursue its legal responsibility and the right to submit it to the relevant department.
+ (3) User agrees to abide by "Peoples Republic of China Constitution," "Peoples Republic of China Civil Law", "Peoples Republic of China Copyright Law", "Peoples Republic of China on Guarding State Secrets Law," "Regulations on Protection of Computer Information System Security Peoples Republic of China." "explains Supreme Court to hear disputes involving computer network copyright law applicable number of issues", "Computer Software Protection Regulations", "Information Network Transmission Right Protection Ordinance", "Internet copyright administrative protection measures" and other relevant national laws and regulations the implementation approach.
+ (4) comply with all related services with the use of network protocols, regulations, procedures and practices.
+ \u0009\u0009 five. About a key to activate
+ When you use the "one key to activate the" registration cool cloud, we ll use your phone to send a text message to our server backend, fees charged by the operator, in addition to not spend any of your expenses."</string>
+    <string name="umgr_clause_privacy">"\u0009\u0009We attach great importance to protecting your privacy, cool cloud using multiple encryption technology, end users are stored in cool and so strict data management and protection, protect your personal information is lost, stolen or tampered with! This Agreement is a legal agreement between you and the cool cloud service provider, when you click on the "one key to activate" or cool cloud service, indicates that you have read and accept the terms of the Terms of Service. This Agreement together with all updates, patches terms, software licenses, and all regulations and policies referred to in this Agreement, together constitute an agreement between you and the cool cloud.
+ \u0009\u0009 a cool Cloud Services
+ Yulong Coolpad cool cloud is offered online cloud synchronization service, including a calendar, address book, call history, text messages, bookmarks, notepads, pictures and other real-time synchronization service (of course, requires a network connection), while in the server deletion data is backed up, for example, when a user changes the mobile terminal inside the above information will immediately cool the cloud and proactively to let other devices in the same account to get a cool cloud sync, cool cloud not only in the mobile terminal to provide these services and applications also provide mobile web and PCweb operating functions.
+ \u0009\u0009 Second, the service risk and Disclaimer
+ Users need to understand and agree that the services related to the Internet and mobile communications, and other services that may be affected by factors of instability which links many. Therefore, the existence of a number of force majeure services, service computer virus or hacker attacks, system instability, user location, user off, mobile communication network, Internet network, communication lines and other causes of disruptions caused by or can not meet user requirements risk. Use of this service users have to bear more risk, cool cloud on the timeliness of service, security, accuracy does not warrant, therefore causing the user to send and receive can not read the message, or mis-delivery, timeliness personal settings, the failure to store or other problems not bear any responsibility. For users of data loss or cool cloud fault force majeure causes, lost or service is stopped, cool cloud will not bear any responsibility. At the same time the transaction may not be below the line cool cloud account.
+ \u0009\u0009 three terms of service changes and notification
+ (A) at any time or cool cloud will keep updating from time to time, revise, supplement, and otherwise modify this Agreement and to impose new or additional rules, policies, terms, or conditions on your use of the Service rights. The previous update, amend, supplement and additional rules, policies, terms and conditions (in this Agreement referred to as "Additional Terms") will be released to modify the contents cool cloud through the relevant pages. Services revised once published, will be effective immediately and incorporated into this Agreement. If you do not agree to change the content, you can terminate the related services.
+ (2) For a system failure affecting the normal operation of this service, cool cloud promise timely processing of repair. But the resulting inconvenience to you please forgive me, cool cloud will not be liable for the loss of your spirit.
+  \u0009\u0009 four, user obligations and responsibilities
+ (1) The user shall not use the Service or the cool cloud web page, copy, upload, store, disseminate any harm to national security, harm national honor and interests, inciting ethnic hatred, ethnic discrimination, propagate cult and feudal superstition, any prejudice to social security or reactionary, violence, murder, false, horror, harassing, abusive, libelous, threatening, pornographic or abetting crime laws and regulations prohibit content.
+ (2) Users shall not use the Service intentionally spreading computer viruses and other destructive programs, not for the Service, servers or networks connected to the Service Manufacturing interference and confusion, or in violation of any of the services required to connect the network, the program , policies or rules, otherwise cool cloud will retain the right to pursue its legal responsibility and the right to submit it to the relevant department.
+ (3) User agrees to abide by "Peoples Republic of China Constitution," "Peoples Republic of China Civil Law", "Peoples Republic of China Copyright Law", "Peoples Republic of China on Guarding State Secrets Law," "Regulations on Protection of Computer Information System Security Peoples Republic of China." "explains Supreme Court to hear disputes involving computer network copyright law applicable number of issues", "Computer Software Protection Regulations", "Information Network Transmission Right Protection Ordinance", "Internet copyright administrative protection measures" and other relevant national laws and regulations the implementation approach.
+ (4) comply with all related services with the use of network protocols, regulations, procedures and practices.
+ \u0009\u0009 five, on a key to activate
+ When you use the "one key to activate the" registration cool cloud, we ll use your phone to send a text message to our server backend, fees charged by the operator!
+ \u0009\u0009 the Terms of Service Yulong Coolpad all, interpret and modify all rights reserved. If you have any comments on the cool cloud offerings, please call cool cloud hotline: 029-88824132, or go to the website: www.coolyun.com feedback.
 "</string>
     <string name="coolcloud_recover_sound_record_item_default_summary">Просмотр аудиозаписей на Облаке для восстановления</string>
 </resources>

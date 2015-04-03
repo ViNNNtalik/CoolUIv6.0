@@ -119,11 +119,12 @@
     <string name="no">Нет</string>
     <string name="create">Создать</string>
     <string name="device_info_default">Неизвестно</string>
-    <string name="header_category_wireless_networks">Беспроводные сети</string>
-    <string name="header_category_device">Устройство</string>
-    <string name="header_category_personal">Личные данные</string>
-    <string name="header_category_account">Аккаунты</string>
-    <string name="header_category_system">Система</string>
+    <string name="header_category_wireless_networks">БЕСПРОВОДНЫЕ СЕТИ</string>
+    <string name="header_category_device">УСТРОЙСТВО</string>
+    <string name="header_category_personal">ЛИЧНЫЕ ДАННЫЕ</string>
+    <string name="header_category_account">АККАУНТЫ</string>
+    <string name="Accounts_settings_title">Аккаунты</string>
+    <string name="header_category_system">СИСТЕМА</string>
     <string name="turn_on_radio">Включить радио</string>
     <string name="turn_off_radio">Выключить радио</string>
     <string name="sms_over_ims_on">Включить SMS через IMS</string>
@@ -252,7 +253,7 @@
     <string name="bluetooth_phonebook_request">Запрос телефонной книги</string>
     <string name="bluetooth_pb_acceptance_dialog_text">Устройство %1$s пытается получить доступ к Вашим контактам и журналу вызовов. Предоставить доступ для %2$s?</string>
     <string name="bluetooth_pb_remember_choice">Больше не спрашивать</string>
-    <string name="date_and_time">Настройки даты и времени</string>
+    <string name="date_and_time">Дата и время</string>
 
 
     <string name="choose_timezone">Выбор часового пояса</string>
@@ -428,7 +429,7 @@
 
 После этого Вы сможете восстановить все данные, для которых в аккаунте Google были созданы резервные копии"</string>
     <string name="crypt_keeper_switch_input_method">Переключение метода ввода</string>
-    <string name="lock_settings_picker_title">Тип блокировки</string>
+    <string name="lock_settings_picker_title">Тип разблокировки</string>
     <string name="backup_lock_settings_picker_title">Доп. способ блокировки</string>
     <string name="unlock_set_unlock_launch_picker_title">Блокировка экрана</string>
     <string name="unlock_set_unlock_launch_picker_change_title">Изменение блок. экрана</string>
@@ -2565,6 +2566,7 @@
     <string name="enable_4g_title">Включить 4G</string>
     <string name="enable_4g_summary">Скорость по 4G значительно выше</string>
     <string name="chinamobile_after_sale_service">Послепродажный сервис China Mobile</string>
+    <string name="user_manual">Руководство пользователя</string>
     <string name="capital_on">ВКЛ</string>
     <string name="capital_off">ВЫКЛ</string>
     <string name="unlock_set_voiceprint">Отпечаток голоса</string>
@@ -2847,6 +2849,19 @@
     <string name="clear_motion_summary">Улучшение плавности видео</string>
     <string name="mostused_settings_label">Кратко</string>
     <string name="all_settings_label">Подробно</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="eng_mode">Инженерное меню</string>
     <string name="eng_mode_summary">Сбор информации, статистика, тонкие настройки всевозможных параметров устройства</string>
     <string name="factory_mode">Заводское меню</string>
