@@ -1275,11 +1275,13 @@
     <string name="hangup_remote_call">Завершить удаленный вызов</string>
     <string name="can_not_hold">"Нельзя удержать вызов, так как другой вызов CDMA"</string>
     <string name="yl_word_secret">"Секретный вопрос "</string>
-    <string name="prepare_to_stop_record">Остановка</string>
+    <string name="yl_prepare_to_stop_record">Остановка</string>
     <string name="yl_soundRecord_name">Запись</string>
+    <string name="yl_prepare_to_start_record">Подготовка</string>
     <string name="yl_call_contacts_photo">Использовать аватар контакта</string>
     <string name="yl_call_contacts_wapper">Использовать обои</string>
     <string name="yl_call_default_photo">Фон окна вызова</string>
     <string name="yl_call_modified_default_photo">Изменить</string>
     <string name="yl_call_recover_default_photo">Сброс</string>
+    <string name="yl_name_for_number_12369">Горячая линия</string>
 </resources>

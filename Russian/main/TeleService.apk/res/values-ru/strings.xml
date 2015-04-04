@@ -929,6 +929,8 @@
     <string name="callFailed_dsac_restricted_emergency">Экстренные вызовы запрещены настройками доступа</string>
     <string name="callFailed_dsac_restricted_normal">Обычные вызовы запрещены настройками доступа</string>
     <string name="callFailed_unobtainable_number">Недействительный номер</string>
+
+
     <string name="dialog_alert_title_prompt">Информация</string>
     <string name="dial_prompt_no_card">Вставьте USIM-карту</string>
     <string name="dial_prompt_no_uimcard">Вставьте UIM-карту</string>
@@ -938,6 +940,7 @@
 
     <string name="delete">Удаление</string>
     <string name="emergency_code">Экстренный вызов</string>
+    <string name="yl_name_for_number_12369">Горячая линия</string>
     <string name="network_available">Доступно</string>
     <string name="network_current">Текущая</string>
     <string name="network_unknown">Неизвестно</string>
@@ -1044,4 +1047,5 @@
     <string name="network_mode_switch_fail_is_switching">Не повторять переключение</string>
     <string name="sum_cfu_enabled_indicator_slot1">Переадресация всех вызово с SIM1</string>
     <string name="sum_cfu_enabled_indicator_slot2">Переадресация всех вызово с SIM2</string>
+    <string name="accessibility_power_button_ends_call_prerefence_title">Клавиша питания завершает вызов</string>
 </resources>
