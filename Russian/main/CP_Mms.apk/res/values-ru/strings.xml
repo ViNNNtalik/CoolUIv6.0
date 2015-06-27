@@ -837,14 +837,14 @@
     <string name="smsmms_chatmode_is_default">Использовать режим чата по умолчанию</string>
     <string name="smsmms_forward_msg_tip">Пересылка метки</string>
     <string name="smsmms_show_history_contact">Показать последние контакты</string>
-    <string name="smsmms_autoreply">Автомат. ответ</string>
+    <string name="smsmms_autoreply">Автоматический ответ</string>
     <string name="smsmms_autoreply_contents">Cодержимое автомат. ответа</string>
     <string name="smsmms_restoreDefault">Сброс</string>
     <string name="smsmms_replynetwork">Сеть ответа</string>
     <string name="smsmms_autosave">Автосохранение</string>
     <string name="smsmms_autosave_period">Период сохранения</string>
-    <string name="smsmms_autoforward">Автомат. переадресация</string>
-    <string name="smsmms_autoforward_hint">Введите номер для автоматической переадресации SMS/MMS</string>
+    <string name="smsmms_autoforward">Автоматическая переадресация</string>
+    <string name="smsmms_autoforward_hint">Номер для автомат. переадресации SMS/MMS</string>
     <string name="smsmms_autoforward_warning">Устройство будет автоматически пересылать новые SMS/MMS на заданный номер телефона</string>
     <string name="smsmms_pref_title_valid_deadline">Срок действия</string>
     <string name="smsmms_pref_longest_deadline">Максимальный</string>

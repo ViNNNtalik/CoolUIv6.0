@@ -27,7 +27,7 @@
     <string name="aspect5to7_effect">5:7</string>
     <string name="aspect7to5_effect">7:5</string>
     <string name="aspect9to16_effect">16:9</string>
-    <string name="aspectNone_effect">Оригинал</string>
+    <string name="aspectNone_effect">Любое значение</string>
     <string name="aspectOriginal_effect">@string/original</string>
     <string name="tinyplanet">Закругление</string>
     <string name="exposure">Экспозиция</string>
@@ -36,7 +36,7 @@
     <string name="vibrance">Вибрация</string>
     <string name="saturation">Насыщенность</string>
     <string name="bwfilter">Ч/Б</string>
-    <string name="wbalance">Авторежим</string>
+    <string name="wbalance">Автоматическая настройка цвета</string>
     <string name="hue">Оттенок</string>
     <string name="shadow_recovery">Тени</string>
     <string name="curvesRGB">Кривые</string>
@@ -58,7 +58,7 @@
     <string name="toolbar_title_edit">Редакт.</string>
     <string name="toolbar_title_graffiti">Граффити</string>
     <string name="effect_title_lomo">ЛОМО</string>
-    <string name="effect_title_beauty">Украшат.</string>
+    <string name="effect_title_beauty">Красота</string>
     <string name="effect_title_fashion">Мода</string>
     <string name="effect_title_art">Искусство</string>
     <string name="effect_normal">Оригинал</string>
@@ -66,25 +66,25 @@
     <string name="effect_lomo_2">Пленка</string>
     <string name="effect_lomo_3">Грация</string>
     <string name="effect_lomo_4">Винтаж</string>
-    <string name="effect_lomo_5">Циан</string>
+    <string name="effect_lomo_5">Полынь</string>
     <string name="effect_lomo_6">Конец 80-х</string>
-    <string name="effect_lomo_7">Память</string>
+    <string name="effect_lomo_7">Оттиск</string>
     <string name="effect_lomo_8">HDR</string>
     <string name="effect_lomo_9">Стар.фото</string>
-    <string name="effect_lomo_10">Загар</string>
+    <string name="effect_lomo_10">Бронза</string>
     <string name="effect_lomo_11">Пинк</string>
     <string name="effect_lomo_12">Готика</string>
     <string name="effect_lomo_13">Инверсия</string>
     <string name="effect_lomo_14">Наклон</string>
-    <string name="effect_photo_1">Мягкость</string>
-    <string name="effect_photo_2">Молодость</string>
+    <string name="effect_photo_1">Мягкий свет</string>
+    <string name="effect_photo_2">Нежность</string>
     <string name="effect_photo_3">Натуральность</string>
     <string name="effect_photo_4">Нежность</string>
     <string name="effect_photo_5">Свежесть</string>
     <string name="effect_photo_11">Эстетика</string>
     <string name="effect_photo_6">Япония</string>
     <string name="effect_photo_7">Абао</string>
-    <string name="effect_photo_8">Зрелость</string>
+    <string name="effect_photo_8">Мимолетность</string>
     <string name="effect_photo_9">Ч/б</string>
     <string name="effect_photo_10">Теплота</string>
     <string name="effect_fashion_1">Красный свет</string>
@@ -98,15 +98,15 @@
     <string name="effect_art_2">Классика</string>
     <string name="effect_art_3">Цветной карандаш</string>
     <string name="effect_art_4">Краски</string>
-    <string name="effect_art_5">Травести</string>
-    <string name="effect_art_6">Крафт</string>
+    <string name="effect_art_5">Мультипликация</string>
+    <string name="effect_art_6">Грубая бумага</string>
     <string name="effect_art_7">Стар. фото</string>
     <string name="effect_art_8">Мелки</string>
     <string name="slender_face">Тонкое лицо</string>
-    <string name="soften_skin">Гладкий</string>
+    <string name="soften_skin">Гладкая кожа</string>
     <string name="enlarge_eye">Большие глаза</string>
-    <string name="bright_skin">Безлизна</string>
-    <string name="white_teeth">Честые зубы</string>
+    <string name="bright_skin">Белизна</string>
+    <string name="white_teeth">Белые зубы</string>
     <string name="blush">Румянец</string>
     <string name="eyecolor">Милый ученик</string>
     <string name="toolbar_title_simpleborder">Рамка</string>
@@ -165,7 +165,7 @@
     <string name="sepia">Сепия</string>
     <string name="shadow">Затенение</string>
     <string name="sharpen">Резкость</string>
-    <string name="temperature">Тепло</string>
+    <string name="temperature">Температура</string>
     <string name="tint">Оттенок</string>
     <string name="crop_tooltip">Чтобы кадрировать фото, перетащите маркеры</string>
     <string name="doodle_tooltip">Рисуйте на фото пальцем</string>
@@ -184,8 +184,8 @@
     <string name="app_name">Галерея</string>
     <string name="vedio_name">Видео</string>
     <string name="gadget_title">Рамка фотографии</string>
-    <string name="details_ms">%1$02d:%2$02d</string>
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+
+
     <string name="movie_view_label">Видеопроигрыватель</string>
     <string name="loading_video">Загрузка видео…</string>
     <string name="loading_image">Загрузка изображения...</string>
@@ -197,7 +197,7 @@
     <string name="fail_to_load">Не загружено</string>
     <string name="fail_to_load_image">Не удалось загрузить изображение</string>
     <string name="no_thumbnail">Изображение повреждено</string>
-    <string name="resume_playing_restart">Начать с начала</string>
+    <string name="resume_playing_restart">Возобновить</string>
     <string name="ok">ОК</string>
     <string name="multiface_crop_help">Нажмите на лицо, чтобы начать.</string>
     <string name="saving_image">Сохранение картинки...</string>
@@ -215,6 +215,7 @@
     <string name="wallpaper">Установка обоев...</string>
     <string name="camera_setas_wallpaper">Обои</string>
     <string name="delete">Удалить</string>
+    <string name="delete_one_photo">Удалить выбранное?</string>
     <string name="confirm">Подтвердить</string>
     <string name="cancel">Отмена</string>
     <string name="share">Отправить</string>
@@ -351,9 +352,9 @@
     <string name="item_save_path">/Coolpad/Images</string>
     <string name="item_section_path">/Coolpad/Screenshots</string>
     <string name="item_bluetooth_path">/Bluetooth</string>
-    <string name="item_browser_path">/Download</string>
+    <string name="item_browser_path">/Downloads</string>
     <string name="item_wallpaper_path">/Coolpad/coolshow/wallpaper</string>
-    <string name="item_aappreciator_path">/resource/Coolpad/Image_show/show_</string>
+    <string name="item_aappreciator_path">/resource/Media/Image_show/show_</string>
     <string name="item_modified_path">/Coolpad/Modified</string>
     <string name="item_camera_path_name">Camera</string>
     <string name="item_collectpic_path_name">Favorite</string>
@@ -400,7 +401,7 @@
     <string name="set_private_failed">Не удалось настроить</string>
     <string name="cancel_private_sucess">Настроено как общий</string>
     <string name="cancel_private_failed">Не удалось настроить</string>
-    <string name="inquire_location">Парсинг местоположения</string>
+    <string name="inquire_location">Определение местоположения</string>
     <string name="copy_title">Копировать</string>
     <string name="move_title">Переместить</string>
     <string name="move_copy_fail">" Ошибка "</string>
@@ -445,6 +446,8 @@
     <string name="exception_illegal_argument">Неверное значение!</string>
     <string name="face_detcet_on">Определение лица вкл.</string>
     <string name="face_detcet_off">Определение лица выкл.</string>
+    <string name="open_face_recognization">Определение лица включено</string>
+    <string name="close_face_recognization">Определение лица выключено</string>
     <string name="add_name">Добавить имя</string>
     <string name="edit_name">Редактировать имя</string>
     <string name="remove_name">Удалить имя</string>
@@ -500,8 +503,28 @@
     <string name="search_bar_hint">Разделите время и место хранения пробелом</string>
     <string name="clear_history_record">Очистить историю</string>
     <string name="searching">Поиск</string>
-    <string name="i_know">Ясно</string>
-    <string name="reminder">Напоминание</string>
+    <string name="no_network_for_holiday_parse">Включите передачу данных для получения информации</string>
+    <string name="server_unavailable">Не удалось получить данные с сервера</string>
+    <string name="no_network_for_location_parse">Включите передачу данных для конвертации широты и долготы в адрес</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="i_know">ОК</string>
+    <string name="reminder">Подсказка</string>
     <string name="nomore">Больше не показывать!</string>
     <string name="lockscreen_reminder">После применения настроек локскрин будет становиться на паузу \"Автоматическое переключение \" </string>
     <string name="security_password_title">Пароль приложения</string>
@@ -512,6 +535,10 @@
     <string name="login_password_error_dialog_msg">Неверный пароль. Введите еще раз</string>
     <string name="login_password_error_dialog_msg1">Неверный пароль. Осталась одна попытка</string>
     <string name="login_password_error_dialog_msg2">Неверный пароль. Осталась две попытки</string>
+    <string name="auto_rotate_off">Автомат. поворот выкл.</string>
+    <string name="auto_rotate_on">Автомат. поворот вкл.</string>
+    <string name="close_auto_rotate">Auto rotate has been closed</string>
+    <string name="open_auto_rotate">Auto rotate has been opened</string>
     <string name="crop_save_text">ОК</string>
     <string name="details">Сведения</string>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FlashLight_Activity!</string>
+    <string name="app_name">Фонарик</string>
+    <string name="low_battery">Батарея разряжена! Фонарик не может быть использован</string>
+    <string name="flashlight_is_busy">Фонарик занят. Попробуйте позже</string>
+    <string name="camera_is_running">Запущено приложение Камера. Закройте его и запустите Фонарик заново</string>
+    <string name="mirror_is_running">Запущено приложение Зеркало. Закройте его и запустите Фонарик заново</string>
+    <string name="flashlight_notification">Фонарик запущен</string>
+</resources>

@@ -3,17 +3,17 @@
     <string-array name="coolshow_wallpaper_sort_items">
         <item>Лучшее</item>
         <item>HD-качество</item>
-        <item>Женщины</item>
+        <item>Красота</item>
         <item>Пейзажи</item>
         <item>Виды</item>
         <item>Мультфильмы</item>
         <item>Города</item>
-        <item>Любовь</item>
-        <item>Новинка</item>
+        <item>Эмоции</item>
+        <item>Творчество</item>
         <item>Животные</item>
         <item>Авто</item>
         <item>Игры</item>
-        <item>Подарки</item>
+        <item>Истории</item>
         <item>Мужчины</item>
         <item>Искусство</item>
         <item>Спорт</item>
@@ -23,10 +23,10 @@
     <string-array name="coolshow_effect_items">
         <item>Случайный</item>
         <item>Классика</item>
-        <item>Стек</item>
+        <item>Наложение</item>
         <item>Куб</item>
         <item>Внутр. куб</item>
-        <item>Веер</item>
+        <item>Кулиса</item>
         <item>Поворот</item>
         <item>Мельница</item>
         <item>Колесо</item>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="delete_null_album">
+        <item quantity="other">Удалить выбранные элементы?</item>
+        <item quantity="one">Удалить выбранный элемент?</item>
+    </plurals>
     <plurals name="delete_selection">
         <item quantity="other">Удалить выбранные элементы?</item>
         <item quantity="one">Удалить выбранный элемент?</item>
@@ -20,7 +24,7 @@
         <item quantity="one">Выбрано: %1$d</item>
     </plurals>
     <plurals name="make_albums_available_offline">
-        <item quantity="other">Загрузка альбомов для офлайн-доступа</item>
-        <item quantity="one">Загрузка альбома для офлайн-доступа</item>
+        <item quantity="other">Просмотр альбомов оффлайн</item>
+        <item quantity="one">Просмотр альбома оффлайн</item>
     </plurals>
 </resources>

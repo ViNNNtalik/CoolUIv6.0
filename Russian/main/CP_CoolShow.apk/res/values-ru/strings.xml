@@ -11,7 +11,6 @@
     <string name="coolshow_tabmore_title">Еще</string>
     <string name="coolshow_title">Темы</string>
 
-
     <string name="coolshow_loading">Загрузка...</string>
     <string name="coolshow_sure">ОК</string>
     <string name="coolshow_more">Еще</string>
@@ -25,6 +24,7 @@
     <string name="coolshow_error">Ошибка</string>
     <string name="coolshow_no_content">Нет содержимого</string>
     <string name="coolshow_get_resource_failed">Не удалось получить содержимое</string>
+
     <string name="coolshow_theme_set">"Тема "</string>
     <string name="coolshow_theme_set_success">" успешно настроена"</string>
     <string name="coolshow_set_to_default_theme">Тема по умолчанию успешно восстановлена</string>
@@ -37,6 +37,7 @@
     <string name="coolshow_delete">Удалить</string>
     <string name="coolshow_download_operate">Загрузки</string>
     <string name="coolshow_download">"Загрузка "</string>
+    <string name="coolshow_download_vlife_sdk">"Загрузка vlife-обоев и SDK"</string>
     <string name="coolshow_downloading">Загрузка</string>
     <string name="coolshow_downloaded">Загружено</string>
     <string name="coolshow_download_pending">Ожидание загрузки</string>
@@ -260,7 +261,12 @@
     <string name="coolshow_default_notification">Уведомления по умолчанию</string>
     <string name="coolshow_other">Прочее</string>
     <string name="coolshow_restore_all">Сброс настроек</string>
+    <string name="coolshow_clear_cache">Очистка кэша</string>
+    <string name="coolshow_clare_cache_detail">Очистка неиспользуемого кэша</string>
     <string name="coolshow_restore_all_detail">Будут восстановлены настройки по умолчанию</string>
+    <string name="coolshow_makesure_clean_cache">Уверены, что хотите очистить неиспользуемый кэш?</string>
+    <string name="coolshow_cleaning_cache">Ожидайте окончания очистки кэша...</string>
+    <string name="coolshow_clean_cache_success">Кэш успешно очищен!</string>
     <string name="coolshow_online_wallpaper_copyright">Онлайн-обои. Копирайт</string>
     <string name="coolshow_has_restore_to_defalut">Настройки по умолчанию восстановлены</string>
     <string name="coolshow_prompt">Инфомация</string>
@@ -317,6 +323,7 @@
     <string name="coolshow_font_detail">Детали</string>
     <string name="coolshow_introduction">Описание</string>
     <string name="coolshow_font_setted">Шрифт изменен</string>
+    <string name="coolshow_set_font_success">Шрифт успешно изменен</string>
     <string name="coolshow_lockedEdit">Блокировка рабочих столов</string>
     <string name="coolshow_install_coolyun">Установите Облако</string>
     <string name="coolshow_hide_app_tip">Приложения не могут быть спрятаны, когда рабочие столы заблокированы</string>
@@ -339,8 +346,16 @@
     <string name="coolshow_choose_alarm_ring">Выбор мелодии будильника</string>
     <string name="coolshow_ring_selected_deleted">Удалено!</string>
     <string name="coolshow_alarm_set_success">Успешно установлено!</string>
+    <string name="coolshow_user_choose_alarm_ring">Выберите мелодию будильника</string>
+    <string name="coolshow_done_alarm_clock">Мелодия будильника задана</string>
+    <string name="coolshow_not_set_any_alarm">Будильник не задан!</string>
     <string name="coolshow_downloaded_set_success">Успешно загружено и установлено</string>
     <string name="coolshow_all_download_use">Вы хотите скачать и использовать все мелодии?</string>
+    <string name="coolshow_uncaught_crash_tip">Неизвестная ошибка</string>
+    <string name="coolshow_ringtone_mute">Нет</string>
+    <string name="coolshow_dynamic_wallpapaer_preview">Детали живых обоев</string>
+    <string name="coolshow_dynamic_lockscreen_preview">Детали живого локскрина</string>
+    <string name="coolshow_open_online_function">Поздравляем! онлайн-функции приложения Темы открыты</string>
     <string name="unicom_wrong_channelid"> channel information error</string>
     <string name="unicom_morethen_maxmoney"> exceed the maximum payment amount</string>
     <string name="unicom_paymoney_wrong"> payment amount is incorrect</string>
